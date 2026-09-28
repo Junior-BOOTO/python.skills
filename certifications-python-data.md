@@ -25,4 +25,9 @@ Formations attestées au nom de Junior BOOTO. Cette liste décrit le parcours de
 | Tech for Everyone | SoloLearn | 26 mars 2024 | Culture numérique. |
 | Data Analytics with AI | SoloLearn | 14 juillet 2024 | Analyse de données et IA. |
 
+| Fondamentaux pour le Big Data (Institut Mines-Télécom) | France Université Numérique | 11 mars 2026 | Données massives, Python, NumPy et statistiques. |
+| Machine learning in Python with scikit-learn (Inria) | France Université Numérique | 11 mars 2026 | Apprentissage automatique et modélisation prédictive. |
+| Statistique pour l'ingénieur (Institut Mines-Télécom) | France Université Numérique | 15 juin 2026 | Statistique descriptive et inférentielle. |
+| Les essentiels de la cybersécurité : du risque à la résilience (Institut Mines-Télécom) | France Université Numérique | 9 juillet 2026 | Cybermenaces, protection et analyse des risques. |
+
 Les deux copies de certains badges FUN transmis ont été dédoublonnées. Les certificats Alison comportent des liens de vérification individuels ; ils peuvent être fournis séparément sur demande. Cette page n'expose pas leurs identifiants dans le dépôt public.
