@@ -1,6 +1,6 @@
 # Python skills · Junior BOOTO WABA
 
-Carnets d'apprentissage Python et d'exploration de l'analyse de données. Ce dépôt documente un parcours de pratique ; chaque notebook peut être consulté directement sur GitHub ou ouvert dans Jupyter.
+Carnets d'apprentissage Python et d'exploration de l'analyse de données. Chaque notebook peut être consulté directement sur GitHub ou ouvert dans Jupyter.
 
 ## Carnets
 
@@ -10,9 +10,13 @@ Carnets d'apprentissage Python et d'exploration de l'analyse de données. Ce dé
 | [Pandas.ipynb](Pandas.ipynb) | Exploration de Pandas |
 | [sklearn.ipynb](sklearn.ipynb) | Exploration de scikit-learn |
 
+## Certifications et formations
+
+[Python, données et IA : attestations vérifiées](certifications-python-data.md).
+
 ## Pour consulter les fichiers
 
-Ouvrez un lien ci-dessus pour lire le notebook. Pour exécuter les cellules, téléchargez le dépôt et ouvrez les fichiers dans un environnement Jupyter avec les bibliothèques nécessaires. Les dépendances exactes et les données requises par chaque notebook restent à documenter.
+Ouvrez un lien ci-dessus pour lire le notebook. Pour exécuter les cellules, téléchargez le dépôt et ouvrez les fichiers dans Jupyter avec les bibliothèques nécessaires. Les dépendances et données requises restent à documenter.
 
 ## Autre activité
 
