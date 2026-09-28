@@ -14,4 +14,15 @@ Formations attestées au nom de Junior BOOTO. Cette liste décrit le parcours de
 | Leveraging AI in Predictive Analytics, Automation, and Data Management | Alison | 9 février 2025 | IA, automatisation et données. |
 | À la recherche de l'Intelligence Artificielle | France Université Numérique | 20 novembre 2024 | Fondements, usages et limites de l'IA. |
 
+| Write with AI | SoloLearn | 6 mars 2025 | IA et rédaction. |
+| Visualize Your Data | SoloLearn | 5 mars 2025 | Visualisation de données. |
+| Python Developer | SoloLearn | 4 mars 2024 | Python. |
+| Coding for Data | SoloLearn | 5 mars 2024 | Programmation et données. |
+| Coding Foundations | SoloLearn | 27 mars 2024 | Fondements de la programmation. |
+| Introduction to SQL | SoloLearn | 25 mars 2024 | SQL. |
+| SQL Intermediate | SoloLearn | 20 mars 2024 | SQL. |
+| Python Intermediate | SoloLearn | 24 mars 2024 | Python. |
+| Tech for Everyone | SoloLearn | 26 mars 2024 | Culture numérique. |
+| Data Analytics with AI | SoloLearn | 14 juillet 2024 | Analyse de données et IA. |
+
 Les deux copies de certains badges FUN transmis ont été dédoublonnées. Les certificats Alison comportent des liens de vérification individuels ; ils peuvent être fournis séparément sur demande. Cette page n'expose pas leurs identifiants dans le dépôt public.
