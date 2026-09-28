@@ -10,6 +10,10 @@ Carnets d'apprentissage Python et d'exploration de l'analyse de données. Chaque
 | [Pandas.ipynb](Pandas.ipynb) | Exploration de Pandas |
 | [sklearn.ipynb](sklearn.ipynb) | Exploration de scikit-learn |
 
+## Projet d'analyse de données
+
+- [HR Analytics · performances des employés](employee-performance-analysis/README.md) : analyse exploratoire, détection IQR des valeurs atypiques, notebook, script et graphiques reproductibles. Le fichier RH original n'est pas inclus.
+
 ## Certifications et formations
 
 [Python, données et IA : attestations vérifiées](certifications-python-data.md).
