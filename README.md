@@ -16,6 +16,8 @@ Carnets d'apprentissage Python et d'exploration de l'analyse de données. Chaque
 
 ## Certifications et formations
 
+- [FLE Learning Analytics](fle-learning-analytics/README.md) : données fictives, analyse Python des quatre compétences, graphique et étude de cas pédagogique.
+
 [Python, données et IA : attestations vérifiées](certifications-python-data.md).
 
 ## Pour consulter les fichiers
