@@ -1,0 +1,262 @@
+[
+  {
+    "title": "Think Python — 3e édition",
+    "authors": "Allen B. Downey",
+    "publisher": "O’Reilly",
+    "group": "python",
+    "levels": [
+      "Fondamentaux"
+    ],
+    "use": "Apprendre à résoudre un problème, écrire des fonctions et déboguer.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "https://allendowney.github.io/ThinkPython/index.html",
+    "year": "2024"
+  },
+  {
+    "title": "Introduction to Python Programming",
+    "authors": "Udayan Das, Aubrey Lawson, Chris Mayfield et Narges Norouzi",
+    "publisher": "OpenStax",
+    "group": "python",
+    "levels": [
+      "Fondamentaux"
+    ],
+    "use": "Pratiquer les bases de Python dans une progression structurée.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "https://openstax.org/books/introduction-python-programming/pages/preface",
+    "year": "2024"
+  },
+  {
+    "title": "Introduction to Computing Using Python",
+    "authors": "Ljubomir Perkovic",
+    "publisher": "Wiley",
+    "group": "python",
+    "levels": [
+      "Fondamentaux"
+    ],
+    "use": "Relier les concepts informatiques à la création de programmes.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "",
+    "year": ""
+  },
+  {
+    "title": "Learning Scientific Programming with Python",
+    "authors": "Christian Hill",
+    "publisher": "Cambridge University Press",
+    "group": "python",
+    "levels": [
+      "Fondamentaux"
+    ],
+    "use": "Passer des bases au calcul scientifique et à la visualisation.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "",
+    "year": ""
+  },
+  {
+    "title": "Programmation Python — De l’initiation au calcul scientifique",
+    "authors": "Hakim Djelouah et Abdelaziz Djelouah",
+    "publisher": "Pages Bleues Internationales",
+    "group": "python",
+    "levels": [
+      "Fondamentaux"
+    ],
+    "use": "Consolider la programmation avec des exercices corrigés.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "",
+    "year": "2021"
+  },
+  {
+    "title": "Python Tips / Intermediate Python",
+    "authors": "Muhammad Yasoob Ullah Khalid",
+    "publisher": "Auteur",
+    "group": "python",
+    "levels": [
+      "Pratique Python"
+    ],
+    "use": "Approfondir générateurs, décorateurs et structures de données.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "",
+    "year": "2020"
+  },
+  {
+    "title": "Programmation Python avancée — 2e édition",
+    "authors": "Xavier Olive",
+    "publisher": "Dunod",
+    "group": "python",
+    "levels": [
+      "Pratique Python"
+    ],
+    "use": "Améliorer la structure et la qualité du code.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "https://www.xoolive.org/python/",
+    "year": "2025"
+  },
+  {
+    "title": "Python pour le data scientist",
+    "authors": "Emmanuel Jakobowicz",
+    "publisher": "Dunod",
+    "group": "python",
+    "levels": [
+      "Pratique Python"
+    ],
+    "use": "Mettre Python au service d’un processus d’analyse de données.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "",
+    "year": "2021"
+  },
+  {
+    "title": "Principles of Data Science",
+    "authors": "Shaun V. Ault, Soohyun Nam Liao et Larry Musolino",
+    "publisher": "OpenStax",
+    "group": "python",
+    "levels": [
+      "Science des données"
+    ],
+    "use": "Comprendre les données et conduire une première analyse.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "https://openstax.org/books/principles-data-science/pages/1-introduction",
+    "year": "2025"
+  },
+  {
+    "title": "Data Science Fundamentals Pocket Primer",
+    "authors": "Oswald Campesato",
+    "publisher": "Mercury Learning and Information",
+    "group": "python",
+    "levels": [
+      "Science des données"
+    ],
+    "use": "Revoir les notions fondamentales avant un projet pratique.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "",
+    "year": "2021"
+  },
+  {
+    "title": "Data Science: Concepts and Practice — 2e édition",
+    "authors": "Vijay Kotu et Bala Deshpande",
+    "publisher": "Morgan Kaufmann / Elsevier",
+    "group": "python",
+    "levels": [
+      "Science des données"
+    ],
+    "use": "Organiser une démarche de data science et comparer les méthodes.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "",
+    "year": "2019"
+  },
+  {
+    "title": "Data Science Handbook: A Practical Approach",
+    "authors": "Kolla Bhanu Prakash",
+    "publisher": "Wiley / Scrivener",
+    "group": "python",
+    "levels": [
+      "Science des données"
+    ],
+    "use": "Explorer les étapes et les applications d’un projet de données.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "",
+    "year": "2022"
+  },
+  {
+    "title": "Exploratory Data Analysis",
+    "authors": "Leandro Nunes de Castro",
+    "publisher": "CRC Press",
+    "group": "python",
+    "levels": [
+      "Analyse et visualisation"
+    ],
+    "use": "Explorer, préparer et visualiser des données avec des exemples Python.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "",
+    "year": "2026"
+  },
+  {
+    "title": "Exploratory Data Analysis in Business and Economics",
+    "authors": "Thomas Cleff",
+    "publisher": "Springer",
+    "group": "python",
+    "levels": [
+      "Analyse et visualisation"
+    ],
+    "use": "Comprendre l’analyse exploratoire ; exemples avec SPSS, Stata et Excel.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "https://doi.org/10.1007/978-3-319-01517-0",
+    "year": "2014"
+  },
+  {
+    "title": "Product Analytics",
+    "authors": "Joanne Rodrigues",
+    "publisher": "Pearson",
+    "group": "python",
+    "levels": [
+      "Analyse et visualisation"
+    ],
+    "use": "Relier indicateurs, questions métier et interprétation.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "",
+    "year": "2021"
+  },
+  {
+    "title": "Practical Business Analytics Using R and Python — 2e édition",
+    "authors": "Umesh R. Hodeghatta et Umesha Nayak",
+    "publisher": "Apress",
+    "group": "python",
+    "levels": [
+      "Analyse et visualisation"
+    ],
+    "use": "Traiter une question métier avec une démarche fondée sur les données.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "https://doi.org/10.1007/978-1-4842-8754-5",
+    "year": "2023"
+  },
+  {
+    "title": "Introduction to Machine Learning with Python",
+    "authors": "Andreas C. Müller et Sarah Guido",
+    "publisher": "O’Reilly",
+    "group": "python",
+    "levels": [
+      "Modélisation"
+    ],
+    "use": "Construire et évaluer un premier modèle avec Python.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "",
+    "year": "2016"
+  },
+  {
+    "title": "Machine Learning avec Scikit-Learn — 2e édition",
+    "authors": "Aurélien Géron ; traduction Anne Bohy",
+    "publisher": "Dunod",
+    "group": "python",
+    "levels": [
+      "Modélisation"
+    ],
+    "use": "Préparer les données et comparer des modèles supervisés et non supervisés.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "",
+    "year": "2019"
+  },
+  {
+    "title": "Applied Machine Learning for Data Science Practitioners",
+    "authors": "Vidya Subramanian",
+    "publisher": "Wiley",
+    "group": "python",
+    "levels": [
+      "Modélisation"
+    ],
+    "use": "Approfondir les décisions de conception d’un modèle appliqué.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "",
+    "year": "2025"
+  },
+  {
+    "title": "Data Mining and Predictive Analytics",
+    "authors": "Daniel T. Larose et Chantal D. Larose",
+    "publisher": "Wiley",
+    "group": "python",
+    "levels": [
+      "Modélisation"
+    ],
+    "use": "Relier préparation, exploration et prédiction avec une démarche explicite.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "",
+    "year": "2015"
+  }
+]
