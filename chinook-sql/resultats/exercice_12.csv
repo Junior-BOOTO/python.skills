@@ -1,0 +1,2241 @@
+﻿InvoiceLineId,InvoiceId,Morceau,Artiste
+1,1,Balls to the Wall,Accept
+2,1,Restless and Wild,Accept
+3,2,Put The Finger On You,AC/DC
+4,2,Inject The Venom,AC/DC
+5,2,Evil Walks,AC/DC
+6,2,Breaking The Rules,AC/DC
+7,3,Dog Eat Dog,AC/DC
+8,3,Overdose,AC/DC
+9,3,Love In An Elevator,Aerosmith
+10,3,Janie's Got A Gun,Aerosmith
+11,3,Deuces Are Wild,Aerosmith
+12,3,Angel,Aerosmith
+13,4,Right Through You,Alanis Morissette
+14,4,Not The Doctor,Alanis Morissette
+15,4,Bleed The Freak,Alice In Chains
+16,4,Confusion,Alice In Chains
+17,4,Por Causa De Você,Antônio Carlos Jobim
+18,4,Angela,Antônio Carlos Jobim
+19,4,Master Of Puppets,Apocalyptica
+20,4,Welcome Home (Sanitarium),Apocalyptica
+21,4,Set It Off,Audioslave
+22,5,Your Time Has Come,Audioslave
+23,5,Dandelion,Audioslave
+24,5,Rock 'N' Roll Music,BackBeat
+25,5,Moon germs,Billy Cobham
+26,5,Super Terrorizer,Black Label Society
+27,5,Heart Of Gold,Black Label Society
+28,5,Evil Woman,Black Sabbath
+29,5,Cornucopia,Black Sabbath
+30,5,Bowels Of The Devil,Body Count
+31,5,Body Count Anthem,Body Count
+32,5,Jerusalem,Bruce Dickinson
+33,5,When My Left Eye Jumps,Buddy Guy
+34,5,Meditação,Caetano Veloso
+35,5,Esse Cara,Caetano Veloso
+36,6,"Bye, Bye Brasil",Chico Buarque
+37,7,Atras Da Porta,Chico Buarque
+38,7,Tatuagem,Chico Buarque
+39,8,Morena De Angola,Chico Buarque
+40,8,A Banda,Chico Buarque
+41,9,Com Açúcar E Com Afeto,Chico Buarque
+42,9,Meu Caro Amigo,Chico Buarque
+43,9,Trocando Em Miúdos,Chico Buarque
+44,9,Gota D'água,Chico Buarque
+45,10,Etnia,Chico Science & Nação Zumbi
+46,10,Samba Do Lado,Chico Science & Nação Zumbi
+47,10,Sobremesa,Chico Science & Nação Zumbi
+48,10,Sangue De Bairro,Chico Science & Nação Zumbi
+49,10,Amor De Muito,Chico Science & Nação Zumbi
+50,10,Maracatu Atômico [Trip Hop],Chico Science & Nação Zumbi
+51,11,Samba Makossa,Chico Science & Nação Zumbi
+52,11,Lixo Do Mangue,Chico Science & Nação Zumbi
+53,11,Firmamento,Cidade Negra
+54,11,Já Foi,Cidade Negra
+55,11,A Cor Do Sol,Cidade Negra
+56,11,Firmamento,Cidade Negra
+57,11,Sábado A Noite,Cidade Negra
+58,11,Linha Do Equador,Cláudio Zoli
+59,11,Livre Pra Viver,Cláudio Zoli
+60,12,Lavadeira,Various Artists
+61,12,Dazed and Confused,Led Zeppelin
+62,12,You Shook Me(2),Led Zeppelin
+63,12,Man With The Woman Head,Frank Zappa & Captain Beefheart
+64,12,Leandro De Itaquera 2001,Various Artists
+65,12,Vôo Sobre o Horizonte,Marcos Valle
+66,12,All Star,Marcos Valle
+67,12,Tanto Tempo,Antônio Carlos Jobim
+68,12,Bumbo Da Mangueira,Antônio Carlos Jobim
+69,12,Die Die My Darling,Metallica
+70,12,Radio GA GA,Queen
+71,12,I'm Going Slightly Mad,Queen
+72,12,Sure Know Something,Kiss
+73,12,God Of Thunder,Kiss
+74,13,Valentino's,Spyro Gyra
+75,14,Believe,Spyro Gyra
+76,14,As We Sleep,Spyro Gyra
+77,15,J Squared,Spyro Gyra
+78,15,Maria,Green Day
+79,16,Longview,Green Day
+80,16,Basket Case,Green Day
+81,16,She,Green Day
+82,16,Geek Stink Breath,Green Day
+83,17,Stuck With Me,Green Day
+84,17,Nice Guys Finish Last,Green Day
+85,17,Macy's Day Parade,Green Day
+86,17,Don't You Cry,David Coverdale
+87,17,Living On Love,David Coverdale
+88,17,Wherever You May Go,David Coverdale
+89,18,"Diga Lá, Coração",Gonzaguinha
+90,18,Comportamento Geral,Gonzaguinha
+91,18,Podres Poderes,Chico Buarque
+92,18,Queixa,Chico Buarque
+93,18,Ando Meio Desligado,Os Mutantes
+94,18,Vida De Cachorro,Os Mutantes
+95,18,Meu Refrigerador Não Funciona,Os Mutantes
+96,18,Smoke On The Water,Deep Purple
+97,18,Trampled Under Foot,Led Zeppelin
+98,19,União Da Ilha,Various Artists
+99,19,Put Your Lights On,Santana
+100,19,Primavera,Santana
+101,19,Seis Da Tarde,Ed Motta
+102,19,Compulsion,Miles Davis
+103,19,The Pan Piper,Miles Davis
+104,19,Jean Pierre (Live),Miles Davis
+105,19,Drum Boogie,Gene Krupa
+106,19,Lemon Drop,Gene Krupa
+107,19,Showcase,Gene Krupa
+108,19,Como É Duro Trabalhar,Toquinho & Vinícius
+109,19,Pela Luz dos Olhos Teus (Miúcha e Tom Jobim),Various Artists
+110,19,As Rosas Não Falam (Beth Carvalho),Various Artists
+111,19,Green River,Creedence Clearwater Revival
+112,20,Someday Never Comes,Creedence Clearwater Revival
+113,21,Walking On The Water,Creedence Clearwater Revival
+114,21,"Suzie-Q, Pt. 2",Creedence Clearwater Revival
+115,22,Good Golly Miss Molly,Creedence Clearwater Revival
+116,22,Wrote A Song For Everyone,Creedence Clearwater Revival
+117,23,Cotton Fields,Creedence Clearwater Revival
+118,23,Don't Look Now,Creedence Clearwater Revival
+119,23,Before You Accuse Me,Creedence Clearwater Revival
+120,23,Pagan Baby,Creedence Clearwater Revival
+121,24,Born To Move,Creedence Clearwater Revival
+122,24,Brasil,Cássia Eller
+123,24,Coroné Antonio Bento,Cássia Eller
+124,24,Música Urbana 2,Cássia Eller
+125,24,Woman Of The World (Ao Vivo),Cássia Eller
+126,24,Smells Like Teen Spirit (Ao Vivo),Cássia Eller
+127,25,Admirável Gado Novo,Cássia Eller
+128,25,Mis Penas Lloraba Yo (Ao Vivo) Soy Gitano (Tangos),Cássia Eller
+129,25,Drifter,Deep Purple
+130,25,Child In Time,Deep Purple
+131,25,No No No,Deep Purple
+132,25,Knocking At Your Back Door,Deep Purple
+133,25,The Unwritten Law,Deep Purple
+134,25,Maybe I'm A Leo,Deep Purple
+135,25,Vavoom : Ted The Mechanic,Deep Purple
+136,26,Hey Cisco,Deep Purple
+137,26,Fortuneteller,Deep Purple
+138,26,High Ball Shooter,Deep Purple
+139,26,A Twist In The Tail,Deep Purple
+140,26,Animal,Def Leppard
+141,26,Hysteria,Def Leppard
+142,26,"Baltimore, DC",Dennis Chambers
+143,26,Esquinas,Djavan
+144,26,Açai,Djavan
+145,26,Um Amor Puro,Djavan
+146,26,Fascinação,Elis Regina
+147,26,Sunshine Of Your Love,Eric Clapton
+148,26,Lay Down Sally,Eric Clapton
+149,26,Tears In Heaven,Eric Clapton
+150,27,Naked In Front Of The Computer,Faith No More
+151,28,Helpless,Faith No More
+152,28,Mouth To Mouth,Faith No More
+153,29,She Loves Me Not,Faith No More
+154,29,Paths Of Glory,Faith No More
+155,30,Pristina,Faith No More
+156,30,Caffeine,Faith No More
+157,30,RV,Faith No More
+158,30,Everything's Ruined,Faith No More
+159,31,A Small Victory,Faith No More
+160,31,Easy,Faith No More
+161,31,The Gentle Art Of Making Enemies,Faith No More
+162,31,Ugly In The Morning,Faith No More
+163,31,What A Day,Faith No More
+164,31,From Out Of Nowhere,Faith No More
+165,32,Underwater Love,Faith No More
+166,32,Falamansa Song,Falamansa
+167,32,Avisa,Falamansa
+168,32,Desaforo,Falamansa
+169,32,The Last Song,Foo Fighters
+170,32,What If I Do?,Foo Fighters
+171,32,Virginia Moon,Foo Fighters
+172,32,Times Like These,Foo Fighters
+173,32,Burn Away,Foo Fighters
+174,33,See You,Foo Fighters
+175,33,I Get A Kick Out Of You,Frank Sinatra
+176,33,Fly Me To The Moon,Frank Sinatra
+177,33,Mack The Knife,Frank Sinatra
+178,33,Funk Hum,Funk Como Le Gusta
+179,33,Forty Days Instrumental,Funk Como Le Gusta
+180,33,Pau-De-Arara,Gilberto Gil
+181,33,Stir It Up (Live),Gilberto Gil
+182,33,A Novidade (Live),Gilberto Gil
+183,33,Realce,Eric Clapton
+184,33,Aquele Abraço,Eric Clapton
+185,33,Re-Align,Godsmack
+186,33,Holiday,Green Day
+187,33,Homecoming / The Death Of St. Jimmy / East 12th St. / Nobody Likes You / Rock And Roll Girlfriend / We're Coming Home Again,Green Day
+188,34,Right Next Door to Hell,Guns N' Roses
+189,35,Dust N' Bones,Guns N' Roses
+190,35,Live and Let Die,Guns N' Roses
+191,36,Perfect Crime,Guns N' Roses
+192,36,Bad Obsession,Guns N' Roses
+193,37,Double Talkin' Jive,Guns N' Roses
+194,37,The Garden,Guns N' Roses
+195,37,Don't Damn Me,Guns N' Roses
+196,37,Dead Horse,Guns N' Roses
+197,38,Yesterdays,Guns N' Roses
+198,38,Breakdown,Guns N' Roses
+199,38,Estranged,Guns N' Roses
+200,38,Colibri,Incognito
+201,38,L'Arc En Ciel De Miles,Incognito
+202,38,Millenium,Incognito
+203,39,These Colours Don't Run,Iron Maiden
+204,39,For the Greater Good of God,Iron Maiden
+205,39,Prowler,Iron Maiden
+206,39,Run To The Hilss,Iron Maiden
+207,39,Can I Play With Madness,Iron Maiden
+208,39,Heaven Can Wait,Iron Maiden
+209,39,Blood Brothers,Iron Maiden
+210,39,The Thin Line Between Love & Hate,Iron Maiden
+211,39,Gates Of Tomorrow,Iron Maiden
+212,40,Fear Is The Key,Iron Maiden
+213,40,01 - Prowler,Iron Maiden
+214,40,The Ides Of March,Iron Maiden
+215,40,Drifter,Iron Maiden
+216,40,The Number Of The Beast,Iron Maiden
+217,40,Phantom Of The Opera,Iron Maiden
+218,40,Afraid To Shoot Strangers,Iron Maiden
+219,40,The Trooper,Iron Maiden
+220,40,Run Silent Run Deep,Iron Maiden
+221,40,Still Life,Iron Maiden
+222,40,Back in the Village,Iron Maiden
+223,40,Blood Brothers,Iron Maiden
+224,40,The Number Of The Beast,Iron Maiden
+225,40,The Prophecy,Iron Maiden
+226,41,Hallowed Be Thy Name,Iron Maiden
+227,42,Invaders,Iron Maiden
+228,42,Run to the Hills,Iron Maiden
+229,43,The Prisoner,Iron Maiden
+230,43,Lord Of The Flies,Iron Maiden
+231,44,Fortunes Of War,Iron Maiden
+232,44,The Aftermath,Iron Maiden
+233,44,Blood On The World's Hands,Iron Maiden
+234,44,2 A.M.,Iron Maiden
+235,45,Lightning Strikes Twice,Iron Maiden
+236,45,Don't Look To The Eyes Of A Stranger,Iron Maiden
+237,45,Night Train,James Brown
+238,45,It's A Man's Man's Man's World,James Brown
+239,45,Hey America,James Brown
+240,45,Get Up Offa That Thing,James Brown
+241,46,When You Gonna Learn (Digeridoo),Jamiroquai
+242,46,"Whatever It Is, I Just Can't Stop",Jamiroquai
+243,46,Black Capricorn Day,Jamiroquai
+244,46,Were Do We Go From Here,Jamiroquai
+245,46,Light Years,Jamiroquai
+246,46,Morning Glory,Jamiroquai
+247,46,Get What You Need,JET
+248,46,Take It Or Leave It,JET
+249,46,Can You See Me,Jimi Hendrix
+250,47,Stone Free,Jimi Hendrix
+251,47,Satch Boogie,Joe Satriani
+252,47,Salve Simpatia,Jorge Ben
+253,47,Filho Maravilha,Jorge Ben
+254,47,Dance Enquanto é Tempo,Jota Quest
+255,47,Voce Inteira,João Suplicy
+256,47,Enquanto O Dia Não Vem,João Suplicy
+257,47,Turbo Lover,Judas Priest
+258,47,Plaster Caster,Kiss
+259,47,Every Time I Look At You,Kiss
+260,47,Dazed And Confused,Led Zeppelin
+261,47,Walter's Walk,Led Zeppelin
+262,47,Dancing Days,Led Zeppelin
+263,47,All My Love,Led Zeppelin
+264,48,Your Time Is Gonna Come,Led Zeppelin
+265,49,Black Mountain Side,Led Zeppelin
+266,49,Communication Breakdown,Led Zeppelin
+267,50,How Many More Times,Led Zeppelin
+268,50,What Is And What Should Never Be,Led Zeppelin
+269,51,Thank You,Led Zeppelin
+270,51,Living Loving Maid (She's Just A Woman),Led Zeppelin
+271,51,Moby Dick,Led Zeppelin
+272,51,Immigrant Song,Led Zeppelin
+273,52,Out On The Tiles,Led Zeppelin
+274,52,Bron-Y-Aur Stomp,Led Zeppelin
+275,52,Down By The Seaside,Led Zeppelin
+276,52,Boogie With Stu,Led Zeppelin
+277,52,For Your Life,Led Zeppelin
+278,52,Hots On For Nowhere,Led Zeppelin
+279,53,Dazed And Confused,Led Zeppelin
+280,53,L'Avventura,Legião Urbana
+281,53,Soul Parsifal,Legião Urbana
+282,53,Quando Você Voltar,Legião Urbana
+283,53,Tempo Perdido,Legião Urbana
+284,53,Meninos E Meninas,Legião Urbana
+285,53,Are You Gonna Go My Way,Lenny Kravitz
+286,53,Mr. Cab Driver,Lenny Kravitz
+287,53,Believe,Lenny Kravitz
+288,54,Condição,Lulu Santos
+289,54,Aquilo,Lulu Santos
+290,54,Assaltaram A Gramática,Lulu Santos
+291,54,Waterhole (Expresso Bongo),Marillion
+292,54,Tempos Modernos,Marisa Monte
+293,54,Dança Da Solidão,Marisa Monte
+294,54,When I Had Your Love,Marvin Gaye
+295,54,Save The Children,Marvin Gaye
+296,54,Down by the Sea,Men At Work
+297,54,The Unforgiven,Metallica
+298,54,Helpless,Metallica
+299,54,Stone Cold Crazy,Metallica
+300,54,Motorbreath,Metallica
+301,54,2 X 4,Metallica
+302,55,Master Of Puppets,Metallica
+303,56,The Thing That Should Not Be,Metallica
+304,56,Welcome Home (Sanitarium),Metallica
+305,57,Leper Messiah,Metallica
+306,57,Damage Inc.,Metallica
+307,58,The Memory Remains,Metallica
+308,58,The Unforgiven II,Metallica
+309,58,Slither,Metallica
+310,58,Bad Seed,Metallica
+311,59,Attitude,Metallica
+312,59,For Whom The Bell Tolls,Metallica
+313,59,Creeping Death,Metallica
+314,59,Some Kind Of Monster,Metallica
+315,59,Shoot Me Again,Metallica
+316,59,All Within My Hands,Metallica
+317,60,Harvester Of Sorrow,Metallica
+318,60,The Duke,Miles Davis
+319,60,Lament,Miles Davis
+320,60,Coração De Estudante,Milton Nascimento
+321,60,Menestrel Das Alagoas,Milton Nascimento
+322,60,"Maria, Maria",Milton Nascimento
+323,60,Ponta de Areia,Milton Nascimento
+324,60,Norwegian Wood,Milton Nascimento
+325,60,Fast And Loose,Motörhead
+326,61,Please Don't Touch,Motörhead
+327,61,Já Foi,Mônica Marianno
+328,61,Wild Side,Mötley Crüe
+329,61,Primal Scream,Mötley Crüe
+330,61,Been A Son,Nirvana
+331,61,Breed,Nirvana
+332,61,Territorial Pissings,Nirvana
+333,61,Folhas Secas,O Terço
+334,61,Menino De Rua,O Terço
+335,61,Denúncia,Olodum
+336,61,O Trem Da Juventude,Os Paralamas Do Sucesso
+337,61,Selvagem,Os Paralamas Do Sucesso
+338,61,Nebulosa Do Amor,Os Paralamas Do Sucesso
+339,61,Luis Inacio (300 Picaretas),Os Paralamas Do Sucesso
+340,62,Perplexo,Os Paralamas Do Sucesso
+341,63,Me Liga,Os Paralamas Do Sucesso
+342,63,Quase Um Segundo,Os Paralamas Do Sucesso
+343,64,Romance Ideal,Os Paralamas Do Sucesso
+344,64,SKA,Os Paralamas Do Sucesso
+345,65,I Don't Know,Ozzy Osbourne
+346,65,Flying High Again,Ozzy Osbourne
+347,65,No More Tears,Ozzy Osbourne
+348,65,Crazy Train,Ozzy Osbourne
+349,66,Relvelation (Mother Earth),Ozzy Osbourne
+350,66,Children Of The Grave,Ozzy Osbourne
+351,66,Dee,Ozzy Osbourne
+352,66,Blue Train,Page & Plant
+353,66,Walking Into Clarksdale,Page & Plant
+354,66,Sons Of Freedom,Page & Plant
+355,67,Beach Sequence,Passengers
+356,67,Plot 180,Passengers
+357,67,Murders In The Rue Morgue,Paul D'Ianno
+358,67,Iron Maiden,Paul D'Ianno
+359,67,Untitled,Pearl Jam
+360,67,Nothingman,Pearl Jam
+361,67,World Wide Suicide,Pearl Jam
+362,67,Big Wave,Pearl Jam
+363,67,Can't Keep,Pearl Jam
+364,68,Green Disease,Pearl Jam
+365,68,Why Go,Pearl Jam
+366,68,Animal,Pearl Jam
+367,68,Leash,Pearl Jam
+368,68,Wanted Dread And Alive,Lenny Kravitz
+369,68,The Great Gig In The Sky,Pink Floyd
+370,68,Bossa,Planet Hemp
+371,68,Nega Do Cabelo Duro,Planet Hemp
+372,68,You're My Best Friend,Queen
+373,68,Seven Seas Of Rhye,Queen
+374,68,"Get Down, Make Love",Queen
+375,68,Get Up,R.E.M.
+376,68,Untitled,R.E.M.
+377,68,Be Mine,R.E.M.
+378,69,Carnival Of Sorts,R.E.M.
+379,70,Radio Free Aurope,R.E.M.
+380,70,Perfect Circle,R.E.M.
+381,71,So Central Rain,R.E.M.
+382,71,Pretty Persuasion,R.E.M.
+383,72,Can't Get There From Here,R.E.M.
+384,72,Fall On Me,R.E.M.
+385,72,Cuyahoga,R.E.M.
+386,72,The Finest Worksong,R.E.M.
+387,73,Papeau Nuky Doe,Raimundos
+388,73,Esporrei Na Manivela,Raimundos
+389,73,Maluco Beleza,Raul Seixas
+390,73,As Profecias,Raul Seixas
+391,73,Que Luz É Essa,Raul Seixas
+392,73,Século XXI,Raul Seixas
+393,74,Suck My Kiss,Red Hot Chili Peppers
+394,74,Under The Bridge,Red Hot Chili Peppers
+395,74,They're Red Hot,Red Hot Chili Peppers
+396,74,The Zephyr Song,Red Hot Chili Peppers
+397,74,Tear,Red Hot Chili Peppers
+398,74,Parallel Universe,Red Hot Chili Peppers
+399,74,Porcelain,Red Hot Chili Peppers
+400,74,Right On Time,Red Hot Chili Peppers
+401,74,Xanadu,Rush
+402,75,Finding My Way,Rush
+403,75,Evil Ways,Santana
+404,75,It's Only Love,Lenny Kravitz
+405,75,So Beautiful,Lenny Kravitz
+406,75,Maquinarama,Skank
+407,75,Garota Nacional,Skank
+408,75,Aeroplane Flies High,Smashing Pumpkins
+409,75,Saturnine,Smashing Pumpkins
+410,75,Cherub Rock,Smashing Pumpkins
+411,75,Ava Adore,Smashing Pumpkins
+412,75,Hands All Over,Soundgarden
+413,75,Pretty Noose,Soundgarden
+414,75,Starburst,Spyro Gyra
+415,75,Leave My Girl Alone,Stevie Ray Vaughan & Double Trouble
+416,76,Plush,Stone Temple Pilots
+417,77,Wet My Bed,Stone Temple Pilots
+418,77,Crackerman,Stone Temple Pilots
+419,78,Soldier Side - Intro,System Of A Down
+420,78,Revenga,System Of A Down
+421,79,Radio/Video,System Of A Down
+422,79,Violent Pornography,System Of A Down
+423,79,Sad Statue,System Of A Down
+424,79,Lost in Hollywood,System Of A Down
+425,80,Black Light Syndrome,"Terry Bozzio, Tony Levin & Steve Stevens"
+426,80,Midnight From The Inside Out,The Black Crowes
+427,80,Sometimes Salvation,The Black Crowes
+428,80,Girl From A Pawnshop,The Black Crowes
+429,80,Title Song,The Black Crowes
+430,80,Soul Singing,The Black Crowes
+431,81,Clash City Rockers,The Clash
+432,81,Train In Vain,The Clash
+433,81,Know Your Rights,The Clash
+434,81,Take The Power,The Cult
+435,81,Speed Of Light,The Cult
+436,81,Spirit Walker,The Cult
+437,81,Edie (Ciao Baby),The Cult
+438,81,Sun King,The Cult
+439,81,Twentienth Century Fox,The Doors
+440,82,Can't Stand Losing You,The Police
+441,82,King Of Pain,The Police
+442,82,Get Off Of My Cloud,The Rolling Stones
+443,82,Gimmie Shelters,The Rolling Stones
+444,82,Thief In The Night,The Rolling Stones
+445,82,Out Of Tears,The Rolling Stones
+446,82,Walking Wounded,The Tea Party
+447,82,Heaven Coming Down,The Tea Party
+448,82,Gyroscope,The Tea Party
+449,82,"Anyway, Anyhow, Anywhere",The Who
+450,82,Pinball Wizard,The Who
+451,82,You Better You Bet,The Who
+452,82,Música No Ar,Tim Maia
+453,82,Você,Tim Maia
+454,83,Go Back,Titãs
+455,84,Prá Dizer Adeus,Titãs
+456,84,Família,Titãs
+457,85,O Pulso,Titãs
+458,85,Nem 5 Minutos Guardados,Titãs
+459,86,Palavras,Titãs
+460,86,A Melhor Forma,Titãs
+461,86,32 Dentes,Titãs
+462,86,Não Vou Lutar,Titãs
+463,87,Querem Meu Sangue,Titãs
+464,87,Lugar Nenhum,Titãs
+465,87,Domingo,Titãs
+466,87,Era Uma Vez,Titãs
+467,87,Toda Cor,Titãs
+468,87,Occupation / Precipice,Battlestar Galactica
+469,88,Hero,Battlestar Galactica
+470,88,The Woman King,Battlestar Galactica
+471,88,"Crossroads, Pt. 2",Battlestar Galactica
+472,88,Better Halves,Heroes
+473,88,The Fix,Heroes
+474,88,Parasite,Heroes
+475,88,The Glass Ballerina,Lost
+476,88,Walkabout,Lost
+477,88,I Do,Lost
+478,89,Solitary,Lost
+479,89,Fire + Water,Lost
+480,89,Homecoming,Lost
+481,89,Dave,Lost
+482,89,Born to Run,Lost
+483,89,One,U2
+484,89,Love Is Blindness,U2
+485,89,When I Look At The World,U2
+486,89,Everlasting Love,U2
+487,89,Vertigo,U2
+488,89,Original Of The Species,U2
+489,89,Miami,U2
+490,89,All Along The Watchtower,U2
+491,89,God Part II,U2
+492,90,Desire,U2
+493,91,When Love Comes To Town,U2
+494,91,Angel Of Harlem,U2
+495,92,Sunday Bloody Sunday,U2
+496,92,New Year's Day,U2
+497,93,Drowning Man,U2
+498,93,Two Hearts Beat As One,U2
+499,93,Surrender,U2
+500,93,Zooropa,U2
+501,94,"Stay (Faraway, So Close!)",U2
+502,94,Dirty Day,U2
+503,94,I Would Do For You,UB40
+504,94,Wear You To The Ball,UB40
+505,94,C'est La Vie,UB40
+506,94,Where Have All The Good Times Gone?,Van Halen
+507,95,Dancing In The Street,Van Halen
+508,95,Eruption,Van Halen
+509,95,Jump,Van Halen
+510,95,Right Now,Van Halen
+511,95,Eruption,Van Halen
+512,95,Feel Your Love Tonight,Van Halen
+513,95,One I Want,Van Halen
+514,95,Year to the Day,Van Halen
+515,95,Big Machine,Velvet Revolver
+516,96,Dirty Little Thing,Velvet Revolver
+517,96,So Por Amor,Vinícius De Moraes
+518,96,Here I Go Again,Lenny Kravitz
+519,96,The Deeper The Love,Lenny Kravitz
+520,96,Seu Balancê,Zeca Pagodinho
+521,96,Sapopemba e Maxambomba,Zeca Pagodinho
+522,96,The Man Behind the Curtain,Lost
+523,96,The Dundies,The Office
+524,96,Christmas Party,The Office
+525,96,Michael's Birthday,The Office
+526,96,Diwali,The Office
+527,96,Phyllis's Wedding,The Office
+528,96,How to Stop an Exploding Man,Heroes
+529,96,The Long Patrol,Battlestar Galactica (Classic)
+530,97,Baltar's Escape,Battlestar Galactica (Classic)
+531,98,Experiment In Terra,Battlestar Galactica (Classic)
+532,98,Take the Celestra,Battlestar Galactica (Classic)
+533,99,Pilot,Aquaman
+534,99,"Through the Looking Glass, Pt. 1",Lost
+535,100,#9 Dream,U2
+536,100,Give Peace a Chance,U2
+537,100,Whatever Gets You Thru the Night,U2
+538,100,Gimme Some Truth,U2
+539,101,Jealous Guy,U2
+540,101,Beautiful Boy,U2
+541,101,Gimme Some Truth,U2
+542,101,Sympton of the Universe,Ozzy Osbourne
+543,101,War Pigs,Ozzy Osbourne
+544,101,Never Say Die,Ozzy Osbourne
+545,102,The Zoo,Scorpions
+546,102,I Can't Explain,Scorpions
+547,102,Put Your Head Out,House Of Pain
+548,102,"Danny Boy, Danny Boy",House Of Pain
+549,102,One For The Road,House Of Pain
+550,102,Chapa o Coco,O Rappa
+551,102,Todo o Carnaval tem seu Fim,O Rappa
+552,102,Funk de Bamba,O Rappa
+553,102,The Beginning of the End,Lost
+554,103,Meet Kevin Johnson,Lost
+555,103,Muita Bobeira,Luciana Souza/Romero Lubambo
+556,103,Say Hello 2 Heaven,Temple of the Dog
+557,103,All Night Thing,Temple of the Dog
+558,103,Scar On the Sky,Chris Cornell
+559,103,Until We Fall,Audioslave
+560,103,Show Me How to Live (Live at the Quart Festival),Audioslave
+561,103,"The Messiah: Behold, I Tell You a Mystery... The Trumpet Shall Sound",Scholars Baroque Ensemble
+562,103,"Requiem, Op.48: 4. Pie Jesu","Academy of St. Martin in the Fields, John Birch, Sir Neville Marriner & Sylvia McNair"
+563,103,Branch Closing,The Office
+564,103,"Piano Sonata No. 14 in C Sharp Minor, Op. 27, No. 2, ""Moonlight"": I. Adagio sostenuto",Maurizio Pollini
+565,103,"Symphonie Fantastique, Op. 14: V. Songe d'une nuit du sabbat",Michael Tilson Thomas & San Francisco Symphony
+566,103,Rehab,Amy Winehouse
+567,103,He Can Only Hold Her,Amy Winehouse
+568,104,Slowness,Calexico
+569,105,"Prometheus Overture, Op. 43",Otto Klemperer & Philharmonia Orchestra
+570,105,Sonata for Solo Violin: IV: Presto,Yehudi Menuhin
+571,106,"Suite No. 3 in D, BWV 1068: III. Gavotte I & II","Academy of St. Martin in the Fields, Sir Neville Marriner & Thurston Dart"
+572,106,Adios nonino,The 12 Cellists of The Berlin Philharmonic
+573,107,"Act IV, Symphony","Roger Norrington, London Classical Players"
+574,107,"Music for the Funeral of Queen Mary: VI. ""Thou Knowest, Lord, the Secrets of Our Hearts""","Equale Brass Ensemble, John Eliot Gardiner & Munich Monteverdi Orchestra and Choir"
+575,107,"Partita in E Major, BWV 1006A: I. Prelude",Julian Bream
+576,107,Sing Joyfully,The King's Singers
+577,108,"Étude 1, In C Major - Preludio (Presto) - Liszt",Michele Campanella
+578,108,"String Quartet No. 12 in C Minor, D. 703 ""Quartettsatz"": II. Andante - Allegro assai",Emerson String Quartet
+579,108,For Those About To Rock (We Salute You),AC/DC
+580,108,Princess of the Dawn,Accept
+581,108,Snowballed,AC/DC
+582,108,Night Of The Long Knives,AC/DC
+583,109,Problem Child,AC/DC
+584,109,Rag Doll,Aerosmith
+585,109,Blind Man,Aerosmith
+586,109,Livin' On The Edge,Aerosmith
+587,109,Forgiven,Alanis Morissette
+588,109,Wake Up,Alanis Morissette
+589,109,I Can't Remember,Alice In Chains
+590,109,I Know Somethin (Bout You),Alice In Chains
+591,109,Ligia,Antônio Carlos Jobim
+592,110,"Canta, Canta Mais",Antônio Carlos Jobim
+593,110,Cochise,Audioslave
+594,110,Hypnotize,Audioslave
+595,110,Drown Me Slowly,Audioslave
+596,110,Long Tall Sally,BackBeat
+597,110,Good Golly Miss Molly,BackBeat
+598,110,Do what cha wanna,Billy Cobham
+599,110,A.N.D.R.O.T.A.Z.,Black Label Society
+600,110,The Beginning...At Last,Black Label Society
+601,110,Tomorrow's Dream,Black Sabbath
+602,110,Smoked Pork,Body Count
+603,110,Voodoo,Body Count
+604,110,Chemical Wedding,Bruce Dickinson
+605,110,Realword,Bruce Dickinson
+606,111,Meditação,Caetano Veloso
+607,112,Terra,Caetano Veloso
+608,112,Eclipse Oculto,Caetano Veloso
+609,113,Bem Devagar,Caetano Veloso
+610,113,Saudosismo,Caetano Veloso
+611,114,Sozinho,Caetano Veloso
+612,114,Mel,Caetano Veloso
+613,114,Odara,Caetano Veloso
+614,114,Atrás Da Verd-E-Rosa Só Não Vai Quem Já Morreu,Caetano Veloso
+615,115,Sozinho (Caêdrum 'n' Bass),Caetano Veloso
+616,115,Samba De Orly,Chico Buarque
+617,115,O Que Será (À Flor Da Terra),Chico Buarque
+618,115,Minha Historia,Chico Buarque
+619,115,Geni E O Zepelim,Chico Buarque
+620,115,Construção / Deus Lhe Pague,Chico Buarque
+621,116,Um Passeio No Mundo Livre,Chico Science & Nação Zumbi
+622,116,Manguetown,Chico Science & Nação Zumbi
+623,116,Criança De Domingo,Chico Science & Nação Zumbi
+624,116,Banditismo Por Uma Questa,Chico Science & Nação Zumbi
+625,116,Da Lama Ao Caos,Chico Science & Nação Zumbi
+626,116,Computadores Fazem Arte,Chico Science & Nação Zumbi
+627,116,Extra,Cidade Negra
+628,116,Onde Você Mora?,Cidade Negra
+629,116,Onde Você Mora?,Cidade Negra
+630,117,Na Frente Da TV,Cidade Negra
+631,117,Amor Demais,Cláudio Zoli
+632,117,"Tapa Aqui, Descobre Ali",Various Artists
+633,117,My Love,Various Artists
+634,117,Travelling Riverside Blues,Led Zeppelin
+635,117,Sam With The Showing Scalp Flat Top,Frank Zappa & Captain Beefheart
+636,117,Gavioes 2001,Various Artists
+637,117,Morro Da Casa Verde 2001,Various Artists
+638,117,Samba da Bençaco,Marcos Valle
+639,117,Maria Fumaça,Marcos Valle
+640,117,Only A Dream In Rio,Antônio Carlos Jobim
+641,117,Só Tinha De Ser Com Você,Antônio Carlos Jobim
+642,117,Whiskey In The Jar,Metallica
+643,117,It's A Hard Life,Queen
+644,118,Sure Know Something,Kiss
+645,119,Love Gun,Kiss
+646,119,Deuce,Kiss
+647,120,Shock Me,Kiss
+648,120,She,Kiss
+649,121,Shout It Out Loud,Kiss
+650,121,Calling Dr. Love,Kiss
+651,121,Strutter,Kiss
+652,121,Cold Gin,Kiss
+653,122,De La Luz,Spyro Gyra
+654,122,Surrender,Spyro Gyra
+655,122,When Evening Falls,Spyro Gyra
+656,122,Poprocks And Coke,Green Day
+657,122,When I Come Around,Green Day
+658,122,Brain Stew,Green Day
+659,123,Redundant,Green Day
+660,123,Into The Light,David Coverdale
+661,123,Cry For Love,David Coverdale
+662,123,Grito De Alerta,Gonzaguinha
+663,123,Lindo Lago Do Amor,Gonzaguinha
+664,123,Ponto De Interrogação,Gonzaguinha
+665,123,Voce Nao Entende Nada - Cotidiano,Chico Buarque
+666,123,O Leaozinho,Chico Buarque
+667,123,Top Top,Os Mutantes
+668,124,"Posso Perder Minha Mulher, Minha Mãe, Desde Que Eu Tenha O Rock And Roll",Os Mutantes
+669,124,You Fool No One,Deep Purple
+670,124,Viradouro,Various Artists
+671,124,Tradição,Various Artists
+672,124,Maria Maria,Santana
+673,124,Entre E Ouça,Ed Motta
+674,124,Agora Que O Dia Acordou,Ed Motta
+675,124,Bye Bye Blackbird,Miles Davis
+676,124,Nefertiti,Miles Davis
+677,124,Going Down / Highway Star,Deep Purple
+678,124,Boogie Blues,Gene Krupa
+679,124,Don't Take Your Love From Me,Gene Krupa
+680,124,Onde Anda Você,Toquinho & Vinícius
+681,124,Deixa,Toquinho & Vinícius
+682,125,As Rosas Não Falam (Beth Carvalho),Various Artists
+683,126,Wave (Os Cariocas),Various Artists
+684,126,Garota de Ipanema (Dick Farney),Various Artists
+685,127,Susie Q,Creedence Clearwater Revival
+686,127,Proud Mary,Creedence Clearwater Revival
+687,128,Lodi,Creedence Clearwater Revival
+688,128,Commotion,Creedence Clearwater Revival
+689,128,Fortunate Son,Creedence Clearwater Revival
+690,128,Who'll Stop The Rain,Creedence Clearwater Revival
+691,129,Long As I Can See The Light,Creedence Clearwater Revival
+692,129,Sweet Hitch-Hiker,Creedence Clearwater Revival
+693,129,Born On The Bayou,Creedence Clearwater Revival
+694,129,Night Time Is The Right Time,Creedence Clearwater Revival
+695,129,The Midnight Special,Creedence Clearwater Revival
+696,129,(Wish I Could) Hideaway,Creedence Clearwater Revival
+697,130,Gatas Extraordinárias,Cássia Eller
+698,130,"Você Passa, Eu Acho Graça (Ao Vivo)",Cássia Eller
+699,130,Não Sei O Que Eu Quero Da Vida,Cássia Eller
+700,130,E.C.T.,Cássia Eller
+701,130,Eleanor Rigby,Cássia Eller
+702,130,Comin' Home,Deep Purple
+703,130,Love Child,Deep Purple
+704,130,Flight Of The Rat,Deep Purple
+705,130,Strange Kind Of Woman,Deep Purple
+706,131,Black Night,Deep Purple
+707,131,Pictures Of Home,Deep Purple
+708,131,Cascades : I'm Not Your Lover,Deep Purple
+709,131,The Cut Runs Deep,Deep Purple
+710,131,Love Don't Mean a Thing,Deep Purple
+711,131,Lick It Up,Deep Purple
+712,131,Pour Some Sugar On Me,Def Leppard
+713,131,Action,Def Leppard
+714,131,Groovus Interruptus,Dennis Chambers
+715,131,Cigano,Djavan
+716,131,Acelerou,Djavan
+717,131,Azul,Djavan
+718,131,"Dois Pra Lá, Dois Pra Cá",Elis Regina
+719,131,Maria Rosa,Elis Regina
+720,132,Lay Down Sally,Eric Clapton
+721,133,Knockin On Heavens Door,Eric Clapton
+722,133,Wonderful Tonight,Eric Clapton
+723,134,Promises,Eric Clapton
+724,134,Signe,Eric Clapton
+725,135,Hey Hey,Eric Clapton
+726,135,Lonely Stranger,Eric Clapton
+727,135,Layla,Eric Clapton
+728,135,Walkin' Blues,Eric Clapton
+729,136,Old Love,Eric Clapton
+730,136,Last Cup Of Sorrow,Faith No More
+731,136,Ashes To Ashes,Faith No More
+732,136,Home Sick Home,Faith No More
+733,136,Midlife Crisis,Faith No More
+734,136,Malpractice,Faith No More
+735,137,Midnight Cowboy,Faith No More
+736,137,Star A.D.,Faith No More
+737,137,King For A Day,Faith No More
+738,137,Epic,Faith No More
+739,137,The Morning After,Faith No More
+740,137,Xote Dos Milagres,Falamansa
+741,137,Principiando/Decolagem,Falamansa
+742,137,In Your Honor,Foo Fighters
+743,137,Free Me,Foo Fighters
+744,138,Over And Out,Foo Fighters
+745,138,Disenchanted Lullaby,Foo Fighters
+746,138,"Hey, Johnny Park!",Foo Fighters
+747,138,Walking After You,Foo Fighters
+748,138,Summer Love,Frank Sinatra
+749,138,Come Fly With Me,Frank Sinatra
+750,138,Nervosa,Funk Como Le Gusta
+751,138,Meu Guarda-Chuva,Funk Como Le Gusta
+752,138,Juazeiro,Gilberto Gil
+753,138,Lamento Sertanejo,Gilberto Gil
+754,138,Estrela (Live),Gilberto Gil
+755,138,Lamento De Carnaval,Gilberto Gil
+756,138,Beira Mar,Eric Clapton
+757,138,Straight Out Of Line,Godsmack
+758,139,Holiday,Green Day
+759,140,Boulevard Of Broken Dreams,Green Day
+760,140,Are We The Waiting,Green Day
+761,141,Give Me Novacaine,Green Day
+762,141,Extraordinary Girl,Green Day
+763,142,Wake Me Up When September Ends,Green Day
+764,142,Whatsername,Green Day
+765,142,It's So Easy,Guns N' Roses
+766,142,Out Ta Get Me,Guns N' Roses
+767,143,Think About You,Guns N' Roses
+768,143,Rocket Queen,Guns N' Roses
+769,143,Don't Cry (Original),Guns N' Roses
+770,143,Back off Bitch,Guns N' Roses
+771,143,Garden of Eden,Guns N' Roses
+772,143,Coma,Guns N' Roses
+773,144,Shotgun Blues,Guns N' Roses
+774,144,You Could Be Mine,Guns N' Roses
+775,144,Deep Waters,Incognito
+776,144,Thinking 'Bout Tomorrow,Incognito
+777,144,Brighter Than a Thousand Suns,Iron Maiden
+778,144,Lord of Light,Iron Maiden
+779,144,Transylvania,Iron Maiden
+780,144,2 Minutes To Midnight,Iron Maiden
+781,144,Wasting Love,Iron Maiden
+782,145,Ghost Of The Navigator,Iron Maiden
+783,145,Wildest Dreams,Iron Maiden
+784,145,Age Of Innocence,Iron Maiden
+785,145,Chains Of Misery,Iron Maiden
+786,145,05 - Phantom of the Opera,Iron Maiden
+787,145,Genghis Khan,Iron Maiden
+788,145,The Trooper,Iron Maiden
+789,145,Running Free,Iron Maiden
+790,145,From Here To Eternity,Iron Maiden
+791,145,Heaven Can Wait,Iron Maiden
+792,145,Holy Smoke,Iron Maiden
+793,145,Where Eagles Dare,Iron Maiden
+794,145,Aces High,Iron Maiden
+795,145,The Wicker Man,Iron Maiden
+796,146,The Number Of The Beast,Iron Maiden
+797,147,Hallowed Be Thy Name,Iron Maiden
+798,147,Sanctuary,Iron Maiden
+799,148,Moonchild,Iron Maiden
+800,148,Can I Play With Madness,Iron Maiden
+801,149,Seventh Son of a Seventh Son,Iron Maiden
+802,149,The Clairvoyant,Iron Maiden
+803,149,Caught Somewhere in Time,Iron Maiden
+804,149,Sea of Madness,Iron Maiden
+805,150,De Ja Vu,Iron Maiden
+806,150,Gangland,Iron Maiden
+807,150,The Number Of The Beast,Iron Maiden
+808,150,Man On The Edge,Iron Maiden
+809,150,Judgement Of Heaven,Iron Maiden
+810,150,The Unbeliever,Iron Maiden
+811,151,The Educated Fool,Iron Maiden
+812,151,Out Of Sight,James Brown
+813,151,Get Up (I Feel Like Being A) Sex Machine,James Brown
+814,151,It's Too Funky In Here,James Brown
+815,151,Too Young To Die,Jamiroquai
+816,151,Blow Your Mind,Jamiroquai
+817,151,Soul Education,Jamiroquai
+818,151,King For A Day,Jamiroquai
+819,151,Manifest Destiny,Jamiroquai
+820,152,Rollover D.J.,JET
+821,152,Lazy Gun,JET
+822,152,Fire,Jimi Hendrix
+823,152,Highway Chile,Jimi Hendrix
+824,152,Midnight,Joe Satriani
+825,152,Charles Anjo 45,Jorge Ben
+826,152,Vou Pra Ai,Jota Quest
+827,152,Onibusfobia,Jota Quest
+828,152,Papelão,João Suplicy
+829,152,Hot Rockin',Judas Priest
+830,152,Ram It Down,Judas Priest
+831,152,Sure Know Something,Kiss
+832,152,Rock And Roll All Nite,Kiss
+833,152,Whole Lotta Love (Medley),Led Zeppelin
+834,153,Dancing Days,Led Zeppelin
+835,154,D'Yer Mak'er,Led Zeppelin
+836,154,No Quarter,Led Zeppelin
+837,155,In The Evening,Led Zeppelin
+838,155,Fool In The Rain,Led Zeppelin
+839,156,Carouselambra,Led Zeppelin
+840,156,I'm Gonna Crawl,Led Zeppelin
+841,156,Rock & Roll,Led Zeppelin
+842,156,Stairway To Heaven,Led Zeppelin
+843,157,When The Levee Breaks,Led Zeppelin
+844,157,Dazed and Confused,Led Zeppelin
+845,157,I Can't Quit You Baby,Led Zeppelin
+846,157,The Lemon Song,Led Zeppelin
+847,157,Ramble On,Led Zeppelin
+848,157,Friends,Led Zeppelin
+849,158,That's The Way,Led Zeppelin
+850,158,Ten Years Gone,Led Zeppelin
+851,158,Achilles Last Stand,Led Zeppelin
+852,158,Tea For One,Led Zeppelin
+853,158,No Quarter,Led Zeppelin
+854,158,Música De Trabalho,Legião Urbana
+855,158,Dezesseis,Legião Urbana
+856,158,O Livro Dos Dias,Legião Urbana
+857,158,Indios,Legião Urbana
+858,159,Dezesseis,Legião Urbana
+859,159,American Woman,Lenny Kravitz
+860,159,Honolulu,Lulu Santos
+861,159,Brumário,Lulu Santos
+862,159,Tudo Bem,Lulu Santos
+863,159,Pseudo Silk Kimono,Marillion
+864,159,White Feather,Marillion
+865,159,De Noite Na Cama,Marisa Monte
+866,159,O Xote Das Meninas,Marisa Monte
+867,159,Seek And You Shall Find,Marvin Gaye
+868,159,Heavy Love Affair,Marvin Gaye
+869,159,Shakes and Ladders,Men At Work
+870,159,Nothing Else Matters,Metallica
+871,159,Last Caress/Green Hell,Metallica
+872,160,Motorbreath,Metallica
+873,161,Jump In The Fire,Metallica
+874,161,(Anesthesia) Pulling Teeth,Metallica
+875,162,Phantom Lord,Metallica
+876,162,Seek & Destroy,Metallica
+877,163,Ain't My Bitch,Metallica
+878,163,The House Jack Built,Metallica
+879,163,King Nothing,Metallica
+880,163,Bleeding Me,Metallica
+881,164,Mama Said,Metallica
+882,164,Battery,Metallica
+883,164,Disposable Heroes,Metallica
+884,164,Fuel,Metallica
+885,164,Better Than You,Metallica
+886,164,Where The Wild Things Are,Metallica
+887,165,Ride The Lightning,Metallica
+888,165,The Call Of Ktulu,Metallica
+889,165,My World,Metallica
+890,165,Blackened,Metallica
+891,165,The Frayed Ends Of Sanity,Metallica
+892,165,My Ship,Miles Davis
+893,165,I Don't Wanna Be Kissed (By Anyone But You),Miles Davis
+894,165,A Noite Do Meu Bem,Milton Nascimento
+895,165,Brasil,Milton Nascimento
+896,166,Saudade Dos Aviões Da Panair (Conversando No Bar),Milton Nascimento
+897,166,Caso Você Queira Saber,Milton Nascimento
+898,166,Dance,Motörhead
+899,166,Aos Leões,Mônica Marianno
+900,166,Demorou!,Mônica Marianno
+901,166,Home Sweet Home,Mötley Crüe
+902,166,Intro,Nirvana
+903,166,Scentless Apprentice,Nirvana
+904,166,In Bloom,Nirvana
+905,166,On A Plain,Nirvana
+906,166,Mundaréu,O Terço
+907,166,Nossa Gente (Avisa Là),Olodum
+908,166,Revolta Olodum,Olodum
+909,166,Vai Valer,Os Paralamas Do Sucesso
+910,167,Nebulosa Do Amor,Os Paralamas Do Sucesso
+911,168,Caleidoscópio,Os Paralamas Do Sucesso
+912,168,Trac Trac,Os Paralamas Do Sucesso
+913,169,Mensagen De Amor (2000),Os Paralamas Do Sucesso
+914,169,La Bella Luna,Os Paralamas Do Sucesso
+915,170,Uma Brasileira,Os Paralamas Do Sucesso
+916,170,Saber Amar,Os Paralamas Do Sucesso
+917,170,O Amor Nao Sabe Esperar,Os Paralamas Do Sucesso
+918,170,Caleidoscópio,Os Paralamas Do Sucesso
+919,171,Lanterna Dos Afogados,Os Paralamas Do Sucesso
+920,171,Meu Erro,Os Paralamas Do Sucesso
+921,171,Selvagem,Os Paralamas Do Sucesso
+922,171,Bark at the Moon,Ozzy Osbourne
+923,171,"Mama, I'm Coming Home",Ozzy Osbourne
+924,171,Believer,Ozzy Osbourne
+925,172,Iron Man,Ozzy Osbourne
+926,172,Shining In The Light,Page & Plant
+927,172,Heart In Your Hand,Page & Plant
+928,172,United Colours,Passengers
+929,172,Miss Sarajevo,Passengers
+930,172,Theme From The Swan,Passengers
+931,172,Women In Uniform,Paul D'Ianno
+932,172,Corduroy,Pearl Jam
+933,172,MFC,Pearl Jam
+934,173,F*Ckin' Up,Pearl Jam
+935,173,Gone,Pearl Jam
+936,173,Ghost,Pearl Jam
+937,173,Arc,Pearl Jam
+938,173,Porch,Pearl Jam
+939,173,W.M.A.,Pearl Jam
+940,173,Jah Seh No,Lenny Kravitz
+941,173,Crystal Ball,Lenny Kravitz
+942,173,Brain Damage,Pink Floyd
+943,173,O Bicho Tá Pregando,Planet Hemp
+944,173,Bohemian Rhapsody,Queen
+945,173,Somebody To Love,Queen
+946,173,We Are The Champions,Queen
+947,173,My Melancholy Blues,Queen
+948,174,Untitled,R.E.M.
+949,175,How The West Was Won And Where It Got Us,R.E.M.
+950,175,The Wake-Up Bomb,R.E.M.
+951,176,Undertow,R.E.M.
+952,176,Leave,R.E.M.
+953,177,Bittersweet Me,R.E.M.
+954,177,Binky The Doormat,R.E.M.
+955,177,"So Fast, So Numb",R.E.M.
+956,177,Electrolite,R.E.M.
+957,178,Endgame,R.E.M. Feat. Kate Pearson
+958,178,Country Feedback,R.E.M. Feat. Kate Pearson
+959,178,Talk About The Passion,R.E.M.
+960,178,Green Grow The Rushes,R.E.M.
+961,178,I Believe,R.E.M.
+962,178,It's The End Of The World As We Know It (And I Feel Fine),R.E.M.
+963,179,Puteiro Em João Pessoa,Raimundos
+964,179,O Dia Em Que A Terra Parou,Raul Seixas
+965,179,Todo Mundo Explica,Raul Seixas
+966,179,Rock Das Aranhas (Ao Vivo) (Live),Raul Seixas
+967,179,I Could Have Lied,Red Hot Chili Peppers
+968,179,Naked In The Rain,Red Hot Chili Peppers
+969,179,By The Way,Red Hot Chili Peppers
+970,179,Can't Stop,Red Hot Chili Peppers
+971,179,On Mercury,Red Hot Chili Peppers
+972,180,Californication,Red Hot Chili Peppers
+973,180,Road Trippin',Red Hot Chili Peppers
+974,180,Closer To The Heart,Rush
+975,180,Persuasion,Santana
+976,180,Funky Piano,Santana
+977,180,Stars,Lenny Kravitz
+978,180,Três Lados,Skank
+979,180,Ali,Skank
+980,180,Um Dia Qualquer,Skank
+981,180,My Mistake,Smashing Pumpkins
+982,180,Soot & Stars,Smashing Pumpkins
+983,180,Bullet With Butterfly Wings,Smashing Pumpkins
+984,180,Real Love,Smashing Pumpkins
+985,180,Rusty Cage,Soundgarden
+986,181,Starburst,Spyro Gyra
+987,182,Heliopolis,Spyro Gyra
+988,182,It Doesn't Matter,Spyro Gyra
+989,183,End Of Romanticism,Spyro Gyra
+990,183,Crossfire,Stevie Ray Vaughan & Double Trouble
+991,184,Let Me Love You Baby,Stevie Ray Vaughan & Double Trouble
+992,184,Travis Walk,Stevie Ray Vaughan & Double Trouble
+993,184,Scratch-N-Sniff,Stevie Ray Vaughan & Double Trouble
+994,184,Riviera Paradise,Stevie Ray Vaughan & Double Trouble
+995,185,No Memory,Stone Temple Pilots
+996,185,Piece Of Pie,Stone Temple Pilots
+997,185,Where The River Goes,Stone Temple Pilots
+998,185,Cigaro,System Of A Down
+999,185,Question!,System Of A Down
+1000,185,The Sun Road,"Terry Bozzio, Tony Levin & Steve Stevens"
+1001,186,Chaos-Control,"Terry Bozzio, Tony Levin & Steve Stevens"
+1002,186,Cursed Diamonds,The Black Crowes
+1003,186,High Head Blues,The Black Crowes
+1004,186,Hard To Handle,The Black Crowes
+1005,186,(White Man) In Hammersmith Palais,The Clash
+1006,186,Bankrobber,The Clash
+1007,186,Rock The Casbah,The Clash
+1008,186,Breathe,The Cult
+1009,186,True Believers,The Cult
+1010,187,Love Removal Machine,The Cult
+1011,187,Sweet Soul Sister,The Cult
+1012,187,I Looked At You,The Doors
+1013,187,"De Do Do Do, De Da Da Da",The Police
+1014,187,Time Is On My Side,The Rolling Stones
+1015,187,Under My Thumb,The Rolling Stones
+1016,187,Saint Of Me,The Rolling Stones
+1017,187,You Got Me Rocking,The Rolling Stones
+1018,187,Suck On The Jugular,The Rolling Stones
+1019,187,Sister Awake,The Tea Party
+1020,187,Life Line,The Tea Party
+1021,187,Babylon,The Tea Party
+1022,187,Boris The Spider,The Who
+1023,187,Let's See Action,The Who
+1024,188,Música No Ar,Tim Maia
+1025,189,Salve Nossa Senhora,Tim Maia
+1026,189,Você Fugiu,Tim Maia
+1027,190,Compadre,Tim Maia
+1028,190,Réu Confesso,Tim Maia
+1029,191,Gostava Tanto De Você,Tim Maia
+1030,191,Não Quero Dinheiro,Tim Maia
+1031,191,A Festa Do Santo Reis,Tim Maia
+1032,191,Padre Cícero,Tim Maia
+1033,192,Balanço,Tim Maia
+1034,192,Comida,Titãs
+1035,192,Os Cegos Do Castelo,Titãs
+1036,192,Flores,Titãs
+1037,192,Cabeça Dinossauro,Titãs
+1038,192,Homem Primata (Vinheta),Titãs
+1039,193,Sonifera Ilha,Titãs
+1040,193,Amanhã Não Se Sabe,Titãs
+1041,193,Eu E Ela,Titãs
+1042,193,"Exodus, Pt. 1",Battlestar Galactica
+1043,193,Unfinished Business,Battlestar Galactica
+1044,193,A Day In the Life,Battlestar Galactica
+1045,193,Genesis,Heroes
+1046,193,Nothing to Hide,Heroes
+1047,193,Distractions,Heroes
+1048,194,Adrift,Lost
+1049,194,...And Found,Lost
+1050,194,The Other 48 Days,Lost
+1051,194,The 23rd Psalm,Lost
+1052,194,The Long Con,Lost
+1053,194,The Whole Truth,Lost
+1054,194,S.O.S.,Lost
+1055,194,Exodus (Part 2) [Season Finale],Lost
+1056,194,The Fly,U2
+1057,194,Walk On,U2
+1058,194,Spanish Eyes,U2
+1059,194,Hallelujah Here She Comes,U2
+1060,194,City Of Blinding Lights,U2
+1061,194,Mofo,U2
+1062,195,All Along The Watchtower,U2
+1063,196,I Still Haven't Found What I'm Looking for,U2
+1064,196,Freedom For My People,U2
+1065,197,Pride (In The Name Of Love),U2
+1066,197,Love Rescue Me,U2
+1067,198,Heartland,U2
+1068,198,The Star Spangled Banner,U2
+1069,198,All I Want Is You,U2
+1070,198,New Year's Day,U2
+1071,199,Bad,U2
+1072,199,Sweetest Thing,U2
+1073,199,All I Want Is You,U2
+1074,199,Like A Song...,U2
+1075,199,Red Light,U2
+1076,199,Babyface,U2
+1077,200,The First Time,U2
+1078,200,Homely Girl,UB40
+1079,200,Bring Me Your Cup,UB40
+1080,200,Hang 'Em High,Van Halen
+1081,200,Little Guitars (Intro),Van Halen
+1082,200,Ain't Talkin' 'bout Love,Van Halen
+1083,200,Panama,Van Halen
+1084,200,Can't Stop Loving You,Van Halen
+1085,200,You Really Got Me,Van Halen
+1086,201,Neworld,Van Halen
+1087,201,Primary,Van Halen
+1088,201,Headspace,Velvet Revolver
+1089,201,Tudo Na Mais Santa Paz,Vinícius De Moraes
+1090,201,Samba Do Jato,Vinícius De Moraes
+1091,201,Now You're Gone,Lenny Kravitz
+1092,201,Faixa Amarela,Zeca Pagodinho
+1093,201,Sem Essa de Malandro Agulha,Zeca Pagodinho
+1094,201,Verdade,Zeca Pagodinho
+1095,201,Diversity Day,The Office
+1096,201,Halloween,The Office
+1097,201,The Carpet,The Office
+1098,201,Gay Witch Hunt,The Office
+1099,201,"A Benihana Christmas, Pts. 1 & 2",The Office
+1100,202,How to Stop an Exploding Man,Heroes
+1101,203,Through a Looking Glass,Lost
+1102,203,Your Time Is Gonna Come,Dread Zeppelin
+1103,204,"Battlestar Galactica, Pt. 2",Battlestar Galactica (Classic)
+1104,204,"Lost Planet of the Gods, Pt. 1",Battlestar Galactica (Classic)
+1105,205,The Lost Warrior,Battlestar Galactica (Classic)
+1106,205,"The Gun On Ice Planet Zero, Pt. 1",Battlestar Galactica (Classic)
+1107,205,The Magnificent Warriors,Battlestar Galactica (Classic)
+1108,205,"The Living Legend, Pt. 1",Battlestar Galactica (Classic)
+1109,206,"War of the Gods, Pt. 2",Battlestar Galactica (Classic)
+1110,206,"Greetings from Earth, Pt. 2",Battlestar Galactica (Classic)
+1111,206,The Hand of God,Battlestar Galactica (Classic)
+1112,206,Instant Karma,U2
+1113,206,Cold Turkey,U2
+1114,206,"Oh, My Love",U2
+1115,207,Imagine,U2
+1116,207,[Just Like] Starting Over,U2
+1117,207,Fairies Wear Boots,Ozzy Osbourne
+1118,207,"Sabbath, Bloody Sabbath",Ozzy Osbourne
+1119,207,Loving You Sunday Morning,Scorpions
+1120,207,Tease Me Please Me,Scorpions
+1121,207,Top O' The Morning To Ya,House Of Pain
+1122,207,Guess Who's Back,House Of Pain
+1123,207,Feel It,House Of Pain
+1124,208,Um Lugar ao Sol,O Rappa
+1125,208,Chega no Suingue,O Rappa
+1126,208,The Economist,Lost
+1127,208,Din Din Wo (Little Child),Habib Koité and Bamada
+1128,208,Something Nice Back Home,Lost
+1129,208,Call Me a Dog,Temple of the Dog
+1130,208,Safe and Sound,Chris Cornell
+1131,208,Disappearing Act,Chris Cornell
+1132,208,Shape of Things to Come,Audioslave
+1133,208,Canon and Gigue in D Major: I. Canon,English Concert & Trevor Pinnock
+1134,208,"Symphony No. 104 in D Major ""London"": IV. Finale: Spiritoso",Royal Philharmonic Orchestra & Sir Thomas Beecham
+1135,208,"Jupiter, the Bringer of Jollity",Eugene Ormandy
+1136,208,"Scheherazade, Op. 35: I. The Sea and Sindbad's Ship",Chicago Symphony Orchestra & Fritz Reiner
+1137,208,Two Fanfares for Orchestra: II. Short Ride in a Fast Machine,Edo de Waart & San Francisco Symphony
+1138,209,Rehab,Amy Winehouse
+1139,210,You Know I'm No Good,Amy Winehouse
+1140,210,Me & Mr. Jones,Amy Winehouse
+1141,211,Back to Black,Amy Winehouse
+1142,211,Tears Dry On Their Own,Amy Winehouse
+1143,212,Some Unholy War,Amy Winehouse
+1144,212,You Know I'm No Good (feat. Ghostface Killah),Amy Winehouse
+1145,212,Intro / Stronger Than Me,Amy Winehouse
+1146,212,F**k Me Pumps,Amy Winehouse
+1147,213,Take the Box,Amy Winehouse
+1148,213,Amy Amy Amy (Outro),Amy Winehouse
+1149,213,"A Midsummer Night's Dream, Op.61 Incidental Music: No.7 Notturno",Philharmonia Orchestra & Sir Neville Marriner
+1150,213,"Symphony No. 3 Op. 36 for Orchestra and Soprano ""Symfonia Piesni Zalosnych"" \ Lento E Largo - Tranquillissimo",Adrian Leaper & Doreen de Feis
+1151,213,Symphony No. 2: III. Allegro vivace,Kent Nagano and Orchestre de l'Opéra de Lyon
+1152,213,"Metopes, Op. 29: Calypso",Martin Roscoe
+1153,214,Pini Di Roma (Pinien Von Rom) \ I Pini Della Via Appia,Eugene Ormandy
+1154,214,Balls to the Wall,Accept
+1155,214,Inject The Venom,AC/DC
+1156,214,Spellbound,AC/DC
+1157,214,Overdose,AC/DC
+1158,214,What It Takes,Aerosmith
+1159,214,Deuces Are Wild,Aerosmith
+1160,214,All I Really Want,Alanis Morissette
+1161,214,You Learn,Alanis Morissette
+1162,215,Sea Of Sorrow,Alice In Chains
+1163,215,Real Thing,Alice In Chains
+1164,215,Falando De Amor,Antônio Carlos Jobim
+1165,215,The Unforgiven,Apocalyptica
+1166,215,Like a Stone,Audioslave
+1167,215,The Last Remaining Light,Audioslave
+1168,215,Yesterday To Tomorrow,Audioslave
+1169,215,C'Mon Everybody,BackBeat
+1170,215,"Spanish moss-""A sound portrait""-Spanish moss",Billy Cobham
+1171,215,All For You,Black Label Society
+1172,215,The Begining... At Last,Black Label Society
+1173,215,N.I.B.,Black Sabbath
+1174,215,Snowblind,Black Sabbath
+1175,215,A Statistic,Body Count
+1176,216,Chemical Wedding,Bruce Dickinson
+1177,217,The Tower,Bruce Dickinson
+1178,217,Killing Floor,Bruce Dickinson
+1179,218,Gates Of Urizen,Bruce Dickinson
+1180,218,Trupets Of Jericho,Bruce Dickinson
+1181,219,The Alchemist,Bruce Dickinson
+1182,219,First Time I Met The Blues,Buddy Guy
+1183,219,Stone Crazy,Buddy Guy
+1184,219,When My Left Eye Jumps,Buddy Guy
+1185,220,My Time After Awhile,Buddy Guy
+1186,220,Prenda Minha,Caetano Veloso
+1187,220,"Texto ""Verdade Tropical""",Caetano Veloso
+1188,220,Carolina,Caetano Veloso
+1189,220,Linha Do Equador,Caetano Veloso
+1190,220,Vida Boa,Caetano Veloso
+1191,221,Vai Passar,Chico Buarque
+1192,221,Morena De Angola,Chico Buarque
+1193,221,Meu Caro Amigo,Chico Buarque
+1194,221,Mateus Enter,Chico Science & Nação Zumbi
+1195,221,Samba Do Lado,Chico Science & Nação Zumbi
+1196,221,Um Satélite Na Cabeça,Chico Science & Nação Zumbi
+1197,221,Amor De Muito,Chico Science & Nação Zumbi
+1198,221,Banditismo Por Uma Questa,Chico Science & Nação Zumbi
+1199,221,Maracatu De Tiro Certeiro,Chico Science & Nação Zumbi
+1200,222,Soldado Da Paz,Cidade Negra
+1201,222,Pensamento,Cidade Negra
+1202,222,Falar A Verdade,Cidade Negra
+1203,222,Eu Também Quero Beijar,Cidade Negra
+1204,222,Felicidade Urgente,Cláudio Zoli
+1205,222,Levada do Amor (Ailoviu),Various Artists
+1206,222,Communication Breakdown,Led Zeppelin
+1207,222,I Can't Quit You Baby(2),Led Zeppelin
+1208,222,Advance Romance,Frank Zappa & Captain Beefheart
+1209,222,Camisa Verde 2001,Various Artists
+1210,222,Mas Que Nada,Marcos Valle
+1211,222,Mistério da Raça,Marcos Valle
+1212,222,Tarde Em Itapoã,Antônio Carlos Jobim
+1213,222,Um Jantar Pra Dois,Antônio Carlos Jobim
+1214,223,Whiskey In The Jar,Metallica
+1215,224,Tuesday's Gone,Metallica
+1216,224,The More I See,Metallica
+1217,225,Under Pressure,Queen
+1218,225,I Want It All,Queen
+1219,226,Innuendo,Queen
+1220,226,Breakthru,Queen
+1221,226,Headlong,Queen
+1222,226,I'm Going Slightly Mad,Queen
+1223,227,The Show Must Go On,Queen
+1224,227,Hard Luck Woman,Kiss
+1225,227,Goin' Blind,Kiss
+1226,227,I Was Made For Loving You,Kiss
+1227,227,Beth,Kiss
+1228,227,Plaster Caster,Kiss
+1229,228,Playtime,Spyro Gyra
+1230,228,J Squared,Spyro Gyra
+1231,228,Basket Case,Green Day
+1232,228,Jaded,Green Day
+1233,228,Nice Guys Finish Last,Green Day
+1234,228,River Song,David Coverdale
+1235,228,Living On Love,David Coverdale
+1236,228,Não Dá Mais Pra Segurar (Explode Coração),Gonzaguinha
+1237,228,Eu Apenas Queria Que Voçê Soubesse,Gonzaguinha
+1238,229,Um Indio,Chico Buarque
+1239,229,Fora Da Ordem,Chico Buarque
+1240,229,Chão De Estrelas,Os Mutantes
+1241,229,Stormbringer,Deep Purple
+1242,229,Houses Of The Holy,Led Zeppelin
+1243,229,Mangueira,Various Artists
+1244,229,Love Of My Life,Santana
+1245,229,El Farol,Santana
+1246,229,Um Love,Ed Motta
+1247,229,Jeru,Miles Davis
+1248,229,So What,Miles Davis
+1249,229,Black Satin,Miles Davis
+1250,229,Blue Rythm Fantasy,Gene Krupa
+1251,229,Bop Boogie,Gene Krupa
+1252,230,Onde Anda Você,Toquinho & Vinícius
+1253,231,Samba Da Volta,Toquinho & Vinícius
+1254,231,Canto De Ossanha,Toquinho & Vinícius
+1255,232,Formosa,Toquinho & Vinícius
+1256,232,Minha Namorada,Toquinho & Vinícius
+1257,233,Berimbau,Toquinho & Vinícius
+1258,233,Pot-Pourri N.º 2,Toquinho & Vinícius
+1259,233,Carta Ao Tom 74,Toquinho & Vinícius
+1260,233,Pela Luz dos Olhos Teus (Miúcha e Tom Jobim),Various Artists
+1261,234,Coração do Agreste (Fafá de Belém),Various Artists
+1262,234,Romaria (Renato Teixeira),Various Artists
+1263,234,Preciso Apender a Viver Só (Maysa),Various Artists
+1264,234,Bad Moon Rising,Creedence Clearwater Revival
+1265,234,Down On The Corner,Creedence Clearwater Revival
+1266,234,Up Around The Bend,Creedence Clearwater Revival
+1267,235,Hey Tonight,Creedence Clearwater Revival
+1268,235,Good Golly Miss Molly,Creedence Clearwater Revival
+1269,235,Don't Look Now,Creedence Clearwater Revival
+1270,235,It's Just A Thought,Creedence Clearwater Revival
+1271,235,Brasil,Cássia Eller
+1272,235,Meu Mundo Fica Completo (Com Você),Cássia Eller
+1273,235,Woman Of The World (Ao Vivo),Cássia Eller
+1274,235,Todo Amor Que Houver Nesta Vida,Cássia Eller
+1275,235,Socorro,Cássia Eller
+1276,236,I Need Love,Deep Purple
+1277,236,Into The Fire,Deep Purple
+1278,236,No One Came,Deep Purple
+1279,236,Hush,Deep Purple
+1280,236,Space Truckin',Deep Purple
+1281,236,A Touch Away,Deep Purple
+1282,236,Love Conquers All,Deep Purple
+1283,236,You Can't Do it Right (With the One You Love),Deep Purple
+1284,236,Ramshackle Man,Deep Purple
+1285,236,Two Steps Behind [Acoustic Version],Def Leppard
+1286,236,Rock Of Ages,Def Leppard
+1287,236,Outbreak,Dennis Chambers
+1288,236,Álibi,Djavan
+1289,236,Oceano,Djavan
+1290,237,"Dois Pra Lá, Dois Pra Cá",Elis Regina
+1291,238,Casa no Campo,Elis Regina
+1292,238,Romaria,Elis Regina
+1293,239,Me Deixas Louca,Elis Regina
+1294,239,Saudosa Maloca,Elis Regina
+1295,240,Madalena,Elis Regina
+1296,240,Aprendendo A Jogar,Elis Regina
+1297,240,Badge,Eric Clapton
+1298,240,Sunshine Of Your Love,Eric Clapton
+1299,241,Bell Bottom Blues,Eric Clapton
+1300,241,Swing Low Sweet Chariot,Eric Clapton
+1301,241,Let It Grow,Eric Clapton
+1302,241,Before You Accuse Me,Eric Clapton
+1303,241,Nobody Knows You When You're Down & Out,Eric Clapton
+1304,241,Alberta,Eric Clapton
+1305,242,Stripsearch,Faith No More
+1306,242,She Loves Me Not,Faith No More
+1307,242,Caffeine,Faith No More
+1308,242,Kindergarten,Faith No More
+1309,242,Easy,Faith No More
+1310,242,Cuckoo For Caca,Faith No More
+1311,242,What A Day,Faith No More
+1312,242,Falling To Pieces,Faith No More
+1313,242,Woodpecker From Mars,Faith No More
+1314,243,Zeca Violeiro,Falamansa
+1315,243,No Way Back,Foo Fighters
+1316,243,Still,Foo Fighters
+1317,243,Razor,Foo Fighters
+1318,243,Overdrive,Foo Fighters
+1319,243,My Hero,Foo Fighters
+1320,243,"New York, New York",Frank Sinatra
+1321,243,My Kind Of Town,Frank Sinatra
+1322,243,"Bad, Bad Leroy Brown",Frank Sinatra
+1323,243,Zambação,Funk Como Le Gusta
+1324,243,Divirta-Se (Saindo Da Sua),Funk Como Le Gusta
+1325,243,Assum Preto,Gilberto Gil
+1326,243,Is This Love (Live),Gilberto Gil
+1327,243,Copacabana (Live),Gilberto Gil
+1328,244,Beira Mar,Eric Clapton
+1329,245,Sampa,Eric Clapton
+1330,245,Parabolicamará,Eric Clapton
+1331,246,Expresso 2222,Eric Clapton
+1332,246,Palco,Eric Clapton
+1333,247,Sítio Do Pica-Pau Amarelo,Eric Clapton
+1334,247,Faceless,Godsmack
+1335,247,Make Me Believe,Godsmack
+1336,247,Re-Align,Godsmack
+1337,248,I Am,Godsmack
+1338,248,Jesus Of Suburbia / City Of The Damned / I Don't Care / Dearly Beloved / Tales Of Another Broken Home,Green Day
+1339,248,St. Jimmy,Green Day
+1340,248,Letterbomb,Green Day
+1341,248,Welcome to the Jungle,Guns N' Roses
+1342,248,Mr. Brownstone,Guns N' Roses
+1343,249,Anything Goes,Guns N' Roses
+1344,249,Perfect Crime,Guns N' Roses
+1345,249,The Garden,Guns N' Roses
+1346,249,Civil War,Guns N' Roses
+1347,249,Breakdown,Guns N' Roses
+1348,249,Don't Cry,Guns N' Roses
+1349,249,L'Arc En Ciel De Miles,Incognito
+1350,249,Jacob's Ladder,Incognito
+1351,249,The Pilgrim,Iron Maiden
+1352,250,The Trooper,Iron Maiden
+1353,250,Iron Maiden,Iron Maiden
+1354,250,Bring Your Daughter... To The Slaughter,Iron Maiden
+1355,250,Dream Of Mirrors,Iron Maiden
+1356,250,Dance Of Death,Iron Maiden
+1357,250,Afraid To Shoot Strangers,Iron Maiden
+1358,250,Fear Of The Dark,Iron Maiden
+1359,250,09 - Iron Maiden,Iron Maiden
+1360,250,Purgatory,Iron Maiden
+1361,250,Powerslave,Iron Maiden
+1362,250,Die With Your Boots On,Iron Maiden
+1363,250,The Evil That Men Do,Iron Maiden
+1364,250,Hallowed Be Thy Name,Iron Maiden
+1365,250,The Assassin,Iron Maiden
+1366,251,Aces High,Iron Maiden
+1367,252,2 Minutes To Midnight,Iron Maiden
+1368,252,Losfer Words,Iron Maiden
+1369,253,Duelists,Iron Maiden
+1370,253,Powerslave,Iron Maiden
+1371,254,Intro,Iron Maiden
+1372,254,Ghost Of The Navigator,Iron Maiden
+1373,254,Wrathchild,Iron Maiden
+1374,254,Blood Brothers,Iron Maiden
+1375,255,Dream Of Mirrors,Iron Maiden
+1376,255,Iron Maiden,Iron Maiden
+1377,255,Run To The Hills,Iron Maiden
+1378,255,The Evil That Men Do,Iron Maiden
+1379,255,Only the Good Die Young,Iron Maiden
+1380,255,Heaven Can Wait,Iron Maiden
+1381,256,Children of the Damned,Iron Maiden
+1382,256,The Prisoner,Iron Maiden
+1383,256,The Aftermath,Iron Maiden
+1384,256,Futureal,Iron Maiden
+1385,256,Don't Look To The Eyes Of A Stranger,Iron Maiden
+1386,256,Papa's Got A Brand New Bag Pt.1,James Brown
+1387,256,Hey America,James Brown
+1388,256,Living In America,James Brown
+1389,256,Hooked Up,Jamiroquai
+1390,257,Planet Home,Jamiroquai
+1391,257,Deeper Underground,Jamiroquai
+1392,257,Journey To Arnhemland,Jamiroquai
+1393,257,Radio Song,JET
+1394,257,Red House,Jimi Hendrix
+1395,257,Hey Joe,Jimi Hendrix
+1396,257,"Always With Me, Always With You",Joe Satriani
+1397,257,Mama Africa,Jorge Ben
+1398,257,Santa Clara Clareou,Jorge Ben
+1399,257,Encontrar Alguém,Jota Quest
+1400,257,No Futuro,João Suplicy
+1401,257,Cafezinho,João Suplicy
+1402,257,You've Got Another Thing Comin',Judas Priest
+1403,257,Comin' Home,Kiss
+1404,258,Rock And Roll All Nite,Kiss
+1405,259,Immigrant Song,Led Zeppelin
+1406,259,Heartbreaker,Led Zeppelin
+1407,260,Black Dog,Led Zeppelin
+1408,260,Stairway To Heaven,Led Zeppelin
+1409,261,That's The Way,Led Zeppelin
+1410,261,Thank You,Led Zeppelin
+1411,261,Poor Tom,Led Zeppelin
+1412,261,Walter's Walk,Led Zeppelin
+1413,262,Wearing And Tearing,Led Zeppelin
+1414,262,The Crunge,Led Zeppelin
+1415,262,The Ocean,Led Zeppelin
+1416,262,Hot Dog,Led Zeppelin
+1417,262,Black Dog,Led Zeppelin
+1418,262,Misty Mountain Hop,Led Zeppelin
+1419,263,You Shook Me,Led Zeppelin
+1420,263,How Many More Times,Led Zeppelin
+1421,263,Living Loving Maid (She's Just A Woman),Led Zeppelin
+1422,263,Celebration Day,Led Zeppelin
+1423,263,Bron-Y-Aur Stomp,Led Zeppelin
+1424,263,Night Flight,Led Zeppelin
+1425,263,For Your Life,Led Zeppelin
+1426,263,Rock & Roll,Led Zeppelin
+1427,263,Stairway To Heaven,Led Zeppelin
+1428,264,Aloha,Legião Urbana
+1429,264,Será,Legião Urbana
+1430,264,Pais E Filhos,Legião Urbana
+1431,264,Rock And Roll Is Dead,Lenny Kravitz
+1432,264,I Belong To You,Lenny Kravitz
+1433,264,Casa,Lulu Santos
+1434,264,A Cura,Lulu Santos
+1435,264,Sereia,Lulu Santos
+1436,264,Heart Of Lothian: Wide Boy / Curtain Call,Marillion
+1437,264,Cérebro Eletrônico,Marisa Monte
+1438,264,A Menina Dança,Marisa Monte
+1439,264,You've Been A Long Time Coming,Marvin Gaye
+1440,264,"Abraham, Martin And John",Marvin Gaye
+1441,264,Everything I Need,Men At Work
+1442,265,Nothing Else Matters,Metallica
+1443,266,Of Wolf And Man,Metallica
+1444,266,The God That Failed,Metallica
+1445,267,The Struggle Within,Metallica
+1446,267,The Small Hours,Metallica
+1447,268,Crash Course In Brain Surgery,Metallica
+1448,268,Am I Evil?,Metallica
+1449,268,Breadfan,Metallica
+1450,268,Stone Cold Crazy,Metallica
+1451,269,Damage Case,Metallica
+1452,269,The Four Horsemen,Metallica
+1453,269,Whiplash,Metallica
+1454,269,Metal Militia,Metallica
+1455,269,Until It Sleeps,Metallica
+1456,269,Cure,Metallica
+1457,270,The Outlaw Torn,Metallica
+1458,270,Leper Messiah,Metallica
+1459,270,The Unforgiven II,Metallica
+1460,270,Prince Charming,Metallica
+1461,270,For Whom The Bell Tolls,Metallica
+1462,270,Frantic,Metallica
+1463,270,Shoot Me Again,Metallica
+1464,270,...And Justice For All,Metallica
+1465,270,To Live Is To Die,Metallica
+1466,271,The Meaning Of The Blues,Miles Davis
+1467,271,Paisagem Na Janela,Milton Nascimento
+1468,271,Para Lennon E McCartney,Milton Nascimento
+1469,271,Idolatrada,Milton Nascimento
+1470,271,Live To Win,Motörhead
+1471,271,Dirty Love,Motörhead
+1472,271,É Fogo,Mônica Marianno
+1473,271,Kickstart My Heart,Mötley Crüe
+1474,271,Smokin' in The Boys Room,Mötley Crüe
+1475,271,Smells Like Teen Spirit,Nirvana
+1476,271,Polly,Nirvana
+1477,271,Polly,Nirvana
+1478,271,Sangue Latino,O Terço
+1479,271,Às Vezes,O Terço
+1480,272,Revolta Olodum,Olodum
+1481,273,Reggae Odoyá,Olodum
+1482,273,Protesto Do Olodum (Ao Vivo),Olodum
+1483,274,Vulcão Dub - Fui Eu,Os Paralamas Do Sucesso
+1484,274,Manguetown,Os Paralamas Do Sucesso
+1485,275,Bora-Bora,Os Paralamas Do Sucesso
+1486,275,I Feel Good (I Got You) - Sossego,Os Paralamas Do Sucesso
+1487,275,Sincero Breu,Os Paralamas Do Sucesso
+1488,275,Selvagem,Os Paralamas Do Sucesso
+1489,276,Navegar Impreciso,Os Paralamas Do Sucesso
+1490,276,Life During Wartime,Os Paralamas Do Sucesso
+1491,276,Tendo A Lua,Os Paralamas Do Sucesso
+1492,276,Busca Vida,Os Paralamas Do Sucesso
+1493,276,Ela Disse Adeus,Os Paralamas Do Sucesso
+1494,276,Óculos,Os Paralamas Do Sucesso
+1495,277,O Beco,Os Paralamas Do Sucesso
+1496,277,Romance Ideal,Os Paralamas Do Sucesso
+1497,277,Flying High Again,Ozzy Osbourne
+1498,277,Mr. Crowley,Ozzy Osbourne
+1499,277,Children Of The Grave,Ozzy Osbourne
+1500,277,When The World Was Young,Page & Plant
+1501,277,Walking Into Clarksdale,Page & Plant
+1502,277,Slug,Passengers
+1503,277,Ito Okashi,Passengers
+1504,278,Prowler,Paul D'Ianno
+1505,278,Given To Fly,Pearl Jam
+1506,278,Off He Goes,Pearl Jam
+1507,278,Severed Hand,Pearl Jam
+1508,278,Inside Job,Pearl Jam
+1509,278,Get Right,Pearl Jam
+1510,278,Alive,Pearl Jam
+1511,278,Go,Pearl Jam
+1512,278,Elderly Woman Behind The Counter In A Small Town,Pearl Jam
+1513,278,Bush Doctor,Lenny Kravitz
+1514,278,Time,Pink Floyd
+1515,278,Hip Hop Rio,Planet Hemp
+1516,278,Rappers Reais,Planet Hemp
+1517,278,Bicycle Race,Queen
+1518,279,We Are The Champions,Queen
+1519,280,Sheer Heart Attack,Queen
+1520,280,"All Dead, All Dead",Queen
+1521,281,Fight From The Inside,Queen
+1522,281,Sleep On The Sidewalk,Queen
+1523,282,It's Late,Queen
+1524,282,Shiny Happy People,R.E.M. Feat. Kate Pearson
+1525,282,Radio Song,R.E.M. Feat. Kate Pearson
+1526,282,Get Up,R.E.M.
+1527,283,The Wrong Child,R.E.M.
+1528,283,I Remember California,R.E.M.
+1529,283,New Test Leper,R.E.M.
+1530,283,Departure,R.E.M.
+1531,283,Zither,R.E.M.
+1532,283,Losing My Religion,R.E.M. Feat. Kate Pearson
+1533,284,Texarkana,R.E.M. Feat. Kate Pearson
+1534,284,So Central Rain,R.E.M.
+1535,284,Fall On Me,R.E.M.
+1536,284,Infeliz Natal,Raimundos
+1537,284,Esporrei Na Manivela,Raimundos
+1538,284,No Fundo Do Quintal Da Escola,Raul Seixas
+1539,284,Que Luz É Essa,Raul Seixas
+1540,284,The Power Of Equality,Red Hot Chili Peppers
+1541,284,Mellowship Slinky In B Major,Red Hot Chili Peppers
+1542,285,Sir Psycho Sexy,Red Hot Chili Peppers
+1543,285,I Could Die For You,Red Hot Chili Peppers
+1544,285,Around The World,Red Hot Chili Peppers
+1545,285,I Like Dirt,Red Hot Chili Peppers
+1546,285,Freewill,Rush
+1547,285,Fly By Night,Rush
+1548,285,Santana Jam,Santana
+1549,285,The Right Thing,Lenny Kravitz
+1550,285,For Your Babies,Lenny Kravitz
+1551,285,Muçulmano,Skank
+1552,285,Zé Trindade,Skank
+1553,285,Lucky 13,Smashing Pumpkins
+1554,285,Waiting,Smashing Pumpkins
+1555,285,Drown,Smashing Pumpkins
+1556,286,Real Love,Smashing Pumpkins
+1557,287,[Untitled],Smashing Pumpkins
+1558,287,Nothing To Say,Soundgarden
+1559,288,Loud Love,Soundgarden
+1560,288,Get On The Snake,Soundgarden
+1561,289,Outshined,Soundgarden
+1562,289,Spoonman,Soundgarden
+1563,289,Black Hole Sun,Soundgarden
+1564,289,Pretty Noose,Soundgarden
+1565,290,Bleed Together,Soundgarden
+1566,290,Song For Lorraine,Spyro Gyra
+1567,290,Little Linda,Spyro Gyra
+1568,290,Tightrope,Stevie Ray Vaughan & Double Trouble
+1569,290,Wall Of Denial,Stevie Ray Vaughan & Double Trouble
+1570,290,Dead And Bloated,Stone Temple Pilots
+1571,291,Creep,Stone Temple Pilots
+1572,291,Soldier Side - Intro,System Of A Down
+1573,291,Violent Pornography,System Of A Down
+1574,291,Dark Corners,"Terry Bozzio, Tony Levin & Steve Stevens"
+1575,291,Midnight From The Inside Out,The Black Crowes
+1576,291,Miracle To Me,The Black Crowes
+1577,291,Title Song,The Black Crowes
+1578,291,Remedy,The Black Crowes
+1579,291,Tommy Gun,The Clash
+1580,292,This Is Radio Clash,The Clash
+1581,292,Nico,The Cult
+1582,292,Lil' Evil,The Cult
+1583,292,Love,The Cult
+1584,292,The Crystal Ship,The Doors
+1585,292,Roxanne,The Police
+1586,292,Every Breath You Take,The Police
+1587,292,As Tears Go By,The Rolling Stones
+1588,292,You Got Me Rocking,The Rolling Stones
+1589,292,Respectable,The Rolling Stones
+1590,292,Moon Is Up,The Rolling Stones
+1591,292,Mean Disposition,The Rolling Stones
+1592,292,Release,The Tea Party
+1593,292,Psychopomp,The Tea Party
+1594,293,Boris The Spider,The Who
+1595,294,Happy Jack,The Who
+1596,294,Pictures Of Lily,The Who
+1597,295,Magic Bus,The Who
+1598,295,The Seeker,The Who
+1599,296,Won't Get Fooled Again (Full Length Version),The Who
+1600,296,5.15,The Who
+1601,296,Squeeze Box,The Who
+1602,296,You Better You Bet,The Who
+1603,297,O Descobridor Dos Sete Mares,Tim Maia
+1604,297,Não Vou Ficar,Tim Maia
+1605,297,Cristina Nº 2,Tim Maia
+1606,297,O Que Me Importa,Tim Maia
+1607,297,Eu Amo Você,Tim Maia
+1608,297,Nosso Adeus,Tim Maia
+1609,298,Formigueiro,Tim Maia
+1610,298,O Pulso,Titãs
+1611,298,A Melhor Forma,Titãs
+1612,298,Homem Primata,Titãs
+1613,298,Lugar Nenhum,Titãs
+1614,298,Caras Como Eu,Titãs
+1615,298,Toda Cor,Titãs
+1616,298,"Exodus, Pt. 2",Battlestar Galactica
+1617,298,The Passage,Battlestar Galactica
+1618,299,"Crossroads, Pt. 1",Battlestar Galactica
+1619,299,Seven Minutes to Midnight,Heroes
+1620,299,Company Man,Heroes
+1621,299,Orientation,Lost
+1622,299,House of the Rising Sun,Lost
+1623,299,Lost Survival Guide,Lost
+1624,299,Enter 77,Lost
+1625,299,Exposé,Lost
+1626,299,Catch-22,Lost
+1627,299,"""?""",Lost
+1628,299,Even Better Than The Real Thing,U2
+1629,299,Acrobat,U2
+1630,299,Peace On Earth,U2
+1631,299,Dancing Barefoot,U2
+1632,300,City Of Blinding Lights,U2
+1633,301,All Because Of You,U2
+1634,301,A Man And A Woman,U2
+1635,302,One Step Closer,U2
+1636,302,Yahweh,U2
+1637,303,Do You Feel Loved,U2
+1638,303,If God Will Send His Angels,U2
+1639,303,Last Night On Earth,U2
+1640,303,Miami,U2
+1641,304,Wake Up Dead Man,U2
+1642,304,Hawkmoon 269,U2
+1643,304,Silver And Gold,U2
+1644,304,When Love Comes To Town,U2
+1645,304,Bullet The Blue Sky,U2
+1646,304,With Or Without You,U2
+1647,305,The Unforgettable Fire,U2
+1648,305,Sunday Bloody Sunday,U2
+1649,305,Two Hearts Beat As One,U2
+1650,305,Numb,U2
+1651,305,Dirty Day,U2
+1652,305,Here I Am (Come And Take Me),UB40
+1653,305,C'est La Vie,UB40
+1654,305,Cathedral,Van Halen
+1655,305,Little Guitars,Van Halen
+1656,306,Unchained,Van Halen
+1657,306,Humans Being,Van Halen
+1658,306,Atomic Punk,Van Halen
+1659,306,Dirty Water Dog,Van Halen
+1660,306,Do It For The Kids,Velvet Revolver
+1661,306,Slither,Velvet Revolver
+1662,306,Samba Pra Endrigo,Vinícius De Moraes
+1663,306,Still Of The Night,Lenny Kravitz
+1664,306,You're Gonna Break My Hart Again,Lenny Kravitz
+1665,306,Coração Em Desalinho,Zeca Pagodinho
+1666,306,Camarão que Dorme e Onda Leva,Zeca Pagodinho
+1667,306,The Hard Part,Heroes
+1668,306,Hot Girl,The Office
+1669,306,Email Surveillance,The Office
+1670,307,Gay Witch Hunt,The Office
+1671,308,The Convention,The Office
+1672,308,The Coup,The Office
+1673,309,The Initiation,The Office
+1674,309,Branch Closing,The Office
+1675,310,The Convict,The Office
+1676,310,Back from Vacation,The Office
+1677,310,Producer's Cut: The Return,The Office
+1678,310,Phyllis's Wedding,The Office
+1679,311,Safety Training,The Office
+1680,311,The Job,The Office
+1681,311,"Battlestar Galactica, Pt. 1",Battlestar Galactica (Classic)
+1682,311,"Lost Planet of the Gods, Pt. 2",Battlestar Galactica (Classic)
+1683,311,"The Gun On Ice Planet Zero, Pt. 2",Battlestar Galactica (Classic)
+1684,311,"The Living Legend, Pt. 2",Battlestar Galactica (Classic)
+1685,312,"Greetings from Earth, Pt. 1",Battlestar Galactica (Classic)
+1686,312,Pilot,Aquaman
+1687,312,Give Peace a Chance,U2
+1688,312,Imagine,U2
+1689,312,Beautiful Boy,U2
+1690,312,God,U2
+1691,312,War Pigs,Ozzy Osbourne
+1692,312,Iron Man/Children of the Grave,Ozzy Osbourne
+1693,312,Still Loving You,Scorpions
+1694,313,Salutations,House Of Pain
+1695,313,Commercial 2,House Of Pain
+1696,313,Instinto Colectivo,O Rappa
+1697,313,Armadura,O Rappa
+1698,313,"Past, Present, and Future",Lost
+1699,313,Ji Yeon,Lost
+1700,313,Love Comes,The Posies
+1701,313,"There's No Place Like Home, Pt. 3",Lost
+1702,313,Four Walled World,Temple of the Dog
+1703,313,Billie Jean,Chris Cornell
+1704,313,Sound of a Gun,Audioslave
+1705,313,Moth,Audioslave
+1706,313,"Suite for Solo Cello No. 1 in G Major, BWV 1007: I. Prélude",Yo-Yo Ma
+1707,313,Die Walküre: The Ride of the Valkyries,Sir Georg Solti & Wiener Philharmoniker
+1708,314,"Scheherazade, Op. 35: I. The Sea and Sindbad's Ship",Chicago Symphony Orchestra & Fritz Reiner
+1709,315,"Concerto No.2 in F Major, BWV1047, I. Allegro",Orchestra of The Age of Enlightenment
+1710,315,"Concerto for Piano No. 2 in F Minor, Op. 21: II. Larghetto","Emanuel Ax, Eugene Ormandy & Philadelphia Orchestra"
+1711,316,"Karelia Suite, Op.11: 2. Ballade (Tempo Di Menuetto)",Berliner Philharmoniker & Hans Rosbaud
+1712,316,Fantasia On Greensleeves,Academy of St. Martin in the Fields & Sir Neville Marriner
+1713,317,"Concerto for Cello and Orchestra in E minor, Op. 85: I. Adagio - Moderato","Felix Schmidt, London Symphony Orchestra & Rafael Frühbeck de Burgos"
+1714,317,"Wellington's Victory or the Battle Symphony, Op.91: 2. Symphony of Triumph",Antal Doráti & London Symphony Orchestra
+1715,317,Romeo et Juliette: No. 11 - Danse des Chevaliers,Michael Tilson Thomas & San Francisco Symphony
+1716,317,"Symphonie Fantastique, Op. 14: V. Songe d'une nuit du sabbat",Michael Tilson Thomas & San Francisco Symphony
+1717,318,"Peer Gynt Suite No.1, Op.46: 1. Morning Mood",Berliner Philharmoniker & Herbert Von Karajan
+1718,318,"Symphony No. 41 in C Major, K. 551, ""Jupiter"": IV. Molto allegro",Berliner Philharmoniker & Herbert Von Karajan
+1719,318,Just Friends,Amy Winehouse
+1720,318,Wake Up Alone,Amy Winehouse
+1721,318,Rehab (Hot Chip Remix),Amy Winehouse
+1722,318,I Heard Love Is Blind,Amy Winehouse
+1723,319,Help Yourself,Amy Winehouse
+1724,319,"Suite No. 3 in D, BWV 1068: III. Gavotte I & II","Academy of St. Martin in the Fields, Sir Neville Marriner & Thurston Dart"
+1725,319,"Music for the Funeral of Queen Mary: VI. ""Thou Knowest, Lord, the Secrets of Our Hearts""","Equale Brass Ensemble, John Eliot Gardiner & Munich Monteverdi Orchestra and Choir"
+1726,319,"Symphony No. 2, Op. 16 -  ""The Four Temperaments"": II. Allegro Comodo e Flemmatico",Göteborgs Symfoniker & Neeme Järvi
+1727,319,"String Quartet No. 12 in C Minor, D. 703 ""Quartettsatz"": II. Andante - Allegro assai",Emerson String Quartet
+1728,319,Fast As a Shark,Accept
+1729,319,Snowballed,AC/DC
+1730,319,Go Down,AC/DC
+1731,319,Hell Ain't A Bad Place To Be,AC/DC
+1732,320,Amazing,Aerosmith
+1733,320,You Oughta Know,Alanis Morissette
+1734,320,Not The Doctor,Alanis Morissette
+1735,320,It Ain't Like That,Alice In Chains
+1736,320,Por Causa De Você,Antônio Carlos Jobim
+1737,320,O Boto (Bôto),Antônio Carlos Jobim
+1738,320,Welcome Home (Sanitarium),Apocalyptica
+1739,320,Exploder,Audioslave
+1740,320,Doesn't Remind Me,Audioslave
+1741,320,Money,BackBeat
+1742,320,Carol,BackBeat
+1743,320,Solo-Panhandler,Billy Cobham
+1744,320,Bored To Tears,Black Label Society
+1745,320,Blood In The Wall,Black Label Society
+1746,321,Snowblind,Black Sabbath
+1747,322,Cornucopia,Black Sabbath
+1748,322,Laguna Sunrise,Black Sabbath
+1749,323,Under The Sun/Every Day Comes and Goes,Black Sabbath
+1750,323,Body Count's In The House,Body Count
+1751,324,Body Count,Body Count
+1752,324,Bowels Of The Devil,Body Count
+1753,324,KKK Bitch,Body Count
+1754,324,Voodoo,Body Count
+1755,325,Evil Dick,Body Count
+1756,325,King In Crimson,Bruce Dickinson
+1757,325,Book Of Thel,Bruce Dickinson
+1758,325,Machine Men,Bruce Dickinson
+1759,325,Let Me Love You Baby,Buddy Guy
+1760,325,Leave My Girl Alone,Buddy Guy
+1761,326,Jorge Da Capadócia,Caetano Veloso
+1762,326,Bem Devagar,Caetano Veloso
+1763,326,Mel,Caetano Veloso
+1764,326,Sozinho (Hitmakers Classic Mix),Caetano Veloso
+1765,326,Samba De Orly,Chico Buarque
+1766,326,Apesar De Você,Chico Buarque
+1767,326,Geni E O Zepelim,Chico Buarque
+1768,326,O Cidadão Do Mundo,Chico Science & Nação Zumbi
+1769,326,Maracatu Atômico,Chico Science & Nação Zumbi
+1770,327,Interlude Zumbi,Chico Science & Nação Zumbi
+1771,327,Rios Pontes & Overdrives,Chico Science & Nação Zumbi
+1772,327,Lixo Do Mangue,Chico Science & Nação Zumbi
+1773,327,Podes Crer,Cidade Negra
+1774,327,A Cor Do Sol,Cidade Negra
+1775,327,Doutor,Cidade Negra
+1776,327,Linha Do Equador,Cláudio Zoli
+1777,327,TriboTchan,Various Artists
+1778,327,Reggae Tchan,Various Artists
+1779,327,Communication Breakdown(2),Led Zeppelin
+1780,327,Carolina Hard-Core Ecstasy,Frank Zappa & Captain Beefheart
+1781,327,X-9 2001,Various Artists
+1782,327,Ipiranga 2001,Various Artists
+1783,327,Água de Beber,Marcos Valle
+1784,328,Tarde Em Itapoã,Antônio Carlos Jobim
+1785,329,Tanto Tempo,Antônio Carlos Jobim
+1786,329,Eu Vim Da Bahia - Live,Antônio Carlos Jobim
+1787,330,Linha Do Horizonte,Antônio Carlos Jobim
+1788,330,Abrir A Porta,Antônio Carlos Jobim
+1789,331,Momentos Que Marcam,Antônio Carlos Jobim
+1790,331,Bumbo Da Mangueira,Antônio Carlos Jobim
+1791,331,Santo Antonio,Antônio Carlos Jobim
+1792,331,Só Tinha De Ser Com Você,Antônio Carlos Jobim
+1793,332,Turn The Page,Metallica
+1794,332,Astronomy,Metallica
+1795,332,A Kind Of Magic,Queen
+1796,332,I Want To Break Free,Queen
+1797,332,Who Wants To Live Forever,Queen
+1798,332,The Invisible Man,Queen
+1799,333,Black Diamond,Kiss
+1800,333,Shock Me,Kiss
+1801,333,Calling Dr. Love,Kiss
+1802,333,God Gave Rock 'n' Roll To You,Kiss
+1803,333,Surrender,Spyro Gyra
+1804,333,Best Thing,Spyro Gyra
+1805,333,When I Come Around,Green Day
+1806,333,Walking Contradiction,Green Day
+1807,333,Minority,Green Day
+1808,334,Slave,David Coverdale
+1809,334,Começaria Tudo Outra Vez,Gonzaguinha
+1810,334,Comportamento Geral,Gonzaguinha
+1811,334,Menino Do Rio,Chico Buarque
+1812,334,Ando Meio Desligado,Os Mutantes
+1813,334,Rita Lee,Os Mutantes
+1814,334,Smoke On The Water,Deep Purple
+1815,334,Beija-Flor,Various Artists
+1816,334,Caprichosos,Various Artists
+1817,334,Do You Like The Way,Santana
+1818,334,Manuel,Ed Motta
+1819,334,Do You Have Other Loves?,Ed Motta
+1820,334,'Round Midnight,Miles Davis
+1821,334,E.S.P.,Miles Davis
+1822,335,Blue Rythm Fantasy,Gene Krupa
+1823,336,Drum Boogie,Gene Krupa
+1824,336,Let Me Off Uptown,Gene Krupa
+1825,337,Opus No.1,Gene Krupa
+1826,337,How High The Moon,Gene Krupa
+1827,338,Up An' Atom,Gene Krupa
+1828,338,Lemon Drop,Gene Krupa
+1829,338,Overtime,Gene Krupa
+1830,338,Don't Take Your Love From Me,Gene Krupa
+1831,339,Jungle Drums,Gene Krupa
+1832,339,Pot-Pourri N.º 4,Toquinho & Vinícius
+1833,339,Pot-Pourri N.º 5,Toquinho & Vinícius
+1834,339,Por Que Será,Toquinho & Vinícius
+1835,339,Samba Em Prelúdio,Toquinho & Vinícius
+1836,339,Chão de Giz (Elba Ramalho),Various Artists
+1837,340,Caçador de Mim (Sá & Guarabyra),Various Artists
+1838,340,Susie Q,Creedence Clearwater Revival
+1839,340,Commotion,Creedence Clearwater Revival
+1840,340,Run Through The Jungle,Creedence Clearwater Revival
+1841,340,Sweet Hitch-Hiker,Creedence Clearwater Revival
+1842,340,Tombstone Shadow,Creedence Clearwater Revival
+1843,340,The Midnight Special,Creedence Clearwater Revival
+1844,340,Molina,Creedence Clearwater Revival
+1845,340,Eu Sou Neguinha (Ao Vivo),Cássia Eller
+1846,341,Palavras Ao Vento,Cássia Eller
+1847,341,Metrô. Linha 743,Cássia Eller
+1848,341,Mis Penas Lloraba Yo (Ao Vivo) Soy Gitano (Tangos),Cássia Eller
+1849,341,You Keep On Moving,Deep Purple
+1850,341,No No No,Deep Purple
+1851,341,Nobody's Home,Deep Purple
+1852,341,Maybe I'm A Leo,Deep Purple
+1853,341,Sometimes I Feel Like Screaming,Deep Purple
+1854,341,King Of Dreams,Deep Purple
+1855,341,Stormbringer,Deep Purple
+1856,341,The Battle Rages On,Deep Purple
+1857,341,One Man's Meat,Deep Purple
+1858,341,When Love & Hate Collide,Def Leppard
+1859,341,Otay,Dennis Chambers
+1860,342,Álibi,Djavan
+1861,343,Esquinas,Djavan
+1862,343,Se...,Djavan
+1863,344,Lilás,Djavan
+1864,344,Um Amor Puro,Djavan
+1865,345,Nem Um Dia,Djavan
+1866,345,Açai,Djavan
+1867,345,Flor De Lis,Djavan
+1868,345,Azul,Djavan
+1869,346,Acelerou,Djavan
+1870,346,Atrás da Porta,Elis Regina
+1871,346,"Alô, Alô, Marciano",Elis Regina
+1872,346,As Aparências Enganam,Elis Regina
+1873,346,Layla,Eric Clapton
+1874,346,Crossroads,Eric Clapton
+1875,347,After Midnight,Eric Clapton
+1876,347,Promises,Eric Clapton
+1877,347,Lonely Stranger,Eric Clapton
+1878,347,San Francisco Bay Blues,Eric Clapton
+1879,347,Last Cup Of Sorrow,Faith No More
+1880,347,Got That Feeling,Faith No More
+1881,347,Midlife Crisis,Faith No More
+1882,347,Be Aggressive,Faith No More
+1883,347,Get Out,Faith No More
+1884,348,Take This Bottle,Faith No More
+1885,348,Surprise! You're Dead!,Faith No More
+1886,348,Falamansa Song,Falamansa
+1887,348,Medo De Escuro,Falamansa
+1888,348,The Last Song,Foo Fighters
+1889,348,Friend Of A Friend,Foo Fighters
+1890,348,Times Like These,Foo Fighters
+1891,348,Monkey Wrench,Foo Fighters
+1892,348,Everlong,Foo Fighters
+1893,348,What Now My Love,Frank Sinatra
+1894,348,It Was A Very Good Year,Frank Sinatra
+1895,348,Entrando Na Sua (Intro),Funk Como Le Gusta
+1896,348,Dujji,Funk Como Le Gusta
+1897,348,Esperando Na Janela,Gilberto Gil
+1898,349,Is This Love (Live),Gilberto Gil
+1899,350,Stir It Up (Live),Gilberto Gil
+1900,350,Refavela (Live),Gilberto Gil
+1901,351,Quanta (Live),Gilberto Gil
+1902,351,Pela Internet (Live),Gilberto Gil
+1903,352,Opachorô (Live),Gilberto Gil
+1904,352,A Novidade (Live),Gilberto Gil
+1905,352,De Ouro E Marfim (Live),Gilberto Gil
+1906,352,Lamento De Carnaval,Gilberto Gil
+1907,353,Refazenda,Eric Clapton
+1908,353,A Paz,Eric Clapton
+1909,353,Tempo Rei,Eric Clapton
+1910,353,Toda Menina Baiana,Eric Clapton
+1911,353,Changes,Godsmack
+1912,353,I Fucking Hate You,Godsmack
+1913,354,American Idiot,Green Day
+1914,354,Give Me Novacaine,Green Day
+1915,354,Whatsername,Green Day
+1916,354,Paradise City,Guns N' Roses
+1917,354,Rocket Queen,Guns N' Roses
+1918,354,You Ain't the First,Guns N' Roses
+1919,354,Garden of Eden,Guns N' Roses
+1920,354,14 Years,Guns N' Roses
+1921,354,Pretty Tied Up,Guns N' Roses
+1922,355,Magnetic Ocean,Incognito
+1923,355,She Wears Black,Incognito
+1924,355,For the Greater Good of God,Iron Maiden
+1925,355,Where Eagles Dare,Iron Maiden
+1926,355,Can I Play With Madness,Iron Maiden
+1927,355,The Wicker Man,Iron Maiden
+1928,355,The Thin Line Between Love & Hate,Iron Maiden
+1929,355,Face In The Sand,Iron Maiden
+1930,355,The Fugitive,Iron Maiden
+1931,355,04 - Running Free,Iron Maiden
+1932,355,Another Life,Iron Maiden
+1933,355,2 Minutes To Midnight,Iron Maiden
+1934,355,Run To The Hills,Iron Maiden
+1935,355,Wrathchild,Iron Maiden
+1936,356,Hallowed Be Thy Name,Iron Maiden
+1937,357,The Trooper,Iron Maiden
+1938,357,Sanctuary,Iron Maiden
+1939,358,Tailgunner,Iron Maiden
+1940,358,No Prayer For The Dying,Iron Maiden
+1941,359,Fates Warning,Iron Maiden
+1942,359,Run Silent Run Deep,Iron Maiden
+1943,359,Bring Your Daughter... ...To The Slaughter,Iron Maiden
+1944,359,Where Eagles Dare,Iron Maiden
+1945,360,The Trooper,Iron Maiden
+1946,360,To Tame A Land,Iron Maiden
+1947,360,Flash of The Blade,Iron Maiden
+1948,360,Rime of the Ancient Mariner,Iron Maiden
+1949,360,Brave New World,Iron Maiden
+1950,360,Sign Of The Cross,Iron Maiden
+1951,361,Fear Of The Dark,Iron Maiden
+1952,361,Moonchild,Iron Maiden
+1953,361,The Clairvoyant,Iron Maiden
+1954,361,Stranger in a Strange Land,Iron Maiden
+1955,361,Gangland,Iron Maiden
+1956,361,Sign Of The Cross,Iron Maiden
+1957,361,Judgement Of Heaven,Iron Maiden
+1958,361,The Angel And The Gambler,Iron Maiden
+1959,361,Como Estais Amigos,Iron Maiden
+1960,362,"Say It Loud, I'm Black And I'm Proud Pt.1",James Brown
+1961,362,I'm Real,James Brown
+1962,362,"Whatever It Is, I Just Can't Stop",Jamiroquai
+1963,362,Destitute Illusions,Jamiroquai
+1964,362,Light Years,Jamiroquai
+1965,362,Are You Gonna Be My Girl,JET
+1966,362,Take It Or Leave It,JET
+1967,362,May This Be Love,Jimi Hendrix
+1968,362,The Wind Cries Mary,Jimi Hendrix
+1969,362,Lords of Karma,Joe Satriani
+1970,362,Os Alquimistas Estão Chegando,Jorge Ben
+1971,362,As Dores do Mundo,Jota Quest
+1972,362,Sem Sentido,Jota Quest
+1973,362,Equinocio,João Suplicy
+1974,363,You've Got Another Thing Comin',Judas Priest
+1975,364,Turbo Lover,Judas Priest
+1976,364,Freewheel Burning,Judas Priest
+1977,365,Metal Meltdown,Judas Priest
+1978,365,Diamonds And Rust (Live),Judas Priest
+1979,366,Tyrant (Live),Judas Priest
+1980,366,Plaster Caster,Kiss
+1981,366,Do You Love Me,Kiss
+1982,366,Sure Know Something,Kiss
+1983,367,I Still Love You,Kiss
+1984,367,Nothin' To Lose,Kiss
+1985,367,Since I've Been Loving You,Led Zeppelin
+1986,367,Going To California,Led Zeppelin
+1987,367,We're Gonna Groove,Led Zeppelin
+1988,367,Ozone Baby,Led Zeppelin
+1989,368,Over The Hills And Far Away,Led Zeppelin
+1990,368,In The Evening,Led Zeppelin
+1991,368,I'm Gonna Crawl,Led Zeppelin
+1992,368,Four Sticks,Led Zeppelin
+1993,368,Dazed and Confused,Led Zeppelin
+1994,368,Whole Lotta Love,Led Zeppelin
+1995,368,Ramble On,Led Zeppelin
+1996,368,Since I've Been Loving You,Led Zeppelin
+1997,368,Hats Off To (Roy) Harper,Led Zeppelin
+1998,369,Sick Again,Led Zeppelin
+1999,369,Celebration Day,Led Zeppelin
+2000,369,L'Avventura,Legião Urbana
+2001,369,Leila,Legião Urbana
+2002,369,Tempo Perdido,Legião Urbana
+2003,369,Giz,Legião Urbana
+2004,369,Mr. Cab Driver,Lenny Kravitz
+2005,369,Assim Caminha A Humanidade,Lulu Santos
+2006,369,Satisfação,Lulu Santos
+2007,369,Ro-Que-Se-Da-Ne,Lulu Santos
+2008,369,O Último Romântico (Ao Vivo),Lulu Santos
+2009,369,Childhoods End?,Marillion
+2010,369,Panis Et Circenses,Marisa Monte
+2011,369,Segue O Seco,Marisa Monte
+2012,370,"Abraham, Martin And John",Marvin Gaye
+2013,371,Save The Children,Marvin Gaye
+2014,371,You Sure Love To Ball,Marvin Gaye
+2015,372,Praise,Marvin Gaye
+2016,372,Down Under,Men At Work
+2017,373,Be Good Johnny,Men At Work
+2018,373,Down by the Sea,Men At Work
+2019,373,It's a Mistake,Men At Work
+2020,373,Shakes and Ladders,Men At Work
+2021,374,Holier Than Thou,Metallica
+2022,374,Through The Never,Metallica
+2023,374,My Friend Of Misery,Metallica
+2024,374,The Wait,Metallica
+2025,374,Blitzkrieg,Metallica
+2026,374,So What,Metallica
+2027,375,Hit The Lights,Metallica
+2028,375,Phantom Lord,Metallica
+2029,375,The House Jack Built,Metallica
+2030,375,Poor Twisted Me,Metallica
+2031,375,Battery,Metallica
+2032,375,Orion,Metallica
+2033,375,Better Than You,Metallica
+2034,375,Low Man's Lyric,Metallica
+2035,375,Fade To Black,Metallica
+2036,376,Invisible Kid,Metallica
+2037,376,Eye Of The Beholder,Metallica
+2038,376,The Duke,Miles Davis
+2039,376,Blues For Pablo (Alternate Take),Miles Davis
+2040,376,Menestrel Das Alagoas,Milton Nascimento
+2041,376,Beijo Partido,Milton Nascimento
+2042,376,Norwegian Wood,Milton Nascimento
+2043,376,Jailbait,Motörhead
+2044,376,O Que Vai Em Meu Coração,Mônica Marianno
+2045,376,A Moça e a Chuva,Mônica Marianno
+2046,376,Same Ol' Situation,Mötley Crüe
+2047,376,Shout At The Devil,Mötley Crüe
+2048,376,Spank Thru,Nirvana
+2049,376,Smells Like Teen Spirit,Nirvana
+2050,377,Sangue Latino,O Terço
+2051,378,Folhas Secas,O Terço
+2052,378,Poeira,O Terço
+2053,379,Quem Mata A Mulher Mata O Melhor,O Terço
+2054,379,O Braço Da Minha Guitarra,O Terço
+2055,380,Mãe Terra,O Terço
+2056,380,Menino De Rua,O Terço
+2057,380,Elza,O Terço
+2058,380,Nossa Gente (Avisa Là),Olodum
+2059,381,Todo Amor (Asas Da Liberdade),Olodum
+2060,381,Jeito Faceiro,Olodum
+2061,381,Olodum - Smile (Instrumental),Olodum
+2062,381,"Um Amor, Um Lugar",Os Paralamas Do Sucesso
+2063,381,Uns Dias,Os Paralamas Do Sucesso
+2064,381,Brasília 5:31,Os Paralamas Do Sucesso
+2065,382,Vamo Batê Lata,Os Paralamas Do Sucesso
+2066,382,Mensagen De Amor (2000),Os Paralamas Do Sucesso
+2067,382,Saber Amar,Os Paralamas Do Sucesso
+2068,382,Cinema Mudo,Os Paralamas Do Sucesso
+2069,382,Meu Erro,Os Paralamas Do Sucesso
+2070,382,Será Que Vai Chover?,Os Paralamas Do Sucesso
+2071,382,"Mama, I'm Coming Home",Ozzy Osbourne
+2072,382,Flying High Again,Ozzy Osbourne
+2073,382,Paranoid,Ozzy Osbourne
+2074,383,Most High,Page & Plant
+2075,383,Your Blue Room,Passengers
+2076,383,Plot 180,Passengers
+2077,383,Sanctuary,Paul D'Ianno
+2078,383,Untitled,Pearl Jam
+2079,383,Black,Pearl Jam
+2080,383,Big Wave,Pearl Jam
+2081,383,Cropduster,Pearl Jam
+2082,383,1/2 Full,Pearl Jam
+2083,383,Oceans,Pearl Jam
+2084,383,Dissident,Pearl Jam
+2085,383,Don't Look Back,Lenny Kravitz
+2086,383,Pick Myself Up,Lenny Kravitz
+2087,383,Any Colour You Like,Pink Floyd
+2088,384,Rappers Reais,Planet Hemp
+2089,385,Nega Do Cabelo Duro,Planet Hemp
+2090,385,Hemp Family,Planet Hemp
+2091,386,Se Liga,Planet Hemp
+2092,386,Another One Bites The Dust,Queen
+2093,387,Fat Bottomed Girls,Queen
+2094,387,You're My Best Friend,Queen
+2095,387,Save Me,Queen
+2096,387,Somebody To Love,Queen
+2097,388,Flash,Queen
+2098,388,We Will Rock You,Queen
+2099,388,Spread Your Wings,Queen
+2100,388,Who Needs You,Queen
+2101,388,Me In Honey,R.E.M. Feat. Kate Pearson
+2102,388,You Are The Everything,R.E.M.
+2103,389,Hairshirt,R.E.M.
+2104,389,Undertow,R.E.M.
+2105,389,Binky The Doormat,R.E.M.
+2106,389,Low,R.E.M. Feat. Kate Pearson
+2107,389,Country Feedback,R.E.M. Feat. Kate Pearson
+2108,389,Don't Go Back To Rockville,R.E.M.
+2109,389,I Believe,R.E.M.
+2110,389,A Sua,Raimundos
+2111,389,Bê-a-Bá,Raimundos
+2112,390,Sapato 36,Raul Seixas
+2113,390,If You Have To Ask,Red Hot Chili Peppers
+2114,390,Under The Bridge,Red Hot Chili Peppers
+2115,390,This Is The Place,Red Hot Chili Peppers
+2116,390,Tear,Red Hot Chili Peppers
+2117,390,Get On Top,Red Hot Chili Peppers
+2118,390,Right On Time,Red Hot Chili Peppers
+2119,390,Anthem,Rush
+2120,390,La Puesta Del Sol,Santana
+2121,390,Just Ain't Good Enough,Santana
+2122,390,If You Don't Know Me By Now,Lenny Kravitz
+2123,390,Água E Fogo,Skank
+2124,390,Fica,Skank
+2125,390,Os Exilados,Skank
+2126,391,Waiting,Smashing Pumpkins
+2127,392,Saturnine,Smashing Pumpkins
+2128,392,Rock On,Smashing Pumpkins
+2129,393,Winterlong,Smashing Pumpkins
+2130,393,Blissed & Gone,Smashing Pumpkins
+2131,394,Rhinocerous,Smashing Pumpkins
+2132,394,Cherub Rock,Smashing Pumpkins
+2133,394,Disarm,Smashing Pumpkins
+2134,394,Bullet With Butterfly Wings,Smashing Pumpkins
+2135,395,Eye,Smashing Pumpkins
+2136,395,Stand Inside Your Love,Smashing Pumpkins
+2137,395,Flower,Soundgarden
+2138,395,Jesus Christ Pose,Soundgarden
+2139,395,The Day I Tried To Live,Soundgarden
+2140,395,Burden In My Hand,Soundgarden
+2141,396,Rasul,Spyro Gyra
+2142,396,End Of Romanticism,Spyro Gyra
+2143,396,Travis Walk,Stevie Ray Vaughan & Double Trouble
+2144,396,Sex Type Thing,Stone Temple Pilots
+2145,396,Piece Of Pie,Stone Temple Pilots
+2146,396,B.Y.O.B.,System Of A Down
+2147,396,Question!,System Of A Down
+2148,396,Duende,"Terry Bozzio, Tony Levin & Steve Stevens"
+2149,396,Sting Me,The Black Crowes
+2150,397,Black Moon Creeping,The Black Crowes
+2151,397,White Riot,The Clash
+2152,397,Train In Vain,The Clash
+2153,397,War (The Process),The Cult
+2154,397,Speed Of Light,The Cult
+2155,397,Wild Hearted Son,The Cult
+2156,397,Sun King,The Cult
+2157,397,Back Door Man,The Doors
+2158,397,Don't Stand so Close to Me,The Police
+2159,397,Message in a Bottle (new classic rock mix),The Police
+2160,397,Paint It Black,The Rolling Stones
+2161,397,Corinna,The Rolling Stones
+2162,397,Love Is Strong,The Rolling Stones
+2163,397,Sweethearts Together,The Rolling Stones
+2164,398,Release,The Tea Party
+2165,399,Heaven Coming Down,The Tea Party
+2166,399,The River (Remix),The Tea Party
+2167,400,Waiting On A Sign,The Tea Party
+2168,400,Paint It Black,The Tea Party
+2169,401,Army Ants,The Tea Party
+2170,401,Gyroscope,The Tea Party
+2171,401,Release,The Tea Party
+2172,401,Babylon,The Tea Party
+2173,402,I Can't Explain,The Who
+2174,402,I'm A Boy,The Who
+2175,402,I Can See For Miles,The Who
+2176,402,Baba O'Riley,The Who
+2177,402,Join Together,The Who
+2178,402,Primavera,Tim Maia
+2179,403,New Love,Tim Maia
+2180,403,Compadre,Tim Maia
+2181,403,Não Quero Dinheiro,Tim Maia
+2182,403,Canário Do Reino,Tim Maia
+2183,403,Comida,Titãs
+2184,403,Marvin,Titãs
+2185,403,Cabeça Dinossauro,Titãs
+2186,403,Polícia (Vinheta),Titãs
+2187,403,Sua Impossivel Chance,Titãs
+2188,404,Insensível,Titãs
+2189,404,Collaborators,Battlestar Galactica
+2190,404,The Woman King,Battlestar Galactica
+2191,404,One Giant Leap,Heroes
+2192,404,The Fix,Heroes
+2193,404,"Man of Science, Man of Faith (Premiere)",Lost
+2194,404,Walkabout,Lost
+2195,404,The Moth,Lost
+2196,404,Stranger In a Strange Land,Lost
+2197,404,Par Avion,Lost
+2198,404,Outlaws,Lost
+2199,404,Deus Ex Machina,Lost
+2200,404,"Live Together, Die Alone, Pt. 1",Lost
+2201,404,So Cruel,U2
+2202,405,Peace On Earth,U2
+2203,406,When I Look At The World,U2
+2204,406,New York,U2
+2205,407,The Three Sunrises,U2
+2206,407,Sweetest Thing,U2
+2207,408,Bass Trap,U2
+2208,408,Everlasting Love,U2
+2209,408,Walk To The Water,U2
+2210,408,Hallelujah Here She Comes,U2
+2211,409,"Trash, Trampoline And The Party Girl",U2
+2212,409,Love And Peace Or Else,U2
+2213,409,Crumbs From Your Table,U2
+2214,409,Discotheque,U2
+2215,409,Staring At The Sun,U2
+2216,409,The Playboy Mansion,U2
+2217,410,Desire,U2
+2218,410,Pride (In The Name Of Love),U2
+2219,410,The Star Spangled Banner,U2
+2220,410,I Still Haven't Found What I'm Looking For,U2
+2221,410,Sweetest Thing,U2
+2222,410,Seconds,U2
+2223,410,Red Light,U2
+2224,410,Lemon,U2
+2225,410,The Wanderer,U2
+2226,411,Higher Ground,UB40
+2227,411,Secrets,Van Halen
+2228,411,Eruption,Van Halen
+2229,411,Dreams,Van Halen
+2230,411,Eruption,Van Halen
+2231,411,On Fire,Van Halen
+2232,411,Year to the Day,Van Halen
+2233,411,Fall To Pieces,Velvet Revolver
+2234,411,A Bencao E Outros,Vinícius De Moraes
+2235,411,Um Homem Chamado Alfredo,Vinícius De Moraes
+2236,411,Looking For Love,Lenny Kravitz
+2237,411,Sweet Lady Luck,Lenny Kravitz
+2238,411,Feirinha da Pavuna/Luz do Repente/Bagaço da Laranja,Zeca Pagodinho
+2239,411,Samba pras moças,Zeca Pagodinho
+2240,412,Hot Girl,The Office

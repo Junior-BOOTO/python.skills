@@ -1,0 +1,536 @@
+{
+  "Album": [
+    {
+      "cid": 0,
+      "name": "AlbumId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "Title",
+      "type": "NVARCHAR(160)",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "ArtistId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "Artist": [
+    {
+      "cid": 0,
+      "name": "ArtistId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "Name",
+      "type": "NVARCHAR(120)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "Customer": [
+    {
+      "cid": 0,
+      "name": "CustomerId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "FirstName",
+      "type": "NVARCHAR(40)",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "LastName",
+      "type": "NVARCHAR(20)",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "Company",
+      "type": "NVARCHAR(80)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "Address",
+      "type": "NVARCHAR(70)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 5,
+      "name": "City",
+      "type": "NVARCHAR(40)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 6,
+      "name": "State",
+      "type": "NVARCHAR(40)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 7,
+      "name": "Country",
+      "type": "NVARCHAR(40)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 8,
+      "name": "PostalCode",
+      "type": "NVARCHAR(10)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 9,
+      "name": "Phone",
+      "type": "NVARCHAR(24)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 10,
+      "name": "Fax",
+      "type": "NVARCHAR(24)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 11,
+      "name": "Email",
+      "type": "NVARCHAR(60)",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 12,
+      "name": "SupportRepId",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "Employee": [
+    {
+      "cid": 0,
+      "name": "EmployeeId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "LastName",
+      "type": "NVARCHAR(20)",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "FirstName",
+      "type": "NVARCHAR(20)",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "Title",
+      "type": "NVARCHAR(30)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "ReportsTo",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 5,
+      "name": "BirthDate",
+      "type": "DATETIME",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 6,
+      "name": "HireDate",
+      "type": "DATETIME",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 7,
+      "name": "Address",
+      "type": "NVARCHAR(70)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 8,
+      "name": "City",
+      "type": "NVARCHAR(40)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 9,
+      "name": "State",
+      "type": "NVARCHAR(40)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 10,
+      "name": "Country",
+      "type": "NVARCHAR(40)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 11,
+      "name": "PostalCode",
+      "type": "NVARCHAR(10)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 12,
+      "name": "Phone",
+      "type": "NVARCHAR(24)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 13,
+      "name": "Fax",
+      "type": "NVARCHAR(24)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 14,
+      "name": "Email",
+      "type": "NVARCHAR(60)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "Genre": [
+    {
+      "cid": 0,
+      "name": "GenreId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "Name",
+      "type": "NVARCHAR(120)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "Invoice": [
+    {
+      "cid": 0,
+      "name": "InvoiceId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "CustomerId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "InvoiceDate",
+      "type": "DATETIME",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "BillingAddress",
+      "type": "NVARCHAR(70)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "BillingCity",
+      "type": "NVARCHAR(40)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 5,
+      "name": "BillingState",
+      "type": "NVARCHAR(40)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 6,
+      "name": "BillingCountry",
+      "type": "NVARCHAR(40)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 7,
+      "name": "BillingPostalCode",
+      "type": "NVARCHAR(10)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 8,
+      "name": "Total",
+      "type": "NUMERIC(10,2)",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "InvoiceLine": [
+    {
+      "cid": 0,
+      "name": "InvoiceLineId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "InvoiceId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "TrackId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "UnitPrice",
+      "type": "NUMERIC(10,2)",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "Quantity",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "MediaType": [
+    {
+      "cid": 0,
+      "name": "MediaTypeId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "Name",
+      "type": "NVARCHAR(120)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "Playlist": [
+    {
+      "cid": 0,
+      "name": "PlaylistId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "Name",
+      "type": "NVARCHAR(120)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    }
+  ],
+  "PlaylistTrack": [
+    {
+      "cid": 0,
+      "name": "PlaylistId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "TrackId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 2
+    }
+  ],
+  "Track": [
+    {
+      "cid": 0,
+      "name": "TrackId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 1
+    },
+    {
+      "cid": 1,
+      "name": "Name",
+      "type": "NVARCHAR(200)",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "AlbumId",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "MediaTypeId",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "GenreId",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 5,
+      "name": "Composer",
+      "type": "NVARCHAR(220)",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 6,
+      "name": "Milliseconds",
+      "type": "INTEGER",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 7,
+      "name": "Bytes",
+      "type": "INTEGER",
+      "notnull": 0,
+      "default": null,
+      "pk": 0
+    },
+    {
+      "cid": 8,
+      "name": "UnitPrice",
+      "type": "NUMERIC(10,2)",
+      "notnull": 1,
+      "default": null,
+      "pk": 0
+    }
+  ]
+}

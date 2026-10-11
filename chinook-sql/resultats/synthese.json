@@ -1,0 +1,2430 @@
+{
+  "kpi": {
+    "periode": [
+      "2021-01-01 00:00:00",
+      "2025-12-22 00:00:00"
+    ],
+    "factures": 412,
+    "clients": 59,
+    "morceaux": 3503,
+    "ventes": 2328.6,
+    "panier_moyen": 5.65,
+    "meilleur_pays": {
+      "pays": "USA",
+      "ventes": 523.06
+    },
+    "meilleur_agent": {
+      "id": 3,
+      "agent": "Jane Peacock",
+      "ventes": 833.04
+    }
+  },
+  "tables": {
+    "Album": 347,
+    "Artist": 275,
+    "Customer": 59,
+    "Employee": 8,
+    "Genre": 25,
+    "Invoice": 412,
+    "InvoiceLine": 2240,
+    "MediaType": 5,
+    "Playlist": 18,
+    "PlaylistTrack": 8715,
+    "Track": 3503
+  },
+  "exercices": [
+    {
+      "exercice": 1,
+      "titre": "Clients hors États-Unis",
+      "lignes": 46
+    },
+    {
+      "exercice": 2,
+      "titre": "Clients brésiliens",
+      "lignes": 5
+    },
+    {
+      "exercice": 3,
+      "titre": "Factures des clients brésiliens",
+      "lignes": 35
+    },
+    {
+      "exercice": 4,
+      "titre": "Agents de vente",
+      "lignes": 3
+    },
+    {
+      "exercice": 5,
+      "titre": "Pays de facturation distincts",
+      "lignes": 24
+    },
+    {
+      "exercice": 6,
+      "titre": "Factures par agent",
+      "lignes": 412
+    },
+    {
+      "exercice": 7,
+      "titre": "Détails des factures",
+      "lignes": 412
+    },
+    {
+      "exercice": 8,
+      "titre": "Ventes en 2009 et 2011",
+      "lignes": 2
+    },
+    {
+      "exercice": 9,
+      "titre": "Lignes de la facture 37",
+      "lignes": 1
+    },
+    {
+      "exercice": 10,
+      "titre": "Lignes par facture",
+      "lignes": 412
+    },
+    {
+      "exercice": 11,
+      "titre": "Morceaux par ligne de facture",
+      "lignes": 2240
+    },
+    {
+      "exercice": 12,
+      "titre": "Morceaux et artistes",
+      "lignes": 2240
+    },
+    {
+      "exercice": 13,
+      "titre": "Nombre de factures par pays",
+      "lignes": 24
+    },
+    {
+      "exercice": 14,
+      "titre": "Morceaux par playlist",
+      "lignes": 18
+    },
+    {
+      "exercice": 15,
+      "titre": "Catalogue sans identifiants",
+      "lignes": 3503
+    },
+    {
+      "exercice": 16,
+      "titre": "Factures et nombre de lignes",
+      "lignes": 412
+    },
+    {
+      "exercice": 17,
+      "titre": "Ventes par agent",
+      "lignes": 3
+    },
+    {
+      "exercice": 18,
+      "titre": "Meilleur agent en 2009",
+      "lignes": 0
+    },
+    {
+      "exercice": 19,
+      "titre": "Meilleur agent en 2010",
+      "lignes": 0
+    },
+    {
+      "exercice": 20,
+      "titre": "Meilleur agent global",
+      "lignes": 1
+    },
+    {
+      "exercice": 21,
+      "titre": "Clients attribués par agent",
+      "lignes": 3
+    },
+    {
+      "exercice": 22,
+      "titre": "Ventes totales par pays",
+      "lignes": 24
+    },
+    {
+      "exercice": 23,
+      "titre": "Morceau le plus acheté en 2013",
+      "lignes": 0
+    },
+    {
+      "exercice": 24,
+      "titre": "Top 5 des morceaux",
+      "lignes": 5
+    },
+    {
+      "exercice": 25,
+      "titre": "Top 3 des artistes",
+      "lignes": 3
+    },
+    {
+      "exercice": 26,
+      "titre": "Type de média le plus acheté",
+      "lignes": 1
+    }
+  ],
+  "variantes": [
+    [
+      8,
+      "WITH annees(Annee) AS (VALUES ('2021'),('2023')) SELECT a.Annee, COUNT(i.InvoiceId) AS Factures, ROUND(COALESCE(SUM(i.Total),0),2) AS Ventes FROM annees a LEFT JOIN Invoice i ON strftime('%Y',i.InvoiceDate)=a.Annee GROUP BY a.Annee ORDER BY a.Annee;",
+      [
+        {
+          "Annee": "2021",
+          "Factures": 83,
+          "Ventes": 449.46
+        },
+        {
+          "Annee": "2023",
+          "Factures": 83,
+          "Ventes": 469.58
+        }
+      ]
+    ],
+    [
+      18,
+      "WITH ventes AS (SELECT e.EmployeeId, e.FirstName || ' ' || e.LastName AS Agent, ROUND(SUM(i.Total),2) AS Ventes FROM Employee e JOIN Customer c ON c.SupportRepId=e.EmployeeId JOIN Invoice i ON i.CustomerId=c.CustomerId WHERE strftime('%Y',i.InvoiceDate)='2021' GROUP BY e.EmployeeId,e.FirstName,e.LastName) SELECT * FROM ventes WHERE Ventes=(SELECT MAX(Ventes) FROM ventes);",
+      [
+        {
+          "EmployeeId": 5,
+          "Agent": "Steve Johnson",
+          "Ventes": 164.34
+        }
+      ]
+    ],
+    [
+      19,
+      "WITH ventes AS (SELECT e.EmployeeId, e.FirstName || ' ' || e.LastName AS Agent, ROUND(SUM(i.Total),2) AS Ventes FROM Employee e JOIN Customer c ON c.SupportRepId=e.EmployeeId JOIN Invoice i ON i.CustomerId=c.CustomerId WHERE strftime('%Y',i.InvoiceDate)='2022' GROUP BY e.EmployeeId,e.FirstName,e.LastName) SELECT * FROM ventes WHERE Ventes=(SELECT MAX(Ventes) FROM ventes);",
+      [
+        {
+          "EmployeeId": 3,
+          "Agent": "Jane Peacock",
+          "Ventes": 221.92
+        }
+      ]
+    ],
+    [
+      23,
+      "WITH ventes AS (SELECT t.TrackId,t.Name AS Morceau,SUM(il.Quantity) AS Unites FROM Track t JOIN InvoiceLine il ON il.TrackId=t.TrackId JOIN Invoice i ON i.InvoiceId=il.InvoiceId WHERE strftime('%Y',i.InvoiceDate)='2025' GROUP BY t.TrackId,t.Name) SELECT * FROM ventes WHERE Unites=(SELECT MAX(Unites) FROM ventes) ORDER BY TrackId;",
+      [
+        {
+          "TrackId": 437,
+          "Morceau": "Black Diamond",
+          "Unites": 1
+        },
+        {
+          "TrackId": 443,
+          "Morceau": "Shock Me",
+          "Unites": 1
+        },
+        {
+          "TrackId": 449,
+          "Morceau": "Calling Dr. Love",
+          "Unites": 1
+        },
+        {
+          "TrackId": 455,
+          "Morceau": "God Gave Rock 'n' Roll To You",
+          "Unites": 1
+        },
+        {
+          "TrackId": 461,
+          "Morceau": "Surrender",
+          "Unites": 1
+        },
+        {
+          "TrackId": 467,
+          "Morceau": "Best Thing",
+          "Unites": 1
+        },
+        {
+          "TrackId": 473,
+          "Morceau": "When I Come Around",
+          "Unites": 1
+        },
+        {
+          "TrackId": 479,
+          "Morceau": "Walking Contradiction",
+          "Unites": 1
+        },
+        {
+          "TrackId": 485,
+          "Morceau": "Minority",
+          "Unites": 1
+        },
+        {
+          "TrackId": 494,
+          "Morceau": "Slave",
+          "Unites": 1
+        },
+        {
+          "TrackId": 503,
+          "Morceau": "Começaria Tudo Outra Vez",
+          "Unites": 1
+        },
+        {
+          "TrackId": 512,
+          "Morceau": "Comportamento Geral",
+          "Unites": 1
+        },
+        {
+          "TrackId": 521,
+          "Morceau": "Menino Do Rio",
+          "Unites": 1
+        },
+        {
+          "TrackId": 530,
+          "Morceau": "Ando Meio Desligado",
+          "Unites": 1
+        },
+        {
+          "TrackId": 539,
+          "Morceau": "Rita Lee",
+          "Unites": 1
+        },
+        {
+          "TrackId": 548,
+          "Morceau": "Smoke On The Water",
+          "Unites": 1
+        },
+        {
+          "TrackId": 557,
+          "Morceau": "Beija-Flor",
+          "Unites": 1
+        },
+        {
+          "TrackId": 566,
+          "Morceau": "Caprichosos",
+          "Unites": 1
+        },
+        {
+          "TrackId": 575,
+          "Morceau": "Do You Like The Way",
+          "Unites": 1
+        },
+        {
+          "TrackId": 584,
+          "Morceau": "Manuel",
+          "Unites": 1
+        },
+        {
+          "TrackId": 593,
+          "Morceau": "Do You Have Other Loves?",
+          "Unites": 1
+        },
+        {
+          "TrackId": 602,
+          "Morceau": "'Round Midnight",
+          "Unites": 1
+        },
+        {
+          "TrackId": 611,
+          "Morceau": "E.S.P.",
+          "Unites": 1
+        },
+        {
+          "TrackId": 625,
+          "Morceau": "Blue Rythm Fantasy",
+          "Unites": 1
+        },
+        {
+          "TrackId": 626,
+          "Morceau": "Drum Boogie",
+          "Unites": 1
+        },
+        {
+          "TrackId": 627,
+          "Morceau": "Let Me Off Uptown",
+          "Unites": 1
+        },
+        {
+          "TrackId": 629,
+          "Morceau": "Opus No.1",
+          "Unites": 1
+        },
+        {
+          "TrackId": 631,
+          "Morceau": "How High The Moon",
+          "Unites": 1
+        },
+        {
+          "TrackId": 633,
+          "Morceau": "Up An' Atom",
+          "Unites": 1
+        },
+        {
+          "TrackId": 635,
+          "Morceau": "Lemon Drop",
+          "Unites": 1
+        },
+        {
+          "TrackId": 637,
+          "Morceau": "Overtime",
+          "Unites": 1
+        },
+        {
+          "TrackId": 639,
+          "Morceau": "Don't Take Your Love From Me",
+          "Unites": 1
+        },
+        {
+          "TrackId": 643,
+          "Morceau": "Jungle Drums",
+          "Unites": 1
+        },
+        {
+          "TrackId": 647,
+          "Morceau": "Pot-Pourri N.º 4",
+          "Unites": 1
+        },
+        {
+          "TrackId": 651,
+          "Morceau": "Pot-Pourri N.º 5",
+          "Unites": 1
+        },
+        {
+          "TrackId": 655,
+          "Morceau": "Por Que Será",
+          "Unites": 1
+        },
+        {
+          "TrackId": 659,
+          "Morceau": "Samba Em Prelúdio",
+          "Unites": 1
+        },
+        {
+          "TrackId": 663,
+          "Morceau": "Chão de Giz (Elba Ramalho)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 669,
+          "Morceau": "Caçador de Mim (Sá & Guarabyra)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 675,
+          "Morceau": "Susie Q",
+          "Unites": 1
+        },
+        {
+          "TrackId": 681,
+          "Morceau": "Commotion",
+          "Unites": 1
+        },
+        {
+          "TrackId": 687,
+          "Morceau": "Run Through The Jungle",
+          "Unites": 1
+        },
+        {
+          "TrackId": 693,
+          "Morceau": "Sweet Hitch-Hiker",
+          "Unites": 1
+        },
+        {
+          "TrackId": 699,
+          "Morceau": "Tombstone Shadow",
+          "Unites": 1
+        },
+        {
+          "TrackId": 705,
+          "Morceau": "The Midnight Special",
+          "Unites": 1
+        },
+        {
+          "TrackId": 711,
+          "Morceau": "Molina",
+          "Unites": 1
+        },
+        {
+          "TrackId": 717,
+          "Morceau": "Eu Sou Neguinha (Ao Vivo)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 726,
+          "Morceau": "Palavras Ao Vento",
+          "Unites": 1
+        },
+        {
+          "TrackId": 735,
+          "Morceau": "Metrô. Linha 743",
+          "Unites": 1
+        },
+        {
+          "TrackId": 744,
+          "Morceau": "Mis Penas Lloraba Yo (Ao Vivo) Soy Gitano (Tangos)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 753,
+          "Morceau": "You Keep On Moving",
+          "Unites": 1
+        },
+        {
+          "TrackId": 762,
+          "Morceau": "No No No",
+          "Unites": 1
+        },
+        {
+          "TrackId": 771,
+          "Morceau": "Nobody's Home",
+          "Unites": 1
+        },
+        {
+          "TrackId": 780,
+          "Morceau": "Maybe I'm A Leo",
+          "Unites": 1
+        },
+        {
+          "TrackId": 789,
+          "Morceau": "Sometimes I Feel Like Screaming",
+          "Unites": 1
+        },
+        {
+          "TrackId": 798,
+          "Morceau": "King Of Dreams",
+          "Unites": 1
+        },
+        {
+          "TrackId": 807,
+          "Morceau": "Stormbringer",
+          "Unites": 1
+        },
+        {
+          "TrackId": 816,
+          "Morceau": "The Battle Rages On",
+          "Unites": 1
+        },
+        {
+          "TrackId": 825,
+          "Morceau": "One Man's Meat",
+          "Unites": 1
+        },
+        {
+          "TrackId": 834,
+          "Morceau": "When Love & Hate Collide",
+          "Unites": 1
+        },
+        {
+          "TrackId": 843,
+          "Morceau": "Otay",
+          "Unites": 1
+        },
+        {
+          "TrackId": 857,
+          "Morceau": "Álibi",
+          "Unites": 1
+        },
+        {
+          "TrackId": 858,
+          "Morceau": "Esquinas",
+          "Unites": 1
+        },
+        {
+          "TrackId": 859,
+          "Morceau": "Se...",
+          "Unites": 1
+        },
+        {
+          "TrackId": 861,
+          "Morceau": "Lilás",
+          "Unites": 1
+        },
+        {
+          "TrackId": 863,
+          "Morceau": "Um Amor Puro",
+          "Unites": 1
+        },
+        {
+          "TrackId": 865,
+          "Morceau": "Nem Um Dia",
+          "Unites": 1
+        },
+        {
+          "TrackId": 867,
+          "Morceau": "Açai",
+          "Unites": 1
+        },
+        {
+          "TrackId": 869,
+          "Morceau": "Flor De Lis",
+          "Unites": 1
+        },
+        {
+          "TrackId": 871,
+          "Morceau": "Azul",
+          "Unites": 1
+        },
+        {
+          "TrackId": 875,
+          "Morceau": "Acelerou",
+          "Unites": 1
+        },
+        {
+          "TrackId": 879,
+          "Morceau": "Atrás da Porta",
+          "Unites": 1
+        },
+        {
+          "TrackId": 883,
+          "Morceau": "Alô, Alô, Marciano",
+          "Unites": 1
+        },
+        {
+          "TrackId": 887,
+          "Morceau": "As Aparências Enganam",
+          "Unites": 1
+        },
+        {
+          "TrackId": 891,
+          "Morceau": "Layla",
+          "Unites": 1
+        },
+        {
+          "TrackId": 895,
+          "Morceau": "Crossroads",
+          "Unites": 1
+        },
+        {
+          "TrackId": 901,
+          "Morceau": "After Midnight",
+          "Unites": 1
+        },
+        {
+          "TrackId": 907,
+          "Morceau": "Promises",
+          "Unites": 1
+        },
+        {
+          "TrackId": 913,
+          "Morceau": "Lonely Stranger",
+          "Unites": 1
+        },
+        {
+          "TrackId": 919,
+          "Morceau": "San Francisco Bay Blues",
+          "Unites": 1
+        },
+        {
+          "TrackId": 925,
+          "Morceau": "Last Cup Of Sorrow",
+          "Unites": 1
+        },
+        {
+          "TrackId": 931,
+          "Morceau": "Got That Feeling",
+          "Unites": 1
+        },
+        {
+          "TrackId": 937,
+          "Morceau": "Midlife Crisis",
+          "Unites": 1
+        },
+        {
+          "TrackId": 943,
+          "Morceau": "Be Aggressive",
+          "Unites": 1
+        },
+        {
+          "TrackId": 949,
+          "Morceau": "Get Out",
+          "Unites": 1
+        },
+        {
+          "TrackId": 958,
+          "Morceau": "Take This Bottle",
+          "Unites": 1
+        },
+        {
+          "TrackId": 967,
+          "Morceau": "Surprise! You're Dead!",
+          "Unites": 1
+        },
+        {
+          "TrackId": 976,
+          "Morceau": "Falamansa Song",
+          "Unites": 1
+        },
+        {
+          "TrackId": 985,
+          "Morceau": "Medo De Escuro",
+          "Unites": 1
+        },
+        {
+          "TrackId": 994,
+          "Morceau": "The Last Song",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1003,
+          "Morceau": "Friend Of A Friend",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1012,
+          "Morceau": "Times Like These",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1021,
+          "Morceau": "Monkey Wrench",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1030,
+          "Morceau": "Everlong",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1039,
+          "Morceau": "What Now My Love",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1048,
+          "Morceau": "It Was A Very Good Year",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1057,
+          "Morceau": "Entrando Na Sua (Intro)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1066,
+          "Morceau": "Dujji",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1075,
+          "Morceau": "Esperando Na Janela",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1089,
+          "Morceau": "Is This Love (Live)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1090,
+          "Morceau": "Stir It Up (Live)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1091,
+          "Morceau": "Refavela (Live)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1093,
+          "Morceau": "Quanta (Live)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1095,
+          "Morceau": "Pela Internet (Live)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1097,
+          "Morceau": "Opachorô (Live)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1099,
+          "Morceau": "A Novidade (Live)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1101,
+          "Morceau": "De Ouro E Marfim (Live)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1103,
+          "Morceau": "Lamento De Carnaval",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1107,
+          "Morceau": "Refazenda",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1111,
+          "Morceau": "A Paz",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1115,
+          "Morceau": "Tempo Rei",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1119,
+          "Morceau": "Toda Menina Baiana",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1123,
+          "Morceau": "Changes",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1127,
+          "Morceau": "I Fucking Hate You",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1133,
+          "Morceau": "American Idiot",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1139,
+          "Morceau": "Give Me Novacaine",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1145,
+          "Morceau": "Whatsername",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1151,
+          "Morceau": "Paradise City",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1157,
+          "Morceau": "Rocket Queen",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1163,
+          "Morceau": "You Ain't the First",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1169,
+          "Morceau": "Garden of Eden",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1175,
+          "Morceau": "14 Years",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1181,
+          "Morceau": "Pretty Tied Up",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1190,
+          "Morceau": "Magnetic Ocean",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1199,
+          "Morceau": "She Wears Black",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1208,
+          "Morceau": "For the Greater Good of God",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1217,
+          "Morceau": "Where Eagles Dare",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1226,
+          "Morceau": "Can I Play With Madness",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1235,
+          "Morceau": "The Wicker Man",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1244,
+          "Morceau": "The Thin Line Between Love & Hate",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1253,
+          "Morceau": "Face In The Sand",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1262,
+          "Morceau": "The Fugitive",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1271,
+          "Morceau": "04 - Running Free",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1280,
+          "Morceau": "Another Life",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1289,
+          "Morceau": "2 Minutes To Midnight",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1298,
+          "Morceau": "Run To The Hills",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1307,
+          "Morceau": "Wrathchild",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1321,
+          "Morceau": "Hallowed Be Thy Name",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1322,
+          "Morceau": "The Trooper",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1323,
+          "Morceau": "Sanctuary",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1325,
+          "Morceau": "Tailgunner",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1327,
+          "Morceau": "No Prayer For The Dying",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1329,
+          "Morceau": "Fates Warning",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1331,
+          "Morceau": "Run Silent Run Deep",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1333,
+          "Morceau": "Bring Your Daughter... ...To The Slaughter",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1335,
+          "Morceau": "Where Eagles Dare",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1339,
+          "Morceau": "The Trooper",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1343,
+          "Morceau": "To Tame A Land",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1347,
+          "Morceau": "Flash of The Blade",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1351,
+          "Morceau": "Rime of the Ancient Mariner",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1355,
+          "Morceau": "Brave New World",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1359,
+          "Morceau": "Sign Of The Cross",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1365,
+          "Morceau": "Fear Of The Dark",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1371,
+          "Morceau": "Moonchild",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1377,
+          "Morceau": "The Clairvoyant",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1383,
+          "Morceau": "Stranger in a Strange Land",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1389,
+          "Morceau": "Gangland",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1395,
+          "Morceau": "Sign Of The Cross",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1401,
+          "Morceau": "Judgement Of Heaven",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1407,
+          "Morceau": "The Angel And The Gambler",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1413,
+          "Morceau": "Como Estais Amigos",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1422,
+          "Morceau": "Say It Loud, I'm Black And I'm Proud Pt.1",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1431,
+          "Morceau": "I'm Real",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1440,
+          "Morceau": "Whatever It Is, I Just Can't Stop",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1449,
+          "Morceau": "Destitute Illusions",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1458,
+          "Morceau": "Light Years",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1467,
+          "Morceau": "Are You Gonna Be My Girl",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1476,
+          "Morceau": "Take It Or Leave It",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1485,
+          "Morceau": "May This Be Love",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1494,
+          "Morceau": "The Wind Cries Mary",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1503,
+          "Morceau": "Lords of Karma",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1512,
+          "Morceau": "Os Alquimistas Estão Chegando",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1521,
+          "Morceau": "As Dores do Mundo",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1530,
+          "Morceau": "Sem Sentido",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1539,
+          "Morceau": "Equinocio",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1553,
+          "Morceau": "You've Got Another Thing Comin'",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1554,
+          "Morceau": "Turbo Lover",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1555,
+          "Morceau": "Freewheel Burning",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1557,
+          "Morceau": "Metal Meltdown",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1559,
+          "Morceau": "Diamonds And Rust (Live)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1561,
+          "Morceau": "Tyrant (Live)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1563,
+          "Morceau": "Plaster Caster",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1565,
+          "Morceau": "Do You Love Me",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1567,
+          "Morceau": "Sure Know Something",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1571,
+          "Morceau": "I Still Love You",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1575,
+          "Morceau": "Nothin' To Lose",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1579,
+          "Morceau": "Since I've Been Loving You",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1583,
+          "Morceau": "Going To California",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1587,
+          "Morceau": "We're Gonna Groove",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1591,
+          "Morceau": "Ozone Baby",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1597,
+          "Morceau": "Over The Hills And Far Away",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1603,
+          "Morceau": "In The Evening",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1609,
+          "Morceau": "I'm Gonna Crawl",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1615,
+          "Morceau": "Four Sticks",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1621,
+          "Morceau": "Dazed and Confused",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1627,
+          "Morceau": "Whole Lotta Love",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1633,
+          "Morceau": "Ramble On",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1639,
+          "Morceau": "Since I've Been Loving You",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1645,
+          "Morceau": "Hats Off To (Roy) Harper",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1654,
+          "Morceau": "Sick Again",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1663,
+          "Morceau": "Celebration Day",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1672,
+          "Morceau": "L'Avventura",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1681,
+          "Morceau": "Leila",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1690,
+          "Morceau": "Tempo Perdido",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1699,
+          "Morceau": "Giz",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1708,
+          "Morceau": "Mr. Cab Driver",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1717,
+          "Morceau": "Assim Caminha A Humanidade",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1726,
+          "Morceau": "Satisfação",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1735,
+          "Morceau": "Ro-Que-Se-Da-Ne",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1744,
+          "Morceau": "O Último Romântico (Ao Vivo)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1753,
+          "Morceau": "Childhoods End?",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1762,
+          "Morceau": "Panis Et Circenses",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1771,
+          "Morceau": "Segue O Seco",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1785,
+          "Morceau": "Abraham, Martin And John",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1786,
+          "Morceau": "Save The Children",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1787,
+          "Morceau": "You Sure Love To Ball",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1789,
+          "Morceau": "Praise",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1791,
+          "Morceau": "Down Under",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1793,
+          "Morceau": "Be Good Johnny",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1795,
+          "Morceau": "Down by the Sea",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1797,
+          "Morceau": "It's a Mistake",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1799,
+          "Morceau": "Shakes and Ladders",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1803,
+          "Morceau": "Holier Than Thou",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1807,
+          "Morceau": "Through The Never",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1811,
+          "Morceau": "My Friend Of Misery",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1815,
+          "Morceau": "The Wait",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1819,
+          "Morceau": "Blitzkrieg",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1823,
+          "Morceau": "So What",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1829,
+          "Morceau": "Hit The Lights",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1835,
+          "Morceau": "Phantom Lord",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1841,
+          "Morceau": "The House Jack Built",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1847,
+          "Morceau": "Poor Twisted Me",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1853,
+          "Morceau": "Battery",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1859,
+          "Morceau": "Orion",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1865,
+          "Morceau": "Better Than You",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1871,
+          "Morceau": "Low Man's Lyric",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1877,
+          "Morceau": "Fade To Black",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1886,
+          "Morceau": "Invisible Kid",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1895,
+          "Morceau": "Eye Of The Beholder",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1904,
+          "Morceau": "The Duke",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1913,
+          "Morceau": "Blues For Pablo (Alternate Take)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1922,
+          "Morceau": "Menestrel Das Alagoas",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1931,
+          "Morceau": "Beijo Partido",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1940,
+          "Morceau": "Norwegian Wood",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1949,
+          "Morceau": "Jailbait",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1958,
+          "Morceau": "O Que Vai Em Meu Coração",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1967,
+          "Morceau": "A Moça e a Chuva",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1976,
+          "Morceau": "Same Ol' Situation",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1985,
+          "Morceau": "Shout At The Devil",
+          "Unites": 1
+        },
+        {
+          "TrackId": 1994,
+          "Morceau": "Spank Thru",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2003,
+          "Morceau": "Smells Like Teen Spirit",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2017,
+          "Morceau": "Sangue Latino",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2018,
+          "Morceau": "Folhas Secas",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2019,
+          "Morceau": "Poeira",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2021,
+          "Morceau": "Quem Mata A Mulher Mata O Melhor",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2023,
+          "Morceau": "O Braço Da Minha Guitarra",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2025,
+          "Morceau": "Mãe Terra",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2027,
+          "Morceau": "Menino De Rua",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2029,
+          "Morceau": "Elza",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2031,
+          "Morceau": "Nossa Gente (Avisa Là)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2035,
+          "Morceau": "Todo Amor (Asas Da Liberdade)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2039,
+          "Morceau": "Jeito Faceiro",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2043,
+          "Morceau": "Olodum - Smile (Instrumental)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2047,
+          "Morceau": "Um Amor, Um Lugar",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2051,
+          "Morceau": "Uns Dias",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2055,
+          "Morceau": "Brasília 5:31",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2061,
+          "Morceau": "Vamo Batê Lata",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2067,
+          "Morceau": "Mensagen De Amor (2000)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2073,
+          "Morceau": "Saber Amar",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2079,
+          "Morceau": "Cinema Mudo",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2085,
+          "Morceau": "Meu Erro",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2091,
+          "Morceau": "Será Que Vai Chover?",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2097,
+          "Morceau": "Mama, I'm Coming Home",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2103,
+          "Morceau": "Flying High Again",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2109,
+          "Morceau": "Paranoid",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2118,
+          "Morceau": "Most High",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2127,
+          "Morceau": "Your Blue Room",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2136,
+          "Morceau": "Plot 180",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2145,
+          "Morceau": "Sanctuary",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2154,
+          "Morceau": "Untitled",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2163,
+          "Morceau": "Black",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2172,
+          "Morceau": "Big Wave",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2181,
+          "Morceau": "Cropduster",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2190,
+          "Morceau": "1/2 Full",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2199,
+          "Morceau": "Oceans",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2208,
+          "Morceau": "Dissident",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2217,
+          "Morceau": "Don't Look Back",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2226,
+          "Morceau": "Pick Myself Up",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2235,
+          "Morceau": "Any Colour You Like",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2249,
+          "Morceau": "Rappers Reais",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2250,
+          "Morceau": "Nega Do Cabelo Duro",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2251,
+          "Morceau": "Hemp Family",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2253,
+          "Morceau": "Se Liga",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2255,
+          "Morceau": "Another One Bites The Dust",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2257,
+          "Morceau": "Fat Bottomed Girls",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2259,
+          "Morceau": "You're My Best Friend",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2261,
+          "Morceau": "Save Me",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2263,
+          "Morceau": "Somebody To Love",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2267,
+          "Morceau": "Flash",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2271,
+          "Morceau": "We Will Rock You",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2275,
+          "Morceau": "Spread Your Wings",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2279,
+          "Morceau": "Who Needs You",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2283,
+          "Morceau": "Me In Honey",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2287,
+          "Morceau": "You Are The Everything",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2293,
+          "Morceau": "Hairshirt",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2299,
+          "Morceau": "Undertow",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2305,
+          "Morceau": "Binky The Doormat",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2311,
+          "Morceau": "Low",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2317,
+          "Morceau": "Country Feedback",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2323,
+          "Morceau": "Don't Go Back To Rockville",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2329,
+          "Morceau": "I Believe",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2335,
+          "Morceau": "A Sua",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2341,
+          "Morceau": "Bê-a-Bá",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2350,
+          "Morceau": "Sapato 36",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2359,
+          "Morceau": "If You Have To Ask",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2368,
+          "Morceau": "Under The Bridge",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2377,
+          "Morceau": "This Is The Place",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2386,
+          "Morceau": "Tear",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2395,
+          "Morceau": "Get On Top",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2404,
+          "Morceau": "Right On Time",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2413,
+          "Morceau": "Anthem",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2422,
+          "Morceau": "La Puesta Del Sol",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2431,
+          "Morceau": "Just Ain't Good Enough",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2440,
+          "Morceau": "If You Don't Know Me By Now",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2449,
+          "Morceau": "Água E Fogo",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2458,
+          "Morceau": "Fica",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2467,
+          "Morceau": "Os Exilados",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2481,
+          "Morceau": "Waiting",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2482,
+          "Morceau": "Saturnine",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2483,
+          "Morceau": "Rock On",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2485,
+          "Morceau": "Winterlong",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2487,
+          "Morceau": "Blissed & Gone",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2489,
+          "Morceau": "Rhinocerous",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2491,
+          "Morceau": "Cherub Rock",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2493,
+          "Morceau": "Disarm",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2495,
+          "Morceau": "Bullet With Butterfly Wings",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2499,
+          "Morceau": "Eye",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2503,
+          "Morceau": "Stand Inside Your Love",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2507,
+          "Morceau": "Flower",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2511,
+          "Morceau": "Jesus Christ Pose",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2515,
+          "Morceau": "The Day I Tried To Live",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2519,
+          "Morceau": "Burden In My Hand",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2525,
+          "Morceau": "Rasul",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2531,
+          "Morceau": "End Of Romanticism",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2537,
+          "Morceau": "Travis Walk",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2543,
+          "Morceau": "Sex Type Thing",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2549,
+          "Morceau": "Piece Of Pie",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2555,
+          "Morceau": "B.Y.O.B.",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2561,
+          "Morceau": "Question!",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2567,
+          "Morceau": "Duende",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2573,
+          "Morceau": "Sting Me",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2582,
+          "Morceau": "Black Moon Creeping",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2591,
+          "Morceau": "White Riot",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2600,
+          "Morceau": "Train In Vain",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2609,
+          "Morceau": "War (The Process)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2618,
+          "Morceau": "Speed Of Light",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2627,
+          "Morceau": "Wild Hearted Son",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2636,
+          "Morceau": "Sun King",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2645,
+          "Morceau": "Back Door Man",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2654,
+          "Morceau": "Don't Stand so Close to Me",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2663,
+          "Morceau": "Message in a Bottle (new classic rock mix)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2672,
+          "Morceau": "Paint It Black",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2681,
+          "Morceau": "Corinna",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2690,
+          "Morceau": "Love Is Strong",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2699,
+          "Morceau": "Sweethearts Together",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2713,
+          "Morceau": "Release",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2714,
+          "Morceau": "Heaven Coming Down",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2715,
+          "Morceau": "The River (Remix)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2717,
+          "Morceau": "Waiting On A Sign",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2719,
+          "Morceau": "Paint It Black",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2721,
+          "Morceau": "Army Ants",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2723,
+          "Morceau": "Gyroscope",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2725,
+          "Morceau": "Release",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2727,
+          "Morceau": "Babylon",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2731,
+          "Morceau": "I Can't Explain",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2735,
+          "Morceau": "I'm A Boy",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2739,
+          "Morceau": "I Can See For Miles",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2743,
+          "Morceau": "Baba O'Riley",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2747,
+          "Morceau": "Join Together",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2751,
+          "Morceau": "Primavera",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2757,
+          "Morceau": "New Love",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2763,
+          "Morceau": "Compadre",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2769,
+          "Morceau": "Não Quero Dinheiro",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2775,
+          "Morceau": "Canário Do Reino",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2781,
+          "Morceau": "Comida",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2787,
+          "Morceau": "Marvin",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2793,
+          "Morceau": "Cabeça Dinossauro",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2799,
+          "Morceau": "Polícia (Vinheta)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2805,
+          "Morceau": "Sua Impossivel Chance",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2814,
+          "Morceau": "Insensível",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2823,
+          "Morceau": "Collaborators",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2832,
+          "Morceau": "The Woman King",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2841,
+          "Morceau": "One Giant Leap",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2850,
+          "Morceau": "The Fix",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2859,
+          "Morceau": "Man of Science, Man of Faith (Premiere)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2868,
+          "Morceau": "Walkabout",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2877,
+          "Morceau": "The Moth",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2886,
+          "Morceau": "Stranger In a Strange Land",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2895,
+          "Morceau": "Par Avion",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2904,
+          "Morceau": "Outlaws",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2913,
+          "Morceau": "Deus Ex Machina",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2922,
+          "Morceau": "Live Together, Die Alone, Pt. 1",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2931,
+          "Morceau": "So Cruel",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2945,
+          "Morceau": "Peace On Earth",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2946,
+          "Morceau": "When I Look At The World",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2947,
+          "Morceau": "New York",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2949,
+          "Morceau": "The Three Sunrises",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2951,
+          "Morceau": "Sweetest Thing",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2953,
+          "Morceau": "Bass Trap",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2955,
+          "Morceau": "Everlasting Love",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2957,
+          "Morceau": "Walk To The Water",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2959,
+          "Morceau": "Hallelujah Here She Comes",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2963,
+          "Morceau": "Trash, Trampoline And The Party Girl",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2967,
+          "Morceau": "Love And Peace Or Else",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2971,
+          "Morceau": "Crumbs From Your Table",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2975,
+          "Morceau": "Discotheque",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2979,
+          "Morceau": "Staring At The Sun",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2983,
+          "Morceau": "The Playboy Mansion",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2989,
+          "Morceau": "Desire",
+          "Unites": 1
+        },
+        {
+          "TrackId": 2995,
+          "Morceau": "Pride (In The Name Of Love)",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3001,
+          "Morceau": "The Star Spangled Banner",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3007,
+          "Morceau": "I Still Haven't Found What I'm Looking For",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3013,
+          "Morceau": "Sweetest Thing",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3019,
+          "Morceau": "Seconds",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3025,
+          "Morceau": "Red Light",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3031,
+          "Morceau": "Lemon",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3037,
+          "Morceau": "The Wanderer",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3046,
+          "Morceau": "Higher Ground",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3055,
+          "Morceau": "Secrets",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3064,
+          "Morceau": "Eruption",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3073,
+          "Morceau": "Dreams",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3082,
+          "Morceau": "Eruption",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3091,
+          "Morceau": "On Fire",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3100,
+          "Morceau": "Year to the Day",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3109,
+          "Morceau": "Fall To Pieces",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3118,
+          "Morceau": "A Bencao E Outros",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3127,
+          "Morceau": "Um Homem Chamado Alfredo",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3136,
+          "Morceau": "Looking For Love",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3145,
+          "Morceau": "Sweet Lady Luck",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3154,
+          "Morceau": "Feirinha da Pavuna/Luz do Repente/Bagaço da Laranja",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3163,
+          "Morceau": "Samba pras moças",
+          "Unites": 1
+        },
+        {
+          "TrackId": 3177,
+          "Morceau": "Hot Girl",
+          "Unites": 1
+        }
+      ]
+    ]
+  ],
+  "controles": {
+    "integrite": "ok",
+    "cles_etrangeres": "ok",
+    "total_factures_egal_lignes": true,
+    "total_agents_egal_global": true,
+    "total_pays_egal_global": true
+  }
+}

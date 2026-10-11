@@ -1,0 +1,2241 @@
+﻿InvoiceLineId,InvoiceId,Morceau
+1,1,Balls to the Wall
+2,1,Restless and Wild
+3,2,Put The Finger On You
+4,2,Inject The Venom
+5,2,Evil Walks
+6,2,Breaking The Rules
+7,3,Dog Eat Dog
+8,3,Overdose
+9,3,Love In An Elevator
+10,3,Janie's Got A Gun
+11,3,Deuces Are Wild
+12,3,Angel
+13,4,Right Through You
+14,4,Not The Doctor
+15,4,Bleed The Freak
+16,4,Confusion
+17,4,Por Causa De Você
+18,4,Angela
+19,4,Master Of Puppets
+20,4,Welcome Home (Sanitarium)
+21,4,Set It Off
+22,5,Your Time Has Come
+23,5,Dandelion
+24,5,Rock 'N' Roll Music
+25,5,Moon germs
+26,5,Super Terrorizer
+27,5,Heart Of Gold
+28,5,Evil Woman
+29,5,Cornucopia
+30,5,Bowels Of The Devil
+31,5,Body Count Anthem
+32,5,Jerusalem
+33,5,When My Left Eye Jumps
+34,5,Meditação
+35,5,Esse Cara
+36,6,"Bye, Bye Brasil"
+37,7,Atras Da Porta
+38,7,Tatuagem
+39,8,Morena De Angola
+40,8,A Banda
+41,9,Com Açúcar E Com Afeto
+42,9,Meu Caro Amigo
+43,9,Trocando Em Miúdos
+44,9,Gota D'água
+45,10,Etnia
+46,10,Samba Do Lado
+47,10,Sobremesa
+48,10,Sangue De Bairro
+49,10,Amor De Muito
+50,10,Maracatu Atômico [Trip Hop]
+51,11,Samba Makossa
+52,11,Lixo Do Mangue
+53,11,Firmamento
+54,11,Já Foi
+55,11,A Cor Do Sol
+56,11,Firmamento
+57,11,Sábado A Noite
+58,11,Linha Do Equador
+59,11,Livre Pra Viver
+60,12,Lavadeira
+61,12,Dazed and Confused
+62,12,You Shook Me(2)
+63,12,Man With The Woman Head
+64,12,Leandro De Itaquera 2001
+65,12,Vôo Sobre o Horizonte
+66,12,All Star
+67,12,Tanto Tempo
+68,12,Bumbo Da Mangueira
+69,12,Die Die My Darling
+70,12,Radio GA GA
+71,12,I'm Going Slightly Mad
+72,12,Sure Know Something
+73,12,God Of Thunder
+74,13,Valentino's
+75,14,Believe
+76,14,As We Sleep
+77,15,J Squared
+78,15,Maria
+79,16,Longview
+80,16,Basket Case
+81,16,She
+82,16,Geek Stink Breath
+83,17,Stuck With Me
+84,17,Nice Guys Finish Last
+85,17,Macy's Day Parade
+86,17,Don't You Cry
+87,17,Living On Love
+88,17,Wherever You May Go
+89,18,"Diga Lá, Coração"
+90,18,Comportamento Geral
+91,18,Podres Poderes
+92,18,Queixa
+93,18,Ando Meio Desligado
+94,18,Vida De Cachorro
+95,18,Meu Refrigerador Não Funciona
+96,18,Smoke On The Water
+97,18,Trampled Under Foot
+98,19,União Da Ilha
+99,19,Put Your Lights On
+100,19,Primavera
+101,19,Seis Da Tarde
+102,19,Compulsion
+103,19,The Pan Piper
+104,19,Jean Pierre (Live)
+105,19,Drum Boogie
+106,19,Lemon Drop
+107,19,Showcase
+108,19,Como É Duro Trabalhar
+109,19,Pela Luz dos Olhos Teus (Miúcha e Tom Jobim)
+110,19,As Rosas Não Falam (Beth Carvalho)
+111,19,Green River
+112,20,Someday Never Comes
+113,21,Walking On The Water
+114,21,"Suzie-Q, Pt. 2"
+115,22,Good Golly Miss Molly
+116,22,Wrote A Song For Everyone
+117,23,Cotton Fields
+118,23,Don't Look Now
+119,23,Before You Accuse Me
+120,23,Pagan Baby
+121,24,Born To Move
+122,24,Brasil
+123,24,Coroné Antonio Bento
+124,24,Música Urbana 2
+125,24,Woman Of The World (Ao Vivo)
+126,24,Smells Like Teen Spirit (Ao Vivo)
+127,25,Admirável Gado Novo
+128,25,Mis Penas Lloraba Yo (Ao Vivo) Soy Gitano (Tangos)
+129,25,Drifter
+130,25,Child In Time
+131,25,No No No
+132,25,Knocking At Your Back Door
+133,25,The Unwritten Law
+134,25,Maybe I'm A Leo
+135,25,Vavoom : Ted The Mechanic
+136,26,Hey Cisco
+137,26,Fortuneteller
+138,26,High Ball Shooter
+139,26,A Twist In The Tail
+140,26,Animal
+141,26,Hysteria
+142,26,"Baltimore, DC"
+143,26,Esquinas
+144,26,Açai
+145,26,Um Amor Puro
+146,26,Fascinação
+147,26,Sunshine Of Your Love
+148,26,Lay Down Sally
+149,26,Tears In Heaven
+150,27,Naked In Front Of The Computer
+151,28,Helpless
+152,28,Mouth To Mouth
+153,29,She Loves Me Not
+154,29,Paths Of Glory
+155,30,Pristina
+156,30,Caffeine
+157,30,RV
+158,30,Everything's Ruined
+159,31,A Small Victory
+160,31,Easy
+161,31,The Gentle Art Of Making Enemies
+162,31,Ugly In The Morning
+163,31,What A Day
+164,31,From Out Of Nowhere
+165,32,Underwater Love
+166,32,Falamansa Song
+167,32,Avisa
+168,32,Desaforo
+169,32,The Last Song
+170,32,What If I Do?
+171,32,Virginia Moon
+172,32,Times Like These
+173,32,Burn Away
+174,33,See You
+175,33,I Get A Kick Out Of You
+176,33,Fly Me To The Moon
+177,33,Mack The Knife
+178,33,Funk Hum
+179,33,Forty Days Instrumental
+180,33,Pau-De-Arara
+181,33,Stir It Up (Live)
+182,33,A Novidade (Live)
+183,33,Realce
+184,33,Aquele Abraço
+185,33,Re-Align
+186,33,Holiday
+187,33,Homecoming / The Death Of St. Jimmy / East 12th St. / Nobody Likes You / Rock And Roll Girlfriend / We're Coming Home Again
+188,34,Right Next Door to Hell
+189,35,Dust N' Bones
+190,35,Live and Let Die
+191,36,Perfect Crime
+192,36,Bad Obsession
+193,37,Double Talkin' Jive
+194,37,The Garden
+195,37,Don't Damn Me
+196,37,Dead Horse
+197,38,Yesterdays
+198,38,Breakdown
+199,38,Estranged
+200,38,Colibri
+201,38,L'Arc En Ciel De Miles
+202,38,Millenium
+203,39,These Colours Don't Run
+204,39,For the Greater Good of God
+205,39,Prowler
+206,39,Run To The Hilss
+207,39,Can I Play With Madness
+208,39,Heaven Can Wait
+209,39,Blood Brothers
+210,39,The Thin Line Between Love & Hate
+211,39,Gates Of Tomorrow
+212,40,Fear Is The Key
+213,40,01 - Prowler
+214,40,The Ides Of March
+215,40,Drifter
+216,40,The Number Of The Beast
+217,40,Phantom Of The Opera
+218,40,Afraid To Shoot Strangers
+219,40,The Trooper
+220,40,Run Silent Run Deep
+221,40,Still Life
+222,40,Back in the Village
+223,40,Blood Brothers
+224,40,The Number Of The Beast
+225,40,The Prophecy
+226,41,Hallowed Be Thy Name
+227,42,Invaders
+228,42,Run to the Hills
+229,43,The Prisoner
+230,43,Lord Of The Flies
+231,44,Fortunes Of War
+232,44,The Aftermath
+233,44,Blood On The World's Hands
+234,44,2 A.M.
+235,45,Lightning Strikes Twice
+236,45,Don't Look To The Eyes Of A Stranger
+237,45,Night Train
+238,45,It's A Man's Man's Man's World
+239,45,Hey America
+240,45,Get Up Offa That Thing
+241,46,When You Gonna Learn (Digeridoo)
+242,46,"Whatever It Is, I Just Can't Stop"
+243,46,Black Capricorn Day
+244,46,Were Do We Go From Here
+245,46,Light Years
+246,46,Morning Glory
+247,46,Get What You Need
+248,46,Take It Or Leave It
+249,46,Can You See Me
+250,47,Stone Free
+251,47,Satch Boogie
+252,47,Salve Simpatia
+253,47,Filho Maravilha
+254,47,Dance Enquanto é Tempo
+255,47,Voce Inteira
+256,47,Enquanto O Dia Não Vem
+257,47,Turbo Lover
+258,47,Plaster Caster
+259,47,Every Time I Look At You
+260,47,Dazed And Confused
+261,47,Walter's Walk
+262,47,Dancing Days
+263,47,All My Love
+264,48,Your Time Is Gonna Come
+265,49,Black Mountain Side
+266,49,Communication Breakdown
+267,50,How Many More Times
+268,50,What Is And What Should Never Be
+269,51,Thank You
+270,51,Living Loving Maid (She's Just A Woman)
+271,51,Moby Dick
+272,51,Immigrant Song
+273,52,Out On The Tiles
+274,52,Bron-Y-Aur Stomp
+275,52,Down By The Seaside
+276,52,Boogie With Stu
+277,52,For Your Life
+278,52,Hots On For Nowhere
+279,53,Dazed And Confused
+280,53,L'Avventura
+281,53,Soul Parsifal
+282,53,Quando Você Voltar
+283,53,Tempo Perdido
+284,53,Meninos E Meninas
+285,53,Are You Gonna Go My Way
+286,53,Mr. Cab Driver
+287,53,Believe
+288,54,Condição
+289,54,Aquilo
+290,54,Assaltaram A Gramática
+291,54,Waterhole (Expresso Bongo)
+292,54,Tempos Modernos
+293,54,Dança Da Solidão
+294,54,When I Had Your Love
+295,54,Save The Children
+296,54,Down by the Sea
+297,54,The Unforgiven
+298,54,Helpless
+299,54,Stone Cold Crazy
+300,54,Motorbreath
+301,54,2 X 4
+302,55,Master Of Puppets
+303,56,The Thing That Should Not Be
+304,56,Welcome Home (Sanitarium)
+305,57,Leper Messiah
+306,57,Damage Inc.
+307,58,The Memory Remains
+308,58,The Unforgiven II
+309,58,Slither
+310,58,Bad Seed
+311,59,Attitude
+312,59,For Whom The Bell Tolls
+313,59,Creeping Death
+314,59,Some Kind Of Monster
+315,59,Shoot Me Again
+316,59,All Within My Hands
+317,60,Harvester Of Sorrow
+318,60,The Duke
+319,60,Lament
+320,60,Coração De Estudante
+321,60,Menestrel Das Alagoas
+322,60,"Maria, Maria"
+323,60,Ponta de Areia
+324,60,Norwegian Wood
+325,60,Fast And Loose
+326,61,Please Don't Touch
+327,61,Já Foi
+328,61,Wild Side
+329,61,Primal Scream
+330,61,Been A Son
+331,61,Breed
+332,61,Territorial Pissings
+333,61,Folhas Secas
+334,61,Menino De Rua
+335,61,Denúncia
+336,61,O Trem Da Juventude
+337,61,Selvagem
+338,61,Nebulosa Do Amor
+339,61,Luis Inacio (300 Picaretas)
+340,62,Perplexo
+341,63,Me Liga
+342,63,Quase Um Segundo
+343,64,Romance Ideal
+344,64,SKA
+345,65,I Don't Know
+346,65,Flying High Again
+347,65,No More Tears
+348,65,Crazy Train
+349,66,Relvelation (Mother Earth)
+350,66,Children Of The Grave
+351,66,Dee
+352,66,Blue Train
+353,66,Walking Into Clarksdale
+354,66,Sons Of Freedom
+355,67,Beach Sequence
+356,67,Plot 180
+357,67,Murders In The Rue Morgue
+358,67,Iron Maiden
+359,67,Untitled
+360,67,Nothingman
+361,67,World Wide Suicide
+362,67,Big Wave
+363,67,Can't Keep
+364,68,Green Disease
+365,68,Why Go
+366,68,Animal
+367,68,Leash
+368,68,Wanted Dread And Alive
+369,68,The Great Gig In The Sky
+370,68,Bossa
+371,68,Nega Do Cabelo Duro
+372,68,You're My Best Friend
+373,68,Seven Seas Of Rhye
+374,68,"Get Down, Make Love"
+375,68,Get Up
+376,68,Untitled
+377,68,Be Mine
+378,69,Carnival Of Sorts
+379,70,Radio Free Aurope
+380,70,Perfect Circle
+381,71,So Central Rain
+382,71,Pretty Persuasion
+383,72,Can't Get There From Here
+384,72,Fall On Me
+385,72,Cuyahoga
+386,72,The Finest Worksong
+387,73,Papeau Nuky Doe
+388,73,Esporrei Na Manivela
+389,73,Maluco Beleza
+390,73,As Profecias
+391,73,Que Luz É Essa
+392,73,Século XXI
+393,74,Suck My Kiss
+394,74,Under The Bridge
+395,74,They're Red Hot
+396,74,The Zephyr Song
+397,74,Tear
+398,74,Parallel Universe
+399,74,Porcelain
+400,74,Right On Time
+401,74,Xanadu
+402,75,Finding My Way
+403,75,Evil Ways
+404,75,It's Only Love
+405,75,So Beautiful
+406,75,Maquinarama
+407,75,Garota Nacional
+408,75,Aeroplane Flies High
+409,75,Saturnine
+410,75,Cherub Rock
+411,75,Ava Adore
+412,75,Hands All Over
+413,75,Pretty Noose
+414,75,Starburst
+415,75,Leave My Girl Alone
+416,76,Plush
+417,77,Wet My Bed
+418,77,Crackerman
+419,78,Soldier Side - Intro
+420,78,Revenga
+421,79,Radio/Video
+422,79,Violent Pornography
+423,79,Sad Statue
+424,79,Lost in Hollywood
+425,80,Black Light Syndrome
+426,80,Midnight From The Inside Out
+427,80,Sometimes Salvation
+428,80,Girl From A Pawnshop
+429,80,Title Song
+430,80,Soul Singing
+431,81,Clash City Rockers
+432,81,Train In Vain
+433,81,Know Your Rights
+434,81,Take The Power
+435,81,Speed Of Light
+436,81,Spirit Walker
+437,81,Edie (Ciao Baby)
+438,81,Sun King
+439,81,Twentienth Century Fox
+440,82,Can't Stand Losing You
+441,82,King Of Pain
+442,82,Get Off Of My Cloud
+443,82,Gimmie Shelters
+444,82,Thief In The Night
+445,82,Out Of Tears
+446,82,Walking Wounded
+447,82,Heaven Coming Down
+448,82,Gyroscope
+449,82,"Anyway, Anyhow, Anywhere"
+450,82,Pinball Wizard
+451,82,You Better You Bet
+452,82,Música No Ar
+453,82,Você
+454,83,Go Back
+455,84,Prá Dizer Adeus
+456,84,Família
+457,85,O Pulso
+458,85,Nem 5 Minutos Guardados
+459,86,Palavras
+460,86,A Melhor Forma
+461,86,32 Dentes
+462,86,Não Vou Lutar
+463,87,Querem Meu Sangue
+464,87,Lugar Nenhum
+465,87,Domingo
+466,87,Era Uma Vez
+467,87,Toda Cor
+468,87,Occupation / Precipice
+469,88,Hero
+470,88,The Woman King
+471,88,"Crossroads, Pt. 2"
+472,88,Better Halves
+473,88,The Fix
+474,88,Parasite
+475,88,The Glass Ballerina
+476,88,Walkabout
+477,88,I Do
+478,89,Solitary
+479,89,Fire + Water
+480,89,Homecoming
+481,89,Dave
+482,89,Born to Run
+483,89,One
+484,89,Love Is Blindness
+485,89,When I Look At The World
+486,89,Everlasting Love
+487,89,Vertigo
+488,89,Original Of The Species
+489,89,Miami
+490,89,All Along The Watchtower
+491,89,God Part II
+492,90,Desire
+493,91,When Love Comes To Town
+494,91,Angel Of Harlem
+495,92,Sunday Bloody Sunday
+496,92,New Year's Day
+497,93,Drowning Man
+498,93,Two Hearts Beat As One
+499,93,Surrender
+500,93,Zooropa
+501,94,"Stay (Faraway, So Close!)"
+502,94,Dirty Day
+503,94,I Would Do For You
+504,94,Wear You To The Ball
+505,94,C'est La Vie
+506,94,Where Have All The Good Times Gone?
+507,95,Dancing In The Street
+508,95,Eruption
+509,95,Jump
+510,95,Right Now
+511,95,Eruption
+512,95,Feel Your Love Tonight
+513,95,One I Want
+514,95,Year to the Day
+515,95,Big Machine
+516,96,Dirty Little Thing
+517,96,So Por Amor
+518,96,Here I Go Again
+519,96,The Deeper The Love
+520,96,Seu Balancê
+521,96,Sapopemba e Maxambomba
+522,96,The Man Behind the Curtain
+523,96,The Dundies
+524,96,Christmas Party
+525,96,Michael's Birthday
+526,96,Diwali
+527,96,Phyllis's Wedding
+528,96,How to Stop an Exploding Man
+529,96,The Long Patrol
+530,97,Baltar's Escape
+531,98,Experiment In Terra
+532,98,Take the Celestra
+533,99,Pilot
+534,99,"Through the Looking Glass, Pt. 1"
+535,100,#9 Dream
+536,100,Give Peace a Chance
+537,100,Whatever Gets You Thru the Night
+538,100,Gimme Some Truth
+539,101,Jealous Guy
+540,101,Beautiful Boy
+541,101,Gimme Some Truth
+542,101,Sympton of the Universe
+543,101,War Pigs
+544,101,Never Say Die
+545,102,The Zoo
+546,102,I Can't Explain
+547,102,Put Your Head Out
+548,102,"Danny Boy, Danny Boy"
+549,102,One For The Road
+550,102,Chapa o Coco
+551,102,Todo o Carnaval tem seu Fim
+552,102,Funk de Bamba
+553,102,The Beginning of the End
+554,103,Meet Kevin Johnson
+555,103,Muita Bobeira
+556,103,Say Hello 2 Heaven
+557,103,All Night Thing
+558,103,Scar On the Sky
+559,103,Until We Fall
+560,103,Show Me How to Live (Live at the Quart Festival)
+561,103,"The Messiah: Behold, I Tell You a Mystery... The Trumpet Shall Sound"
+562,103,"Requiem, Op.48: 4. Pie Jesu"
+563,103,Branch Closing
+564,103,"Piano Sonata No. 14 in C Sharp Minor, Op. 27, No. 2, ""Moonlight"": I. Adagio sostenuto"
+565,103,"Symphonie Fantastique, Op. 14: V. Songe d'une nuit du sabbat"
+566,103,Rehab
+567,103,He Can Only Hold Her
+568,104,Slowness
+569,105,"Prometheus Overture, Op. 43"
+570,105,Sonata for Solo Violin: IV: Presto
+571,106,"Suite No. 3 in D, BWV 1068: III. Gavotte I & II"
+572,106,Adios nonino
+573,107,"Act IV, Symphony"
+574,107,"Music for the Funeral of Queen Mary: VI. ""Thou Knowest, Lord, the Secrets of Our Hearts"""
+575,107,"Partita in E Major, BWV 1006A: I. Prelude"
+576,107,Sing Joyfully
+577,108,"Étude 1, In C Major - Preludio (Presto) - Liszt"
+578,108,"String Quartet No. 12 in C Minor, D. 703 ""Quartettsatz"": II. Andante - Allegro assai"
+579,108,For Those About To Rock (We Salute You)
+580,108,Princess of the Dawn
+581,108,Snowballed
+582,108,Night Of The Long Knives
+583,109,Problem Child
+584,109,Rag Doll
+585,109,Blind Man
+586,109,Livin' On The Edge
+587,109,Forgiven
+588,109,Wake Up
+589,109,I Can't Remember
+590,109,I Know Somethin (Bout You)
+591,109,Ligia
+592,110,"Canta, Canta Mais"
+593,110,Cochise
+594,110,Hypnotize
+595,110,Drown Me Slowly
+596,110,Long Tall Sally
+597,110,Good Golly Miss Molly
+598,110,Do what cha wanna
+599,110,A.N.D.R.O.T.A.Z.
+600,110,The Beginning...At Last
+601,110,Tomorrow's Dream
+602,110,Smoked Pork
+603,110,Voodoo
+604,110,Chemical Wedding
+605,110,Realword
+606,111,Meditação
+607,112,Terra
+608,112,Eclipse Oculto
+609,113,Bem Devagar
+610,113,Saudosismo
+611,114,Sozinho
+612,114,Mel
+613,114,Odara
+614,114,Atrás Da Verd-E-Rosa Só Não Vai Quem Já Morreu
+615,115,Sozinho (Caêdrum 'n' Bass)
+616,115,Samba De Orly
+617,115,O Que Será (À Flor Da Terra)
+618,115,Minha Historia
+619,115,Geni E O Zepelim
+620,115,Construção / Deus Lhe Pague
+621,116,Um Passeio No Mundo Livre
+622,116,Manguetown
+623,116,Criança De Domingo
+624,116,Banditismo Por Uma Questa
+625,116,Da Lama Ao Caos
+626,116,Computadores Fazem Arte
+627,116,Extra
+628,116,Onde Você Mora?
+629,116,Onde Você Mora?
+630,117,Na Frente Da TV
+631,117,Amor Demais
+632,117,"Tapa Aqui, Descobre Ali"
+633,117,My Love
+634,117,Travelling Riverside Blues
+635,117,Sam With The Showing Scalp Flat Top
+636,117,Gavioes 2001
+637,117,Morro Da Casa Verde 2001
+638,117,Samba da Bençaco
+639,117,Maria Fumaça
+640,117,Only A Dream In Rio
+641,117,Só Tinha De Ser Com Você
+642,117,Whiskey In The Jar
+643,117,It's A Hard Life
+644,118,Sure Know Something
+645,119,Love Gun
+646,119,Deuce
+647,120,Shock Me
+648,120,She
+649,121,Shout It Out Loud
+650,121,Calling Dr. Love
+651,121,Strutter
+652,121,Cold Gin
+653,122,De La Luz
+654,122,Surrender
+655,122,When Evening Falls
+656,122,Poprocks And Coke
+657,122,When I Come Around
+658,122,Brain Stew
+659,123,Redundant
+660,123,Into The Light
+661,123,Cry For Love
+662,123,Grito De Alerta
+663,123,Lindo Lago Do Amor
+664,123,Ponto De Interrogação
+665,123,Voce Nao Entende Nada - Cotidiano
+666,123,O Leaozinho
+667,123,Top Top
+668,124,"Posso Perder Minha Mulher, Minha Mãe, Desde Que Eu Tenha O Rock And Roll"
+669,124,You Fool No One
+670,124,Viradouro
+671,124,Tradição
+672,124,Maria Maria
+673,124,Entre E Ouça
+674,124,Agora Que O Dia Acordou
+675,124,Bye Bye Blackbird
+676,124,Nefertiti
+677,124,Going Down / Highway Star
+678,124,Boogie Blues
+679,124,Don't Take Your Love From Me
+680,124,Onde Anda Você
+681,124,Deixa
+682,125,As Rosas Não Falam (Beth Carvalho)
+683,126,Wave (Os Cariocas)
+684,126,Garota de Ipanema (Dick Farney)
+685,127,Susie Q
+686,127,Proud Mary
+687,128,Lodi
+688,128,Commotion
+689,128,Fortunate Son
+690,128,Who'll Stop The Rain
+691,129,Long As I Can See The Light
+692,129,Sweet Hitch-Hiker
+693,129,Born On The Bayou
+694,129,Night Time Is The Right Time
+695,129,The Midnight Special
+696,129,(Wish I Could) Hideaway
+697,130,Gatas Extraordinárias
+698,130,"Você Passa, Eu Acho Graça (Ao Vivo)"
+699,130,Não Sei O Que Eu Quero Da Vida
+700,130,E.C.T.
+701,130,Eleanor Rigby
+702,130,Comin' Home
+703,130,Love Child
+704,130,Flight Of The Rat
+705,130,Strange Kind Of Woman
+706,131,Black Night
+707,131,Pictures Of Home
+708,131,Cascades : I'm Not Your Lover
+709,131,The Cut Runs Deep
+710,131,Love Don't Mean a Thing
+711,131,Lick It Up
+712,131,Pour Some Sugar On Me
+713,131,Action
+714,131,Groovus Interruptus
+715,131,Cigano
+716,131,Acelerou
+717,131,Azul
+718,131,"Dois Pra Lá, Dois Pra Cá"
+719,131,Maria Rosa
+720,132,Lay Down Sally
+721,133,Knockin On Heavens Door
+722,133,Wonderful Tonight
+723,134,Promises
+724,134,Signe
+725,135,Hey Hey
+726,135,Lonely Stranger
+727,135,Layla
+728,135,Walkin' Blues
+729,136,Old Love
+730,136,Last Cup Of Sorrow
+731,136,Ashes To Ashes
+732,136,Home Sick Home
+733,136,Midlife Crisis
+734,136,Malpractice
+735,137,Midnight Cowboy
+736,137,Star A.D.
+737,137,King For A Day
+738,137,Epic
+739,137,The Morning After
+740,137,Xote Dos Milagres
+741,137,Principiando/Decolagem
+742,137,In Your Honor
+743,137,Free Me
+744,138,Over And Out
+745,138,Disenchanted Lullaby
+746,138,"Hey, Johnny Park!"
+747,138,Walking After You
+748,138,Summer Love
+749,138,Come Fly With Me
+750,138,Nervosa
+751,138,Meu Guarda-Chuva
+752,138,Juazeiro
+753,138,Lamento Sertanejo
+754,138,Estrela (Live)
+755,138,Lamento De Carnaval
+756,138,Beira Mar
+757,138,Straight Out Of Line
+758,139,Holiday
+759,140,Boulevard Of Broken Dreams
+760,140,Are We The Waiting
+761,141,Give Me Novacaine
+762,141,Extraordinary Girl
+763,142,Wake Me Up When September Ends
+764,142,Whatsername
+765,142,It's So Easy
+766,142,Out Ta Get Me
+767,143,Think About You
+768,143,Rocket Queen
+769,143,Don't Cry (Original)
+770,143,Back off Bitch
+771,143,Garden of Eden
+772,143,Coma
+773,144,Shotgun Blues
+774,144,You Could Be Mine
+775,144,Deep Waters
+776,144,Thinking 'Bout Tomorrow
+777,144,Brighter Than a Thousand Suns
+778,144,Lord of Light
+779,144,Transylvania
+780,144,2 Minutes To Midnight
+781,144,Wasting Love
+782,145,Ghost Of The Navigator
+783,145,Wildest Dreams
+784,145,Age Of Innocence
+785,145,Chains Of Misery
+786,145,05 - Phantom of the Opera
+787,145,Genghis Khan
+788,145,The Trooper
+789,145,Running Free
+790,145,From Here To Eternity
+791,145,Heaven Can Wait
+792,145,Holy Smoke
+793,145,Where Eagles Dare
+794,145,Aces High
+795,145,The Wicker Man
+796,146,The Number Of The Beast
+797,147,Hallowed Be Thy Name
+798,147,Sanctuary
+799,148,Moonchild
+800,148,Can I Play With Madness
+801,149,Seventh Son of a Seventh Son
+802,149,The Clairvoyant
+803,149,Caught Somewhere in Time
+804,149,Sea of Madness
+805,150,De Ja Vu
+806,150,Gangland
+807,150,The Number Of The Beast
+808,150,Man On The Edge
+809,150,Judgement Of Heaven
+810,150,The Unbeliever
+811,151,The Educated Fool
+812,151,Out Of Sight
+813,151,Get Up (I Feel Like Being A) Sex Machine
+814,151,It's Too Funky In Here
+815,151,Too Young To Die
+816,151,Blow Your Mind
+817,151,Soul Education
+818,151,King For A Day
+819,151,Manifest Destiny
+820,152,Rollover D.J.
+821,152,Lazy Gun
+822,152,Fire
+823,152,Highway Chile
+824,152,Midnight
+825,152,Charles Anjo 45
+826,152,Vou Pra Ai
+827,152,Onibusfobia
+828,152,Papelão
+829,152,Hot Rockin'
+830,152,Ram It Down
+831,152,Sure Know Something
+832,152,Rock And Roll All Nite
+833,152,Whole Lotta Love (Medley)
+834,153,Dancing Days
+835,154,D'Yer Mak'er
+836,154,No Quarter
+837,155,In The Evening
+838,155,Fool In The Rain
+839,156,Carouselambra
+840,156,I'm Gonna Crawl
+841,156,Rock & Roll
+842,156,Stairway To Heaven
+843,157,When The Levee Breaks
+844,157,Dazed and Confused
+845,157,I Can't Quit You Baby
+846,157,The Lemon Song
+847,157,Ramble On
+848,157,Friends
+849,158,That's The Way
+850,158,Ten Years Gone
+851,158,Achilles Last Stand
+852,158,Tea For One
+853,158,No Quarter
+854,158,Música De Trabalho
+855,158,Dezesseis
+856,158,O Livro Dos Dias
+857,158,Indios
+858,159,Dezesseis
+859,159,American Woman
+860,159,Honolulu
+861,159,Brumário
+862,159,Tudo Bem
+863,159,Pseudo Silk Kimono
+864,159,White Feather
+865,159,De Noite Na Cama
+866,159,O Xote Das Meninas
+867,159,Seek And You Shall Find
+868,159,Heavy Love Affair
+869,159,Shakes and Ladders
+870,159,Nothing Else Matters
+871,159,Last Caress/Green Hell
+872,160,Motorbreath
+873,161,Jump In The Fire
+874,161,(Anesthesia) Pulling Teeth
+875,162,Phantom Lord
+876,162,Seek & Destroy
+877,163,Ain't My Bitch
+878,163,The House Jack Built
+879,163,King Nothing
+880,163,Bleeding Me
+881,164,Mama Said
+882,164,Battery
+883,164,Disposable Heroes
+884,164,Fuel
+885,164,Better Than You
+886,164,Where The Wild Things Are
+887,165,Ride The Lightning
+888,165,The Call Of Ktulu
+889,165,My World
+890,165,Blackened
+891,165,The Frayed Ends Of Sanity
+892,165,My Ship
+893,165,I Don't Wanna Be Kissed (By Anyone But You)
+894,165,A Noite Do Meu Bem
+895,165,Brasil
+896,166,Saudade Dos Aviões Da Panair (Conversando No Bar)
+897,166,Caso Você Queira Saber
+898,166,Dance
+899,166,Aos Leões
+900,166,Demorou!
+901,166,Home Sweet Home
+902,166,Intro
+903,166,Scentless Apprentice
+904,166,In Bloom
+905,166,On A Plain
+906,166,Mundaréu
+907,166,Nossa Gente (Avisa Là)
+908,166,Revolta Olodum
+909,166,Vai Valer
+910,167,Nebulosa Do Amor
+911,168,Caleidoscópio
+912,168,Trac Trac
+913,169,Mensagen De Amor (2000)
+914,169,La Bella Luna
+915,170,Uma Brasileira
+916,170,Saber Amar
+917,170,O Amor Nao Sabe Esperar
+918,170,Caleidoscópio
+919,171,Lanterna Dos Afogados
+920,171,Meu Erro
+921,171,Selvagem
+922,171,Bark at the Moon
+923,171,"Mama, I'm Coming Home"
+924,171,Believer
+925,172,Iron Man
+926,172,Shining In The Light
+927,172,Heart In Your Hand
+928,172,United Colours
+929,172,Miss Sarajevo
+930,172,Theme From The Swan
+931,172,Women In Uniform
+932,172,Corduroy
+933,172,MFC
+934,173,F*Ckin' Up
+935,173,Gone
+936,173,Ghost
+937,173,Arc
+938,173,Porch
+939,173,W.M.A.
+940,173,Jah Seh No
+941,173,Crystal Ball
+942,173,Brain Damage
+943,173,O Bicho Tá Pregando
+944,173,Bohemian Rhapsody
+945,173,Somebody To Love
+946,173,We Are The Champions
+947,173,My Melancholy Blues
+948,174,Untitled
+949,175,How The West Was Won And Where It Got Us
+950,175,The Wake-Up Bomb
+951,176,Undertow
+952,176,Leave
+953,177,Bittersweet Me
+954,177,Binky The Doormat
+955,177,"So Fast, So Numb"
+956,177,Electrolite
+957,178,Endgame
+958,178,Country Feedback
+959,178,Talk About The Passion
+960,178,Green Grow The Rushes
+961,178,I Believe
+962,178,It's The End Of The World As We Know It (And I Feel Fine)
+963,179,Puteiro Em João Pessoa
+964,179,O Dia Em Que A Terra Parou
+965,179,Todo Mundo Explica
+966,179,Rock Das Aranhas (Ao Vivo) (Live)
+967,179,I Could Have Lied
+968,179,Naked In The Rain
+969,179,By The Way
+970,179,Can't Stop
+971,179,On Mercury
+972,180,Californication
+973,180,Road Trippin'
+974,180,Closer To The Heart
+975,180,Persuasion
+976,180,Funky Piano
+977,180,Stars
+978,180,Três Lados
+979,180,Ali
+980,180,Um Dia Qualquer
+981,180,My Mistake
+982,180,Soot & Stars
+983,180,Bullet With Butterfly Wings
+984,180,Real Love
+985,180,Rusty Cage
+986,181,Starburst
+987,182,Heliopolis
+988,182,It Doesn't Matter
+989,183,End Of Romanticism
+990,183,Crossfire
+991,184,Let Me Love You Baby
+992,184,Travis Walk
+993,184,Scratch-N-Sniff
+994,184,Riviera Paradise
+995,185,No Memory
+996,185,Piece Of Pie
+997,185,Where The River Goes
+998,185,Cigaro
+999,185,Question!
+1000,185,The Sun Road
+1001,186,Chaos-Control
+1002,186,Cursed Diamonds
+1003,186,High Head Blues
+1004,186,Hard To Handle
+1005,186,(White Man) In Hammersmith Palais
+1006,186,Bankrobber
+1007,186,Rock The Casbah
+1008,186,Breathe
+1009,186,True Believers
+1010,187,Love Removal Machine
+1011,187,Sweet Soul Sister
+1012,187,I Looked At You
+1013,187,"De Do Do Do, De Da Da Da"
+1014,187,Time Is On My Side
+1015,187,Under My Thumb
+1016,187,Saint Of Me
+1017,187,You Got Me Rocking
+1018,187,Suck On The Jugular
+1019,187,Sister Awake
+1020,187,Life Line
+1021,187,Babylon
+1022,187,Boris The Spider
+1023,187,Let's See Action
+1024,188,Música No Ar
+1025,189,Salve Nossa Senhora
+1026,189,Você Fugiu
+1027,190,Compadre
+1028,190,Réu Confesso
+1029,191,Gostava Tanto De Você
+1030,191,Não Quero Dinheiro
+1031,191,A Festa Do Santo Reis
+1032,191,Padre Cícero
+1033,192,Balanço
+1034,192,Comida
+1035,192,Os Cegos Do Castelo
+1036,192,Flores
+1037,192,Cabeça Dinossauro
+1038,192,Homem Primata (Vinheta)
+1039,193,Sonifera Ilha
+1040,193,Amanhã Não Se Sabe
+1041,193,Eu E Ela
+1042,193,"Exodus, Pt. 1"
+1043,193,Unfinished Business
+1044,193,A Day In the Life
+1045,193,Genesis
+1046,193,Nothing to Hide
+1047,193,Distractions
+1048,194,Adrift
+1049,194,...And Found
+1050,194,The Other 48 Days
+1051,194,The 23rd Psalm
+1052,194,The Long Con
+1053,194,The Whole Truth
+1054,194,S.O.S.
+1055,194,Exodus (Part 2) [Season Finale]
+1056,194,The Fly
+1057,194,Walk On
+1058,194,Spanish Eyes
+1059,194,Hallelujah Here She Comes
+1060,194,City Of Blinding Lights
+1061,194,Mofo
+1062,195,All Along The Watchtower
+1063,196,I Still Haven't Found What I'm Looking for
+1064,196,Freedom For My People
+1065,197,Pride (In The Name Of Love)
+1066,197,Love Rescue Me
+1067,198,Heartland
+1068,198,The Star Spangled Banner
+1069,198,All I Want Is You
+1070,198,New Year's Day
+1071,199,Bad
+1072,199,Sweetest Thing
+1073,199,All I Want Is You
+1074,199,Like A Song...
+1075,199,Red Light
+1076,199,Babyface
+1077,200,The First Time
+1078,200,Homely Girl
+1079,200,Bring Me Your Cup
+1080,200,Hang 'Em High
+1081,200,Little Guitars (Intro)
+1082,200,Ain't Talkin' 'bout Love
+1083,200,Panama
+1084,200,Can't Stop Loving You
+1085,200,You Really Got Me
+1086,201,Neworld
+1087,201,Primary
+1088,201,Headspace
+1089,201,Tudo Na Mais Santa Paz
+1090,201,Samba Do Jato
+1091,201,Now You're Gone
+1092,201,Faixa Amarela
+1093,201,Sem Essa de Malandro Agulha
+1094,201,Verdade
+1095,201,Diversity Day
+1096,201,Halloween
+1097,201,The Carpet
+1098,201,Gay Witch Hunt
+1099,201,"A Benihana Christmas, Pts. 1 & 2"
+1100,202,How to Stop an Exploding Man
+1101,203,Through a Looking Glass
+1102,203,Your Time Is Gonna Come
+1103,204,"Battlestar Galactica, Pt. 2"
+1104,204,"Lost Planet of the Gods, Pt. 1"
+1105,205,The Lost Warrior
+1106,205,"The Gun On Ice Planet Zero, Pt. 1"
+1107,205,The Magnificent Warriors
+1108,205,"The Living Legend, Pt. 1"
+1109,206,"War of the Gods, Pt. 2"
+1110,206,"Greetings from Earth, Pt. 2"
+1111,206,The Hand of God
+1112,206,Instant Karma
+1113,206,Cold Turkey
+1114,206,"Oh, My Love"
+1115,207,Imagine
+1116,207,[Just Like] Starting Over
+1117,207,Fairies Wear Boots
+1118,207,"Sabbath, Bloody Sabbath"
+1119,207,Loving You Sunday Morning
+1120,207,Tease Me Please Me
+1121,207,Top O' The Morning To Ya
+1122,207,Guess Who's Back
+1123,207,Feel It
+1124,208,Um Lugar ao Sol
+1125,208,Chega no Suingue
+1126,208,The Economist
+1127,208,Din Din Wo (Little Child)
+1128,208,Something Nice Back Home
+1129,208,Call Me a Dog
+1130,208,Safe and Sound
+1131,208,Disappearing Act
+1132,208,Shape of Things to Come
+1133,208,Canon and Gigue in D Major: I. Canon
+1134,208,"Symphony No. 104 in D Major ""London"": IV. Finale: Spiritoso"
+1135,208,"Jupiter, the Bringer of Jollity"
+1136,208,"Scheherazade, Op. 35: I. The Sea and Sindbad's Ship"
+1137,208,Two Fanfares for Orchestra: II. Short Ride in a Fast Machine
+1138,209,Rehab
+1139,210,You Know I'm No Good
+1140,210,Me & Mr. Jones
+1141,211,Back to Black
+1142,211,Tears Dry On Their Own
+1143,212,Some Unholy War
+1144,212,You Know I'm No Good (feat. Ghostface Killah)
+1145,212,Intro / Stronger Than Me
+1146,212,F**k Me Pumps
+1147,213,Take the Box
+1148,213,Amy Amy Amy (Outro)
+1149,213,"A Midsummer Night's Dream, Op.61 Incidental Music: No.7 Notturno"
+1150,213,"Symphony No. 3 Op. 36 for Orchestra and Soprano ""Symfonia Piesni Zalosnych"" \ Lento E Largo - Tranquillissimo"
+1151,213,Symphony No. 2: III. Allegro vivace
+1152,213,"Metopes, Op. 29: Calypso"
+1153,214,Pini Di Roma (Pinien Von Rom) \ I Pini Della Via Appia
+1154,214,Balls to the Wall
+1155,214,Inject The Venom
+1156,214,Spellbound
+1157,214,Overdose
+1158,214,What It Takes
+1159,214,Deuces Are Wild
+1160,214,All I Really Want
+1161,214,You Learn
+1162,215,Sea Of Sorrow
+1163,215,Real Thing
+1164,215,Falando De Amor
+1165,215,The Unforgiven
+1166,215,Like a Stone
+1167,215,The Last Remaining Light
+1168,215,Yesterday To Tomorrow
+1169,215,C'Mon Everybody
+1170,215,"Spanish moss-""A sound portrait""-Spanish moss"
+1171,215,All For You
+1172,215,The Begining... At Last
+1173,215,N.I.B.
+1174,215,Snowblind
+1175,215,A Statistic
+1176,216,Chemical Wedding
+1177,217,The Tower
+1178,217,Killing Floor
+1179,218,Gates Of Urizen
+1180,218,Trupets Of Jericho
+1181,219,The Alchemist
+1182,219,First Time I Met The Blues
+1183,219,Stone Crazy
+1184,219,When My Left Eye Jumps
+1185,220,My Time After Awhile
+1186,220,Prenda Minha
+1187,220,"Texto ""Verdade Tropical"""
+1188,220,Carolina
+1189,220,Linha Do Equador
+1190,220,Vida Boa
+1191,221,Vai Passar
+1192,221,Morena De Angola
+1193,221,Meu Caro Amigo
+1194,221,Mateus Enter
+1195,221,Samba Do Lado
+1196,221,Um Satélite Na Cabeça
+1197,221,Amor De Muito
+1198,221,Banditismo Por Uma Questa
+1199,221,Maracatu De Tiro Certeiro
+1200,222,Soldado Da Paz
+1201,222,Pensamento
+1202,222,Falar A Verdade
+1203,222,Eu Também Quero Beijar
+1204,222,Felicidade Urgente
+1205,222,Levada do Amor (Ailoviu)
+1206,222,Communication Breakdown
+1207,222,I Can't Quit You Baby(2)
+1208,222,Advance Romance
+1209,222,Camisa Verde 2001
+1210,222,Mas Que Nada
+1211,222,Mistério da Raça
+1212,222,Tarde Em Itapoã
+1213,222,Um Jantar Pra Dois
+1214,223,Whiskey In The Jar
+1215,224,Tuesday's Gone
+1216,224,The More I See
+1217,225,Under Pressure
+1218,225,I Want It All
+1219,226,Innuendo
+1220,226,Breakthru
+1221,226,Headlong
+1222,226,I'm Going Slightly Mad
+1223,227,The Show Must Go On
+1224,227,Hard Luck Woman
+1225,227,Goin' Blind
+1226,227,I Was Made For Loving You
+1227,227,Beth
+1228,227,Plaster Caster
+1229,228,Playtime
+1230,228,J Squared
+1231,228,Basket Case
+1232,228,Jaded
+1233,228,Nice Guys Finish Last
+1234,228,River Song
+1235,228,Living On Love
+1236,228,Não Dá Mais Pra Segurar (Explode Coração)
+1237,228,Eu Apenas Queria Que Voçê Soubesse
+1238,229,Um Indio
+1239,229,Fora Da Ordem
+1240,229,Chão De Estrelas
+1241,229,Stormbringer
+1242,229,Houses Of The Holy
+1243,229,Mangueira
+1244,229,Love Of My Life
+1245,229,El Farol
+1246,229,Um Love
+1247,229,Jeru
+1248,229,So What
+1249,229,Black Satin
+1250,229,Blue Rythm Fantasy
+1251,229,Bop Boogie
+1252,230,Onde Anda Você
+1253,231,Samba Da Volta
+1254,231,Canto De Ossanha
+1255,232,Formosa
+1256,232,Minha Namorada
+1257,233,Berimbau
+1258,233,Pot-Pourri N.º 2
+1259,233,Carta Ao Tom 74
+1260,233,Pela Luz dos Olhos Teus (Miúcha e Tom Jobim)
+1261,234,Coração do Agreste (Fafá de Belém)
+1262,234,Romaria (Renato Teixeira)
+1263,234,Preciso Apender a Viver Só (Maysa)
+1264,234,Bad Moon Rising
+1265,234,Down On The Corner
+1266,234,Up Around The Bend
+1267,235,Hey Tonight
+1268,235,Good Golly Miss Molly
+1269,235,Don't Look Now
+1270,235,It's Just A Thought
+1271,235,Brasil
+1272,235,Meu Mundo Fica Completo (Com Você)
+1273,235,Woman Of The World (Ao Vivo)
+1274,235,Todo Amor Que Houver Nesta Vida
+1275,235,Socorro
+1276,236,I Need Love
+1277,236,Into The Fire
+1278,236,No One Came
+1279,236,Hush
+1280,236,Space Truckin'
+1281,236,A Touch Away
+1282,236,Love Conquers All
+1283,236,You Can't Do it Right (With the One You Love)
+1284,236,Ramshackle Man
+1285,236,Two Steps Behind [Acoustic Version]
+1286,236,Rock Of Ages
+1287,236,Outbreak
+1288,236,Álibi
+1289,236,Oceano
+1290,237,"Dois Pra Lá, Dois Pra Cá"
+1291,238,Casa no Campo
+1292,238,Romaria
+1293,239,Me Deixas Louca
+1294,239,Saudosa Maloca
+1295,240,Madalena
+1296,240,Aprendendo A Jogar
+1297,240,Badge
+1298,240,Sunshine Of Your Love
+1299,241,Bell Bottom Blues
+1300,241,Swing Low Sweet Chariot
+1301,241,Let It Grow
+1302,241,Before You Accuse Me
+1303,241,Nobody Knows You When You're Down & Out
+1304,241,Alberta
+1305,242,Stripsearch
+1306,242,She Loves Me Not
+1307,242,Caffeine
+1308,242,Kindergarten
+1309,242,Easy
+1310,242,Cuckoo For Caca
+1311,242,What A Day
+1312,242,Falling To Pieces
+1313,242,Woodpecker From Mars
+1314,243,Zeca Violeiro
+1315,243,No Way Back
+1316,243,Still
+1317,243,Razor
+1318,243,Overdrive
+1319,243,My Hero
+1320,243,"New York, New York"
+1321,243,My Kind Of Town
+1322,243,"Bad, Bad Leroy Brown"
+1323,243,Zambação
+1324,243,Divirta-Se (Saindo Da Sua)
+1325,243,Assum Preto
+1326,243,Is This Love (Live)
+1327,243,Copacabana (Live)
+1328,244,Beira Mar
+1329,245,Sampa
+1330,245,Parabolicamará
+1331,246,Expresso 2222
+1332,246,Palco
+1333,247,Sítio Do Pica-Pau Amarelo
+1334,247,Faceless
+1335,247,Make Me Believe
+1336,247,Re-Align
+1337,248,I Am
+1338,248,Jesus Of Suburbia / City Of The Damned / I Don't Care / Dearly Beloved / Tales Of Another Broken Home
+1339,248,St. Jimmy
+1340,248,Letterbomb
+1341,248,Welcome to the Jungle
+1342,248,Mr. Brownstone
+1343,249,Anything Goes
+1344,249,Perfect Crime
+1345,249,The Garden
+1346,249,Civil War
+1347,249,Breakdown
+1348,249,Don't Cry
+1349,249,L'Arc En Ciel De Miles
+1350,249,Jacob's Ladder
+1351,249,The Pilgrim
+1352,250,The Trooper
+1353,250,Iron Maiden
+1354,250,Bring Your Daughter... To The Slaughter
+1355,250,Dream Of Mirrors
+1356,250,Dance Of Death
+1357,250,Afraid To Shoot Strangers
+1358,250,Fear Of The Dark
+1359,250,09 - Iron Maiden
+1360,250,Purgatory
+1361,250,Powerslave
+1362,250,Die With Your Boots On
+1363,250,The Evil That Men Do
+1364,250,Hallowed Be Thy Name
+1365,250,The Assassin
+1366,251,Aces High
+1367,252,2 Minutes To Midnight
+1368,252,Losfer Words
+1369,253,Duelists
+1370,253,Powerslave
+1371,254,Intro
+1372,254,Ghost Of The Navigator
+1373,254,Wrathchild
+1374,254,Blood Brothers
+1375,255,Dream Of Mirrors
+1376,255,Iron Maiden
+1377,255,Run To The Hills
+1378,255,The Evil That Men Do
+1379,255,Only the Good Die Young
+1380,255,Heaven Can Wait
+1381,256,Children of the Damned
+1382,256,The Prisoner
+1383,256,The Aftermath
+1384,256,Futureal
+1385,256,Don't Look To The Eyes Of A Stranger
+1386,256,Papa's Got A Brand New Bag Pt.1
+1387,256,Hey America
+1388,256,Living In America
+1389,256,Hooked Up
+1390,257,Planet Home
+1391,257,Deeper Underground
+1392,257,Journey To Arnhemland
+1393,257,Radio Song
+1394,257,Red House
+1395,257,Hey Joe
+1396,257,"Always With Me, Always With You"
+1397,257,Mama Africa
+1398,257,Santa Clara Clareou
+1399,257,Encontrar Alguém
+1400,257,No Futuro
+1401,257,Cafezinho
+1402,257,You've Got Another Thing Comin'
+1403,257,Comin' Home
+1404,258,Rock And Roll All Nite
+1405,259,Immigrant Song
+1406,259,Heartbreaker
+1407,260,Black Dog
+1408,260,Stairway To Heaven
+1409,261,That's The Way
+1410,261,Thank You
+1411,261,Poor Tom
+1412,261,Walter's Walk
+1413,262,Wearing And Tearing
+1414,262,The Crunge
+1415,262,The Ocean
+1416,262,Hot Dog
+1417,262,Black Dog
+1418,262,Misty Mountain Hop
+1419,263,You Shook Me
+1420,263,How Many More Times
+1421,263,Living Loving Maid (She's Just A Woman)
+1422,263,Celebration Day
+1423,263,Bron-Y-Aur Stomp
+1424,263,Night Flight
+1425,263,For Your Life
+1426,263,Rock & Roll
+1427,263,Stairway To Heaven
+1428,264,Aloha
+1429,264,Será
+1430,264,Pais E Filhos
+1431,264,Rock And Roll Is Dead
+1432,264,I Belong To You
+1433,264,Casa
+1434,264,A Cura
+1435,264,Sereia
+1436,264,Heart Of Lothian: Wide Boy / Curtain Call
+1437,264,Cérebro Eletrônico
+1438,264,A Menina Dança
+1439,264,You've Been A Long Time Coming
+1440,264,"Abraham, Martin And John"
+1441,264,Everything I Need
+1442,265,Nothing Else Matters
+1443,266,Of Wolf And Man
+1444,266,The God That Failed
+1445,267,The Struggle Within
+1446,267,The Small Hours
+1447,268,Crash Course In Brain Surgery
+1448,268,Am I Evil?
+1449,268,Breadfan
+1450,268,Stone Cold Crazy
+1451,269,Damage Case
+1452,269,The Four Horsemen
+1453,269,Whiplash
+1454,269,Metal Militia
+1455,269,Until It Sleeps
+1456,269,Cure
+1457,270,The Outlaw Torn
+1458,270,Leper Messiah
+1459,270,The Unforgiven II
+1460,270,Prince Charming
+1461,270,For Whom The Bell Tolls
+1462,270,Frantic
+1463,270,Shoot Me Again
+1464,270,...And Justice For All
+1465,270,To Live Is To Die
+1466,271,The Meaning Of The Blues
+1467,271,Paisagem Na Janela
+1468,271,Para Lennon E McCartney
+1469,271,Idolatrada
+1470,271,Live To Win
+1471,271,Dirty Love
+1472,271,É Fogo
+1473,271,Kickstart My Heart
+1474,271,Smokin' in The Boys Room
+1475,271,Smells Like Teen Spirit
+1476,271,Polly
+1477,271,Polly
+1478,271,Sangue Latino
+1479,271,Às Vezes
+1480,272,Revolta Olodum
+1481,273,Reggae Odoyá
+1482,273,Protesto Do Olodum (Ao Vivo)
+1483,274,Vulcão Dub - Fui Eu
+1484,274,Manguetown
+1485,275,Bora-Bora
+1486,275,I Feel Good (I Got You) - Sossego
+1487,275,Sincero Breu
+1488,275,Selvagem
+1489,276,Navegar Impreciso
+1490,276,Life During Wartime
+1491,276,Tendo A Lua
+1492,276,Busca Vida
+1493,276,Ela Disse Adeus
+1494,276,Óculos
+1495,277,O Beco
+1496,277,Romance Ideal
+1497,277,Flying High Again
+1498,277,Mr. Crowley
+1499,277,Children Of The Grave
+1500,277,When The World Was Young
+1501,277,Walking Into Clarksdale
+1502,277,Slug
+1503,277,Ito Okashi
+1504,278,Prowler
+1505,278,Given To Fly
+1506,278,Off He Goes
+1507,278,Severed Hand
+1508,278,Inside Job
+1509,278,Get Right
+1510,278,Alive
+1511,278,Go
+1512,278,Elderly Woman Behind The Counter In A Small Town
+1513,278,Bush Doctor
+1514,278,Time
+1515,278,Hip Hop Rio
+1516,278,Rappers Reais
+1517,278,Bicycle Race
+1518,279,We Are The Champions
+1519,280,Sheer Heart Attack
+1520,280,"All Dead, All Dead"
+1521,281,Fight From The Inside
+1522,281,Sleep On The Sidewalk
+1523,282,It's Late
+1524,282,Shiny Happy People
+1525,282,Radio Song
+1526,282,Get Up
+1527,283,The Wrong Child
+1528,283,I Remember California
+1529,283,New Test Leper
+1530,283,Departure
+1531,283,Zither
+1532,283,Losing My Religion
+1533,284,Texarkana
+1534,284,So Central Rain
+1535,284,Fall On Me
+1536,284,Infeliz Natal
+1537,284,Esporrei Na Manivela
+1538,284,No Fundo Do Quintal Da Escola
+1539,284,Que Luz É Essa
+1540,284,The Power Of Equality
+1541,284,Mellowship Slinky In B Major
+1542,285,Sir Psycho Sexy
+1543,285,I Could Die For You
+1544,285,Around The World
+1545,285,I Like Dirt
+1546,285,Freewill
+1547,285,Fly By Night
+1548,285,Santana Jam
+1549,285,The Right Thing
+1550,285,For Your Babies
+1551,285,Muçulmano
+1552,285,Zé Trindade
+1553,285,Lucky 13
+1554,285,Waiting
+1555,285,Drown
+1556,286,Real Love
+1557,287,[Untitled]
+1558,287,Nothing To Say
+1559,288,Loud Love
+1560,288,Get On The Snake
+1561,289,Outshined
+1562,289,Spoonman
+1563,289,Black Hole Sun
+1564,289,Pretty Noose
+1565,290,Bleed Together
+1566,290,Song For Lorraine
+1567,290,Little Linda
+1568,290,Tightrope
+1569,290,Wall Of Denial
+1570,290,Dead And Bloated
+1571,291,Creep
+1572,291,Soldier Side - Intro
+1573,291,Violent Pornography
+1574,291,Dark Corners
+1575,291,Midnight From The Inside Out
+1576,291,Miracle To Me
+1577,291,Title Song
+1578,291,Remedy
+1579,291,Tommy Gun
+1580,292,This Is Radio Clash
+1581,292,Nico
+1582,292,Lil' Evil
+1583,292,Love
+1584,292,The Crystal Ship
+1585,292,Roxanne
+1586,292,Every Breath You Take
+1587,292,As Tears Go By
+1588,292,You Got Me Rocking
+1589,292,Respectable
+1590,292,Moon Is Up
+1591,292,Mean Disposition
+1592,292,Release
+1593,292,Psychopomp
+1594,293,Boris The Spider
+1595,294,Happy Jack
+1596,294,Pictures Of Lily
+1597,295,Magic Bus
+1598,295,The Seeker
+1599,296,Won't Get Fooled Again (Full Length Version)
+1600,296,5.15
+1601,296,Squeeze Box
+1602,296,You Better You Bet
+1603,297,O Descobridor Dos Sete Mares
+1604,297,Não Vou Ficar
+1605,297,Cristina Nº 2
+1606,297,O Que Me Importa
+1607,297,Eu Amo Você
+1608,297,Nosso Adeus
+1609,298,Formigueiro
+1610,298,O Pulso
+1611,298,A Melhor Forma
+1612,298,Homem Primata
+1613,298,Lugar Nenhum
+1614,298,Caras Como Eu
+1615,298,Toda Cor
+1616,298,"Exodus, Pt. 2"
+1617,298,The Passage
+1618,299,"Crossroads, Pt. 1"
+1619,299,Seven Minutes to Midnight
+1620,299,Company Man
+1621,299,Orientation
+1622,299,House of the Rising Sun
+1623,299,Lost Survival Guide
+1624,299,Enter 77
+1625,299,Exposé
+1626,299,Catch-22
+1627,299,"""?"""
+1628,299,Even Better Than The Real Thing
+1629,299,Acrobat
+1630,299,Peace On Earth
+1631,299,Dancing Barefoot
+1632,300,City Of Blinding Lights
+1633,301,All Because Of You
+1634,301,A Man And A Woman
+1635,302,One Step Closer
+1636,302,Yahweh
+1637,303,Do You Feel Loved
+1638,303,If God Will Send His Angels
+1639,303,Last Night On Earth
+1640,303,Miami
+1641,304,Wake Up Dead Man
+1642,304,Hawkmoon 269
+1643,304,Silver And Gold
+1644,304,When Love Comes To Town
+1645,304,Bullet The Blue Sky
+1646,304,With Or Without You
+1647,305,The Unforgettable Fire
+1648,305,Sunday Bloody Sunday
+1649,305,Two Hearts Beat As One
+1650,305,Numb
+1651,305,Dirty Day
+1652,305,Here I Am (Come And Take Me)
+1653,305,C'est La Vie
+1654,305,Cathedral
+1655,305,Little Guitars
+1656,306,Unchained
+1657,306,Humans Being
+1658,306,Atomic Punk
+1659,306,Dirty Water Dog
+1660,306,Do It For The Kids
+1661,306,Slither
+1662,306,Samba Pra Endrigo
+1663,306,Still Of The Night
+1664,306,You're Gonna Break My Hart Again
+1665,306,Coração Em Desalinho
+1666,306,Camarão que Dorme e Onda Leva
+1667,306,The Hard Part
+1668,306,Hot Girl
+1669,306,Email Surveillance
+1670,307,Gay Witch Hunt
+1671,308,The Convention
+1672,308,The Coup
+1673,309,The Initiation
+1674,309,Branch Closing
+1675,310,The Convict
+1676,310,Back from Vacation
+1677,310,Producer's Cut: The Return
+1678,310,Phyllis's Wedding
+1679,311,Safety Training
+1680,311,The Job
+1681,311,"Battlestar Galactica, Pt. 1"
+1682,311,"Lost Planet of the Gods, Pt. 2"
+1683,311,"The Gun On Ice Planet Zero, Pt. 2"
+1684,311,"The Living Legend, Pt. 2"
+1685,312,"Greetings from Earth, Pt. 1"
+1686,312,Pilot
+1687,312,Give Peace a Chance
+1688,312,Imagine
+1689,312,Beautiful Boy
+1690,312,God
+1691,312,War Pigs
+1692,312,Iron Man/Children of the Grave
+1693,312,Still Loving You
+1694,313,Salutations
+1695,313,Commercial 2
+1696,313,Instinto Colectivo
+1697,313,Armadura
+1698,313,"Past, Present, and Future"
+1699,313,Ji Yeon
+1700,313,Love Comes
+1701,313,"There's No Place Like Home, Pt. 3"
+1702,313,Four Walled World
+1703,313,Billie Jean
+1704,313,Sound of a Gun
+1705,313,Moth
+1706,313,"Suite for Solo Cello No. 1 in G Major, BWV 1007: I. Prélude"
+1707,313,Die Walküre: The Ride of the Valkyries
+1708,314,"Scheherazade, Op. 35: I. The Sea and Sindbad's Ship"
+1709,315,"Concerto No.2 in F Major, BWV1047, I. Allegro"
+1710,315,"Concerto for Piano No. 2 in F Minor, Op. 21: II. Larghetto"
+1711,316,"Karelia Suite, Op.11: 2. Ballade (Tempo Di Menuetto)"
+1712,316,Fantasia On Greensleeves
+1713,317,"Concerto for Cello and Orchestra in E minor, Op. 85: I. Adagio - Moderato"
+1714,317,"Wellington's Victory or the Battle Symphony, Op.91: 2. Symphony of Triumph"
+1715,317,Romeo et Juliette: No. 11 - Danse des Chevaliers
+1716,317,"Symphonie Fantastique, Op. 14: V. Songe d'une nuit du sabbat"
+1717,318,"Peer Gynt Suite No.1, Op.46: 1. Morning Mood"
+1718,318,"Symphony No. 41 in C Major, K. 551, ""Jupiter"": IV. Molto allegro"
+1719,318,Just Friends
+1720,318,Wake Up Alone
+1721,318,Rehab (Hot Chip Remix)
+1722,318,I Heard Love Is Blind
+1723,319,Help Yourself
+1724,319,"Suite No. 3 in D, BWV 1068: III. Gavotte I & II"
+1725,319,"Music for the Funeral of Queen Mary: VI. ""Thou Knowest, Lord, the Secrets of Our Hearts"""
+1726,319,"Symphony No. 2, Op. 16 -  ""The Four Temperaments"": II. Allegro Comodo e Flemmatico"
+1727,319,"String Quartet No. 12 in C Minor, D. 703 ""Quartettsatz"": II. Andante - Allegro assai"
+1728,319,Fast As a Shark
+1729,319,Snowballed
+1730,319,Go Down
+1731,319,Hell Ain't A Bad Place To Be
+1732,320,Amazing
+1733,320,You Oughta Know
+1734,320,Not The Doctor
+1735,320,It Ain't Like That
+1736,320,Por Causa De Você
+1737,320,O Boto (Bôto)
+1738,320,Welcome Home (Sanitarium)
+1739,320,Exploder
+1740,320,Doesn't Remind Me
+1741,320,Money
+1742,320,Carol
+1743,320,Solo-Panhandler
+1744,320,Bored To Tears
+1745,320,Blood In The Wall
+1746,321,Snowblind
+1747,322,Cornucopia
+1748,322,Laguna Sunrise
+1749,323,Under The Sun/Every Day Comes and Goes
+1750,323,Body Count's In The House
+1751,324,Body Count
+1752,324,Bowels Of The Devil
+1753,324,KKK Bitch
+1754,324,Voodoo
+1755,325,Evil Dick
+1756,325,King In Crimson
+1757,325,Book Of Thel
+1758,325,Machine Men
+1759,325,Let Me Love You Baby
+1760,325,Leave My Girl Alone
+1761,326,Jorge Da Capadócia
+1762,326,Bem Devagar
+1763,326,Mel
+1764,326,Sozinho (Hitmakers Classic Mix)
+1765,326,Samba De Orly
+1766,326,Apesar De Você
+1767,326,Geni E O Zepelim
+1768,326,O Cidadão Do Mundo
+1769,326,Maracatu Atômico
+1770,327,Interlude Zumbi
+1771,327,Rios Pontes & Overdrives
+1772,327,Lixo Do Mangue
+1773,327,Podes Crer
+1774,327,A Cor Do Sol
+1775,327,Doutor
+1776,327,Linha Do Equador
+1777,327,TriboTchan
+1778,327,Reggae Tchan
+1779,327,Communication Breakdown(2)
+1780,327,Carolina Hard-Core Ecstasy
+1781,327,X-9 2001
+1782,327,Ipiranga 2001
+1783,327,Água de Beber
+1784,328,Tarde Em Itapoã
+1785,329,Tanto Tempo
+1786,329,Eu Vim Da Bahia - Live
+1787,330,Linha Do Horizonte
+1788,330,Abrir A Porta
+1789,331,Momentos Que Marcam
+1790,331,Bumbo Da Mangueira
+1791,331,Santo Antonio
+1792,331,Só Tinha De Ser Com Você
+1793,332,Turn The Page
+1794,332,Astronomy
+1795,332,A Kind Of Magic
+1796,332,I Want To Break Free
+1797,332,Who Wants To Live Forever
+1798,332,The Invisible Man
+1799,333,Black Diamond
+1800,333,Shock Me
+1801,333,Calling Dr. Love
+1802,333,God Gave Rock 'n' Roll To You
+1803,333,Surrender
+1804,333,Best Thing
+1805,333,When I Come Around
+1806,333,Walking Contradiction
+1807,333,Minority
+1808,334,Slave
+1809,334,Começaria Tudo Outra Vez
+1810,334,Comportamento Geral
+1811,334,Menino Do Rio
+1812,334,Ando Meio Desligado
+1813,334,Rita Lee
+1814,334,Smoke On The Water
+1815,334,Beija-Flor
+1816,334,Caprichosos
+1817,334,Do You Like The Way
+1818,334,Manuel
+1819,334,Do You Have Other Loves?
+1820,334,'Round Midnight
+1821,334,E.S.P.
+1822,335,Blue Rythm Fantasy
+1823,336,Drum Boogie
+1824,336,Let Me Off Uptown
+1825,337,Opus No.1
+1826,337,How High The Moon
+1827,338,Up An' Atom
+1828,338,Lemon Drop
+1829,338,Overtime
+1830,338,Don't Take Your Love From Me
+1831,339,Jungle Drums
+1832,339,Pot-Pourri N.º 4
+1833,339,Pot-Pourri N.º 5
+1834,339,Por Que Será
+1835,339,Samba Em Prelúdio
+1836,339,Chão de Giz (Elba Ramalho)
+1837,340,Caçador de Mim (Sá & Guarabyra)
+1838,340,Susie Q
+1839,340,Commotion
+1840,340,Run Through The Jungle
+1841,340,Sweet Hitch-Hiker
+1842,340,Tombstone Shadow
+1843,340,The Midnight Special
+1844,340,Molina
+1845,340,Eu Sou Neguinha (Ao Vivo)
+1846,341,Palavras Ao Vento
+1847,341,Metrô. Linha 743
+1848,341,Mis Penas Lloraba Yo (Ao Vivo) Soy Gitano (Tangos)
+1849,341,You Keep On Moving
+1850,341,No No No
+1851,341,Nobody's Home
+1852,341,Maybe I'm A Leo
+1853,341,Sometimes I Feel Like Screaming
+1854,341,King Of Dreams
+1855,341,Stormbringer
+1856,341,The Battle Rages On
+1857,341,One Man's Meat
+1858,341,When Love & Hate Collide
+1859,341,Otay
+1860,342,Álibi
+1861,343,Esquinas
+1862,343,Se...
+1863,344,Lilás
+1864,344,Um Amor Puro
+1865,345,Nem Um Dia
+1866,345,Açai
+1867,345,Flor De Lis
+1868,345,Azul
+1869,346,Acelerou
+1870,346,Atrás da Porta
+1871,346,"Alô, Alô, Marciano"
+1872,346,As Aparências Enganam
+1873,346,Layla
+1874,346,Crossroads
+1875,347,After Midnight
+1876,347,Promises
+1877,347,Lonely Stranger
+1878,347,San Francisco Bay Blues
+1879,347,Last Cup Of Sorrow
+1880,347,Got That Feeling
+1881,347,Midlife Crisis
+1882,347,Be Aggressive
+1883,347,Get Out
+1884,348,Take This Bottle
+1885,348,Surprise! You're Dead!
+1886,348,Falamansa Song
+1887,348,Medo De Escuro
+1888,348,The Last Song
+1889,348,Friend Of A Friend
+1890,348,Times Like These
+1891,348,Monkey Wrench
+1892,348,Everlong
+1893,348,What Now My Love
+1894,348,It Was A Very Good Year
+1895,348,Entrando Na Sua (Intro)
+1896,348,Dujji
+1897,348,Esperando Na Janela
+1898,349,Is This Love (Live)
+1899,350,Stir It Up (Live)
+1900,350,Refavela (Live)
+1901,351,Quanta (Live)
+1902,351,Pela Internet (Live)
+1903,352,Opachorô (Live)
+1904,352,A Novidade (Live)
+1905,352,De Ouro E Marfim (Live)
+1906,352,Lamento De Carnaval
+1907,353,Refazenda
+1908,353,A Paz
+1909,353,Tempo Rei
+1910,353,Toda Menina Baiana
+1911,353,Changes
+1912,353,I Fucking Hate You
+1913,354,American Idiot
+1914,354,Give Me Novacaine
+1915,354,Whatsername
+1916,354,Paradise City
+1917,354,Rocket Queen
+1918,354,You Ain't the First
+1919,354,Garden of Eden
+1920,354,14 Years
+1921,354,Pretty Tied Up
+1922,355,Magnetic Ocean
+1923,355,She Wears Black
+1924,355,For the Greater Good of God
+1925,355,Where Eagles Dare
+1926,355,Can I Play With Madness
+1927,355,The Wicker Man
+1928,355,The Thin Line Between Love & Hate
+1929,355,Face In The Sand
+1930,355,The Fugitive
+1931,355,04 - Running Free
+1932,355,Another Life
+1933,355,2 Minutes To Midnight
+1934,355,Run To The Hills
+1935,355,Wrathchild
+1936,356,Hallowed Be Thy Name
+1937,357,The Trooper
+1938,357,Sanctuary
+1939,358,Tailgunner
+1940,358,No Prayer For The Dying
+1941,359,Fates Warning
+1942,359,Run Silent Run Deep
+1943,359,Bring Your Daughter... ...To The Slaughter
+1944,359,Where Eagles Dare
+1945,360,The Trooper
+1946,360,To Tame A Land
+1947,360,Flash of The Blade
+1948,360,Rime of the Ancient Mariner
+1949,360,Brave New World
+1950,360,Sign Of The Cross
+1951,361,Fear Of The Dark
+1952,361,Moonchild
+1953,361,The Clairvoyant
+1954,361,Stranger in a Strange Land
+1955,361,Gangland
+1956,361,Sign Of The Cross
+1957,361,Judgement Of Heaven
+1958,361,The Angel And The Gambler
+1959,361,Como Estais Amigos
+1960,362,"Say It Loud, I'm Black And I'm Proud Pt.1"
+1961,362,I'm Real
+1962,362,"Whatever It Is, I Just Can't Stop"
+1963,362,Destitute Illusions
+1964,362,Light Years
+1965,362,Are You Gonna Be My Girl
+1966,362,Take It Or Leave It
+1967,362,May This Be Love
+1968,362,The Wind Cries Mary
+1969,362,Lords of Karma
+1970,362,Os Alquimistas Estão Chegando
+1971,362,As Dores do Mundo
+1972,362,Sem Sentido
+1973,362,Equinocio
+1974,363,You've Got Another Thing Comin'
+1975,364,Turbo Lover
+1976,364,Freewheel Burning
+1977,365,Metal Meltdown
+1978,365,Diamonds And Rust (Live)
+1979,366,Tyrant (Live)
+1980,366,Plaster Caster
+1981,366,Do You Love Me
+1982,366,Sure Know Something
+1983,367,I Still Love You
+1984,367,Nothin' To Lose
+1985,367,Since I've Been Loving You
+1986,367,Going To California
+1987,367,We're Gonna Groove
+1988,367,Ozone Baby
+1989,368,Over The Hills And Far Away
+1990,368,In The Evening
+1991,368,I'm Gonna Crawl
+1992,368,Four Sticks
+1993,368,Dazed and Confused
+1994,368,Whole Lotta Love
+1995,368,Ramble On
+1996,368,Since I've Been Loving You
+1997,368,Hats Off To (Roy) Harper
+1998,369,Sick Again
+1999,369,Celebration Day
+2000,369,L'Avventura
+2001,369,Leila
+2002,369,Tempo Perdido
+2003,369,Giz
+2004,369,Mr. Cab Driver
+2005,369,Assim Caminha A Humanidade
+2006,369,Satisfação
+2007,369,Ro-Que-Se-Da-Ne
+2008,369,O Último Romântico (Ao Vivo)
+2009,369,Childhoods End?
+2010,369,Panis Et Circenses
+2011,369,Segue O Seco
+2012,370,"Abraham, Martin And John"
+2013,371,Save The Children
+2014,371,You Sure Love To Ball
+2015,372,Praise
+2016,372,Down Under
+2017,373,Be Good Johnny
+2018,373,Down by the Sea
+2019,373,It's a Mistake
+2020,373,Shakes and Ladders
+2021,374,Holier Than Thou
+2022,374,Through The Never
+2023,374,My Friend Of Misery
+2024,374,The Wait
+2025,374,Blitzkrieg
+2026,374,So What
+2027,375,Hit The Lights
+2028,375,Phantom Lord
+2029,375,The House Jack Built
+2030,375,Poor Twisted Me
+2031,375,Battery
+2032,375,Orion
+2033,375,Better Than You
+2034,375,Low Man's Lyric
+2035,375,Fade To Black
+2036,376,Invisible Kid
+2037,376,Eye Of The Beholder
+2038,376,The Duke
+2039,376,Blues For Pablo (Alternate Take)
+2040,376,Menestrel Das Alagoas
+2041,376,Beijo Partido
+2042,376,Norwegian Wood
+2043,376,Jailbait
+2044,376,O Que Vai Em Meu Coração
+2045,376,A Moça e a Chuva
+2046,376,Same Ol' Situation
+2047,376,Shout At The Devil
+2048,376,Spank Thru
+2049,376,Smells Like Teen Spirit
+2050,377,Sangue Latino
+2051,378,Folhas Secas
+2052,378,Poeira
+2053,379,Quem Mata A Mulher Mata O Melhor
+2054,379,O Braço Da Minha Guitarra
+2055,380,Mãe Terra
+2056,380,Menino De Rua
+2057,380,Elza
+2058,380,Nossa Gente (Avisa Là)
+2059,381,Todo Amor (Asas Da Liberdade)
+2060,381,Jeito Faceiro
+2061,381,Olodum - Smile (Instrumental)
+2062,381,"Um Amor, Um Lugar"
+2063,381,Uns Dias
+2064,381,Brasília 5:31
+2065,382,Vamo Batê Lata
+2066,382,Mensagen De Amor (2000)
+2067,382,Saber Amar
+2068,382,Cinema Mudo
+2069,382,Meu Erro
+2070,382,Será Que Vai Chover?
+2071,382,"Mama, I'm Coming Home"
+2072,382,Flying High Again
+2073,382,Paranoid
+2074,383,Most High
+2075,383,Your Blue Room
+2076,383,Plot 180
+2077,383,Sanctuary
+2078,383,Untitled
+2079,383,Black
+2080,383,Big Wave
+2081,383,Cropduster
+2082,383,1/2 Full
+2083,383,Oceans
+2084,383,Dissident
+2085,383,Don't Look Back
+2086,383,Pick Myself Up
+2087,383,Any Colour You Like
+2088,384,Rappers Reais
+2089,385,Nega Do Cabelo Duro
+2090,385,Hemp Family
+2091,386,Se Liga
+2092,386,Another One Bites The Dust
+2093,387,Fat Bottomed Girls
+2094,387,You're My Best Friend
+2095,387,Save Me
+2096,387,Somebody To Love
+2097,388,Flash
+2098,388,We Will Rock You
+2099,388,Spread Your Wings
+2100,388,Who Needs You
+2101,388,Me In Honey
+2102,388,You Are The Everything
+2103,389,Hairshirt
+2104,389,Undertow
+2105,389,Binky The Doormat
+2106,389,Low
+2107,389,Country Feedback
+2108,389,Don't Go Back To Rockville
+2109,389,I Believe
+2110,389,A Sua
+2111,389,Bê-a-Bá
+2112,390,Sapato 36
+2113,390,If You Have To Ask
+2114,390,Under The Bridge
+2115,390,This Is The Place
+2116,390,Tear
+2117,390,Get On Top
+2118,390,Right On Time
+2119,390,Anthem
+2120,390,La Puesta Del Sol
+2121,390,Just Ain't Good Enough
+2122,390,If You Don't Know Me By Now
+2123,390,Água E Fogo
+2124,390,Fica
+2125,390,Os Exilados
+2126,391,Waiting
+2127,392,Saturnine
+2128,392,Rock On
+2129,393,Winterlong
+2130,393,Blissed & Gone
+2131,394,Rhinocerous
+2132,394,Cherub Rock
+2133,394,Disarm
+2134,394,Bullet With Butterfly Wings
+2135,395,Eye
+2136,395,Stand Inside Your Love
+2137,395,Flower
+2138,395,Jesus Christ Pose
+2139,395,The Day I Tried To Live
+2140,395,Burden In My Hand
+2141,396,Rasul
+2142,396,End Of Romanticism
+2143,396,Travis Walk
+2144,396,Sex Type Thing
+2145,396,Piece Of Pie
+2146,396,B.Y.O.B.
+2147,396,Question!
+2148,396,Duende
+2149,396,Sting Me
+2150,397,Black Moon Creeping
+2151,397,White Riot
+2152,397,Train In Vain
+2153,397,War (The Process)
+2154,397,Speed Of Light
+2155,397,Wild Hearted Son
+2156,397,Sun King
+2157,397,Back Door Man
+2158,397,Don't Stand so Close to Me
+2159,397,Message in a Bottle (new classic rock mix)
+2160,397,Paint It Black
+2161,397,Corinna
+2162,397,Love Is Strong
+2163,397,Sweethearts Together
+2164,398,Release
+2165,399,Heaven Coming Down
+2166,399,The River (Remix)
+2167,400,Waiting On A Sign
+2168,400,Paint It Black
+2169,401,Army Ants
+2170,401,Gyroscope
+2171,401,Release
+2172,401,Babylon
+2173,402,I Can't Explain
+2174,402,I'm A Boy
+2175,402,I Can See For Miles
+2176,402,Baba O'Riley
+2177,402,Join Together
+2178,402,Primavera
+2179,403,New Love
+2180,403,Compadre
+2181,403,Não Quero Dinheiro
+2182,403,Canário Do Reino
+2183,403,Comida
+2184,403,Marvin
+2185,403,Cabeça Dinossauro
+2186,403,Polícia (Vinheta)
+2187,403,Sua Impossivel Chance
+2188,404,Insensível
+2189,404,Collaborators
+2190,404,The Woman King
+2191,404,One Giant Leap
+2192,404,The Fix
+2193,404,"Man of Science, Man of Faith (Premiere)"
+2194,404,Walkabout
+2195,404,The Moth
+2196,404,Stranger In a Strange Land
+2197,404,Par Avion
+2198,404,Outlaws
+2199,404,Deus Ex Machina
+2200,404,"Live Together, Die Alone, Pt. 1"
+2201,404,So Cruel
+2202,405,Peace On Earth
+2203,406,When I Look At The World
+2204,406,New York
+2205,407,The Three Sunrises
+2206,407,Sweetest Thing
+2207,408,Bass Trap
+2208,408,Everlasting Love
+2209,408,Walk To The Water
+2210,408,Hallelujah Here She Comes
+2211,409,"Trash, Trampoline And The Party Girl"
+2212,409,Love And Peace Or Else
+2213,409,Crumbs From Your Table
+2214,409,Discotheque
+2215,409,Staring At The Sun
+2216,409,The Playboy Mansion
+2217,410,Desire
+2218,410,Pride (In The Name Of Love)
+2219,410,The Star Spangled Banner
+2220,410,I Still Haven't Found What I'm Looking For
+2221,410,Sweetest Thing
+2222,410,Seconds
+2223,410,Red Light
+2224,410,Lemon
+2225,410,The Wanderer
+2226,411,Higher Ground
+2227,411,Secrets
+2228,411,Eruption
+2229,411,Dreams
+2230,411,Eruption
+2231,411,On Fire
+2232,411,Year to the Day
+2233,411,Fall To Pieces
+2234,411,A Bencao E Outros
+2235,411,Um Homem Chamado Alfredo
+2236,411,Looking For Love
+2237,411,Sweet Lady Luck
+2238,411,Feirinha da Pavuna/Luz do Repente/Bagaço da Laranja
+2239,411,Samba pras moças
+2240,412,Hot Girl

@@ -1,0 +1,413 @@
+﻿InvoiceId,Total,Client,BillingCountry,Agent
+1,1.98,Leonie Köhler,Germany,Steve Johnson
+2,3.96,Bjørn Hansen,Norway,Margaret Park
+3,5.94,Daan Peeters,Belgium,Margaret Park
+4,8.91,Mark Philips,Canada,Steve Johnson
+5,13.86,John Gordon,USA,Margaret Park
+6,0.99,Fynn Zimmermann,Germany,Jane Peacock
+7,1.98,Niklas Schröder,Germany,Jane Peacock
+8,1.98,Dominique Lefebvre,France,Margaret Park
+9,3.96,Wyatt Girard,France,Jane Peacock
+10,5.94,Hugh O'Reilly,Ireland,Jane Peacock
+11,8.91,Emma Jones,United Kingdom,Jane Peacock
+12,13.86,Leonie Köhler,Germany,Steve Johnson
+13,0.99,Frank Harris,USA,Margaret Park
+14,1.98,Jack Smith,USA,Steve Johnson
+15,1.98,Tim Goyer,USA,Jane Peacock
+16,3.96,Kathy Chase,USA,Steve Johnson
+17,5.94,Victor Stevens,USA,Steve Johnson
+18,8.91,Martha Silk,Canada,Steve Johnson
+19,13.86,Dominique Lefebvre,France,Margaret Park
+20,0.99,Steve Murray,United Kingdom,Steve Johnson
+21,1.98,Mark Taylor,Australia,Margaret Park
+22,1.98,Luis Rojas,Chile,Steve Johnson
+23,3.96,Puja Srivastava,India,Jane Peacock
+24,5.94,Bjørn Hansen,Norway,Margaret Park
+25,8.91,Eduardo Martins,Brazil,Margaret Park
+26,13.86,Tim Goyer,USA,Jane Peacock
+27,0.99,Ellie Sullivan,Canada,Jane Peacock
+28,1.98,João Fernandes,Portugal,Margaret Park
+29,1.98,Hannah Schneider,Germany,Steve Johnson
+30,3.96,Niklas Schröder,Germany,Jane Peacock
+31,5.94,Wyatt Girard,France,Jane Peacock
+32,8.91,Johannes Van der Berg,Netherlands,Steve Johnson
+33,13.86,Luis Rojas,Chile,Steve Johnson
+34,0.99,Roberto Almeida,Brazil,Jane Peacock
+35,1.98,Fernanda Ramos,Brazil,Margaret Park
+36,1.98,Jennifer Peterson,Canada,Jane Peacock
+37,3.96,Jack Smith,USA,Steve Johnson
+38,5.94,Kathy Chase,USA,Steve Johnson
+39,8.91,Patrick Gray,USA,Margaret Park
+40,13.86,Hannah Schneider,Germany,Steve Johnson
+41,0.99,Enrique Muñoz,Spain,Steve Johnson
+42,1.98,Joakim Johansson,Sweden,Steve Johnson
+43,1.98,Phil Hughes,United Kingdom,Jane Peacock
+44,3.96,Mark Taylor,Australia,Margaret Park
+45,5.94,Puja Srivastava,India,Jane Peacock
+46,8.91,Helena Holý,Czech Republic,Steve Johnson
+47,13.86,Jennifer Peterson,Canada,Jane Peacock
+48,0.99,Robert Brown,Canada,Jane Peacock
+49,1.98,Edward Francis,Canada,Jane Peacock
+50,1.98,Aaron Mitchell,Canada,Margaret Park
+51,3.96,João Fernandes,Portugal,Margaret Park
+52,5.94,Niklas Schröder,Germany,Jane Peacock
+53,8.91,Terhi Hämäläinen,Finland,Jane Peacock
+54,13.86,Phil Hughes,United Kingdom,Jane Peacock
+55,0.99,Daan Peeters,Belgium,Margaret Park
+56,1.98,Kara Nielsen,Denmark,Margaret Park
+57,1.98,Alexandre Rocha,Brazil,Steve Johnson
+58,3.96,Fernanda Ramos,Brazil,Margaret Park
+59,5.94,Jack Smith,USA,Steve Johnson
+60,8.91,John Gordon,USA,Margaret Park
+61,13.86,Aaron Mitchell,Canada,Margaret Park
+62,0.99,Hugh O'Reilly,Ireland,Jane Peacock
+63,1.98,Lucas Mancini,Italy,Steve Johnson
+64,1.98,Stanisław Wójcik,Poland,Margaret Park
+65,3.96,Joakim Johansson,Sweden,Steve Johnson
+66,5.94,Mark Taylor,Australia,Margaret Park
+67,8.91,Leonie Köhler,Germany,Steve Johnson
+68,13.86,Alexandre Rocha,Brazil,Steve Johnson
+69,0.99,Victor Stevens,USA,Steve Johnson
+70,1.98,Richard Cunningham,USA,Margaret Park
+71,1.98,Julia Barnett,USA,Steve Johnson
+72,3.96,Edward Francis,Canada,Jane Peacock
+73,5.94,João Fernandes,Portugal,Margaret Park
+74,8.91,Dominique Lefebvre,France,Margaret Park
+75,13.86,Stanisław Wójcik,Poland,Margaret Park
+76,0.99,Bjørn Hansen,Norway,Margaret Park
+77,1.98,František Wichterlová,Czech Republic,Margaret Park
+78,1.98,Astrid Gruber,Austria,Steve Johnson
+79,3.96,Kara Nielsen,Denmark,Margaret Park
+80,5.94,Fernanda Ramos,Brazil,Margaret Park
+81,8.91,Tim Goyer,USA,Jane Peacock
+82,13.86,Julia Barnett,USA,Steve Johnson
+83,0.99,Wyatt Girard,France,Jane Peacock
+84,1.98,Isabelle Mercier,France,Jane Peacock
+85,1.98,Ladislav Kovács,Hungary,Jane Peacock
+86,3.96,Lucas Mancini,Italy,Steve Johnson
+87,6.94,Joakim Johansson,Sweden,Steve Johnson
+88,17.91,Luis Rojas,Chile,Steve Johnson
+89,18.86,Astrid Gruber,Austria,Steve Johnson
+90,0.99,Kathy Chase,USA,Steve Johnson
+91,1.98,Heather Leacock,USA,Margaret Park
+92,1.98,Frank Ralston,USA,Jane Peacock
+93,3.96,Richard Cunningham,USA,Margaret Park
+94,5.94,Edward Francis,Canada,Jane Peacock
+95,8.91,Hannah Schneider,Germany,Steve Johnson
+96,21.86,Ladislav Kovács,Hungary,Jane Peacock
+97,1.99,Puja Srivastava,India,Jane Peacock
+98,3.98,Luís Gonçalves,Brazil,Jane Peacock
+99,3.98,François Tremblay,Canada,Jane Peacock
+100,3.96,František Wichterlová,Czech Republic,Margaret Park
+101,5.94,Kara Nielsen,Denmark,Margaret Park
+102,9.91,Jennifer Peterson,Canada,Jane Peacock
+103,15.86,Frank Ralston,USA,Jane Peacock
+104,0.99,Niklas Schröder,Germany,Jane Peacock
+105,1.98,Camille Bernard,France,Margaret Park
+106,1.98,Marc Dubois,France,Steve Johnson
+107,3.96,Isabelle Mercier,France,Jane Peacock
+108,5.94,Lucas Mancini,Italy,Steve Johnson
+109,8.91,Phil Hughes,United Kingdom,Jane Peacock
+110,13.86,François Tremblay,Canada,Jane Peacock
+111,0.99,Jack Smith,USA,Steve Johnson
+112,1.98,Michelle Brooks,USA,Jane Peacock
+113,1.98,Dan Miller,USA,Margaret Park
+114,3.96,Heather Leacock,USA,Margaret Park
+115,5.94,Richard Cunningham,USA,Margaret Park
+116,8.91,Aaron Mitchell,Canada,Margaret Park
+117,13.86,Marc Dubois,France,Steve Johnson
+118,0.99,Mark Taylor,Australia,Margaret Park
+119,1.98,Diego Gutiérrez,Argentina,Margaret Park
+120,1.98,Manoj Pareek,India,Jane Peacock
+121,3.96,Luís Gonçalves,Brazil,Jane Peacock
+122,5.94,František Wichterlová,Czech Republic,Margaret Park
+123,8.91,Alexandre Rocha,Brazil,Steve Johnson
+124,13.86,Dan Miller,USA,Margaret Park
+125,0.99,João Fernandes,Portugal,Margaret Park
+126,1.98,Madalena Sampaio,Portugal,Margaret Park
+127,1.98,Fynn Zimmermann,Germany,Jane Peacock
+128,3.96,Camille Bernard,France,Margaret Park
+129,5.94,Isabelle Mercier,France,Jane Peacock
+130,8.91,Stanisław Wójcik,Poland,Margaret Park
+131,13.86,Manoj Pareek,India,Jane Peacock
+132,0.99,Fernanda Ramos,Brazil,Margaret Park
+133,1.98,Mark Philips,Canada,Steve Johnson
+134,1.98,Frank Harris,USA,Margaret Park
+135,3.96,Michelle Brooks,USA,Jane Peacock
+136,5.94,Heather Leacock,USA,Margaret Park
+137,8.91,Julia Barnett,USA,Steve Johnson
+138,13.86,Fynn Zimmermann,Germany,Jane Peacock
+139,0.99,Joakim Johansson,Sweden,Steve Johnson
+140,1.98,Emma Jones,United Kingdom,Jane Peacock
+141,1.98,Steve Murray,United Kingdom,Steve Johnson
+142,3.96,Diego Gutiérrez,Argentina,Margaret Park
+143,5.94,Luís Gonçalves,Brazil,Jane Peacock
+144,8.91,Astrid Gruber,Austria,Steve Johnson
+145,13.86,Frank Harris,USA,Margaret Park
+146,0.99,Edward Francis,Canada,Jane Peacock
+147,1.98,Martha Silk,Canada,Steve Johnson
+148,1.98,Ellie Sullivan,Canada,Jane Peacock
+149,3.96,Madalena Sampaio,Portugal,Margaret Park
+150,5.94,Camille Bernard,France,Margaret Park
+151,8.91,Ladislav Kovács,Hungary,Jane Peacock
+152,13.86,Steve Murray,United Kingdom,Steve Johnson
+153,0.99,Kara Nielsen,Denmark,Margaret Park
+154,1.98,Eduardo Martins,Brazil,Margaret Park
+155,1.98,Roberto Almeida,Brazil,Jane Peacock
+156,3.96,Mark Philips,Canada,Steve Johnson
+157,5.94,Michelle Brooks,USA,Jane Peacock
+158,8.91,Frank Ralston,USA,Jane Peacock
+159,13.86,Ellie Sullivan,Canada,Jane Peacock
+160,0.99,Lucas Mancini,Italy,Steve Johnson
+161,1.98,Johannes Van der Berg,Netherlands,Steve Johnson
+162,1.98,Enrique Muñoz,Spain,Steve Johnson
+163,3.96,Emma Jones,United Kingdom,Jane Peacock
+164,5.94,Diego Gutiérrez,Argentina,Margaret Park
+165,8.91,François Tremblay,Canada,Jane Peacock
+166,13.86,Roberto Almeida,Brazil,Jane Peacock
+167,0.99,Richard Cunningham,USA,Margaret Park
+168,1.98,Patrick Gray,USA,Margaret Park
+169,1.98,Robert Brown,Canada,Jane Peacock
+170,3.96,Martha Silk,Canada,Steve Johnson
+171,5.94,Madalena Sampaio,Portugal,Margaret Park
+172,8.91,Marc Dubois,France,Steve Johnson
+173,13.86,Enrique Muñoz,Spain,Steve Johnson
+174,0.99,František Wichterlová,Czech Republic,Margaret Park
+175,1.98,Helena Holý,Czech Republic,Steve Johnson
+176,1.98,Daan Peeters,Belgium,Margaret Park
+177,3.96,Eduardo Martins,Brazil,Margaret Park
+178,5.94,Mark Philips,Canada,Steve Johnson
+179,8.91,Dan Miller,USA,Margaret Park
+180,13.86,Robert Brown,Canada,Jane Peacock
+181,0.99,Isabelle Mercier,France,Jane Peacock
+182,1.98,Terhi Hämäläinen,Finland,Jane Peacock
+183,1.98,Hugh O'Reilly,Ireland,Jane Peacock
+184,3.96,Johannes Van der Berg,Netherlands,Steve Johnson
+185,5.94,Emma Jones,United Kingdom,Jane Peacock
+186,8.91,Manoj Pareek,India,Jane Peacock
+187,13.86,Daan Peeters,Belgium,Margaret Park
+188,0.99,Heather Leacock,USA,Margaret Park
+189,1.98,John Gordon,USA,Margaret Park
+190,1.98,Victor Stevens,USA,Steve Johnson
+191,3.96,Patrick Gray,USA,Margaret Park
+192,5.94,Martha Silk,Canada,Steve Johnson
+193,14.91,Fynn Zimmermann,Germany,Jane Peacock
+194,21.86,Hugh O'Reilly,Ireland,Jane Peacock
+195,0.99,Luís Gonçalves,Brazil,Jane Peacock
+196,1.98,Leonie Köhler,Germany,Steve Johnson
+197,1.98,Bjørn Hansen,Norway,Margaret Park
+198,3.96,Helena Holý,Czech Republic,Steve Johnson
+199,5.94,Eduardo Martins,Brazil,Margaret Park
+200,8.91,Frank Harris,USA,Margaret Park
+201,18.86,Victor Stevens,USA,Steve Johnson
+202,1.99,Camille Bernard,France,Margaret Park
+203,2.98,Dominique Lefebvre,France,Margaret Park
+204,3.98,Wyatt Girard,France,Jane Peacock
+205,7.96,Terhi Hämäläinen,Finland,Jane Peacock
+206,8.94,Johannes Van der Berg,Netherlands,Steve Johnson
+207,8.91,Steve Murray,United Kingdom,Steve Johnson
+208,15.86,Bjørn Hansen,Norway,Margaret Park
+209,0.99,Michelle Brooks,USA,Jane Peacock
+210,1.98,Tim Goyer,USA,Jane Peacock
+211,1.98,Kathy Chase,USA,Steve Johnson
+212,3.96,John Gordon,USA,Margaret Park
+213,5.94,Patrick Gray,USA,Margaret Park
+214,8.91,Ellie Sullivan,Canada,Jane Peacock
+215,13.86,Wyatt Girard,France,Jane Peacock
+216,0.99,Diego Gutiérrez,Argentina,Margaret Park
+217,1.98,Luis Rojas,Chile,Steve Johnson
+218,1.98,Puja Srivastava,India,Jane Peacock
+219,3.96,Leonie Köhler,Germany,Steve Johnson
+220,5.94,Helena Holý,Czech Republic,Steve Johnson
+221,8.91,Roberto Almeida,Brazil,Jane Peacock
+222,13.86,Kathy Chase,USA,Steve Johnson
+223,0.99,Madalena Sampaio,Portugal,Margaret Park
+224,1.98,Hannah Schneider,Germany,Steve Johnson
+225,1.98,Niklas Schröder,Germany,Jane Peacock
+226,3.96,Dominique Lefebvre,France,Margaret Park
+227,5.94,Terhi Hämäläinen,Finland,Jane Peacock
+228,8.91,Enrique Muñoz,Spain,Steve Johnson
+229,13.86,Puja Srivastava,India,Jane Peacock
+230,0.99,Mark Philips,Canada,Steve Johnson
+231,1.98,Jennifer Peterson,Canada,Jane Peacock
+232,1.98,Jack Smith,USA,Steve Johnson
+233,3.96,Tim Goyer,USA,Jane Peacock
+234,5.94,John Gordon,USA,Margaret Park
+235,8.91,Robert Brown,Canada,Jane Peacock
+236,13.86,Niklas Schröder,Germany,Jane Peacock
+237,0.99,Emma Jones,United Kingdom,Jane Peacock
+238,1.98,Phil Hughes,United Kingdom,Jane Peacock
+239,1.98,Mark Taylor,Australia,Margaret Park
+240,3.96,Luis Rojas,Chile,Steve Johnson
+241,5.94,Leonie Köhler,Germany,Steve Johnson
+242,8.91,Daan Peeters,Belgium,Margaret Park
+243,13.86,Jack Smith,USA,Steve Johnson
+244,0.99,Martha Silk,Canada,Steve Johnson
+245,1.98,Aaron Mitchell,Canada,Margaret Park
+246,1.98,João Fernandes,Portugal,Margaret Park
+247,3.96,Hannah Schneider,Germany,Steve Johnson
+248,5.94,Dominique Lefebvre,France,Margaret Park
+249,8.91,Hugh O'Reilly,Ireland,Jane Peacock
+250,13.86,Mark Taylor,Australia,Margaret Park
+251,0.99,Eduardo Martins,Brazil,Margaret Park
+252,1.98,Alexandre Rocha,Brazil,Steve Johnson
+253,1.98,Fernanda Ramos,Brazil,Margaret Park
+254,3.96,Jennifer Peterson,Canada,Jane Peacock
+255,5.94,Tim Goyer,USA,Jane Peacock
+256,8.91,Victor Stevens,USA,Steve Johnson
+257,13.86,João Fernandes,Portugal,Margaret Park
+258,0.99,Johannes Van der Berg,Netherlands,Steve Johnson
+259,1.98,Stanisław Wójcik,Poland,Margaret Park
+260,1.98,Joakim Johansson,Sweden,Steve Johnson
+261,3.96,Phil Hughes,United Kingdom,Jane Peacock
+262,5.94,Luis Rojas,Chile,Steve Johnson
+263,8.91,Bjørn Hansen,Norway,Margaret Park
+264,13.86,Fernanda Ramos,Brazil,Margaret Park
+265,0.99,Patrick Gray,USA,Margaret Park
+266,1.98,Julia Barnett,USA,Steve Johnson
+267,1.98,Edward Francis,Canada,Jane Peacock
+268,3.96,Aaron Mitchell,Canada,Margaret Park
+269,5.94,Hannah Schneider,Germany,Steve Johnson
+270,8.91,Wyatt Girard,France,Jane Peacock
+271,13.86,Joakim Johansson,Sweden,Steve Johnson
+272,0.99,Helena Holý,Czech Republic,Steve Johnson
+273,1.98,Astrid Gruber,Austria,Steve Johnson
+274,1.98,Kara Nielsen,Denmark,Margaret Park
+275,3.96,Alexandre Rocha,Brazil,Steve Johnson
+276,5.94,Jennifer Peterson,Canada,Jane Peacock
+277,8.91,Kathy Chase,USA,Steve Johnson
+278,13.86,Edward Francis,Canada,Jane Peacock
+279,0.99,Terhi Hämäläinen,Finland,Jane Peacock
+280,1.98,Ladislav Kovács,Hungary,Jane Peacock
+281,1.98,Lucas Mancini,Italy,Steve Johnson
+282,3.96,Stanisław Wójcik,Poland,Margaret Park
+283,5.94,Phil Hughes,United Kingdom,Jane Peacock
+284,8.91,Puja Srivastava,India,Jane Peacock
+285,13.86,Kara Nielsen,Denmark,Margaret Park
+286,0.99,John Gordon,USA,Margaret Park
+287,1.98,Frank Ralston,USA,Jane Peacock
+288,1.98,Richard Cunningham,USA,Margaret Park
+289,3.96,Julia Barnett,USA,Steve Johnson
+290,5.94,Aaron Mitchell,Canada,Margaret Park
+291,8.91,Niklas Schröder,Germany,Jane Peacock
+292,13.86,Lucas Mancini,Italy,Steve Johnson
+293,0.99,Leonie Köhler,Germany,Steve Johnson
+294,1.98,François Tremblay,Canada,Jane Peacock
+295,1.98,František Wichterlová,Czech Republic,Margaret Park
+296,3.96,Astrid Gruber,Austria,Steve Johnson
+297,5.94,Alexandre Rocha,Brazil,Steve Johnson
+298,10.91,Jack Smith,USA,Steve Johnson
+299,23.86,Richard Cunningham,USA,Margaret Park
+300,0.99,Dominique Lefebvre,France,Margaret Park
+301,1.98,Marc Dubois,France,Steve Johnson
+302,1.98,Isabelle Mercier,France,Jane Peacock
+303,3.96,Ladislav Kovács,Hungary,Jane Peacock
+304,5.94,Stanisław Wójcik,Poland,Margaret Park
+305,8.91,Mark Taylor,Australia,Margaret Park
+306,16.86,František Wichterlová,Czech Republic,Margaret Park
+307,1.99,Tim Goyer,USA,Jane Peacock
+308,3.98,Dan Miller,USA,Margaret Park
+309,3.98,Heather Leacock,USA,Margaret Park
+310,7.96,Frank Ralston,USA,Jane Peacock
+311,11.94,Julia Barnett,USA,Steve Johnson
+312,10.91,João Fernandes,Portugal,Margaret Park
+313,16.86,Isabelle Mercier,France,Jane Peacock
+314,0.99,Luis Rojas,Chile,Steve Johnson
+315,1.98,Manoj Pareek,India,Jane Peacock
+316,1.98,Luís Gonçalves,Brazil,Jane Peacock
+317,3.96,François Tremblay,Canada,Jane Peacock
+318,5.94,Astrid Gruber,Austria,Steve Johnson
+319,8.91,Fernanda Ramos,Brazil,Margaret Park
+320,13.86,Heather Leacock,USA,Margaret Park
+321,0.99,Hannah Schneider,Germany,Steve Johnson
+322,1.98,Fynn Zimmermann,Germany,Jane Peacock
+323,1.98,Camille Bernard,France,Margaret Park
+324,3.96,Marc Dubois,France,Steve Johnson
+325,5.94,Ladislav Kovács,Hungary,Jane Peacock
+326,8.91,Joakim Johansson,Sweden,Steve Johnson
+327,13.86,Luís Gonçalves,Brazil,Jane Peacock
+328,0.99,Jennifer Peterson,Canada,Jane Peacock
+329,1.98,Frank Harris,USA,Margaret Park
+330,1.98,Michelle Brooks,USA,Jane Peacock
+331,3.96,Dan Miller,USA,Margaret Park
+332,5.94,Frank Ralston,USA,Jane Peacock
+333,8.91,Edward Francis,Canada,Jane Peacock
+334,13.86,Camille Bernard,France,Margaret Park
+335,0.99,Phil Hughes,United Kingdom,Jane Peacock
+336,1.98,Steve Murray,United Kingdom,Steve Johnson
+337,1.98,Diego Gutiérrez,Argentina,Margaret Park
+338,3.96,Manoj Pareek,India,Jane Peacock
+339,5.94,François Tremblay,Canada,Jane Peacock
+340,8.91,Kara Nielsen,Denmark,Margaret Park
+341,13.86,Michelle Brooks,USA,Jane Peacock
+342,0.99,Aaron Mitchell,Canada,Margaret Park
+343,1.98,Ellie Sullivan,Canada,Jane Peacock
+344,1.98,Madalena Sampaio,Portugal,Margaret Park
+345,3.96,Fynn Zimmermann,Germany,Jane Peacock
+346,5.94,Marc Dubois,France,Steve Johnson
+347,8.91,Lucas Mancini,Italy,Steve Johnson
+348,13.86,Diego Gutiérrez,Argentina,Margaret Park
+349,0.99,Alexandre Rocha,Brazil,Steve Johnson
+350,1.98,Roberto Almeida,Brazil,Jane Peacock
+351,1.98,Mark Philips,Canada,Steve Johnson
+352,3.96,Frank Harris,USA,Margaret Park
+353,5.94,Dan Miller,USA,Margaret Park
+354,8.91,Richard Cunningham,USA,Margaret Park
+355,13.86,Madalena Sampaio,Portugal,Margaret Park
+356,0.99,Stanisław Wójcik,Poland,Margaret Park
+357,1.98,Enrique Muñoz,Spain,Steve Johnson
+358,1.98,Emma Jones,United Kingdom,Jane Peacock
+359,3.96,Steve Murray,United Kingdom,Steve Johnson
+360,5.94,Manoj Pareek,India,Jane Peacock
+361,8.91,František Wichterlová,Czech Republic,Margaret Park
+362,13.86,Mark Philips,Canada,Steve Johnson
+363,0.99,Julia Barnett,USA,Steve Johnson
+364,1.98,Robert Brown,Canada,Jane Peacock
+365,1.98,Martha Silk,Canada,Steve Johnson
+366,3.96,Ellie Sullivan,Canada,Jane Peacock
+367,5.94,Fynn Zimmermann,Germany,Jane Peacock
+368,8.91,Isabelle Mercier,France,Jane Peacock
+369,13.86,Emma Jones,United Kingdom,Jane Peacock
+370,0.99,Astrid Gruber,Austria,Steve Johnson
+371,1.98,Daan Peeters,Belgium,Margaret Park
+372,1.98,Eduardo Martins,Brazil,Margaret Park
+373,3.96,Roberto Almeida,Brazil,Jane Peacock
+374,5.94,Frank Harris,USA,Margaret Park
+375,8.91,Heather Leacock,USA,Margaret Park
+376,13.86,Martha Silk,Canada,Steve Johnson
+377,0.99,Ladislav Kovács,Hungary,Jane Peacock
+378,1.98,Hugh O'Reilly,Ireland,Jane Peacock
+379,1.98,Johannes Van der Berg,Netherlands,Steve Johnson
+380,3.96,Enrique Muñoz,Spain,Steve Johnson
+381,5.94,Steve Murray,United Kingdom,Steve Johnson
+382,8.91,Luís Gonçalves,Brazil,Jane Peacock
+383,13.86,Eduardo Martins,Brazil,Margaret Park
+384,0.99,Frank Ralston,USA,Jane Peacock
+385,1.98,Victor Stevens,USA,Steve Johnson
+386,1.98,Patrick Gray,USA,Margaret Park
+387,3.96,Robert Brown,Canada,Jane Peacock
+388,5.94,Ellie Sullivan,Canada,Jane Peacock
+389,8.91,Camille Bernard,France,Margaret Park
+390,13.86,Johannes Van der Berg,Netherlands,Steve Johnson
+391,0.99,François Tremblay,Canada,Jane Peacock
+392,1.98,Bjørn Hansen,Norway,Margaret Park
+393,1.98,Helena Holý,Czech Republic,Steve Johnson
+394,3.96,Daan Peeters,Belgium,Margaret Park
+395,5.94,Roberto Almeida,Brazil,Jane Peacock
+396,8.91,Michelle Brooks,USA,Jane Peacock
+397,13.86,Patrick Gray,USA,Margaret Park
+398,0.99,Marc Dubois,France,Steve Johnson
+399,1.98,Wyatt Girard,France,Jane Peacock
+400,1.98,Terhi Hämäläinen,Finland,Jane Peacock
+401,3.96,Hugh O'Reilly,Ireland,Jane Peacock
+402,5.94,Enrique Muñoz,Spain,Steve Johnson
+403,8.91,Diego Gutiérrez,Argentina,Margaret Park
+404,25.86,Helena Holý,Czech Republic,Steve Johnson
+405,0.99,Dan Miller,USA,Margaret Park
+406,1.98,Kathy Chase,USA,Steve Johnson
+407,1.98,John Gordon,USA,Margaret Park
+408,3.96,Victor Stevens,USA,Steve Johnson
+409,5.94,Robert Brown,Canada,Jane Peacock
+410,8.91,Madalena Sampaio,Portugal,Margaret Park
+411,13.86,Terhi Hämäläinen,Finland,Jane Peacock
+412,1.99,Manoj Pareek,India,Jane Peacock

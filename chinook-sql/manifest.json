@@ -1,0 +1,62 @@
+{
+  "objectif": "Résoudre les 26 exercices SQL Chinook du projet 5",
+  "sources": [
+    {
+      "url": "https://github.com/lerocha/chinook-database/blob/master/ChinookDatabase/DataSources/Chinook_Sqlite.sql",
+      "blob_sha": "299610dc69f04a2b16b3a2e45bd2af82ed2872a2",
+      "sha256": "7d2c9a93418339f57ebf2c8889a85dd2c915bd08d6dc4a29e170a8d7b6473ca7"
+    }
+  ],
+  "stages": {
+    "DataCollect": "completed",
+    "DataAnalyse": "completed",
+    "DataML": "skipped"
+  },
+  "raison_ml": "Rapports SQL descriptifs ; aucune cible prédictive requise.",
+  "exercices_executés": 26,
+  "variantes": 4,
+  "files": {
+    "queries.json": "7997859e9215478943b211ff2a957965eb4d22557bd8f5064edfe19c1570d0e3",
+    "guide_exercices.md": "7575ef972cf5dee705c382162fdd02863a164f1cdadf3d05893afb35a30f6efb",
+    "executer_projet.py": "365e1c1f637dd5cd601b155b0a3717da227260e7d4aef8acb8dd130bc7c583bc",
+    "LICENSE-Chinook.md": "60ea30a7f4f72f59843c95bbc8432195b5270d658e4a4bcdcc410f92c30dad5e",
+    "README.md": "4b8d7c80896c030078ceaa8e71d99a1587835b629b4a55b0bb2eafd4e27989a2",
+    "schema.json": "d24c7eb9a4720bcdff0e03e97b10b2aaac3f3c9190729ed05d1951ab1939ed54",
+    "rapport.md": "84c6417cb8c6a7540b42c30c6f1b606cac6d5b493d1d4fa8cd38053aa09c1593",
+    "chinook-queries.sql": "1d802b5446d21516a4681512c04e19acaf7cac5d05e97409060f5769bc85027d",
+    "chinook-queries-annees-disponibles.sql": "7d59b53d4677fdea4dfb42eefeb0c6d9136e7b559fb2ee92ccf331219201e600",
+    "data/Chinook_Sqlite.sql": "7d2c9a93418339f57ebf2c8889a85dd2c915bd08d6dc4a29e170a8d7b6473ca7",
+    "data/Chinook.sqlite": "5fdff3d77c4fd5904d9087df3b9922cda6b24f35346d5ac979d97dac19333810",
+    "resultats/exercice_18_annees_disponibles.csv": "d9c1e4b5e59c86ae113ae049ab5376058f28c783b4ce72c423609e10c3c9ea38",
+    "resultats/exercice_14.csv": "829ad86606b4d55e8f5833ddabf4e509102a7a577bd37c8b4ab64d9f53470446",
+    "resultats/exercice_17.csv": "61f686d8d18e9d931e37c9e643bb5df3be0d9b03cfe07c83cac7a3ccb7b1c138",
+    "resultats/exercice_08_annees_disponibles.csv": "97b1405d41c496cc1040216bc36b962c3755783afe81a35fe113895784ee4546",
+    "resultats/exercice_06.csv": "34ab75d5c1fdad8e149f056db574a3d6349e211ed202f4dbbbab62df31c56cb8",
+    "resultats/exercice_23_annees_disponibles.csv": "74c8d0bda79f515d490123ed0de6f67fbe93168ab39f813e136ca6e72879f177",
+    "resultats/exercice_24.csv": "98f11c2ebf8e6d1b8cb91d9e52d5aa6c52cbd20e61249c2bdfb1582208737238",
+    "resultats/exercice_12.csv": "6bda0f6d5968ac447498df604401c3d913907f5607314739d9b03261e69db8fe",
+    "resultats/exercice_18.csv": "676c9b48c9fff077b9ee4d949932ec6b851bccd6ab71dda3ae09ff8a8a581b57",
+    "resultats/synthese.json": "128b823b5618f929e8cb1ecf2dbe5f368dd048dc059ba03c4d4888ff6591536c",
+    "resultats/exercice_25.csv": "16a4792985a859b05d3d2aa87e43bb97a32c38a2c32a2f3b42dc7bd60dcbb55a",
+    "resultats/exercice_05.csv": "523b7be97ab7d1a76cfc0dc90aa331ad41a1525730896b5613af2149692a2d60",
+    "resultats/exercice_03.csv": "c9ca71b50a6b3e84a790596b9bfd5296fdd2ddb190fc72f9799283fe688b8082",
+    "resultats/exercice_09.csv": "bbf22a7dadab6f2c41ec608ddb55d56809528d191a06552181fde627c95596cf",
+    "resultats/exercice_19_annees_disponibles.csv": "509c1ca07549adf3aa3f149695eb93f38c06bcd615a07a164e8aaa58e4c74e38",
+    "resultats/exercice_08.csv": "b187171c29e43f1a787ad4e6ae63d5eda2b74db435235e71a502216ac9b4ba59",
+    "resultats/exercice_21.csv": "7250bfc6d8c8262653ea57179eb8deeb831c27889ddf1b100cac4fbae3d37c7e",
+    "resultats/exercice_22.csv": "9fd3e42f9b362d825d8e0f3ce611e400d5c33e5cbb7c4c03d77563aacfd940d4",
+    "resultats/exercice_19.csv": "676c9b48c9fff077b9ee4d949932ec6b851bccd6ab71dda3ae09ff8a8a581b57",
+    "resultats/exercice_04.csv": "4288bef6ac803beaf0ad1b049a5fe02ac7729384103bf2cf507befe093ed3773",
+    "resultats/exercice_26.csv": "119f430e10602548ee6dbb7440fe167d78d64f44a95590ded35964b027eabb69",
+    "resultats/exercice_11.csv": "1a8b171d52be4e355b2e201a4a19b9caf4d92f6460b1ce3b54403afaf322ad06",
+    "resultats/exercice_13.csv": "e756ba49cf16a8d16a7b328129f47dac83dd133014786ff5f1c7113accc4d8ea",
+    "resultats/exercice_07.csv": "38ef81d98499ddeacad185307a8566968bbf7c1d77ba8dfe8d8d247cf158a9e2",
+    "resultats/exercice_10.csv": "bcb0b55cc20bded8b1466446d9cfec88f2a03f0171ed98a7963041d68b252acd",
+    "resultats/exercice_15.csv": "b3295c94bbab15e3a3859946a8621a793b0ee770a34848e6278341d838bbc13c",
+    "resultats/exercice_02.csv": "035facee44f32059297c39776798748b8eece789e515ec30e0e80003c4d9acf2",
+    "resultats/exercice_20.csv": "fe34f70dc07bd638361dca6aac439dcd1e986176a9590d833a24bddace5fb70b",
+    "resultats/exercice_23.csv": "3951f3b6baa4e603105ac4f0d87decd8b59449564f57783213d7895d85d1226b",
+    "resultats/exercice_16.csv": "5b16d0d2df099aa658a85a720119b3ba8829f169d95b11f109d3f8d432507782",
+    "resultats/exercice_01.csv": "69ae95e0a12c09aa77156d9c0c08d270b3740abfebc362cac3edf27565e44d6a"
+  }
+}

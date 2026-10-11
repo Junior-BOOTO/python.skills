@@ -9,6 +9,7 @@ Je développe mes compétences en Python et en analyse de données. Ce dépôt d
 
 | Projet | Contenu | Limites |
 | --- | --- | --- |
+| [Chinook — SQL et Python](chinook-sql/README.md) | 26 exercices SQL, résultats CSV, rapport et script Python reproductible. | Base de démonstration ; adaptation documentée des années des exercices. |
 | [FLE Learning Analytics](fle-learning-analytics/README.md) | Génération de données synthétiques, analyse des quatre compétences, graphique et étude de cas pédagogique. | Démonstration fictive ; aucune efficacité pédagogique réelle mesurée. |
 | [Analyse exploratoire des performances](employee-performance-analysis/README.md) | Script, notebook, statistiques descriptives et détection IQR des valeurs atypiques. | CSV original absent ; résultats RH non établis. |
 

@@ -1,0 +1,132 @@
+[
+  [
+    "Clients hors États-Unis",
+    "SELECT CustomerId, FirstName || ' ' || LastName AS Client, Country FROM Customer WHERE Country <> 'USA' ORDER BY Country, Client;",
+    "WHERE filtre les lignes avant toute agrégation."
+  ],
+  [
+    "Clients brésiliens",
+    "SELECT CustomerId, FirstName || ' ' || LastName AS Client, Country FROM Customer WHERE Country = 'Brazil' ORDER BY Client;",
+    "Dans cette base, les pays sont écrits en anglais."
+  ],
+  [
+    "Factures des clients brésiliens",
+    "SELECT c.FirstName || ' ' || c.LastName AS Client, i.InvoiceId, i.InvoiceDate, i.BillingCountry FROM Customer c JOIN Invoice i ON i.CustomerId=c.CustomerId WHERE c.Country='Brazil' ORDER BY i.InvoiceDate,i.InvoiceId;",
+    "Le pays du client détermine le filtre ; le pays de facturation est affiché séparément."
+  ],
+  [
+    "Agents de vente",
+    "SELECT EmployeeId, FirstName || ' ' || LastName AS Agent, Title FROM Employee WHERE Title='Sales Support Agent' ORDER BY EmployeeId;",
+    "Filtrer sur le titre exact présent dans les données."
+  ],
+  [
+    "Pays de facturation distincts",
+    "SELECT DISTINCT BillingCountry FROM Invoice ORDER BY BillingCountry;",
+    "DISTINCT élimine les répétitions dans le résultat, sans modifier les sources."
+  ],
+  [
+    "Factures par agent",
+    "SELECT i.InvoiceId, i.InvoiceDate, e.FirstName || ' ' || e.LastName AS Agent FROM Invoice i JOIN Customer c ON c.CustomerId=i.CustomerId JOIN Employee e ON e.EmployeeId=c.SupportRepId ORDER BY e.EmployeeId,i.InvoiceId;",
+    "La relation est Invoice → Customer → Employee."
+  ],
+  [
+    "Détails des factures",
+    "SELECT i.InvoiceId, i.Total, c.FirstName || ' ' || c.LastName AS Client, i.BillingCountry, e.FirstName || ' ' || e.LastName AS Agent FROM Invoice i JOIN Customer c ON c.CustomerId=i.CustomerId LEFT JOIN Employee e ON e.EmployeeId=c.SupportRepId ORDER BY i.InvoiceId;",
+    "LEFT JOIN conserve la facture même si un agent n'est pas renseigné."
+  ],
+  [
+    "Ventes en 2009 et 2011",
+    "WITH annees(Annee) AS (VALUES ('2009'),('2011')) SELECT a.Annee, COUNT(i.InvoiceId) AS Factures, ROUND(COALESCE(SUM(i.Total),0),2) AS Ventes FROM annees a LEFT JOIN Invoice i ON strftime('%Y',i.InvoiceDate)=a.Annee GROUP BY a.Annee ORDER BY a.Annee;",
+    "Les années sans facture sont conservées avec zéro. La base actuelle ne couvre pas ces années."
+  ],
+  [
+    "Lignes de la facture 37",
+    "SELECT InvoiceId, COUNT(*) AS Lignes, SUM(Quantity) AS Unites FROM InvoiceLine WHERE InvoiceId=37 GROUP BY InvoiceId;",
+    "COUNT compte les lignes ; SUM(Quantity) compte les unités vendues."
+  ],
+  [
+    "Lignes par facture",
+    "SELECT InvoiceId, COUNT(*) AS Lignes, SUM(Quantity) AS Unites FROM InvoiceLine GROUP BY InvoiceId ORDER BY InvoiceId;",
+    "GROUP BY produit une ligne par facture."
+  ],
+  [
+    "Morceaux par ligne de facture",
+    "SELECT il.InvoiceLineId, il.InvoiceId, t.Name AS Morceau FROM InvoiceLine il JOIN Track t ON t.TrackId=il.TrackId ORDER BY il.InvoiceLineId;",
+    "Le nom est obtenu grâce à la clé TrackId."
+  ],
+  [
+    "Morceaux et artistes",
+    "SELECT il.InvoiceLineId, il.InvoiceId, t.Name AS Morceau, ar.Name AS Artiste FROM InvoiceLine il JOIN Track t ON t.TrackId=il.TrackId JOIN Album al ON al.AlbumId=t.AlbumId JOIN Artist ar ON ar.ArtistId=al.ArtistId ORDER BY il.InvoiceLineId;",
+    "La chaîne Track → Album → Artist évite une jointure supposée directe."
+  ],
+  [
+    "Nombre de factures par pays",
+    "SELECT BillingCountry, COUNT(*) AS Factures FROM Invoice GROUP BY BillingCountry ORDER BY Factures DESC,BillingCountry;",
+    "Chaque ligne Invoice représente une facture."
+  ],
+  [
+    "Morceaux par playlist",
+    "SELECT p.Name AS Playlist, COUNT(pt.TrackId) AS Morceaux FROM Playlist p LEFT JOIN PlaylistTrack pt ON pt.PlaylistId=p.PlaylistId GROUP BY p.PlaylistId,p.Name ORDER BY Morceaux DESC,p.Name;",
+    "LEFT JOIN affiche également les playlists vides."
+  ],
+  [
+    "Catalogue sans identifiants",
+    "SELECT t.Name AS Morceau, al.Title AS Album, mt.Name AS TypeMedia, g.Name AS Genre, t.Composer, t.Milliseconds, t.Bytes, t.UnitPrice FROM Track t JOIN Album al ON al.AlbumId=t.AlbumId JOIN MediaType mt ON mt.MediaTypeId=t.MediaTypeId LEFT JOIN Genre g ON g.GenreId=t.GenreId ORDER BY Morceau,Album;",
+    "Choisir explicitement les colonnes évite d'afficher les IDs."
+  ],
+  [
+    "Factures et nombre de lignes",
+    "SELECT i.InvoiceId, i.InvoiceDate, i.Total, COUNT(il.InvoiceLineId) AS Lignes, COALESCE(SUM(il.Quantity),0) AS Unites FROM Invoice i LEFT JOIN InvoiceLine il ON il.InvoiceId=i.InvoiceId GROUP BY i.InvoiceId,i.InvoiceDate,i.Total ORDER BY i.InvoiceId;",
+    "Ne pas sommer Total après la jointure : il serait répété pour chaque ligne."
+  ],
+  [
+    "Ventes par agent",
+    "SELECT e.EmployeeId, e.FirstName || ' ' || e.LastName AS Agent, ROUND(COALESCE(SUM(i.Total),0),2) AS Ventes FROM Employee e LEFT JOIN Customer c ON c.SupportRepId=e.EmployeeId LEFT JOIN Invoice i ON i.CustomerId=c.CustomerId WHERE e.Title='Sales Support Agent' GROUP BY e.EmployeeId,e.FirstName,e.LastName ORDER BY Ventes DESC,e.EmployeeId;",
+    "Sommer les factures à leur granularité originale."
+  ],
+  [
+    "Meilleur agent en 2009",
+    "WITH ventes AS (SELECT e.EmployeeId, e.FirstName || ' ' || e.LastName AS Agent, ROUND(SUM(i.Total),2) AS Ventes FROM Employee e JOIN Customer c ON c.SupportRepId=e.EmployeeId JOIN Invoice i ON i.CustomerId=c.CustomerId WHERE strftime('%Y',i.InvoiceDate)='2009' GROUP BY e.EmployeeId,e.FirstName,e.LastName) SELECT * FROM ventes WHERE Ventes=(SELECT MAX(Ventes) FROM ventes);",
+    "Conserver tous les ex æquo ; une absence de données ne permet pas de nommer un gagnant."
+  ],
+  [
+    "Meilleur agent en 2010",
+    "WITH ventes AS (SELECT e.EmployeeId, e.FirstName || ' ' || e.LastName AS Agent, ROUND(SUM(i.Total),2) AS Ventes FROM Employee e JOIN Customer c ON c.SupportRepId=e.EmployeeId JOIN Invoice i ON i.CustomerId=c.CustomerId WHERE strftime('%Y',i.InvoiceDate)='2010' GROUP BY e.EmployeeId,e.FirstName,e.LastName) SELECT * FROM ventes WHERE Ventes=(SELECT MAX(Ventes) FROM ventes);",
+    "Même méthode, avec un filtre annuel différent."
+  ],
+  [
+    "Meilleur agent global",
+    "WITH ventes AS (SELECT e.EmployeeId, e.FirstName || ' ' || e.LastName AS Agent, ROUND(SUM(i.Total),2) AS Ventes FROM Employee e JOIN Customer c ON c.SupportRepId=e.EmployeeId JOIN Invoice i ON i.CustomerId=c.CustomerId GROUP BY e.EmployeeId,e.FirstName,e.LastName) SELECT * FROM ventes WHERE Ventes=(SELECT MAX(Ventes) FROM ventes);",
+    "Comparer les montants agrégés sans supprimer les ex æquo."
+  ],
+  [
+    "Clients attribués par agent",
+    "SELECT e.EmployeeId,e.FirstName || ' ' || e.LastName AS Agent,COUNT(c.CustomerId) AS Clients FROM Employee e LEFT JOIN Customer c ON c.SupportRepId=e.EmployeeId WHERE e.Title='Sales Support Agent' GROUP BY e.EmployeeId,e.FirstName,e.LastName ORDER BY Clients DESC,e.EmployeeId;",
+    "Compter CustomerId et non les factures."
+  ],
+  [
+    "Ventes totales par pays",
+    "SELECT BillingCountry,ROUND(SUM(Total),2) AS Ventes FROM Invoice GROUP BY BillingCountry ORDER BY Ventes DESC,BillingCountry;",
+    "Le pays de facturation définit ici la dimension géographique."
+  ],
+  [
+    "Morceau le plus acheté en 2013",
+    "WITH ventes AS (SELECT t.TrackId,t.Name AS Morceau,SUM(il.Quantity) AS Unites FROM Track t JOIN InvoiceLine il ON il.TrackId=t.TrackId JOIN Invoice i ON i.InvoiceId=il.InvoiceId WHERE strftime('%Y',i.InvoiceDate)='2013' GROUP BY t.TrackId,t.Name) SELECT * FROM ventes WHERE Unites=(SELECT MAX(Unites) FROM ventes) ORDER BY TrackId;",
+    "Popularité mesurée en unités ; conserver les ex æquo."
+  ],
+  [
+    "Top 5 des morceaux",
+    "SELECT t.TrackId,t.Name AS Morceau,SUM(il.Quantity) AS Unites FROM Track t JOIN InvoiceLine il ON il.TrackId=t.TrackId GROUP BY t.TrackId,t.Name ORDER BY Unites DESC,t.TrackId LIMIT 5;",
+    "Exactement cinq lignes ; TrackId départage les ex æquo de façon reproductible."
+  ],
+  [
+    "Top 3 des artistes",
+    "SELECT ar.ArtistId,ar.Name AS Artiste,SUM(il.Quantity) AS Unites,ROUND(SUM(il.Quantity*il.UnitPrice),2) AS Ventes FROM Artist ar JOIN Album al ON al.ArtistId=ar.ArtistId JOIN Track t ON t.AlbumId=al.AlbumId JOIN InvoiceLine il ON il.TrackId=t.TrackId GROUP BY ar.ArtistId,ar.Name ORDER BY Unites DESC,ar.ArtistId LIMIT 3;",
+    "Les plus vendus sont classés en unités ; le chiffre d'affaires est fourni séparément."
+  ],
+  [
+    "Type de média le plus acheté",
+    "WITH ventes AS (SELECT mt.MediaTypeId,mt.Name AS TypeMedia,SUM(il.Quantity) AS Unites FROM MediaType mt JOIN Track t ON t.MediaTypeId=mt.MediaTypeId JOIN InvoiceLine il ON il.TrackId=t.TrackId GROUP BY mt.MediaTypeId,mt.Name) SELECT * FROM ventes WHERE Unites=(SELECT MAX(Unites) FROM ventes);",
+    "La popularité correspond à SUM(Quantity), pas au nombre de références du catalogue."
+  ]
+]
