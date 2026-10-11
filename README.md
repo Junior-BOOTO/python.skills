@@ -12,6 +12,10 @@ Je développe mes compétences en Python et en analyse de données. Ce dépôt d
 | [FLE Learning Analytics](fle-learning-analytics/README.md) | Génération de données synthétiques, analyse des quatre compétences, graphique et étude de cas pédagogique. | Démonstration fictive ; aucune efficacité pédagogique réelle mesurée. |
 | [Analyse exploratoire des performances](employee-performance-analysis/README.md) | Script, notebook, statistiques descriptives et détection IQR des valeurs atypiques. | CSV original absent ; résultats RH non établis. |
 
+## Mes assistants IA pour les données
+
+[DataCollect, DataAnalyse et DataML](assistants-ia/README.md) : trois assistants spécialisés pour la collecte, l’analyse et le machine learning. Présentations, liens ChatGPT, livrables et limites d’accès. Transmission manuelle entre assistants ; validation sur un projet de démonstration à documenter.
+
 ## Bibliothèque de références
 
 [Vingt ouvrages Python, analyse des données et data science](bibliotheque/README.md), organisés par domaine avec des objectifs de lecture et des liens officiels. [Sélection sur mon site](https://junior-booto-fle.juniorbooto.chatgpt.site/bibliographie-python.html).
