@@ -9,6 +9,7 @@ Je développe mes compétences en Python et en analyse de données. Ce dépôt d
 
 | Projet | Contenu | Limites |
 | --- | --- | --- |
+| [Wine Quality — ACP](wine-quality-acp/README.md) | Analyse de 6 497 vins, ACP sur 11 variables, graphiques et parcours Python coordonné. | ACP descriptive ; 50,2 % de variance en 2D, sans prédiction ni données clients. |
 | [Chinook — SQL et Python](chinook-sql/README.md) | 26 exercices SQL, résultats CSV, rapport et script Python reproductible. | Base de démonstration ; adaptation documentée des années des exercices. |
 | [FLE Learning Analytics](fle-learning-analytics/README.md) | Génération de données synthétiques, analyse des quatre compétences, graphique et étude de cas pédagogique. | Démonstration fictive ; aucune efficacité pédagogique réelle mesurée. |
 | [Analyse exploratoire des performances](employee-performance-analysis/README.md) | Script, notebook, statistiques descriptives et détection IQR des valeurs atypiques. | CSV original absent ; résultats RH non établis. |
@@ -49,3 +50,6 @@ Les scripts écrivent les données fictives et les résultats dans le dossier du
 - [Modèle de README de projet](templates/README-PYTHON.md).
 - Prochaines étapes : documenter les environnements des carnets, préciser la provenance et les droits des données, ajouter des résultats uniquement après exécution vérifiée.
 - Les données d’élèves et les données RH confidentielles ne sont pas des ressources publiques de ce portfolio.
+
+### Parcours coordonné exécuté
+Le projet [Wine Quality — ACP](wine-quality-acp/README.md) réunit préparation, exploration et réduction de dimension dans un script Python et un dossier partagé. Les résultats et contrôles ont été exécutés ; ce parcours ne contacte pas automatiquement les trois GPT indépendants.

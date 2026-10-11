@@ -1,0 +1,15 @@
+variable,definition,role,unit,missing
+fixed acidity,Acidité fixe,feature,non précisée dans les fichiers source,aucune observée
+volatile acidity,Acidité volatile,feature,non précisée dans les fichiers source,aucune observée
+citric acid,Acide citrique,feature,non précisée dans les fichiers source,aucune observée
+residual sugar,Sucre résiduel,feature,non précisée dans les fichiers source,aucune observée
+chlorides,Chlorures,feature,non précisée dans les fichiers source,aucune observée
+free sulfur dioxide,Dioxyde de soufre libre,feature,non précisée dans les fichiers source,aucune observée
+total sulfur dioxide,Dioxyde de soufre total,feature,non précisée dans les fichiers source,aucune observée
+density,Densité,feature,non précisée dans les fichiers source,aucune observée
+pH,pH,feature,non précisée dans les fichiers source,aucune observée
+sulphates,Sulfates,feature,non précisée dans les fichiers source,aucune observée
+alcohol,Alcool,feature,non précisée dans les fichiers source,aucune observée
+quality,Note sensorielle,annotation exclue de l’ACP,score 0–10,aucune observée
+color,Origine rouge ou blanc,provenance,red / white,aucune
+source_row,"Numéro de ligne dans le CSV source, hors en-tête",provenance,entier à partir de 1,aucune

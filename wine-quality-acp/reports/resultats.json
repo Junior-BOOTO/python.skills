@@ -1,0 +1,49 @@
+{
+  "rows": 6497,
+  "red": 1599,
+  "white": 4898,
+  "missing_cells": 0,
+  "repeated_profiles": 1177,
+  "quality_min": 3,
+  "quality_max": 9,
+  "features": 11,
+  "variance_2d": 0.5021540614343579,
+  "variance_3d": 0.6436401480763201,
+  "components_80pct": 6,
+  "pc1_top": [
+    [
+      "total sulfur dioxide",
+      0.8484251185949349
+    ],
+    [
+      "free sulfur dioxide",
+      0.7500712380124579
+    ],
+    [
+      "volatile acidity",
+      -0.6627662207647382
+    ],
+    [
+      "residual sugar",
+      0.602126145201408
+    ]
+  ],
+  "pc2_top": [
+    [
+      "density",
+      0.9223031421649411
+    ],
+    [
+      "alcohol",
+      -0.7344122430162731
+    ],
+    [
+      "fixed acidity",
+      0.5311661196847836
+    ],
+    [
+      "residual sugar",
+      0.5209956054382795
+    ]
+  ]
+}

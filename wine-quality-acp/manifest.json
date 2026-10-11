@@ -1,0 +1,71 @@
+{
+  "objective": "ACP descriptive des profils chimiques des vins, sans prédiction ni segmentation de clients.",
+  "source": "https://archive.ics.uci.edu/dataset/186/wine+quality",
+  "doi": "10.24432/C56S3T",
+  "license": "CC BY 4.0",
+  "raw_sources": [
+    {
+      "file": "raw/winequality-red.csv",
+      "sha256": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+      "rows": 1599
+    },
+    {
+      "file": "raw/winequality-white.csv",
+      "sha256": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836",
+      "rows": 4898
+    }
+  ],
+  "target": null,
+  "horizon": null,
+  "steps": {
+    "DataCollect": "completed",
+    "DataAnalyse": "completed",
+    "DataML": "completed"
+  },
+  "model_scope": "ACP exploratoire, ajustée à toutes les observations ; aucune performance hors échantillon revendiquée.",
+  "transformations": [
+    "Fusion avec couleur et ligne source",
+    "Profils répétés conservés ; sensibilité sans répétitions",
+    "Standardisation des 11 variables chimiques, qualité et couleur exclues de l’ACP"
+  ],
+  "versions": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "verification": [
+    "6497 lignes, 0 valeur manquante",
+    "Somme des ratios de variance = 1",
+    "Reconstruction avec les 11 axes",
+    "Rechargement numérique et projection de 5 observations"
+  ],
+  "files": [
+    "README.md",
+    "analyse.py",
+    "analysis/coefficients_axes.csv",
+    "analysis/coordonnees.csv",
+    "analysis/correlations_axes.csv",
+    "analysis/qualite_par_couleur.csv",
+    "analysis/sensibilite.csv",
+    "analysis/statistiques.csv",
+    "analysis/variance_expliquee.csv",
+    "collected/dictionnaire_variables.csv",
+    "collected/vins.csv",
+    "models/acp.npz",
+    "models/fiche_acp.md",
+    "raw/winequality-red.csv",
+    "raw/winequality-white.csv",
+    "raw/winequality.names",
+    "reports/correlations.png",
+    "reports/journal_nettoyage.md",
+    "reports/projection.png",
+    "reports/qualite.json",
+    "reports/rapport.md",
+    "reports/resultats.json",
+    "reports/sources.md",
+    "reports/variance.png",
+    "requirements.txt"
+  ],
+  "next_action": "Interpréter les axes ; ne pas déduire de segments clients de ces données."
+}
