@@ -1,0 +1,15 @@
+{
+  "lines": 51290,
+  "orders": 25072,
+  "sales": 12642501.90988,
+  "profit": 1467457.29128,
+  "margin": 0.11607332960995605,
+  "quantity": 178312,
+  "returned_orders": 1173,
+  "unmatched_returns": 0,
+  "period": [
+    "2011-01-01",
+    "2014-12-31"
+  ],
+  "cells": 6740
+}

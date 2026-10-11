@@ -1,0 +1,4 @@
+raw/
+collected/
+__pycache__/
+.venv/

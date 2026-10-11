@@ -1,0 +1,37 @@
+{
+  "objective": "Tableau de bord historique des performances commerciales, projet 7",
+  "source": "https://www.tableau.com/sites/default/files/training/global_superstore.zip",
+  "source_sha256": "851d98f3f47ee44e33450c2f4cebbb4313982fbff726980d63477806e7cebfd8",
+  "source_sheets": [
+    "Orders",
+    "Returns"
+  ],
+  "collection_date": "2026-10-11",
+  "unit": "unités monétaires du jeu (UM)",
+  "steps": {
+    "DataCollect": "completed",
+    "DataAnalyse": "completed",
+    "DataML": "skipped"
+  },
+  "reason_ml_skipped": "Pas de demande prédictive ; indicateurs descriptifs suffisants.",
+  "transformations": [
+    "Données brutes préservées",
+    "Harmonisation Returns.Market : United States -> US (296 retours)",
+    "Jointure Returns sur Market + Order ID, many_to_one, sans multiplication",
+    "Clé interne de commande, aucun nom de client exporté",
+    "Agrégation mois/marché/région/catégorie/segment, clés de commande pour décompte distinct sous filtres"
+  ],
+  "checks": [
+    "51290 Row ID uniques et champs requis présents",
+    "1173 retours reliés aux commandes",
+    "Ventes et bénéfices réconciliés par dimension",
+    "48 mois présents"
+  ],
+  "versions": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "xlrd": "2.0.1"
+  },
+  "redistribution": "Classeur source non redistribué : conditions spécifiques non identifiées. URL et script de collecte fournis.",
+  "next_action": "Explorer les filtres ; aucune connexion temps réel configurée."
+}
