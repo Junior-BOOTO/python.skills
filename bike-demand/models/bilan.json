@@ -1,0 +1,34 @@
+{
+  "modele": "Boosting",
+  "test": {
+    "MAE": 72.35176556497035,
+    "RMSE": 111.70690160652629,
+    "R2": 0.692928559304653
+  },
+  "reference_test": {
+    "MAE": 79.78574723247233,
+    "RMSE": 120.2515731460339,
+    "R2": 0.6441549346439546
+  },
+  "gain_mae_pct": 9.317430650666884,
+  "decoupage": {
+    "entrainement": 13003,
+    "validation": 2208,
+    "test": 2168
+  },
+  "versions": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.8.0",
+    "numpy": "2.3.5",
+    "joblib": "1.5.3",
+    "matplotlib": "3.10.8"
+  },
+  "lignes": 17379,
+  "debut": "2011-01-01 00:00:00",
+  "fin": "2012-12-31 23:00:00",
+  "heures_absentes": 165,
+  "valeurs_absentes": 0,
+  "doublons_horodatage": 0,
+  "total_locations": 3292679
+}

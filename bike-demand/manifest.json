@@ -1,0 +1,43 @@
+{
+  "objectif": "Pr\u00e9voir \u00e0 J+1 les locations horaires \u00e0 partir du calendrier connu",
+  "cible": "cnt",
+  "horizon": "J+1, calendrier uniquement",
+  "source": "https://archive.ics.uci.edu/static/public/275/bike+sharing+dataset.zip",
+  "source_sha256": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+  "etapes": {
+    "DataCollect": "completed",
+    "DataAnalyse": "completed",
+    "DataML": "completed"
+  },
+  "fichiers": [
+    "requirements.txt",
+    "README.md",
+    "run.log",
+    "manifest.json",
+    "pipeline.py",
+    "predire.py",
+    "reports/heures_absentes.csv",
+    "reports/qualite.json",
+    "reports/dictionnaire_source.txt",
+    "raw/source.zip",
+    "analysis/mensuel.csv",
+    "analysis/profil_horaire.png",
+    "analysis/profil_horaire.csv",
+    "models/erreurs_par_groupe.csv",
+    "models/resultats.csv",
+    "models/predictions_test.csv",
+    "models/pipeline.joblib",
+    "models/bilan.json",
+    "models/fiche_modele.md",
+    "models/test.png",
+    "collected/locations_horaires.csv"
+  ],
+  "transformations": [
+    "Horodatage date + heure",
+    "Tri chronologique",
+    "Aucune suppression/imputation",
+    "Encodage ajust\u00e9 sur entra\u00eenement"
+  ],
+  "erreurs": [],
+  "prochaine_action": "Publication du prototype document\u00e9"
+}
