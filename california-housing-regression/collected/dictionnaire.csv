@@ -1,0 +1,10 @@
+variable,definition,unit
+MedInc,Revenu médian de zone,échelle source conservée
+HouseAge,Âge médian des logements,années
+AveRooms,Pièces moyennes par ménage,ratio
+AveBedrms,Chambres moyennes par ménage,ratio
+Population,Population de zone,personnes
+AveOccup,Occupation moyenne par ménage,personnes/ménage
+Latitude,Latitude de zone,degrés
+Longitude,Longitude de zone,degrés
+MedHouseVal,Valeur médiane des logements de zone,"100 000 USD de 1990 dans source, USD dans modèles"

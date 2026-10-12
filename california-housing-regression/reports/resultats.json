@@ -1,0 +1,54 @@
+{
+  "rows": 20640,
+  "missing_cells": 0,
+  "development_rows": 14896,
+  "test_rows": 5744,
+  "development_cells": 140,
+  "test_cells": 36,
+  "selected_model": "Ridge_alpha_10",
+  "test": {
+    "model": "Ridge_alpha_10",
+    "partition": "test",
+    "MAE_USD_1990": 56752.79730469499,
+    "RMSE_USD_1990": 83356.2588778566,
+    "R2": 0.4750757830918667
+  },
+  "baseline_test": {
+    "model": "Reference_moyenne",
+    "partition": "test",
+    "MAE_USD_1990": 87191.45623547028,
+    "RMSE_USD_1990": 116570.94940781154,
+    "R2": -0.02659902305597961
+  },
+  "train": {
+    "model": "Ridge_alpha_10",
+    "partition": "development_fit",
+    "MAE_USD_1990": 50112.4014713594,
+    "RMSE_USD_1990": 68784.77305552064,
+    "R2": 0.6428609161435976
+  },
+  "mae_reduction_vs_baseline": 0.34910139416151376,
+  "capped_target_rows": 992,
+  "negative_test_predictions": 28,
+  "test_cap_errors": [
+    {
+      "scope": "cible_au_plafond",
+      "count": 354,
+      "MAE": 161792.44890754877,
+      "mean_residual": 116980.58335551045
+    },
+    {
+      "scope": "cible_sous_plafond",
+      "count": 5390,
+      "MAE": 49854.08920313465,
+      "mean_residual": 20446.32989307273
+    }
+  ],
+  "minimum_cv_mae": {
+    "model": "Ridge_alpha_10",
+    "MAE_mean": 51829.98054197814,
+    "MAE_std_between_folds": 5591.97126692441,
+    "RMSE_mean": 94763.23117563233,
+    "R2_mean": 0.13468430189734665
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "objective": "Prédire la valeur médiane des logements par zone du recensement 1990, projet 10 adapté de Boston vers California.",
+  "source_url": "https://ndownloader.figshare.com/files/5976036",
+  "archive_sha256": "aaa5c9a6afe2225cc2aed2723682ae403280c4a3695a2ddda4ffb5d8215ea681",
+  "raw_csv_sha256": "94ef369b909f5c725340b512b7c9a05c1550a554b6592d29303990e3ba521a1f",
+  "target": "MedHouseVal × 100000, USD de 1990",
+  "unit_of_observation": "Census block group, pas maison individuelle",
+  "steps": {
+    "DataCollect": "completed",
+    "DataAnalyse": "completed",
+    "DataML": "completed"
+  },
+  "seed": 42,
+  "split": "GroupShuffleSplit sur cellules de 0.5°, 20 % des cellules en test",
+  "validation": "4 plis GroupKFold géographiques sur développement, choix MAE minimum",
+  "test_usage": "Modèle retenu et référence évalués après sélection ; test non utilisé pour régler modèles ou variables.",
+  "preprocessing": "StandardScaler ajusté dans chaque pli, puis développement complet pour export. Aucune imputation nécessaire.",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "checks": [
+    "Checksum de l’archive",
+    "20640 lignes, aucune cellule manquante",
+    "Cellules géographiques disjointes développement/test et CV",
+    "Rechargement JSON reproduit toutes les estimations test"
+  ],
+  "limits": [
+    "1990, pas marché actuel",
+    "Zones agrégées, pas biens individuels",
+    "Plafond cible 500001 USD",
+    "Cellules voisines possibles sans tampon spatial",
+    "Les variables de zone doivent être disponibles pour estimer ; aucune prévision temporelle"
+  ],
+  "next_action": "Valider sur données indépendantes et récentes avant toute utilisation opérationnelle."
+}

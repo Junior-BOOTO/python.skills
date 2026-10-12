@@ -1,0 +1,14 @@
+{
+  "input": {
+    "MedInc": 3.5618,
+    "HouseAge": 28.0,
+    "AveRooms": 5.273725547146364,
+    "AveBedrms": 1.0483091787439613,
+    "Population": 1149.0,
+    "AveOccup": 2.8197593167701864,
+    "Latitude": 35.62,
+    "Longitude": -119.42500000000001
+  },
+  "prediction": 177523.64292523992,
+  "synthetic": true
+}
