@@ -1,0 +1,4 @@
+raw/
+collected/decoupage.csv
+__pycache__/
+.venv/

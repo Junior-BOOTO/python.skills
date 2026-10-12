@@ -1,0 +1,50 @@
+{
+  "objective": "Projet 11 : régression logistique et évaluation du défaut de paiement au mois suivant.",
+  "source": "https://archive.ics.uci.edu/static/public/350/default+of+credit+card+clients.zip",
+  "source_sha256": "56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602",
+  "doi": "10.24432/C55S3H",
+  "license": "CC BY 4.0",
+  "stages": {
+    "DataCollect": "completed",
+    "DataAnalyse": "completed",
+    "DataML": "completed"
+  },
+  "target": "default payment next month",
+  "horizon": "Mois suivant les historiques avril–septembre 2005",
+  "excluded_features": [
+    "ID",
+    "SEX",
+    "EDUCATION",
+    "MARRIAGE",
+    "AGE"
+  ],
+  "group_rule": "Profils identiques sur les 19 variables financières gardés ensemble, même si leurs cibles diffèrent.",
+  "split": "StratifiedGroupKFold, 1/5 test puis 1/4 du développement validation ; proportions de lignes approximatives.",
+  "preprocessing": "Standardisation montants et encodage one-hot des statuts, ajustés sur train seulement.",
+  "selection": "C par Average Precision validation puis Brier ; seuil par F1 validation",
+  "test_usage": "Évaluations après choix, aucune retouche de paramètres, seuil ou calibration.",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "xlrd": "2.0.1"
+  },
+  "checks": [
+    "30000 IDs uniques, aucune cellule absente",
+    "Profils financiers disjoints entre train/validation/test",
+    "Convergence LogisticRegression",
+    "Matrices totalisant le nombre de tests",
+    "Export JSON reproduisant toutes les probabilités test"
+  ],
+  "limits": [
+    "Historique Taïwan 2005",
+    "Pas validation temporelle ou externe",
+    "Codes -2 et 0 non explicités dans la description UCI : conservés distincts",
+    "Probabilités non recalibrées, fiabilité examinée descriptivement",
+    "Exclusion des variables démographiques ne prouve pas absence de biais",
+    "Aucune décision individuelle ou financière automatisée"
+  ],
+  "next_action": "Pour usage réel, validation indépendante, gouvernance, calibration et coût des erreurs adaptés."
+}

@@ -1,0 +1,26 @@
+variable,role,definition,unit
+LIMIT_BAL,numeric,Montant de crédit accordé,NT$
+BILL_AMT1,numeric,"Relevé mensuel, indice 1 : septembre vers avril 2005",NT$
+PAY_AMT1,numeric,"Paiement antérieur mensuel, indice 1 : septembre vers avril 2005",NT$
+BILL_AMT2,numeric,"Relevé mensuel, indice 2 : septembre vers avril 2005",NT$
+PAY_AMT2,numeric,"Paiement antérieur mensuel, indice 2 : septembre vers avril 2005",NT$
+BILL_AMT3,numeric,"Relevé mensuel, indice 3 : septembre vers avril 2005",NT$
+PAY_AMT3,numeric,"Paiement antérieur mensuel, indice 3 : septembre vers avril 2005",NT$
+BILL_AMT4,numeric,"Relevé mensuel, indice 4 : septembre vers avril 2005",NT$
+PAY_AMT4,numeric,"Paiement antérieur mensuel, indice 4 : septembre vers avril 2005",NT$
+BILL_AMT5,numeric,"Relevé mensuel, indice 5 : septembre vers avril 2005",NT$
+PAY_AMT5,numeric,"Paiement antérieur mensuel, indice 5 : septembre vers avril 2005",NT$
+BILL_AMT6,numeric,"Relevé mensuel, indice 6 : septembre vers avril 2005",NT$
+PAY_AMT6,numeric,"Paiement antérieur mensuel, indice 6 : septembre vers avril 2005",NT$
+PAY_0,categorical,Statut de remboursement historique ; codes bruts distincts,code source
+PAY_2,categorical,Statut de remboursement historique ; codes bruts distincts,code source
+PAY_3,categorical,Statut de remboursement historique ; codes bruts distincts,code source
+PAY_4,categorical,Statut de remboursement historique ; codes bruts distincts,code source
+PAY_5,categorical,Statut de remboursement historique ; codes bruts distincts,code source
+PAY_6,categorical,Statut de remboursement historique ; codes bruts distincts,code source
+ID,excluded,Variable exclue des entrées du modèle,source
+SEX,excluded,Variable exclue des entrées du modèle,source
+EDUCATION,excluded,Variable exclue des entrées du modèle,source
+MARRIAGE,excluded,Variable exclue des entrées du modèle,source
+AGE,excluded,Variable exclue des entrées du modèle,source
+default payment next month,target,Défaut au mois suivant,0 non / 1 oui
