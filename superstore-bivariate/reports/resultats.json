@@ -1,0 +1,133 @@
+{
+  "rows": 51290,
+  "orders": 25072,
+  "sales": 12642501.90988,
+  "profit": 1467457.29128,
+  "aggregate_margin": 0.11607332960995605,
+  "loss_rate": 0.24457009163579646,
+  "cramers_v_market_category": 0.07383681129816512,
+  "discount_profit_pearson": -0.3164901718272719,
+  "discount_profit_spearman": -0.5959802142810643,
+  "categories": [
+    {
+      "Category": "Furniture",
+      "lines": 9876,
+      "sales": 4110874.1863,
+      "profit": 285204.7238,
+      "sales_mean": 416.2489050526529,
+      "profit_mean": 28.878566605913324,
+      "profit_median": 15.502199999999998,
+      "profit_q25": -12.175000000000027,
+      "profit_q75": 69.36,
+      "discount_mean": 0.16808728230052652,
+      "loss_rate": 0.31561360874848116,
+      "aggregate_margin": 0.0693781202914164
+    },
+    {
+      "Category": "Office Supplies",
+      "lines": 31273,
+      "sales": 3787070.2255,
+      "profit": 518473.8343,
+      "sales_mean": 121.0971197358744,
+      "profit_mean": 16.5789605826112,
+      "profit_median": 6.553800000000001,
+      "profit_q25": 0.44999999999999996,
+      "profit_q75": 20.58,
+      "discount_mean": 0.13740894701499695,
+      "loss_rate": 0.2239311866466281,
+      "aggregate_margin": 0.13690631634155842
+    },
+    {
+      "Category": "Technology",
+      "lines": 10141,
+      "sales": 4744557.49808,
+      "profit": 663778.73318,
+      "sales_mean": 467.85893877132435,
+      "profit_mean": 65.4549584044966,
+      "profit_median": 29.94,
+      "profit_q25": 0.5,
+      "profit_q75": 98.85,
+      "discount_mean": 0.13534247115669065,
+      "loss_rate": 0.23902968149097722,
+      "aggregate_margin": 0.13990319085575717
+    }
+  ],
+  "discount_bands": [
+    {
+      "DiscountBand": "0 %",
+      "lines": 29009,
+      "sales": 6992410.95,
+      "profit": 1770695.2732,
+      "sales_mean": 241.04281257540765,
+      "profit_mean": 61.03951439897963,
+      "profit_median": 17.82,
+      "profit_q25": 6.36,
+      "profit_q75": 52.800000000000004,
+      "discount_mean": 0.0,
+      "loss_rate": 0.0,
+      "aggregate_margin": 0.2532310079973203
+    },
+    {
+      "DiscountBand": ">40 %",
+      "lines": 6961,
+      "sales": 846312.96762,
+      "profit": -627411.02488,
+      "sales_mean": 121.57922247090936,
+      "profit_mean": -90.13231215055309,
+      "profit_median": -23.895000000000024,
+      "profit_q25": -77.04000000000002,
+      "profit_q75": -7.919999999999998,
+      "discount_mean": 0.5878097974428962,
+      "loss_rate": 0.9843413302686396,
+      "aggregate_margin": -0.741346344537771
+    },
+    {
+      "DiscountBand": "]0,20 %]",
+      "lines": 10953,
+      "sales": 3719880.18078,
+      "profit": 511444.10477999994,
+      "sales_mean": 339.62203786907696,
+      "profit_mean": 46.69443118597644,
+      "profit_median": 10.8864,
+      "profit_q25": 1.1465999999999998,
+      "profit_q75": 47.84800000000001,
+      "discount_mean": 0.14826275906144434,
+      "loss_rate": 0.215831279101616,
+      "aggregate_margin": 0.1374894028637122
+    },
+    {
+      "DiscountBand": "]20,40 %]",
+      "lines": 4367,
+      "sales": 1083897.81148,
+      "profit": -187271.06182,
+      "sales_mean": 248.2019261460957,
+      "profit_mean": -42.88322917792535,
+      "profit_median": -11.455500000000002,
+      "profit_q25": -48.10199999999999,
+      "profit_q75": -0.06485000000001975,
+      "discount_mean": 0.3696043050148844,
+      "loss_rate": 0.7620792305930845,
+      "aggregate_margin": -0.17277556964922014
+    }
+  ],
+  "within_category_correlations": [
+    {
+      "category": "Furniture",
+      "lines": 9876,
+      "discount_profit_pearson": -0.4922262164985491,
+      "discount_profit_spearman": -0.6807224861906358
+    },
+    {
+      "category": "Office Supplies",
+      "lines": 31273,
+      "discount_profit_pearson": -0.253860244044483,
+      "discount_profit_spearman": -0.6098203832499473
+    },
+    {
+      "category": "Technology",
+      "lines": 10141,
+      "discount_profit_pearson": -0.37678573907223306,
+      "discount_profit_spearman": -0.5949286309610606
+    }
+  ]
+}

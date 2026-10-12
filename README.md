@@ -1,7 +1,7 @@
 # Python et analyse de données · Junior BOOTO Waba
 **Apprentissage documenté · Scripts et notebooks · Applications pédagogiques**
 
-Je développe mes compétences en Python et en analyse de données. Ce dépôt distingue les exercices d’apprentissage, un démonstrateur sur données fictives et une structure d’analyse RH dont les données originales ne sont pas disponibles.
+Je développe mes compétences en Python et en analyse de données. Ce dépôt réunit des projets exécutés et documentés sur des données publiques ou fictives, un démonstrateur pédagogique FLE et une structure d’analyse RH dont les données originales ne sont pas disponibles.
 
 [Profil et CV](https://github.com/Junior-BOOTO) · [English profile](https://github.com/Junior-BOOTO/Junior-BOOTO/blob/main/README.en.md) · [Portfolio FLE](https://github.com/Junior-BOOTO/portfolio-fle)
 
@@ -9,6 +9,7 @@ Je développe mes compétences en Python et en analyse de données. Ce dépôt d
 
 | Projet | Contenu | Limites |
 | --- | --- | --- |
+| [Superstore — Analyse bivariée](superstore-bivariate/README.md) | Tableaux croisés, distributions et corrélations entre catégories, marchés, remises et bénéfices. | Données fictives ; associations descriptives, sans conclusion causale. |
 | [Prévision des ventes — Séries temporelles](sales-time-series/README.md) | Références saisonnières, SARIMA, validation glissante et test chronologique. | 48 mois fictifs ; prolongement 2015 non évalué, pas prévision actuelle. |
 | [Défaut de paiement — Classification](credit-default-classification/README.md) | Régression logistique, calibration et compromis de seuil sur résultats agrégés. | Historique Taïwan 2005 ; aucune décision individuelle de crédit. |
 | [California Housing — Régression](california-housing-regression/README.md) | Régressions linéaires, Ridge, test géographique et analyse des erreurs. | Valeurs médianes de zones en 1990 ; plafond de cible et estimations négatives signalés. |
@@ -22,7 +23,7 @@ Je développe mes compétences en Python et en analyse de données. Ce dépôt d
 
 ## Mes assistants IA pour les données
 
-[DataCollect, DataAnalyse et DataML](assistants-ia/README.md) : trois assistants spécialisés pour la collecte, l’analyse et le machine learning. Présentations, liens ChatGPT, livrables et limites d’accès. Transmission manuelle entre assistants ; validation sur un projet de démonstration à documenter.
+[DataCollect, DataAnalyse et DataML](assistants-ia/README.md) : trois assistants spécialisés pour la collecte, l’analyse et le machine learning. Présentations, liens ChatGPT, livrables et limites d’accès. Les GPT indépendants ne s’échangent pas automatiquement leurs fichiers. Plusieurs projets de ce dépôt coordonnent les étapes dans un script Python et un dossier partagé, avec résultats et contrôles exécutés.
 
 ## Bibliothèque de références
 

@@ -1,0 +1,38 @@
+{
+  "objective": "Projet 3 : analyse bivariée descriptive des performances commerciales Superstore.",
+  "source": "https://www.tableau.com/sites/default/files/training/global_superstore.zip",
+  "archive_sha256": "c37f715220c07f5be5279896d751c9988b7100cdc7a43dc30ddefd850fccbd1b",
+  "steps": {
+    "DataCollect": "completed",
+    "DataAnalyse": "completed",
+    "DataML": "skipped"
+  },
+  "reason_ml_skipped": "Description des associations, sans objectif prédictif.",
+  "unit_of_observation": "Ligne de commande, pas client indépendant",
+  "transformations": [
+    "Aucune suppression ni imputation",
+    "Tranches de remise fixes",
+    "Marges calculées comme ratio des totaux",
+    "Échantillon de 5000 pour un nuage visuel seulement"
+  ],
+  "checks": [
+    "51290 Row ID uniques, 25072 clés Market/Order ID",
+    "Champs requis présents et numériques finis",
+    "Totaux réconciliés dans les tableaux groupés",
+    "Parts de tableau croisé totalisant 1 par marché"
+  ],
+  "versions": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "scipy": "1.17.0",
+    "xlrd": "2.0.1"
+  },
+  "limits": [
+    "Données fictives historiques 2011–2014",
+    "Commandes et clients répétés : pas de tests sur une indépendance supposée des lignes",
+    "Corrélations descriptives sans causalité",
+    "Bénéfice défini par la source, pas résultat net validé"
+  ],
+  "next_action": "Examiner compositions et coûts avec contexte métier avant toute recommandation opérationnelle."
+}
