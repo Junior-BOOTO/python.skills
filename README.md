@@ -67,3 +67,9 @@ Le projet [Wine Quality — ACP](wine-quality-acp/README.md) réunit préparatio
 [Code, données dérivées et modèle](bike-demand/) · [Résultats sur le site](https://junior-booto-fle.juniorbooto.chatgpt.site/bike-demand.html)
 
 17 379 observations UCI (2011–2012). Collecte, analyse et modèle exécutés dans un pipeline commun. MAE test 72,35 locations/h contre 79,79 pour la référence (−9,3 %). Prévision J+1 à partir du calendrier connu ; prototype historique, aucune connexion automatique entre GPTs indépendants.
+
+
+### AfriFlow Explain : explorer les parcours et expliquer les alertes
+[Code, tests et modèles](afriflow-explain/) · [Démonstration interactive](https://junior-booto-fle.juniorbooto.chatgpt.site/afriflow-explain.html)
+
+11 775 transferts et 1 800 dossiers synthétiques. À budget égal (36 alertes sur 360 dossiers test), l’approche avec parcours repère 19 des 42 scénarios injectés, contre 3 pour les résumés de transactions ; 17 faux positifs subsistent. Chronologie, preuves par opération et couverture des horodatages visibles. Aucune banque connectée, aucun partenariat et aucune performance bancaire réelle revendiquée.

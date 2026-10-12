@@ -1,0 +1,42 @@
+{
+  "objectif": "Comparer la priorisation de dossiers par transactions et par parcours à budget égal",
+  "unite": "Composante connexe dans une fenêtre UTC de 24 h et une devise",
+  "moment": "Après fermeture de la fenêtre, revue rétrospective",
+  "source": "Générateur local original, 100 % synthétique, seed=73",
+  "etapes": {
+    "DataCollect": "completed",
+    "DataAnalyse": "completed",
+    "DataML": "completed"
+  },
+  "API_externe": "not_connected",
+  "GPT_independants": "not_called",
+  "source_sha256": "6fa770a0e06fe632733f8f0ce82c7691f401cfaf3fc4bdfa52df815fec5c0ea4",
+  "verification": {
+    "model_reload": "passed",
+    "external_api": "not_executed",
+    "evidence_tests": 6,
+    "javascript_syntax": "passed",
+    "browser_visual_qa": "not_executed"
+  },
+  "fichiers": [
+    "requirements.txt",
+    "README.md",
+    "manifest.json",
+    "build_demo.py",
+    "dashboard.html",
+    "pipeline.py",
+    "app-template.html",
+    "reports/versions.json",
+    "tests/test_evidence.py",
+    "raw/transfers.csv",
+    "raw/simulation_truth.csv",
+    "analysis/demo_sample.json",
+    "analysis/cases.json",
+    "analysis/features.csv",
+    "models/test_cases.csv",
+    "models/parcours.joblib",
+    "models/transactions.joblib",
+    "models/metrics.json",
+    "collected/transfers.csv"
+  ]
+}
