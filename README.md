@@ -9,6 +9,7 @@ Je développe mes compétences en Python et en analyse de données. Ce dépôt d
 
 | Projet | Contenu | Limites |
 | --- | --- | --- |
+| [Mall Customers — Clustering](mall-customer-clustering/README.md) | Comparaison K-means/Ward/DBSCAN, stabilité, export numérique et simulateur. | 200 profils pédagogiques ; groupes exploratoires sans validation commerciale indépendante. |
 | [AdventureWorks — SQL avancé](adventureworks-sql/README.md) | 14 exercices calculés, 3 bonus, vues, segmentation et fonctions de fenêtre. | Adaptation SQLite ; retours non calculables et marge standard estimée documentés. |
 | [Global Superstore — Tableau de bord](global-superstore-dashboard/README.md) | Filtres interactifs, KPI commerciaux, préparation Python et exports BI. | Données fictives historiques 2011–2014 ; version web, sans flux temps réel. |
 | [Wine Quality — ACP](wine-quality-acp/README.md) | Analyse de 6 497 vins, ACP sur 11 variables, graphiques et parcours Python coordonné. | ACP descriptive ; 50,2 % de variance en 2D, sans prédiction ni données clients. |

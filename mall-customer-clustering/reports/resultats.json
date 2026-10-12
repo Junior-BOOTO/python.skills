@@ -1,0 +1,112 @@
+{
+  "rows": 200,
+  "missing_cells": 0,
+  "duplicate_profiles": 0,
+  "primary_features": [
+    "Annual Income (k$)",
+    "Spending Score (1-100)"
+  ],
+  "selected_k": 5,
+  "selection": "Maximum de silhouette parmi K-means k=2..8, sur le même échantillon exploratoire.",
+  "silhouette": 0.5546571631111091,
+  "inertia": 65.56840815571681,
+  "single_group_inertia": 400.0,
+  "comparison": [
+    {
+      "method": "K-means",
+      "configuration": "k=5, n_init=30",
+      "clusters": 5,
+      "coverage": 1.0,
+      "silhouette": 0.5546571631111091,
+      "davies_bouldin": 0.5722356162263352,
+      "ari_vs_kmeans": 1.0
+    },
+    {
+      "method": "Ward",
+      "configuration": "k=5",
+      "clusters": 5,
+      "coverage": 1.0,
+      "silhouette": 0.5538089226688662,
+      "davies_bouldin": 0.5778621190740154,
+      "ari_vs_kmeans": 0.9419606318143182
+    },
+    {
+      "method": "DBSCAN",
+      "configuration": "eps=.35, min_samples=5",
+      "clusters": 6,
+      "coverage": 0.885,
+      "silhouette": 0.5577457478878458,
+      "davies_bouldin": 0.5106214011496587,
+      "ari_vs_kmeans": 0.7904320858136319
+    }
+  ],
+  "stability": {
+    "seeds_ari_min": 1.0,
+    "seeds_ari_mean": 1.0,
+    "subsamples_ari_mean": 0.9894027892491698,
+    "subsamples_ari_min": 0.9801565589983404,
+    "replicates": 20,
+    "fraction": 0.8
+  },
+  "age_sensitivity": {
+    "features": "revenu, score et âge",
+    "k_fixed": 5,
+    "ari_vs_primary": 0.5844675873661414,
+    "clusters": 5,
+    "coverage": 1.0,
+    "silhouette": 0.41664341513732767,
+    "davies_bouldin": 0.8745510510024179
+  },
+  "groups": [
+    {
+      "group": 0,
+      "count": 22,
+      "income_mean": 25.727272727272727,
+      "income_min": 15,
+      "income_max": 39,
+      "score_mean": 79.36363636363636,
+      "score_min": 61,
+      "score_max": 99
+    },
+    {
+      "group": 1,
+      "count": 23,
+      "income_mean": 26.304347826086957,
+      "income_min": 15,
+      "income_max": 39,
+      "score_mean": 20.91304347826087,
+      "score_min": 3,
+      "score_max": 40
+    },
+    {
+      "group": 2,
+      "count": 81,
+      "income_mean": 55.2962962962963,
+      "income_min": 39,
+      "income_max": 76,
+      "score_mean": 49.51851851851852,
+      "score_min": 34,
+      "score_max": 61
+    },
+    {
+      "group": 3,
+      "count": 39,
+      "income_mean": 86.53846153846153,
+      "income_min": 69,
+      "income_max": 137,
+      "score_mean": 82.12820512820512,
+      "score_min": 63,
+      "score_max": 97
+    },
+    {
+      "group": 4,
+      "count": 35,
+      "income_mean": 88.2,
+      "income_min": 70,
+      "income_max": 137,
+      "score_mean": 17.114285714285714,
+      "score_min": 1,
+      "score_max": 39
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "objective": "Clustering descriptif de profils pédagogiques ; pas de ciblage commercial validé.",
+  "source": {
+    "repository": "SteffiPeTaffy/machineLearningAZ",
+    "commit": "8f7c3194a03e5f26e348d491453768a4e90fa70a",
+    "path": "Machine Learning A-Z Template Folder/Part 4 - Clustering/Section 25 - Hierarchical Clustering/Mall_Customers.csv",
+    "git_blob_sha": "b324941f455d3db24af4af87fd1c66b221b0b2dd",
+    "url": "https://raw.githubusercontent.com/SteffiPeTaffy/machineLearningAZ/8f7c3194a03e5f26e348d491453768a4e90fa70a/Machine%20Learning%20A-Z%20Template%20Folder/Part%204%20-%20Clustering/Section%2025%20-%20Hierarchical%20Clustering/Mall_Customers.csv",
+    "original_card": "https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python",
+    "redistribution": "Licence explicite de redistribution non identifiée ; CSV source non redistribué."
+  },
+  "source_sha256": "293887b3a8de822afa42629d01c2679006adcc8269890b19eba1ff8ab4a49075",
+  "steps": {
+    "DataCollect": "completed",
+    "DataAnalyse": "completed",
+    "DataML": "completed"
+  },
+  "features": [
+    "Annual Income (k$)",
+    "Spending Score (1-100)"
+  ],
+  "excluded": [
+    "CustomerID",
+    "Genre",
+    "Age (analyse primaire uniquement)"
+  ],
+  "validation": "Métriques internes, répétitions et sous-échantillonnage ; aucun test indépendant de performance commerciale.",
+  "transformations": [
+    "IDs lus comme texte",
+    "Valeurs brutes préservées",
+    "Standardisation pour chaque fit et sous-échantillon",
+    "Pas de suppression automatique des profils répétés"
+  ],
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "seed": 42,
+  "checks": [
+    "200 identifiants uniques",
+    "Valeurs absentes et plages",
+    "Somme des tailles de groupes = 200",
+    "Export numérique rechargé ; 200 affectations identiques"
+  ],
+  "raw_redistributed": false,
+  "next_action": "Valider sur des données indépendantes et objectifs métier avant toute utilisation opérationnelle."
+}

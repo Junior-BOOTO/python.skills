@@ -1,0 +1,6 @@
+variable,definition,role
+CustomerID,"Identifiant, zéros initiaux conservés",exclu
+Genre,Catégorie du fichier source,exclue
+Age,Âge en années,sensibilité seulement
+Annual Income (k$),"Revenu annuel en milliers de dollars, devise précise inconnue",feature primaire
+Spending Score (1-100),"Score de dépense, formule non documentée",feature primaire

@@ -1,0 +1,5 @@
+raw/
+collected/clients.csv
+collected/affectations.csv
+__pycache__/
+.venv/
