@@ -1,0 +1,6 @@
+{
+  "parent_project": "https://github.com/Junior-BOOTO/python.skills/tree/694cdcb4a106bd5fd566faaa6369b6254cf4baa2/global-superstore-dashboard",
+  "aggregate_url": "https://raw.githubusercontent.com/Junior-BOOTO/python.skills/694cdcb4a106bd5fd566faaa6369b6254cf4baa2/global-superstore-dashboard/analysis/mensuel.csv",
+  "original": "https://www.tableau.com/sites/default/files/training/global_superstore.zip",
+  "adaptation": "Le PDF propose Store Sales - Time Series Forecasting ; remplacement explicite par les agrégats déjà vérifiés Global Superstore pour prolonger le projet 7."
+}

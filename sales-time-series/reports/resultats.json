@@ -1,0 +1,81 @@
+{
+  "months": 48,
+  "period": [
+    "2011-01",
+    "2014-12"
+  ],
+  "source_sales": 12642501.909880001,
+  "horizon_months": 6,
+  "validation_origins": [
+    "2012-12",
+    "2013-06",
+    "2013-12"
+  ],
+  "test_period": [
+    "2014-07",
+    "2014-12"
+  ],
+  "selected_model": "Saisonnier_avec_derive",
+  "validation": [
+    {
+      "model": "Saisonnier_avec_derive",
+      "MAE_mean": 26212.292550987648,
+      "MAE_std_windows": 6476.892590410938,
+      "RMSE_mean": 33325.0905492294,
+      "WAPE_mean": 0.09813299114402262
+    },
+    {
+      "model": "Saisonnier_12",
+      "MAE_mean": 52813.46266777778,
+      "MAE_std_windows": 13763.564602647437,
+      "RMSE_mean": 60044.92813643393,
+      "WAPE_mean": 0.1936851888948278
+    },
+    {
+      "model": "SARIMA_011_010_12",
+      "MAE_mean": 54171.145711311525,
+      "MAE_std_windows": 25384.637733747622,
+      "RMSE_mean": 59027.61328250208,
+      "WAPE_mean": 0.19265066673433554
+    },
+    {
+      "model": "Derniere_valeur",
+      "MAE_mean": 108213.3587888889,
+      "MAE_std_windows": 37648.67594489857,
+      "RMSE_mean": 122563.57933476548,
+      "WAPE_mean": 0.4092291791845257
+    }
+  ],
+  "test": [
+    {
+      "model": "Saisonnier_avec_derive",
+      "MAE": 71957.89571044447,
+      "RMSE": 80649.67370075741,
+      "WAPE": 0.16123981555838188
+    },
+    {
+      "model": "Reference_saisonniere_12",
+      "MAE": 111964.14135666669,
+      "RMSE": 120991.43347311049,
+      "WAPE": 0.2508838998592504
+    }
+  ],
+  "MAE_reduction_vs_seasonal": 0.3573130214858753,
+  "future_dates": [
+    "2015-01-01",
+    "2015-02-01",
+    "2015-03-01",
+    "2015-04-01",
+    "2015-05-01",
+    "2015-06-01"
+  ],
+  "future_forecast": [
+    297946.7494105556,
+    241515.54931055557,
+    319778.9663705556,
+    299450.05505055556,
+    345079.23989055556,
+    458492.2568505556
+  ],
+  "uncertainty": "Pas d’intervalle probabiliste revendiqué pour la référence retenue."
+}

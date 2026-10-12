@@ -9,6 +9,7 @@ Je développe mes compétences en Python et en analyse de données. Ce dépôt d
 
 | Projet | Contenu | Limites |
 | --- | --- | --- |
+| [Prévision des ventes — Séries temporelles](sales-time-series/README.md) | Références saisonnières, SARIMA, validation glissante et test chronologique. | 48 mois fictifs ; prolongement 2015 non évalué, pas prévision actuelle. |
 | [Défaut de paiement — Classification](credit-default-classification/README.md) | Régression logistique, calibration et compromis de seuil sur résultats agrégés. | Historique Taïwan 2005 ; aucune décision individuelle de crédit. |
 | [California Housing — Régression](california-housing-regression/README.md) | Régressions linéaires, Ridge, test géographique et analyse des erreurs. | Valeurs médianes de zones en 1990 ; plafond de cible et estimations négatives signalés. |
 | [Mall Customers — Clustering](mall-customer-clustering/README.md) | Comparaison K-means/Ward/DBSCAN, stabilité, export numérique et simulateur. | 200 profils pédagogiques ; groupes exploratoires sans validation commerciale indépendante. |
