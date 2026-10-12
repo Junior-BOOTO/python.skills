@@ -1,0 +1,13 @@
+{
+  "tests_passed": 20,
+  "skipped": 0,
+  "exit_code": 0,
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "checked_at": "2026-10-12T14:51:12.484839+00:00",
+  "scenarios": 27,
+  "rate_kind": "synthetic",
+  "tariff_kind": "synthetic",
+  "live_api_status": 403,
+  "browser_visual_qa": "not_performed"
+}

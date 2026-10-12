@@ -1,0 +1,25 @@
+test_duplicate_pairs (test_costs.CostTests.test_duplicate_pairs) ... ok
+test_exact_decomposition (test_costs.CostTests.test_exact_decomposition) ... ok
+test_future_stale_dates (test_costs.CostTests.test_future_stale_dates) ... ok
+test_html_escape_exports (test_costs.CostTests.test_html_escape_exports) ... ok
+test_infeasible_fees (test_costs.CostTests.test_infeasible_fees) ... ok
+test_infeasible_not_ranked (test_costs.CostTests.test_infeasible_not_ranked) ... ok
+test_invalid_numbers (test_costs.CostTests.test_invalid_numbers) ... ok
+test_invalid_rate_margin (test_costs.CostTests.test_invalid_rate_margin) ... ok
+test_margin_receiver_units (test_costs.CostTests.test_margin_receiver_units) ... ok
+test_missing_pair (test_costs.CostTests.test_missing_pair) ... ok
+test_never_exceed_budget (test_costs.CostTests.test_never_exceed_budget) ... ok
+test_percent_on_principal (test_costs.CostTests.test_percent_on_principal) ... ok
+test_precision (test_costs.CostTests.test_precision) ... ok
+test_rank_changes (test_costs.CostTests.test_rank_changes) ... ok
+test_reference_provenance_missing_quote (test_costs.CostTests.test_reference_provenance_missing_quote) ... ok
+test_rounding_half_up (test_costs.CostTests.test_rounding_half_up) ... ok
+test_ties (test_costs.CostTests.test_ties) ... ok
+test_total_budget_with_fixed_fee (test_costs.CostTests.test_total_budget_with_fixed_fee) ... ok
+test_wrong_pair_duplicate_response (test_costs.CostTests.test_wrong_pair_duplicate_response) ... ok
+test_zero_fees (test_costs.CostTests.test_zero_fees) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.010s
+
+OK

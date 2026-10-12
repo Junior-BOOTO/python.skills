@@ -91,3 +91,9 @@ Audit en lecture seule de trois projets réels : inventaire GitHub figé au comm
 [Code, catalogue et API locale](fle-resource-studio/) · [Studio interactif](https://junior-booto-fle.juniorbooto.chatgpt.site/fle-resource-studio.html)
 
 Cinq thèmes FLE A1, 50 entrées de glossaire FR/ES/EN, trois aides différenciées et 45 combinaisons vérifiées. Fiches enseignant/apprenant, corrigés et critères observables ; 20 tests locaux réussis. Lecture vocale facultative selon navigateur, aucune bande-son enregistrée. Vidéos candidates à revoir, aucune efficacité en classe revendiquée.
+
+
+### Transfer Cost Observatory : expliquer le montant reçu après les frais
+[Code, paramètres et tests](transfer-cost-observatory/) · [Tableau de bord](https://junior-booto-fle.juniorbooto.chatgpt.site/transfer-cost-observatory.html)
+
+27 scénarios sur USD→COP, USD→CDF et USD→ZAR, à budget total égal. Calculs Decimal : frais source, marge de change, frais réception, reliquat et arrondis ; 20 tests locaux réussis. Taux et tarifs entièrement fictifs : la tentative de collecte a reçu HTTP 403, aucun cours actuel, offre bancaire ou conseil individuel n’est revendiqué.

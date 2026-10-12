@@ -1,0 +1,32 @@
+{
+  "project": "Transfer Cost Observatory",
+  "version": "1.0.0",
+  "author": "Junior BOOTO Waba",
+  "status": "completed",
+  "scope": "Fixed-budget cost scenarios; synthetic rates and tariffs",
+  "stages": {
+    "decimal_calculations": "completed",
+    "tests": "completed",
+    "scenario_exports": "completed",
+    "live_reference_collection": "blocked",
+    "browser_visual_qa": "blocked",
+    "github_publication": "pending",
+    "site_publication": "pending"
+  },
+  "fixture_sha256": "c41cefbfb81f51c452b7199eaf9dca2bc401eb54585c360cc8a643a532b39c7d",
+  "next_action": "Verify reference-rate access and collect dated tariffs before any real-provider extension",
+  "files": [
+    "src/",
+    "tests/",
+    "data/",
+    "reports/",
+    "docs/",
+    "README.md"
+  ],
+  "publication": {
+    "authorized": true,
+    "status_at_packaging": "prepared",
+    "github_url": "https://github.com/Junior-BOOTO/python.skills/tree/main/transfer-cost-observatory",
+    "site_url": "https://junior-booto-fle.juniorbooto.chatgpt.site/transfer-cost-observatory.html"
+  }
+}

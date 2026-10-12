@@ -1,0 +1,883 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-12",
+  "tariff_kind": "synthetic",
+  "corridors": [
+    {
+      "id": "usd-cop",
+      "source": "USD",
+      "target": "COP",
+      "reference": {
+        "base": "USD",
+        "quote": "COP",
+        "rate": "4000",
+        "date": "2025-01-01",
+        "data_kind": "synthetic",
+        "provider": "Fixture originale fictive"
+      },
+      "comparisons": [
+        {
+          "budget": "100.00",
+          "ranked": [
+            {
+              "profile": "C",
+              "label": "Profil fictif C — proportionnel",
+              "status": "calculated",
+              "calculation": {
+                "budget": "100.00",
+                "principal": "98.03",
+                "sender_fixed": "0",
+                "sender_variable": "1.96",
+                "spent": "99.99",
+                "unspent": "0.01",
+                "reference_rate": "4000",
+                "effective_rate": "3940.000",
+                "gross_before_receiver_fee": "386238.20000",
+                "receiver_fixed": "0",
+                "received": "386238.20",
+                "effective_received_per_budget": "3862.382",
+                "reference_no_fee_amount": "400000.00",
+                "reference_gap_target": "13761.80",
+                "reference_gap_percent": "3.4404500",
+                "source_fee_effect_target": "7840.00",
+                "unspent_effect_target": "40.00",
+                "fx_margin_effect_target": "5881.80000",
+                "rounding_effect_target": "0.00000"
+              },
+              "rank": 1
+            },
+            {
+              "profile": "B",
+              "label": "Profil fictif B — mixte",
+              "status": "calculated",
+              "calculation": {
+                "budget": "100.00",
+                "principal": "97.02",
+                "sender_fixed": "2.00",
+                "sender_variable": "0.97",
+                "spent": "99.99",
+                "unspent": "0.01",
+                "reference_rate": "4000",
+                "effective_rate": "3960.00",
+                "gross_before_receiver_fee": "384199.2000",
+                "receiver_fixed": "0",
+                "received": "384199.20",
+                "effective_received_per_budget": "3841.992",
+                "reference_no_fee_amount": "400000.00",
+                "reference_gap_target": "15800.80",
+                "reference_gap_percent": "3.950200",
+                "source_fee_effect_target": "11880.00",
+                "unspent_effect_target": "40.00",
+                "fx_margin_effect_target": "3880.8000",
+                "rounding_effect_target": "0.0000"
+              },
+              "rank": 2
+            },
+            {
+              "profile": "A",
+              "label": "Profil fictif A — frais fixes",
+              "status": "calculated",
+              "calculation": {
+                "budget": "100.00",
+                "principal": "95.00",
+                "sender_fixed": "5.00",
+                "sender_variable": "0.00",
+                "spent": "100.00",
+                "unspent": "0.00",
+                "reference_rate": "4000",
+                "effective_rate": "3980.000",
+                "gross_before_receiver_fee": "378100.00000",
+                "receiver_fixed": "0",
+                "received": "378100.00",
+                "effective_received_per_budget": "3781",
+                "reference_no_fee_amount": "400000.00",
+                "reference_gap_target": "21900.00",
+                "reference_gap_percent": "5.47500",
+                "source_fee_effect_target": "20000.00",
+                "unspent_effect_target": "0.00",
+                "fx_margin_effect_target": "1900.00000",
+                "rounding_effect_target": "0.00000"
+              },
+              "rank": 3
+            }
+          ],
+          "infeasible": [],
+          "best_profiles": [
+            "C"
+          ]
+        },
+        {
+          "budget": "500.00",
+          "ranked": [
+            {
+              "profile": "A",
+              "label": "Profil fictif A — frais fixes",
+              "status": "calculated",
+              "calculation": {
+                "budget": "500.00",
+                "principal": "495.00",
+                "sender_fixed": "5.00",
+                "sender_variable": "0.00",
+                "spent": "500.00",
+                "unspent": "0.00",
+                "reference_rate": "4000",
+                "effective_rate": "3980.000",
+                "gross_before_receiver_fee": "1970100.00000",
+                "receiver_fixed": "0",
+                "received": "1970100.00",
+                "effective_received_per_budget": "3940.2",
+                "reference_no_fee_amount": "2000000.00",
+                "reference_gap_target": "29900.00",
+                "reference_gap_percent": "1.49500",
+                "source_fee_effect_target": "20000.00",
+                "unspent_effect_target": "0.00",
+                "fx_margin_effect_target": "9900.00000",
+                "rounding_effect_target": "0.00000"
+              },
+              "rank": 1
+            },
+            {
+              "profile": "B",
+              "label": "Profil fictif B — mixte",
+              "status": "calculated",
+              "calculation": {
+                "budget": "500.00",
+                "principal": "493.06",
+                "sender_fixed": "2.00",
+                "sender_variable": "4.93",
+                "spent": "499.99",
+                "unspent": "0.01",
+                "reference_rate": "4000",
+                "effective_rate": "3960.00",
+                "gross_before_receiver_fee": "1952517.6000",
+                "receiver_fixed": "0",
+                "received": "1952517.60",
+                "effective_received_per_budget": "3905.0352",
+                "reference_no_fee_amount": "2000000.00",
+                "reference_gap_target": "47482.40",
+                "reference_gap_percent": "2.3741200",
+                "source_fee_effect_target": "27720.00",
+                "unspent_effect_target": "40.00",
+                "fx_margin_effect_target": "19722.4000",
+                "rounding_effect_target": "0.0000"
+              },
+              "rank": 2
+            },
+            {
+              "profile": "C",
+              "label": "Profil fictif C — proportionnel",
+              "status": "calculated",
+              "calculation": {
+                "budget": "500.00",
+                "principal": "490.19",
+                "sender_fixed": "0",
+                "sender_variable": "9.80",
+                "spent": "499.99",
+                "unspent": "0.01",
+                "reference_rate": "4000",
+                "effective_rate": "3940.000",
+                "gross_before_receiver_fee": "1931348.60000",
+                "receiver_fixed": "0",
+                "received": "1931348.60",
+                "effective_received_per_budget": "3862.6972",
+                "reference_no_fee_amount": "2000000.00",
+                "reference_gap_target": "68651.40",
+                "reference_gap_percent": "3.4325700",
+                "source_fee_effect_target": "39200.00",
+                "unspent_effect_target": "40.00",
+                "fx_margin_effect_target": "29411.40000",
+                "rounding_effect_target": "0.00000"
+              },
+              "rank": 3
+            }
+          ],
+          "infeasible": [],
+          "best_profiles": [
+            "A"
+          ]
+        },
+        {
+          "budget": "1000.00",
+          "ranked": [
+            {
+              "profile": "A",
+              "label": "Profil fictif A — frais fixes",
+              "status": "calculated",
+              "calculation": {
+                "budget": "1000.00",
+                "principal": "995.00",
+                "sender_fixed": "5.00",
+                "sender_variable": "0.00",
+                "spent": "1000.00",
+                "unspent": "0.00",
+                "reference_rate": "4000",
+                "effective_rate": "3980.000",
+                "gross_before_receiver_fee": "3960100.00000",
+                "receiver_fixed": "0",
+                "received": "3960100.00",
+                "effective_received_per_budget": "3960.1",
+                "reference_no_fee_amount": "4000000.00",
+                "reference_gap_target": "39900.00",
+                "reference_gap_percent": "0.997500",
+                "source_fee_effect_target": "20000.00",
+                "unspent_effect_target": "0.00",
+                "fx_margin_effect_target": "19900.00000",
+                "rounding_effect_target": "0.00000"
+              },
+              "rank": 1
+            },
+            {
+              "profile": "B",
+              "label": "Profil fictif B — mixte",
+              "status": "calculated",
+              "calculation": {
+                "budget": "1000.00",
+                "principal": "988.11",
+                "sender_fixed": "2.00",
+                "sender_variable": "9.88",
+                "spent": "999.99",
+                "unspent": "0.01",
+                "reference_rate": "4000",
+                "effective_rate": "3960.00",
+                "gross_before_receiver_fee": "3912915.6000",
+                "receiver_fixed": "0",
+                "received": "3912915.60",
+                "effective_received_per_budget": "3912.9156",
+                "reference_no_fee_amount": "4000000.00",
+                "reference_gap_target": "87084.40",
+                "reference_gap_percent": "2.1771100",
+                "source_fee_effect_target": "47520.00",
+                "unspent_effect_target": "40.00",
+                "fx_margin_effect_target": "39524.4000",
+                "rounding_effect_target": "0.0000"
+              },
+              "rank": 2
+            },
+            {
+              "profile": "C",
+              "label": "Profil fictif C — proportionnel",
+              "status": "calculated",
+              "calculation": {
+                "budget": "1000.00",
+                "principal": "980.39",
+                "sender_fixed": "0",
+                "sender_variable": "19.61",
+                "spent": "1000.00",
+                "unspent": "0.00",
+                "reference_rate": "4000",
+                "effective_rate": "3940.000",
+                "gross_before_receiver_fee": "3862736.60000",
+                "receiver_fixed": "0",
+                "received": "3862736.60",
+                "effective_received_per_budget": "3862.7366",
+                "reference_no_fee_amount": "4000000.00",
+                "reference_gap_target": "137263.40",
+                "reference_gap_percent": "3.43158500",
+                "source_fee_effect_target": "78440.00",
+                "unspent_effect_target": "0.00",
+                "fx_margin_effect_target": "58823.40000",
+                "rounding_effect_target": "0.00000"
+              },
+              "rank": 3
+            }
+          ],
+          "infeasible": [],
+          "best_profiles": [
+            "A"
+          ]
+        }
+      ],
+      "status": "available",
+      "reference_age_days": 649,
+      "reference_stale": true
+    },
+    {
+      "id": "usd-cdf",
+      "source": "USD",
+      "target": "CDF",
+      "reference": {
+        "base": "USD",
+        "quote": "CDF",
+        "rate": "2800",
+        "date": "2025-01-01",
+        "data_kind": "synthetic",
+        "provider": "Fixture originale fictive"
+      },
+      "comparisons": [
+        {
+          "budget": "100.00",
+          "ranked": [
+            {
+              "profile": "C",
+              "label": "Profil fictif C — proportionnel",
+              "status": "calculated",
+              "calculation": {
+                "budget": "100.00",
+                "principal": "98.03",
+                "sender_fixed": "0",
+                "sender_variable": "1.96",
+                "spent": "99.99",
+                "unspent": "0.01",
+                "reference_rate": "2800",
+                "effective_rate": "2758.000",
+                "gross_before_receiver_fee": "270366.74000",
+                "receiver_fixed": "0",
+                "received": "270366.74",
+                "effective_received_per_budget": "2703.6674",
+                "reference_no_fee_amount": "280000.00",
+                "reference_gap_target": "9633.26",
+                "reference_gap_percent": "3.4404500",
+                "source_fee_effect_target": "5488.00",
+                "unspent_effect_target": "28.00",
+                "fx_margin_effect_target": "4117.26000",
+                "rounding_effect_target": "0.00000"
+              },
+              "rank": 1
+            },
+            {
+              "profile": "B",
+              "label": "Profil fictif B — mixte",
+              "status": "calculated",
+              "calculation": {
+                "budget": "100.00",
+                "principal": "97.02",
+                "sender_fixed": "2.00",
+                "sender_variable": "0.97",
+                "spent": "99.99",
+                "unspent": "0.01",
+                "reference_rate": "2800",
+                "effective_rate": "2772.00",
+                "gross_before_receiver_fee": "268939.4400",
+                "receiver_fixed": "0",
+                "received": "268939.44",
+                "effective_received_per_budget": "2689.3944",
+                "reference_no_fee_amount": "280000.00",
+                "reference_gap_target": "11060.56",
+                "reference_gap_percent": "3.950200",
+                "source_fee_effect_target": "8316.00",
+                "unspent_effect_target": "28.00",
+                "fx_margin_effect_target": "2716.5600",
+                "rounding_effect_target": "0.0000"
+              },
+              "rank": 2
+            },
+            {
+              "profile": "A",
+              "label": "Profil fictif A — frais fixes",
+              "status": "calculated",
+              "calculation": {
+                "budget": "100.00",
+                "principal": "95.00",
+                "sender_fixed": "5.00",
+                "sender_variable": "0.00",
+                "spent": "100.00",
+                "unspent": "0.00",
+                "reference_rate": "2800",
+                "effective_rate": "2786.000",
+                "gross_before_receiver_fee": "264670.00000",
+                "receiver_fixed": "0",
+                "received": "264670.00",
+                "effective_received_per_budget": "2646.7",
+                "reference_no_fee_amount": "280000.00",
+                "reference_gap_target": "15330.00",
+                "reference_gap_percent": "5.47500",
+                "source_fee_effect_target": "14000.00",
+                "unspent_effect_target": "0.00",
+                "fx_margin_effect_target": "1330.00000",
+                "rounding_effect_target": "0.00000"
+              },
+              "rank": 3
+            }
+          ],
+          "infeasible": [],
+          "best_profiles": [
+            "C"
+          ]
+        },
+        {
+          "budget": "500.00",
+          "ranked": [
+            {
+              "profile": "A",
+              "label": "Profil fictif A — frais fixes",
+              "status": "calculated",
+              "calculation": {
+                "budget": "500.00",
+                "principal": "495.00",
+                "sender_fixed": "5.00",
+                "sender_variable": "0.00",
+                "spent": "500.00",
+                "unspent": "0.00",
+                "reference_rate": "2800",
+                "effective_rate": "2786.000",
+                "gross_before_receiver_fee": "1379070.00000",
+                "receiver_fixed": "0",
+                "received": "1379070.00",
+                "effective_received_per_budget": "2758.14",
+                "reference_no_fee_amount": "1400000.00",
+                "reference_gap_target": "20930.00",
+                "reference_gap_percent": "1.49500",
+                "source_fee_effect_target": "14000.00",
+                "unspent_effect_target": "0.00",
+                "fx_margin_effect_target": "6930.00000",
+                "rounding_effect_target": "0.00000"
+              },
+              "rank": 1
+            },
+            {
+              "profile": "B",
+              "label": "Profil fictif B — mixte",
+              "status": "calculated",
+              "calculation": {
+                "budget": "500.00",
+                "principal": "493.06",
+                "sender_fixed": "2.00",
+                "sender_variable": "4.93",
+                "spent": "499.99",
+                "unspent": "0.01",
+                "reference_rate": "2800",
+                "effective_rate": "2772.00",
+                "gross_before_receiver_fee": "1366762.3200",
+                "receiver_fixed": "0",
+                "received": "1366762.32",
+                "effective_received_per_budget": "2733.52464",
+                "reference_no_fee_amount": "1400000.00",
+                "reference_gap_target": "33237.68",
+                "reference_gap_percent": "2.3741200",
+                "source_fee_effect_target": "19404.00",
+                "unspent_effect_target": "28.00",
+                "fx_margin_effect_target": "13805.6800",
+                "rounding_effect_target": "0.0000"
+              },
+              "rank": 2
+            },
+            {
+              "profile": "C",
+              "label": "Profil fictif C — proportionnel",
+              "status": "calculated",
+              "calculation": {
+                "budget": "500.00",
+                "principal": "490.19",
+                "sender_fixed": "0",
+                "sender_variable": "9.80",
+                "spent": "499.99",
+                "unspent": "0.01",
+                "reference_rate": "2800",
+                "effective_rate": "2758.000",
+                "gross_before_receiver_fee": "1351944.02000",
+                "receiver_fixed": "0",
+                "received": "1351944.02",
+                "effective_received_per_budget": "2703.88804",
+                "reference_no_fee_amount": "1400000.00",
+                "reference_gap_target": "48055.98",
+                "reference_gap_percent": "3.4325700",
+                "source_fee_effect_target": "27440.00",
+                "unspent_effect_target": "28.00",
+                "fx_margin_effect_target": "20587.98000",
+                "rounding_effect_target": "0.00000"
+              },
+              "rank": 3
+            }
+          ],
+          "infeasible": [],
+          "best_profiles": [
+            "A"
+          ]
+        },
+        {
+          "budget": "1000.00",
+          "ranked": [
+            {
+              "profile": "A",
+              "label": "Profil fictif A — frais fixes",
+              "status": "calculated",
+              "calculation": {
+                "budget": "1000.00",
+                "principal": "995.00",
+                "sender_fixed": "5.00",
+                "sender_variable": "0.00",
+                "spent": "1000.00",
+                "unspent": "0.00",
+                "reference_rate": "2800",
+                "effective_rate": "2786.000",
+                "gross_before_receiver_fee": "2772070.00000",
+                "receiver_fixed": "0",
+                "received": "2772070.00",
+                "effective_received_per_budget": "2772.07",
+                "reference_no_fee_amount": "2800000.00",
+                "reference_gap_target": "27930.00",
+                "reference_gap_percent": "0.997500",
+                "source_fee_effect_target": "14000.00",
+                "unspent_effect_target": "0.00",
+                "fx_margin_effect_target": "13930.00000",
+                "rounding_effect_target": "0.00000"
+              },
+              "rank": 1
+            },
+            {
+              "profile": "B",
+              "label": "Profil fictif B — mixte",
+              "status": "calculated",
+              "calculation": {
+                "budget": "1000.00",
+                "principal": "988.11",
+                "sender_fixed": "2.00",
+                "sender_variable": "9.88",
+                "spent": "999.99",
+                "unspent": "0.01",
+                "reference_rate": "2800",
+                "effective_rate": "2772.00",
+                "gross_before_receiver_fee": "2739040.9200",
+                "receiver_fixed": "0",
+                "received": "2739040.92",
+                "effective_received_per_budget": "2739.04092",
+                "reference_no_fee_amount": "2800000.00",
+                "reference_gap_target": "60959.08",
+                "reference_gap_percent": "2.1771100",
+                "source_fee_effect_target": "33264.00",
+                "unspent_effect_target": "28.00",
+                "fx_margin_effect_target": "27667.0800",
+                "rounding_effect_target": "0.0000"
+              },
+              "rank": 2
+            },
+            {
+              "profile": "C",
+              "label": "Profil fictif C — proportionnel",
+              "status": "calculated",
+              "calculation": {
+                "budget": "1000.00",
+                "principal": "980.39",
+                "sender_fixed": "0",
+                "sender_variable": "19.61",
+                "spent": "1000.00",
+                "unspent": "0.00",
+                "reference_rate": "2800",
+                "effective_rate": "2758.000",
+                "gross_before_receiver_fee": "2703915.62000",
+                "receiver_fixed": "0",
+                "received": "2703915.62",
+                "effective_received_per_budget": "2703.91562",
+                "reference_no_fee_amount": "2800000.00",
+                "reference_gap_target": "96084.38",
+                "reference_gap_percent": "3.43158500",
+                "source_fee_effect_target": "54908.00",
+                "unspent_effect_target": "0.00",
+                "fx_margin_effect_target": "41176.38000",
+                "rounding_effect_target": "0.00000"
+              },
+              "rank": 3
+            }
+          ],
+          "infeasible": [],
+          "best_profiles": [
+            "A"
+          ]
+        }
+      ],
+      "status": "available",
+      "reference_age_days": 649,
+      "reference_stale": true
+    },
+    {
+      "id": "usd-zar",
+      "source": "USD",
+      "target": "ZAR",
+      "reference": {
+        "base": "USD",
+        "quote": "ZAR",
+        "rate": "18",
+        "date": "2025-01-01",
+        "data_kind": "synthetic",
+        "provider": "Fixture originale fictive"
+      },
+      "comparisons": [
+        {
+          "budget": "100.00",
+          "ranked": [
+            {
+              "profile": "C",
+              "label": "Profil fictif C — proportionnel",
+              "status": "calculated",
+              "calculation": {
+                "budget": "100.00",
+                "principal": "98.03",
+                "sender_fixed": "0",
+                "sender_variable": "1.96",
+                "spent": "99.99",
+                "unspent": "0.01",
+                "reference_rate": "18",
+                "effective_rate": "17.730",
+                "gross_before_receiver_fee": "1738.07190",
+                "receiver_fixed": "0",
+                "received": "1738.07",
+                "effective_received_per_budget": "17.3807",
+                "reference_no_fee_amount": "1800.00",
+                "reference_gap_target": "61.93",
+                "reference_gap_percent": "3.440555555555555555555555555555555555556",
+                "source_fee_effect_target": "35.28",
+                "unspent_effect_target": "0.18",
+                "fx_margin_effect_target": "26.46810",
+                "rounding_effect_target": "0.00190"
+              },
+              "rank": 1
+            },
+            {
+              "profile": "B",
+              "label": "Profil fictif B — mixte",
+              "status": "calculated",
+              "calculation": {
+                "budget": "100.00",
+                "principal": "97.02",
+                "sender_fixed": "2.00",
+                "sender_variable": "0.97",
+                "spent": "99.99",
+                "unspent": "0.01",
+                "reference_rate": "18",
+                "effective_rate": "17.82",
+                "gross_before_receiver_fee": "1728.8964",
+                "receiver_fixed": "0",
+                "received": "1728.90",
+                "effective_received_per_budget": "17.289",
+                "reference_no_fee_amount": "1800.00",
+                "reference_gap_target": "71.10",
+                "reference_gap_percent": "3.9500",
+                "source_fee_effect_target": "53.46",
+                "unspent_effect_target": "0.18",
+                "fx_margin_effect_target": "17.4636",
+                "rounding_effect_target": "-0.0036"
+              },
+              "rank": 2
+            },
+            {
+              "profile": "A",
+              "label": "Profil fictif A — frais fixes",
+              "status": "calculated",
+              "calculation": {
+                "budget": "100.00",
+                "principal": "95.00",
+                "sender_fixed": "5.00",
+                "sender_variable": "0.00",
+                "spent": "100.00",
+                "unspent": "0.00",
+                "reference_rate": "18",
+                "effective_rate": "17.910",
+                "gross_before_receiver_fee": "1701.45000",
+                "receiver_fixed": "0",
+                "received": "1701.45",
+                "effective_received_per_budget": "17.0145",
+                "reference_no_fee_amount": "1800.00",
+                "reference_gap_target": "98.55",
+                "reference_gap_percent": "5.47500",
+                "source_fee_effect_target": "90.00",
+                "unspent_effect_target": "0.00",
+                "fx_margin_effect_target": "8.55000",
+                "rounding_effect_target": "0.00000"
+              },
+              "rank": 3
+            }
+          ],
+          "infeasible": [],
+          "best_profiles": [
+            "C"
+          ]
+        },
+        {
+          "budget": "500.00",
+          "ranked": [
+            {
+              "profile": "A",
+              "label": "Profil fictif A — frais fixes",
+              "status": "calculated",
+              "calculation": {
+                "budget": "500.00",
+                "principal": "495.00",
+                "sender_fixed": "5.00",
+                "sender_variable": "0.00",
+                "spent": "500.00",
+                "unspent": "0.00",
+                "reference_rate": "18",
+                "effective_rate": "17.910",
+                "gross_before_receiver_fee": "8865.45000",
+                "receiver_fixed": "0",
+                "received": "8865.45",
+                "effective_received_per_budget": "17.7309",
+                "reference_no_fee_amount": "9000.00",
+                "reference_gap_target": "134.55",
+                "reference_gap_percent": "1.49500",
+                "source_fee_effect_target": "90.00",
+                "unspent_effect_target": "0.00",
+                "fx_margin_effect_target": "44.55000",
+                "rounding_effect_target": "0.00000"
+              },
+              "rank": 1
+            },
+            {
+              "profile": "B",
+              "label": "Profil fictif B — mixte",
+              "status": "calculated",
+              "calculation": {
+                "budget": "500.00",
+                "principal": "493.06",
+                "sender_fixed": "2.00",
+                "sender_variable": "4.93",
+                "spent": "499.99",
+                "unspent": "0.01",
+                "reference_rate": "18",
+                "effective_rate": "17.82",
+                "gross_before_receiver_fee": "8786.3292",
+                "receiver_fixed": "0",
+                "received": "8786.33",
+                "effective_received_per_budget": "17.57266",
+                "reference_no_fee_amount": "9000.00",
+                "reference_gap_target": "213.67",
+                "reference_gap_percent": "2.374111111111111111111111111111111111111",
+                "source_fee_effect_target": "124.74",
+                "unspent_effect_target": "0.18",
+                "fx_margin_effect_target": "88.7508",
+                "rounding_effect_target": "-0.0008"
+              },
+              "rank": 2
+            },
+            {
+              "profile": "C",
+              "label": "Profil fictif C — proportionnel",
+              "status": "calculated",
+              "calculation": {
+                "budget": "500.00",
+                "principal": "490.19",
+                "sender_fixed": "0",
+                "sender_variable": "9.80",
+                "spent": "499.99",
+                "unspent": "0.01",
+                "reference_rate": "18",
+                "effective_rate": "17.730",
+                "gross_before_receiver_fee": "8691.06870",
+                "receiver_fixed": "0",
+                "received": "8691.07",
+                "effective_received_per_budget": "17.38214",
+                "reference_no_fee_amount": "9000.00",
+                "reference_gap_target": "308.93",
+                "reference_gap_percent": "3.432555555555555555555555555555555555556",
+                "source_fee_effect_target": "176.40",
+                "unspent_effect_target": "0.18",
+                "fx_margin_effect_target": "132.35130",
+                "rounding_effect_target": "-0.00130"
+              },
+              "rank": 3
+            }
+          ],
+          "infeasible": [],
+          "best_profiles": [
+            "A"
+          ]
+        },
+        {
+          "budget": "1000.00",
+          "ranked": [
+            {
+              "profile": "A",
+              "label": "Profil fictif A — frais fixes",
+              "status": "calculated",
+              "calculation": {
+                "budget": "1000.00",
+                "principal": "995.00",
+                "sender_fixed": "5.00",
+                "sender_variable": "0.00",
+                "spent": "1000.00",
+                "unspent": "0.00",
+                "reference_rate": "18",
+                "effective_rate": "17.910",
+                "gross_before_receiver_fee": "17820.45000",
+                "receiver_fixed": "0",
+                "received": "17820.45",
+                "effective_received_per_budget": "17.82045",
+                "reference_no_fee_amount": "18000.00",
+                "reference_gap_target": "179.55",
+                "reference_gap_percent": "0.997500",
+                "source_fee_effect_target": "90.00",
+                "unspent_effect_target": "0.00",
+                "fx_margin_effect_target": "89.55000",
+                "rounding_effect_target": "0.00000"
+              },
+              "rank": 1
+            },
+            {
+              "profile": "B",
+              "label": "Profil fictif B — mixte",
+              "status": "calculated",
+              "calculation": {
+                "budget": "1000.00",
+                "principal": "988.11",
+                "sender_fixed": "2.00",
+                "sender_variable": "9.88",
+                "spent": "999.99",
+                "unspent": "0.01",
+                "reference_rate": "18",
+                "effective_rate": "17.82",
+                "gross_before_receiver_fee": "17608.1202",
+                "receiver_fixed": "0",
+                "received": "17608.12",
+                "effective_received_per_budget": "17.60812",
+                "reference_no_fee_amount": "18000.00",
+                "reference_gap_target": "391.88",
+                "reference_gap_percent": "2.177111111111111111111111111111111111111",
+                "source_fee_effect_target": "213.84",
+                "unspent_effect_target": "0.18",
+                "fx_margin_effect_target": "177.8598",
+                "rounding_effect_target": "0.0002"
+              },
+              "rank": 2
+            },
+            {
+              "profile": "C",
+              "label": "Profil fictif C — proportionnel",
+              "status": "calculated",
+              "calculation": {
+                "budget": "1000.00",
+                "principal": "980.39",
+                "sender_fixed": "0",
+                "sender_variable": "19.61",
+                "spent": "1000.00",
+                "unspent": "0.00",
+                "reference_rate": "18",
+                "effective_rate": "17.730",
+                "gross_before_receiver_fee": "17382.31470",
+                "receiver_fixed": "0",
+                "received": "17382.31",
+                "effective_received_per_budget": "17.38231",
+                "reference_no_fee_amount": "18000.00",
+                "reference_gap_target": "617.69",
+                "reference_gap_percent": "3.431611111111111111111111111111111111111",
+                "source_fee_effect_target": "352.98",
+                "unspent_effect_target": "0.00",
+                "fx_margin_effect_target": "264.70530",
+                "rounding_effect_target": "0.00470"
+              },
+              "rank": 3
+            }
+          ],
+          "infeasible": [],
+          "best_profiles": [
+            "A"
+          ]
+        }
+      ],
+      "status": "available",
+      "reference_age_days": 649,
+      "reference_stale": true
+    }
+  ],
+  "limitations": [
+    "No real transfer-provider tariffs",
+    "Reference rates are not executable transfer quotes",
+    "No transfer initiated",
+    "No ranking across currencies or different budgets"
+  ],
+  "summary": {
+    "corridors": 3,
+    "calculated_quotes": 27,
+    "infeasible_quotes": 0,
+    "reference_missing": 0
+  }
+}

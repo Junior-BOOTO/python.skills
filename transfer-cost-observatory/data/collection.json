@@ -1,0 +1,7 @@
+{
+  "url": "https://api.frankfurter.dev/v2/rates?base=USD&quotes=COP,CDF,ZAR",
+  "error": "HTTPError",
+  "status": 403,
+  "collected_at": "2026-10-12T14:43:22.092848+00:00",
+  "mode": "attempt_failed"
+}
