@@ -1,0 +1,9 @@
+{
+  "tests_passed": 20,
+  "skipped": 0,
+  "exit_code": 0,
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "checked_at": "2026-10-12T14:14:12.006688+00:00",
+  "scope": "20 tests including live loopback HTTP API; browser filters not visually tested"
+}

@@ -1,0 +1,9 @@
+{
+  "repository": "Junior-BOOTO/python.skills",
+  "site_host": "junior-booto-fle.juniorbooto.chatgpt.site",
+  "projects": [
+    {"id":"portfolio-file-guardian","title":"Portfolio File Guardian","path":"portfolio-file-guardian","site_url":"https://junior-booto-fle.juniorbooto.chatgpt.site/portfolio-file-guardian.html","site_marker":"Portfolio File Guardian","workflow":".github/workflows/guardian-tests.yml","validation_file":"portfolio-file-guardian/reports/validation.json"},
+    {"id":"afriflow-explain","title":"AfriFlow Explain","path":"afriflow-explain","site_url":"https://junior-booto-fle.juniorbooto.chatgpt.site/afriflow-explain.html","site_marker":"AfriFlow"},
+    {"id":"api-open-meteo","title":"API météo Bogotá","path":"api-open-meteo","site_url":"https://junior-booto-fle.juniorbooto.chatgpt.site/api-open-meteo.html","site_marker":"Open-Meteo"}
+  ]
+}

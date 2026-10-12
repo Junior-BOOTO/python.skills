@@ -79,3 +79,9 @@ Le projet [Wine Quality — ACP](wine-quality-acp/README.md) réunit préparatio
 [Code, documentation et tests](portfolio-file-guardian/) · [Présentation et rapport](https://junior-booto-fle.juniorbooto.chatgpt.site/portfolio-file-guardian.html)
 
 Inventaire SHA-256, simulation par défaut, catégories configurables et organisation par copie avec journal de restauration. Démonstration sur 8 fichiers synthétiques : un groupe de doublons exacts, une collision de nom aux contenus distincts, 8 copies vérifiées puis retirées et tous les originaux conservés. 20 tests de comportement réussis localement sous Linux ; prototype local, sans synchronisation cloud ni suppression automatique des doublons.
+
+
+### Portfolio Evidence Hub : chaque constat relié à une preuve
+[Code, documentation et tests](portfolio-evidence-hub/) · [Tableau de bord](https://junior-booto-fle.juniorbooto.chatgpt.site/portfolio-evidence-hub.html)
+
+Audit en lecture seule de trois projets réels : inventaire GitHub figé au commit audité, résultats CI attribués, concordance locale et observations HTTP datées. 24 contrôles : 13 vérifiés, 1 absence selon la règle, 9 à vérifier et 1 différence de fins de ligne expliquée. 20 tests du Hub réussis localement. Rapport historique, sans score d’expertise ni actualisation automatique.

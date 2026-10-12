@@ -1,0 +1,8 @@
+{
+  "path": "portfolio-file-guardian/reports/inventory.csv",
+  "remote_blob": "97383ce71991cb80ee347ff513654efad573b70a",
+  "local_CRLF": 9,
+  "remote_CRLF": 0,
+  "same_after_CRLF_to_LF": true,
+  "interpretation": "Byte difference due only to CRLF versus LF, not a change in CSV values. No source file altered."
+}

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "portfolio-evidence-hub"
+version = "1.0.0"
+description = "Read-only commit-pinned evidence auditing for a project portfolio"
+requires-python = ">=3.10"
+dependencies = []
+authors = [{name = "Junior BOOTO Waba"}]
+[project.scripts]
+evidence-hub = "evidence_hub.__main__:main"
+[tool.setuptools.packages.find]
+where = ["src"]

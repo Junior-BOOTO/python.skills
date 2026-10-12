@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://junior-booto-fle.juniorbooto.chatgpt.site/portfolio-file-guardian.html",
+    "checked_at": "2026-10-12T14:09:53.647195+00:00",
+    "status": 307,
+    "error": "HTTPError",
+    "marker_found": false,
+    "final_url": "https://junior-booto-fle.juniorbooto.chatgpt.site/portfolio-file-guardian.html"
+  },
+  {
+    "url": "https://junior-booto-fle.juniorbooto.chatgpt.site/afriflow-explain.html",
+    "checked_at": "2026-10-12T14:09:58.380562+00:00",
+    "status": 307,
+    "error": "HTTPError",
+    "marker_found": false,
+    "final_url": "https://junior-booto-fle.juniorbooto.chatgpt.site/afriflow-explain.html"
+  },
+  {
+    "url": "https://junior-booto-fle.juniorbooto.chatgpt.site/api-open-meteo.html",
+    "checked_at": "2026-10-12T14:10:02.280353+00:00",
+    "status": 307,
+    "error": "HTTPError",
+    "marker_found": false,
+    "final_url": "https://junior-booto-fle.juniorbooto.chatgpt.site/api-open-meteo.html"
+  }
+]

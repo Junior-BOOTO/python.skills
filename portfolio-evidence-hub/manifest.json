@@ -1,0 +1,42 @@
+{
+  "project": "Portfolio Evidence Hub",
+  "version": "1.0.0",
+  "author": "Junior BOOTO Waba",
+  "status": "completed",
+  "scope": "Read-only MVP: three real projects, dated snapshots, 24 checks, local API",
+  "audit_commit": "f18589decfb61b4b0a8a3526204e95c8ccd1b834",
+  "stages": {
+    "implementation": "completed",
+    "offline_audit": "completed",
+    "unit_and_local_api_tests": "completed",
+    "site_http_requests": "completed",
+    "site_contents": "blocked",
+    "browser_visual_qa": "blocked",
+    "autonomous_github_collector_full_run": "skipped",
+    "github_publication": "pending",
+    "site_publication": "pending"
+  },
+  "next_action": "Review audit findings and collect a new dated snapshot when needed",
+  "files": [
+    "projects.json",
+    "src/",
+    "tests/",
+    "data/",
+    "reports/",
+    "docs/",
+    "README.md"
+  ],
+  "limitations": [
+    "No Drive connection, webhook receiver or message sending",
+    "No automated publication",
+    "Browser QA unavailable",
+    "Standalone GitHub collector not fully executed here"
+  ],
+  "source_inspiration": "Python Projects With API, Minal Pandey; concepts only, no book code redistributed",
+  "publication": {
+    "authorized": true,
+    "status_at_packaging": "prepared",
+    "github_url": "https://github.com/Junior-BOOTO/python.skills/tree/main/portfolio-evidence-hub",
+    "site_url": "https://junior-booto-fle.juniorbooto.chatgpt.site/portfolio-evidence-hub.html"
+  }
+}

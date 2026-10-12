@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "repository": "Junior-BOOTO/python.skills",
+  "commit": "f18589decfb61b4b0a8a3526204e95c8ccd1b834",
+  "collected_at": "2026-10-12T14:06:05.117Z",
+  "tree_complete": true,
+  "files": [
+    {
+      "path": "afriflow-explain/README.md",
+      "sha": "970b2089dae13946b45ffa92b3456570223220c2",
+      "size": 9221
+    },
+    {
+      "path": "afriflow-explain/analysis/demo_sample.json",
+      "sha": "eed7e81310650a9e2e5c83a02a0b6b232ec38b9b",
+      "size": 771
+    },
+    {
+      "path": "afriflow-explain/analysis/features.csv",
+      "sha": "e93b76966d712308d323605c2e4e91d5b76712ab",
+      "size": 163315
+    },
+    {
+      "path": "afriflow-explain/app-template.html",
+      "sha": "2d41e8af5d6c8af6d96ada5b152e06b0e49cfc13",
+      "size": 15289
+    },
+    {
+      "path": "afriflow-explain/build_demo.py",
+      "sha": "4769b770d7cb3ac58b164367a16639fc671f409f",
+      "size": 1311
+    },
+    {
+      "path": "afriflow-explain/dashboard.html",
+      "sha": "48d30c41751613e8d1b3eb688dd0d29af5a01fe6",
+      "size": 125177
+    },
+    {
+      "path": "afriflow-explain/manifest.json",
+      "sha": "8241e8eb3b54c782d1d060c7cfcff40769b29334",
+      "size": 1305
+    },
+    {
+      "path": "afriflow-explain/models/metrics.json",
+      "sha": "7b24bf48117a52ee0aca2f8240a457b21429e2d4",
+      "size": 4388
+    },
+    {
+      "path": "afriflow-explain/models/parcours.joblib",
+      "sha": "e67f936b580b536353f4b2d3ef93bf897c84a0b5",
+      "size": 585041
+    },
+    {
+      "path": "afriflow-explain/models/test_cases.csv",
+      "sha": "0bfeb6b5ef81dd4062436da651a137271b975de1",
+      "size": 30233
+    },
+    {
+      "path": "afriflow-explain/models/transactions.joblib",
+      "sha": "2c46fa30cf5275cf35ee2649b457a6a502085e11",
+      "size": 629179
+    },
+    {
+      "path": "afriflow-explain/pipeline.py",
+      "sha": "19452f52886bed780733dc5f2d01d2de94b0e0b4",
+      "size": 13131
+    },
+    {
+      "path": "afriflow-explain/raw/simulation_truth.csv",
+      "sha": "9405a53feb5c10d08cb28f910983950e75c0f8ee",
+      "size": 32898
+    },
+    {
+      "path": "afriflow-explain/reports/versions.json",
+      "sha": "1eb72b13dd27b545bd56692919af65ac13aa9f04",
+      "size": 114
+    },
+    {
+      "path": "afriflow-explain/requirements.txt",
+      "sha": "9a3f037574e7bfbc380e9a5101328dfb01c4b3fc",
+      "size": 61
+    },
+    {
+      "path": "afriflow-explain/tests/test_evidence.py",
+      "sha": "be73b1f1ffee9b27f3c6ef0d740e29d5ce7c0532",
+      "size": 2425
+    },
+    {
+      "path": "api-open-meteo/.gitignore",
+      "sha": "670a9362c5efcfce668b7507558ed90bb30e1c0b",
+      "size": 20
+    },
+    {
+      "path": "api-open-meteo/README.md",
+      "sha": "0e87ed080ee866b1ad77e13f41134c02fbe2f4de",
+      "size": 3921
+    },
+    {
+      "path": "api-open-meteo/action-openapi.json",
+      "sha": "66814ff4efb5dcec5dcf302d75cba77e6dc7f20c",
+      "size": 4126
+    },
+    {
+      "path": "api-open-meteo/analyser_modeliser.py",
+      "sha": "f8aea5f34e14ff43c5c0166f9f6233aa4d907571",
+      "size": 9798
+    },
+    {
+      "path": "api-open-meteo/analysis/coefficients.csv",
+      "sha": "40c90d27efa6fce4fbd2d833239d1be2a2d1b323",
+      "size": 283
+    },
+    {
+      "path": "api-open-meteo/analysis/comparaison_validation.csv",
+      "sha": "f41148441c2b5b8171bf66fc5525466daea2b742",
+      "size": 1122
+    },
+    {
+      "path": "api-open-meteo/analysis/erreurs_test_par_mois.csv",
+      "sha": "41dafb7b60d454b6036c22735942699e6b964c23",
+      "size": 346
+    },
+    {
+      "path": "api-open-meteo/analysis/mensuel.csv",
+      "sha": "328b5b3b637e6e124cc9cb75adf63ee3f20e9bf4",
+      "size": 460
+    },
+    {
+      "path": "api-open-meteo/analysis/mensuel_detaille.csv",
+      "sha": "ea0a6582c191a4a10f51ce341e6694438d9a282e",
+      "size": 485
+    },
+    {
+      "path": "api-open-meteo/analysis/predictions_test.csv",
+      "sha": "1a7c6164d3519d580773e2cd99b465271943ede5",
+      "size": 5576
+    },
+    {
+      "path": "api-open-meteo/analysis/scores_test.csv",
+      "sha": "d4980059e69f330ed77f290833e4e3dd0ee6150c",
+      "size": 378
+    },
+    {
+      "path": "api-open-meteo/analysis/statistiques.csv",
+      "sha": "e04d64e0ebf1c6eb9cd243afa91236f04e341bdb",
+      "size": 210
+    },
+    {
+      "path": "api-open-meteo/collected/bogota_2025.csv",
+      "sha": "1fbde0b06538030c9ced47fab6d75b67cabb239a",
+      "size": 7748
+    },
+    {
+      "path": "api-open-meteo/collected/donnees_modele.csv",
+      "sha": "ef64acb329788fa38a2ecfd167a57061bf0a5630",
+      "size": 44061
+    },
+    {
+      "path": "api-open-meteo/collecter.py",
+      "sha": "0c425c6085d0fd963360d2f16c88bb2b36ab4c5d",
+      "size": 5096
+    },
+    {
+      "path": "api-open-meteo/executer_pipeline.py",
+      "sha": "90d70ce115e38dbab71005db9b1e2c3d6c14bdec",
+      "size": 245
+    },
+    {
+      "path": "api-open-meteo/manifest.json",
+      "sha": "36d58ea932ee4f118d5334a9f5f7589c1e4158ab",
+      "size": 1987
+    },
+    {
+      "path": "api-open-meteo/models/fiche_modele.md",
+      "sha": "0174610eec4fbf8ae8257c47a7d2cdb9e97b4aba",
+      "size": 1888
+    },
+    {
+      "path": "api-open-meteo/models/temperature_j1.json",
+      "sha": "1187bf267e86371dd73412576f911fed9e3103d3",
+      "size": 1387
+    },
+    {
+      "path": "api-open-meteo/predire.py",
+      "sha": "8fd1aa6adccb32d74f092e5c3c066cd6423f0856",
+      "size": 1811
+    },
+    {
+      "path": "api-open-meteo/raw/reponse.json",
+      "sha": "b02d3f409600c53c2aad679ee5d409498b9c5d60",
+      "size": 8764
+    },
+    {
+      "path": "api-open-meteo/reports/analyse.json",
+      "sha": "886a986cdc9ef5b241f04b6165bfc4157ed895c3",
+      "size": 348
+    },
+    {
+      "path": "api-open-meteo/reports/analyse_meteo.png",
+      "sha": "cbc75477279cd0865c6f68d9d3add957e17efab3",
+      "size": 154780
+    },
+    {
+      "path": "api-open-meteo/reports/modelisation.json",
+      "sha": "1c131140d1760842dda3ac6f959f9c5fc15b76e3",
+      "size": 1929
+    },
+    {
+      "path": "api-open-meteo/reports/rapport_analyse_modele.md",
+      "sha": "5d7dd03a280ee25830009e401820c4aa89af0bc9",
+      "size": 3639
+    },
+    {
+      "path": "api-open-meteo/reports/resultats.json",
+      "sha": "611d5406f54af2a43d74de13abe2cdd9b0bc8a87",
+      "size": 406
+    },
+    {
+      "path": "api-open-meteo/reports/test_modele.png",
+      "sha": "d9e9f1096e066620934fce00b4fd50e3d8920ae1",
+      "size": 255146
+    },
+    {
+      "path": "api-open-meteo/requirements.txt",
+      "sha": "cd534481d78f946f0e41ed07e636932c4a4752a8",
+      "size": 66
+    },
+    {
+      "path": "portfolio-file-guardian/.gitignore",
+      "sha": "2552e6ecaabc06087b92575a5c08eaa3f155d877",
+      "size": 65
+    },
+    {
+      "path": "portfolio-file-guardian/NOTICE.md",
+      "sha": "2e62a8db17c0abbf834cbac90c17a7b980a66a27",
+      "size": 414
+    },
+    {
+      "path": "portfolio-file-guardian/README.md",
+      "sha": "de21660d73969b0d1d72650cfa2f5a879287cdac",
+      "size": 7461
+    },
+    {
+      "path": "portfolio-file-guardian/categories.example.json",
+      "sha": "d49bf83773d00e172f617e7d9806a9aa6a0de26a",
+      "size": 108
+    },
+    {
+      "path": "portfolio-file-guardian/docs/portfolio.html",
+      "sha": "aec641a1c8fb91b64f1cc3992ed0af785e9964dd",
+      "size": 4821
+    },
+    {
+      "path": "portfolio-file-guardian/docs/portfolio.md",
+      "sha": "b73039a6d2d167f6e17ca4a431b8cc3fed8fbff3",
+      "size": 3823
+    },
+    {
+      "path": "portfolio-file-guardian/manifest.json",
+      "sha": "814306401fe498394f41bbf19bdac288479ada25",
+      "size": 1535
+    },
+    {
+      "path": "portfolio-file-guardian/pyproject.toml",
+      "sha": "dae60cb0cc6bb9561f26ea499ec673d5f9eea6dc",
+      "size": 445
+    },
+    {
+      "path": "portfolio-file-guardian/reports/copy-journal.example.json",
+      "sha": "752ddcb0ac316a0a297b25b90c29b9e4a1560ae5",
+      "size": 1422
+    },
+    {
+      "path": "portfolio-file-guardian/reports/demo-evidence.json",
+      "sha": "d98cd895ba3a0822e297c33f97c921d6b9c79e0a",
+      "size": 401
+    },
+    {
+      "path": "portfolio-file-guardian/reports/inventory.csv",
+      "sha": "97383ce71991cb80ee347ff513654efad573b70a",
+      "size": 998
+    },
+    {
+      "path": "portfolio-file-guardian/reports/plan.json",
+      "sha": "63cc3b4e21eb0c412df39be3213ad5fa1dc5e377",
+      "size": 2354
+    },
+    {
+      "path": "portfolio-file-guardian/reports/report.html",
+      "sha": "8ab5a4fe897c0794fb5a7b0a62439b910823b74e",
+      "size": 2776
+    },
+    {
+      "path": "portfolio-file-guardian/reports/tests.txt",
+      "sha": "7145a8aa1eb21aef19bb35efca7603223767862b",
+      "size": 2153
+    },
+    {
+      "path": "portfolio-file-guardian/reports/validation.json",
+      "sha": "f90be4348ea298446a2c4d3b7012268cd56d0f0a",
+      "size": 337
+    },
+    {
+      "path": "portfolio-file-guardian/scripts/demo.py",
+      "sha": "c78be0fda2c134ff5694fbbba7551cb2ed455df3",
+      "size": 1988
+    },
+    {
+      "path": "portfolio-file-guardian/src/file_guardian/__init__.py",
+      "sha": "13f4361c7a4200f04f0b768af9ff52e8ce49121c",
+      "size": 53
+    },
+    {
+      "path": "portfolio-file-guardian/src/file_guardian/__main__.py",
+      "sha": "3bee532868cda46c4ce0f7bb7ec2c4fe7afc5260",
+      "size": 2129
+    },
+    {
+      "path": "portfolio-file-guardian/src/file_guardian/core.py",
+      "sha": "f5ae6ac38cacef8a63cd4a345a3801ad339d5dac",
+      "size": 12501
+    },
+    {
+      "path": "portfolio-file-guardian/tests/test_guardian.py",
+      "sha": "99f5ccdc0ca946a4cdb0c2257a6aa101dd6debcf",
+      "size": 7166
+    }
+  ],
+  "documents": {
+    "portfolio-file-guardian/README.md": {
+      "content": "# Portfolio File Guardian\n\n**Junior BOOTO Waba · Python / automatisation · Prototype 1.0.0**\n\nInventorier des ressources, identifier leurs doublons exacts et préparer leur organisation, tout en conservant les originaux. Ce projet de portfolio associe traitement de fichiers, empreintes SHA-256, validation des chemins, interface en ligne de commande, journal et tests de comportement.\n\n[Examiner le rapport HTML généré](reports/report.html)\n\n## Problème et apport\n\nUn portfolio rassemble souvent des ressources FLE, du code et des données dans plusieurs dossiers. Deux fichiers portant des noms différents peuvent être identiques ; deux fichiers de même nom peuvent être différents. Guardian distingue ces situations et propose des catégories selon les extensions.\n\nL'organisation copie chaque fichier dans un nouveau dossier en conservant son chemin relatif. Aucun doublon n'est supprimé. Les catégories personnalisées décrivent des règles explicites : elles ne constituent pas une classification sémantique ou un modèle d'IA.\n\n## Résultats effectivement obtenus\n\nDémonstration sur **8 fichiers synthétiques**, total **248 octets** :\n\n- 1 groupe de doublons exacts, soit 44 octets de contenu redondant théorique.\n- 1 collision de nom : deux `lesson.txt` aux contenus différents.\n- 8 copies vérifiées par SHA-256, puis retirées par le journal de restauration.\n- Tous les originaux inchangés ; deux inventaires successifs identiques.\n- Suite de tests exécutée : voir [validation](reports/validation.json) et [journal des tests](reports/tests.txt).\n\nLa redondance théorique n'est pas une mesure d'espace disque récupérable. Les liens physiques, la compression et les métadonnées de fichiers ne sont pas dédupliqués.\n\n## Exécuter sans installation ni accès réseau\n\nPython **3.10 ou supérieur**, aucune dépendance tierce à l'exécution.\n\nDepuis le dossier du projet, sous Linux/macOS :\n\n```bash\nexport PYTHONPATH=src\npython -m file_guardian scan /chemin/mes-fichiers\npython -m file_guardian scan /chemin/mes-fichiers --output /chemin/rapport-separe\npython -m file_guardian organize /chemin/mes-fichiers /chemin/nouveau-dossier\n```\n\nSous PowerShell, remplacer la première ligne par :\n\n```powershell\n$env:PYTHONPATH = \"src\"\n```\n\n`scan` et `organize` sans `--execute` sont des simulations : lecture des fichiers, aucun changement aux sources, aucune destination créée. L'option explicite `scan --output` écrit seulement les rapports dans un dossier séparé : `plan.json`, `inventory.csv`, `report.html`.\n\nPour copier, après inspection du rapport :\n\n```bash\npython -m file_guardian organize /chemin/mes-fichiers /chemin/nouveau-dossier --execute\npython -m file_guardian restore /chemin/nouveau-dossier\npython -m file_guardian restore /chemin/nouveau-dossier --execute\n```\n\nLa destination doit être nouvelle, extérieure à la source et sans liens symboliques. Une deuxième copie vers la même destination est refusée ; l'inventaire est répétable mais la copie n'est pas une synchronisation incrémentale.\n\n`restore` simule par défaut. Avec `--execute`, il retire uniquement les copies journalisées dont l'empreinte correspond. Il conserve les originaux, les fichiers non journalisés, le journal et les dossiers vides. Une copie modifiée bloque la restauration avant la première suppression lors du contrôle initial.\n\n## Démonstration et tests\n\n```bash\npython scripts/demo.py\npython -m unittest discover -s tests -v\n```\n\nLa démonstration génère des fichiers fictifs dans un dossier temporaire, vérifie le cycle complet puis les efface ; ses rapports persistent dans `reports/`. Aucun document personnel n'est nécessaire.\n\nInstallation facultative dans un environnement virtuel : `python -m pip install -e .`. Elle requiert setuptools pour le packaging ; elle permet ensuite `file-guardian scan ...`.\n\n## Configuration\n\n```bash\npython -m file_guardian scan /chemin/mes-fichiers --categories categories.example.json\n```\n\nChaque clé est un nom de catégorie et chaque valeur une liste d'extensions minuscules. Les extensions répétées et les noms de catégorie pouvant sortir du dossier sont refusés. Les extensions non configurées vont dans `other`. `.PDF` et `.pdf` utilisent la même règle.\n\n## Architecture et fichiers\n\n- `src/file_guardian/core.py` : inventaire, hash en flux, catégories, exports, copie et restauration.\n- `src/file_guardian/__main__.py` : commandes, options, erreurs et codes de sortie.\n- `tests/test_guardian.py` : tests isolés avec fichiers temporaires.\n- `scripts/demo.py` : scénario reproductible et assertions.\n- `reports/` : inventaire, preuves, journal d'exemple et résultats de tests.\n- `docs/portfolio.md` et `docs/portfolio.html` : présentation FR avec résumé EN.\n- `manifest.json` : état, livrables et prochaine étape.\n\n## Limites et décisions\n\nPrototype pour des dossiers locaux stables, utilisé par un seul processus. Pas de service web, stockage cloud, surveillance continue, antivirus, déplacement ou suppression automatique des doublons. SHA-256 est une empreinte de contenu, pas une garantie de provenance ni de sécurité d'un fichier.\n\nLes erreurs de lecture sont visibles ; une copie est refusée si l'inventaire contient des erreurs. Les dossiers symlinks sont exclus ; les fichiers symlinks sont refusés. Les chemins et textes HTML/CSV sont contrôlés. Ces mesures ne remplacent pas une protection système face à un processus hostile modifiant les répertoires simultanément. Utiliser un dossier stable ; ne pas exécuter plusieurs opérations en parallèle.\n\nLa copie consomme de l'espace supplémentaire et préserve les octets, pas les ACL, les attributs étendus ni les dates originales. En cas d'interruption, le journal marque les intentions et les copies vérifiées ; un fichier partiel dont le hash ne correspond pas est conservé et nécessite une revue manuelle. Pas de transaction globale ni de récupération automatique après panne. Protéger le journal : il constitue la liste de restauration et n'est pas signé cryptographiquement.\n\nTests exécutés sous Linux/Python indiqué dans `reports/validation.json`. Le comportement Windows et macOS n'a pas été exécuté dans cette livraison. Le test de fichier illisible injecte une `PermissionError`, car l'environnement de validation possède des privilèges élevés. Les symlinks et les autres parcours sont testés sur le système réel.\n\nLes rapports contiennent les noms de fichiers : ne publier que des rapports synthétiques ou expurgés. Présentation en ligne : https://junior-booto-fle.juniorbooto.chatgpt.site/portfolio-file-guardian.html. Dépôt : https://github.com/Junior-BOOTO/python.skills/tree/main/portfolio-file-guardian.\n\n## Attribution et transparence\n\nInspiration : Edcorner Learning, *53 Must Do Python Projects For All*, familles d'exercices 9, 10, 29, 48 et 49. Le PDF et son code ne sont pas redistribués. L'implémentation livrée a été créée dans cette session avec l'assistance de ChatGPT pour le portfolio de Junior BOOTO Waba. Elle présente un projet d'apprentissage vérifié, pas une expérience industrielle revendiquée.\n\nProfil : https://github.com/Junior-BOOTO · Site : https://junior-booto-fle.juniorbooto.chatgpt.site\n\nAucune licence ouverte n'est attribuée automatiquement. Avant publication publique, l'auteur doit choisir la licence du code original ; les droits des sources tierces restent distincts. Voir `NOTICE.md`.\n",
+      "encoding": "utf-8",
+      "sha": "de21660d73969b0d1d72650cfa2f5a879287cdac",
+      "display_url": "https://github.com/Junior-BOOTO/python.skills/blob/f18589decfb61b4b0a8a3526204e95c8ccd1b834/portfolio-file-guardian/README.md",
+      "display_title": "README.md"
+    },
+    "portfolio-file-guardian/reports/validation.json": {
+      "content": "{\n  \"timestamp_utc\": \"2026-10-12T13:28:55.697106+00:00\",\n  \"python\": \"3.12.14\",\n  \"platform\": \"Linux-6.18.44-x86_64-with-glibc2.39\",\n  \"test_command\": \"PYTHONPATH=src python -m unittest discover -s tests -v\",\n  \"tests_passed\": 20,\n  \"skipped\": 0,\n  \"exit_code\": 0,\n  \"scope\": \"local Linux execution; CI configuration not run on GitHub\"\n}",
+      "encoding": "utf-8",
+      "sha": "f90be4348ea298446a2c4d3b7012268cd56d0f0a",
+      "display_url": "https://github.com/Junior-BOOTO/python.skills/blob/f18589decfb61b4b0a8a3526204e95c8ccd1b834/portfolio-file-guardian/reports/validation.json",
+      "display_title": "validation.json"
+    },
+    "portfolio-file-guardian/pyproject.toml": {
+      "content": "[build-system]\nrequires = [\"setuptools>=61\"]\nbuild-backend = \"setuptools.build_meta\"\n\n[project]\nname = \"portfolio-file-guardian\"\nversion = \"1.0.0\"\ndescription = \"Read-only inventory, SHA-256 duplicate detection and reversible copy organization\"\nrequires-python = \">=3.10\"\nauthors = [{name = \"Junior BOOTO Waba\"}]\ndependencies = []\n\n[project.scripts]\nfile-guardian = \"file_guardian.__main__:main\"\n\n[tool.setuptools.packages.find]\nwhere = [\"src\"]\n",
+      "encoding": "utf-8",
+      "sha": "dae60cb0cc6bb9561f26ea499ec673d5f9eea6dc",
+      "display_url": "https://github.com/Junior-BOOTO/python.skills/blob/f18589decfb61b4b0a8a3526204e95c8ccd1b834/portfolio-file-guardian/pyproject.toml",
+      "display_title": "pyproject.toml"
+    },
+    "afriflow-explain/README.md": {
+      "content": "# AfriFlow Explain — Junior BOOTO Waba\n\n**Explorer les parcours, expliquer les alertes, mesurer les limites.** Projet de portfolio original dans sa réalisation, inspiré de méthodes de réseaux financiers existantes. Démonstration 100 % synthétique : aucune banque connectée, aucun partenariat, aucune donnée personnelle réelle.\n\n## Expérience interactive\n[Ouvrir la démonstration](https://junior-booto-fle.juniorbooto.chatgpt.site/afriflow-explain.html).\nChoisir un dossier, avancer dans la chronologie, cliquer sur un motif, voir les identifiants de ses opérations et consulter la qualité des horodatages. La vérité de simulation est masquée dans un volet séparé ; elle sert à l'évaluation, pas aux explications.\n38 dossiers illustratifs sont inclus dans la page : 20 aux scores parcours les plus élevés, des exemples de chaque scénario et de données temporelles partielles. Cet échantillon n'est pas représentatif. Les scores globaux portent sur tous les 360 dossiers de test. Le ZIP complet contient les 1 800 dossiers, modèles et sources.\n\n## Trois rôles coordonnés\n| Rôle | Travail réellement exécuté |\n|---|---|\n| DataCollect | Génération et conservation de la source, types, identifiants, devises et couverture temporelle |\n| DataAnalyse | Composantes connexes, motifs temporels, preuves par identifiants, qualité et dossiers explicatifs |\n| DataML | Deux Isolation Forest, même configuration et budget d'alertes, test chronologique et modèles rechargés |\n\nLe script partagé lit les fichiers des étapes précédentes sans transfert manuel. Aucun appel aux GPT indépendants, aucune Action GPT installée et aucun échange automatique entre leurs conversations n'est revendiqué.\n\n## Reproduction\nPython 3.12 testé.\n```sh\npython -m pip install -r requirements.txt\npython pipeline.py\npython build_demo.py\npython -m unittest discover -s tests -v\n```\nOuvrir dashboard.html. Les liens vers le portfolio et le téléchargement désignent la version publique du site ; les interactions de la page sont autonomes et ne nécessitent pas Internet. Les versions exactes sont enregistrées dans reports/versions.json.\n\n## Données, unité et chronologie\n11 775 transferts, 1 800 composantes, 60 jours à partir du 1er janvier 2025. Générateur original local seed=73 ; **ce ne sont ni PaySim ni des données Ecobank**. Institutions A/B/C et comptes fictifs. Contextes Nigeria, Ghana, Kenya et Rwanda, devises NGN/GHS/KES/RWF ; distributions arbitraires, aucune représentativité économique ou taux de change revendiqués.\nUne unité d'analyse est une composante connexe non orientée, dans une devise et une fenêtre UTC de 24 heures. L'orientation des transferts est ensuite conservée pour les motifs. Analyse rétrospective une fois la fenêtre close, pas alerte instantanée. Pas d'addition entre devises, ni d'analyse de conversion.\nLes groupes de comptes du générateur sont disjoints : ils facilitent artificiellement la séparation des dossiers. Le code calcule les composantes à partir des relations, puis rapproche les labels de simulation ; les identifiants de dossiers ne sont pas des features. Les réseaux réels, beaucoup plus interconnectés, exigent un autre découpage et des vérifications métier.\n205 opérations ont un horodatage volontairement masqué, indépendamment du scénario. Elles restent dans le dossier et les statistiques descriptives ; elles sont exclues des motifs temporels. Les dates ISO à précision variable sont parsées avec format='mixed', et le test vérifie que le compteur d'heures absentes égale le nombre d'absences source. Le score de couverture mesure seulement les horodatages présents parmi les opérations observées ; il n'établit pas l'exhaustivité.\n\n## Motifs et interprétation\nDeux motifs explicatifs : circuit d'au moins trois transferts revenant vers le compte de départ, ou chaîne d'au moins trois transferts reliés. Ordre strict des dates, moins de 10 minutes entre étapes, durée totale ≤30 minutes et ratio de montants entre 0,7 et 1,3. Ces paramètres sont des critères de démonstration fixés avant l'évaluation, **pas des seuils réglementaires**.\nLes identifiants exacts des opérations constituent les preuves observables. Les montants compatibles ne prouvent pas le passage des mêmes fonds : comptes fongibles, historique incomplet et autres activités peuvent expliquer le motif. Les parcours sont des explications du dossier ; ils ne sont pas des attributions causales du score Isolation Forest.\nScénarios injectés : rapid_cycle et rapid_relay. Situations légitimes difficiles : circuits, chaînes, paie groupée, collecte et opérations aléatoires. Certains parcours légitimes sont aussi rapides. Pas de jugement sur un pays, une devise ou une institution.\n\n## Évaluation indépendante à budget égal\nEntraînement avant le 6 février : 1 080 dossiers. Validation 6–17 février : 360. Test 18 février–1er mars : 360. Comptes disjoints ; pas d'identifiant commun entre périodes.\nDeux Isolation Forest : 160 arbres, max_samples=256, seed=73. Aucune étiquette d'anomalie utilisée pour apprendre ni régler. Normalisation des montants par la médiane d'entraînement de chaque devise. Configuration et features fixées avant test ; aucune recherche d'hyperparamètres. Les deux méthodes sont comparées, sans sélection postérieure d'une nouvelle configuration.\n- **Transactions seules** : médiane, maximum, écart type des montants normalisés, nombre d'opérations du dossier.\n- **Transactions + parcours** : mêmes features, circuits et chaînes temporels, degrés entrants/sortants, nombre de comptes, durée observée.\nBudget fixé à 10 % des dossiers, soit 36 alertes par méthode sur validation et sur test. Priorisation par rang décroissant, départage stable. Ce seuil de rang utilise les scores du lot de test, jamais ses labels ; c'est une revue par lot, pas un seuil de production figé.\n\n| Test synthétique (42 scénarios injectés) | Alertes | Vrais positifs | Faux positifs | Anomalies manquées | Rappel |\n|---|---:|---:|---:|---:|---:|\n| Transactions seules | 36 | 3 | 33 | 39 | 7,1 % |\n| Transactions + parcours | 36 | 19 | 17 | 23 | 45,2 % |\n\nPrécision : 8,3 % contre 52,8 %. Average Precision : 0,130 contre 0,547. Proportion d'anomalies test : 42/360 = 11,7 %. Le gain de rappel est 38,1 points, pas 38,1 % de précision globale. Intervalle exploratoire bootstrap 95 % : [23,8 ; 57,8] points, 300 rééchantillonnages de dossiers, conditionnel au générateur. Il n'intègre pas l'incertitude du simulateur ni celle de nouveaux établissements.\nLes modèles ne sont pas calibrés en probabilités de fraude. Les résultats portent sur des scénarios conçus avec des motifs que les features cherchent à détecter ; ce biais favorable est explicite. **Aucune performance bancaire réelle ou détection de blanchiment n'est démontrée.**\n\n## Vérifications et livrables\nSix tests : ordre temporel, opérations simultanées, cycle invalide, budget égal, composantes, absence des labels/identifiants des features et ancrage de toutes les preuves. Modèles exportés et rechargés, scores reproduits sur 20 dossiers test. Syntaxe JavaScript vérifiée ; la disponibilité d'un outil de navigateur conditionne la vérification visuelle complète (non réalisée dans cette session).\nmodels/ contient les modèles avec normalisation et noms des variables, metrics.json et test_cases.csv. analysis/cases.json contient les dossiers et la vérité de simulation clairement séparée des motifs. raw/ conserve les données et labels. manifest.json décrit le statut et l'empreinte source. Ne charger que les joblib de provenance fiable.\n\n## API et prochaine étape bancaire\nAucune API bancaire connectée. Ce projet ne dépend pas d'un compte bancaire pour être essayé. Le prototype AfriTransfer Watch contient un connecteur Flutterwave sandbox de lecture d'une page ; son authentification et son mapping restent à vérifier avec des accès de test. Ecobank est une cible de future intégration, sans endpoint opérationnel supposé.\nPour raccorder une source réelle : vérifier historique autorisé, identifiants interinstitutions, dates/fuseaux, unités, devises, pagination et conditions d'usage ; pseudonymiser ; séparer les réponses privées de la démonstration publique ; reconstruire et recalibrer les fenêtres, sans transférer les scores synthétiques. Pour des parcours entre banques, une API de son seul compte ne donne pas automatiquement une vue interbancaire complète.\nPas de blocage de fonds, pas de qualification juridique automatique, pas de traitement réel en continu. Les anomalies restent des dossiers pour revue humaine.\n\n## Références\nLes méthodes de réseaux financiers existent : BIS Project Aurora (https://www.bis.org/project/aurora), Project Hertha (https://www.bis.org/project/hertha), IBM AMLSim (https://github.com/IBM/AMLSim). Ces projets inspirent la méthode ; leurs jeux et modèles ne sont pas intégrés ici. Documentation consultée le 12 octobre 2026. L'apport de ce portfolio est la réalisation d'une revue interactive, l'ancrage des motifs dans les opérations et la comparaison honnête à budget égal.\n",
+      "encoding": "utf-8",
+      "sha": "970b2089dae13946b45ffa92b3456570223220c2",
+      "display_url": "https://github.com/Junior-BOOTO/python.skills/blob/f18589decfb61b4b0a8a3526204e95c8ccd1b834/afriflow-explain/README.md",
+      "display_title": "README.md"
+    },
+    "afriflow-explain/requirements.txt": {
+      "content": "numpy==2.3.5\npandas==2.2.3\nscikit-learn==1.8.0\njoblib==1.5.3\n",
+      "encoding": "utf-8",
+      "sha": "9a3f037574e7bfbc380e9a5101328dfb01c4b3fc",
+      "display_url": "https://github.com/Junior-BOOTO/python.skills/blob/f18589decfb61b4b0a8a3526204e95c8ccd1b834/afriflow-explain/requirements.txt",
+      "display_title": "requirements.txt"
+    },
+    "api-open-meteo/README.md": {
+      "content": "# Premier test réel de collecte API — Bogotá 2025\n\nUne requête HTTP à l’API historique Open-Meteo a été exécutée pour latitude 4,7110, longitude −74,0721, année 2025, modèle ERA5, fuseau America/Bogota. Résultat : 365 dates quotidiennes, température moyenne (°C) et précipitations (mm), contrôlées et exportées en CSV.\n\nCe sont des données de **réanalyse**, issues d’un modèle combinant différentes sources, et non des mesures directes d’une station locale. Les coordonnées de grille réellement renvoyées sont consignées dans les résultats.\n\n## Réutiliser le dossier\n```sh\npython collecter.py             # réutilise la réponse préservée et vérifie les sorties\npython collecter.py --refresh   # refait la requête, archive l'ancienne réponse\n```\nPython standard uniquement. Pas de clé API pour cette démonstration non commerciale. Données sous CC BY 4.0 ; attribution à Open-Meteo et Copernicus ERA5. Une utilisation commerciale du service, notamment dans une offre payante, doit suivre les conditions commerciales du fournisseur.\n\nLa collecte enregistre la réponse brute, vérifie les dates et unités, crée `collected/bogota_2025.csv`, puis enchaîne directement l’analyse mensuelle dans `analysis/mensuel.csv`. Aucune manipulation de fichiers intermédiaires n’est nécessaire.\n\n## Connecter DataCollect\n`action-openapi.json` est un schéma d’action préparé pour l’API de lecture. Dans l’éditeur du GPT, il peut servir à créer une action avec authentification « aucune ». Tester d’abord une petite période, puis vérifier les dates, unités, valeurs absentes, fuseau et coordonnées renvoyées. La compatibilité de ce schéma avec l’éditeur n’a pas encore été testée.\n\nExemple de demande : « Collecte les températures moyennes et précipitations ERA5 de Bogotá du 1 au 31 janvier 2025, fuseau America/Bogota, puis contrôle les dates et unités. »\n\n**État exact : l’API a été appelée depuis le script ; aucune connexion n’a été installée dans les trois GPT.** Ajouter cette action à DataCollect ne suffit pas à transmettre les fichiers entre GPT indépendants. Pour cela, il faut un stockage partagé et un coordinateur ou service commun réellement accessible à chacun.\n\nUn modèle de température moyenne à J+1 a maintenant été exécuté. Lire `reports/rapport_analyse_modele.md` et `models/fiche_modele.md` pour son protocole et ses limites. Une réanalyse n’est pas une prévision qui aurait été disponible au moment d’une décision passée ; ne pas l’utiliser comme telle pour un backtest.\n\nDocumentation : https://open-meteo.com/en/docs/historical-weather-api. Conditions : https://open-meteo.com/en/terms. Il n’y a ni collecte planifiée ni surveillance permanente configurée.\n\n\n## Analyse et modèle : une seule commande\n```sh\npython -m pip install -r requirements.txt\npython executer_pipeline.py              # collecte en cache, analyse, entraînement et export\npython executer_pipeline.py --refresh    # nouvel appel API, puis même parcours\npython predire.py                        # illustration historique du lendemain de la série\n```\n\nLe modèle Ridge choisi obtient une MAE de 0,340 °C sur le test, contre 0,391 °C pour la persistance. Ces résultats correspondent à la réponse brute conservée dans ce dossier. Les valeurs de 2025 servent à une démonstration rétrospective, pas une prévision actuelle.\n\n\n## Résultats illustrés\n![Analyse annuelle de la réanalyse ERA5](reports/analyse_meteo.png)\n![Évaluation chronologique à un jour](reports/test_modele.png)\n\nModèle entraîné sur 205 jours, choisi sur 61 jours de validation puis évalué sur 92 jours de test. MAE test 0,340 °C, contre 0,391 °C pour la persistance, soit 13,0 % de réduction. Le modèle ne garantit pas une prévision opérationnelle : la réanalyse est rétrospective et une seule année est disponible.\n",
+      "encoding": "utf-8",
+      "sha": "0e87ed080ee866b1ad77e13f41134c02fbe2f4de",
+      "display_url": "https://github.com/Junior-BOOTO/python.skills/blob/f18589decfb61b4b0a8a3526204e95c8ccd1b834/api-open-meteo/README.md",
+      "display_title": "README.md"
+    },
+    "api-open-meteo/requirements.txt": {
+      "content": "numpy==2.3.5\npandas==2.2.3\nscikit-learn==1.8.0\nmatplotlib==3.10.8\n",
+      "encoding": "utf-8",
+      "sha": "cd534481d78f946f0e41ed07e636932c4a4752a8",
+      "display_url": "https://github.com/Junior-BOOTO/python.skills/blob/f18589decfb61b4b0a8a3526204e95c8ccd1b834/api-open-meteo/requirements.txt",
+      "display_title": "requirements.txt"
+    },
+    ".github/workflows/guardian-tests.yml": {
+      "content": "name: Portfolio File Guardian tests\non: [push, pull_request]\njobs:\n  test:\n    runs-on: ubuntu-latest\n    defaults:\n      run:\n        working-directory: portfolio-file-guardian\n    strategy:\n      matrix:\n        python-version: ['3.10', '3.12']\n    steps:\n      - uses: actions/checkout@v4\n      - uses: actions/setup-python@v5\n        with:\n          python-version: ${{ matrix.python-version }}\n      - name: Behavior tests\n        env:\n          PYTHONPATH: src\n        run: python -m unittest discover -s tests -v\n      - name: Demonstration\n        run: python scripts/demo.py\n",
+      "encoding": "utf-8",
+      "sha": "34265843baac6774de53412e2c288798ff5ae503",
+      "display_url": "https://github.com/Junior-BOOTO/python.skills/blob/f18589decfb61b4b0a8a3526204e95c8ccd1b834/.github/workflows/guardian-tests.yml",
+      "display_title": "guardian-tests.yml"
+    },
+    "portfolio-file-guardian/reports/inventory.csv": {
+      "content": "77u/cGF0aCxzaXplLHNoYTI1NixjYXRlZ29yeSxkZXN0aW5hdGlvbgphcmNo\naXZlcy9yb3V0aW5lX2NvcHkudHh0LDQ0LDU0ZTM5NjUyYTY2OTcyNjM2MzQy\nNjNlYmI3ZGE1MzllNjJmYjgyZmRlZTEwMTRlZTUzNWJiNWUwOTI2MWQzOTQs\nZG9jdW1lbnRzLGRvY3VtZW50cy9hcmNoaXZlcy9yb3V0aW5lX2NvcHkudHh0\nCmRhdGEvbWV0cmljcy5jc3YsMzIsMWQ2ZTljN2M3ZjQxMzU4OWVjZDQxZGZm\nZWNkYzU1NDZmNjFmMDNhNDE0NGU0MjQ2N2M3YWJiZjc5MjcwZDQ2MixkYXRh\nLGRhdGEvZGF0YS9tZXRyaWNzLmNzdgpkcmFmdHMvbGVzc29uLnR4dCwyMyw2\nYTY4ZGNkZjcxZTkyOGZjOTEyZGUyNzM2NzMyOTRjNzY1MTBjZTY4MjhhZDY4\nYjg0N2E2NzgwNjY0MWEwMjkxLGRvY3VtZW50cyxkb2N1bWVudHMvZHJhZnRz\nL2xlc3Nvbi50eHQKZW1wdHkudHh0LDAsZTNiMGM0NDI5OGZjMWMxNDlhZmJm\nNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSxk\nb2N1bWVudHMsZG9jdW1lbnRzL2VtcHR5LnR4dApmbGUvbGVzc29uLnR4dCwy\nNiw0Yzg1YjkzN2M1NzRjODQ0MTIzZjA4OTcwMDc3ZDZmYjc5MTYzZjc5ZDZl\nNzhlMWQzODdmY2ZjODdlNzc4ZWEzLGRvY3VtZW50cyxkb2N1bWVudHMvZmxl\nL2xlc3Nvbi50eHQKZmxlL3JvdXRpbmUudHh0LDQ0LDU0ZTM5NjUyYTY2OTcy\nNjM2MzQyNjNlYmI3ZGE1MzllNjJmYjgyZmRlZTEwMTRlZTUzNWJiNWUwOTI2\nMWQzOTQsZG9jdW1lbnRzLGRvY3VtZW50cy9mbGUvcm91dGluZS50eHQKbm90\nZXMvcHJvamVjdC5tZCw0Miw2M2FiNmNjNDU2MWQ2MzZmNTkyODU5MTViYmQ3\nZDFhMzIwOTI2MzFhMmQ0ZGNkMDAzNmZmZGM4ZDVlYmVkZmJjLGRvY3VtZW50\ncyxkb2N1bWVudHMvbm90ZXMvcHJvamVjdC5tZApweXRob24vYW5hbHl6ZS5w\neSwzNywzNzAxYzljNmU1YWRiNTFlZGQ0NmVjNDhkNjdmYzdlOWI3NmIwMDdi\nNDkzOWRhYTg2NzJiNjM5NzgxNjgxYjkzLGNvZGUsY29kZS9weXRob24vYW5h\nbHl6ZS5weQo=\n",
+      "encoding": "base64",
+      "sha": "97383ce71991cb80ee347ff513654efad573b70a"
+    }
+  },
+  "runs": [
+    {
+      "id": 38257663476,
+      "path": ".github/workflows/guardian-tests.yml",
+      "head_sha": "f18589decfb61b4b0a8a3526204e95c8ccd1b834",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Junior-BOOTO/python.skills/actions/runs/38257663476"
+    }
+  ],
+  "runs_complete": true,
+  "collection_errors": []
+}
