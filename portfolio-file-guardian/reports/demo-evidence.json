@@ -1,0 +1,20 @@
+{
+  "dataset": "8 synthetic files generated in temporary directory",
+  "summary": {
+    "files": 8,
+    "bytes": 248,
+    "duplicate_groups": 1,
+    "redundant_bytes": 44
+  },
+  "name_collisions": [
+    [
+      "drafts/lesson.txt",
+      "fle/lesson.txt"
+    ]
+  ],
+  "scan_repeatable": true,
+  "copies_verified": 8,
+  "restore_preview": 8,
+  "originals_unchanged": true,
+  "restore_completed": true
+}

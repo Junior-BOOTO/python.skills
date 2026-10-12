@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "portfolio-file-guardian"
+version = "1.0.0"
+description = "Read-only inventory, SHA-256 duplicate detection and reversible copy organization"
+requires-python = ">=3.10"
+authors = [{name = "Junior BOOTO Waba"}]
+dependencies = []
+
+[project.scripts]
+file-guardian = "file_guardian.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

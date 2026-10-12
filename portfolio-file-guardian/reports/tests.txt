@@ -1,0 +1,25 @@
+test_cli_dry_run (test_guardian.GuardianTests.test_cli_dry_run) ... ok
+test_cli_report_inside_source_refused (test_guardian.GuardianTests.test_cli_report_inside_source_refused) ... ok
+test_config_validation (test_guardian.GuardianTests.test_config_validation) ... ok
+test_copy_failure_records_pending_intent (test_guardian.GuardianTests.test_copy_failure_records_pending_intent) ... ok
+test_copy_preserves_collisions_and_originals (test_guardian.GuardianTests.test_copy_preserves_collisions_and_originals) ... ok
+test_empty_hash (test_guardian.GuardianTests.test_empty_hash) ... ok
+test_exact_duplicates_and_different_same_names (test_guardian.GuardianTests.test_exact_duplicates_and_different_same_names) ... ok
+test_html_and_csv_escaping (test_guardian.GuardianTests.test_html_and_csv_escaping) ... ok
+test_journal_traversal_refused (test_guardian.GuardianTests.test_journal_traversal_refused) ... ok
+test_modified_copy_blocks_all_deletions (test_guardian.GuardianTests.test_modified_copy_blocks_all_deletions) ... ok
+test_nested_destination (test_guardian.GuardianTests.test_nested_destination) ... ok
+test_no_overwrite (test_guardian.GuardianTests.test_no_overwrite) ... ok
+test_permission_error_reported_and_blocks_copy (test_guardian.GuardianTests.test_permission_error_reported_and_blocks_copy) ... ok
+test_repeatability_no_writes (test_guardian.GuardianTests.test_repeatability_no_writes) ... ok
+test_restore_preview_then_execute (test_guardian.GuardianTests.test_restore_preview_then_execute) ... ok
+test_source_change_after_scan_is_detected (test_guardian.GuardianTests.test_source_change_after_scan_is_detected) ... ok
+test_symlink_directory_not_traversed (test_guardian.GuardianTests.test_symlink_directory_not_traversed) ... ok
+test_symlink_file_refused (test_guardian.GuardianTests.test_symlink_file_refused) ... ok
+test_symlink_replacement_on_restore_refused (test_guardian.GuardianTests.test_symlink_replacement_on_restore_refused) ... ok
+test_untracked_files_preserved (test_guardian.GuardianTests.test_untracked_files_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.130s
+
+OK

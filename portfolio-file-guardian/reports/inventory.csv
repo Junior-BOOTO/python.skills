@@ -1,0 +1,9 @@
+﻿path,size,sha256,category,destination
+archives/routine_copy.txt,44,54e39652a6697263634263ebb7da539e62fb82fdee1014ee535bb5e09261d394,documents,documents/archives/routine_copy.txt
+data/metrics.csv,32,1d6e9c7c7f413589ecd41dffecdc5546f61f03a4144e42467c7abbf79270d462,data,data/data/metrics.csv
+drafts/lesson.txt,23,6a68dcdf71e928fc912de273673294c76510ce6828ad68b847a67806641a0291,documents,documents/drafts/lesson.txt
+empty.txt,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,documents,documents/empty.txt
+fle/lesson.txt,26,4c85b937c574c844123f08970077d6fb79163f79d6e78e1d387fcfc87e778ea3,documents,documents/fle/lesson.txt
+fle/routine.txt,44,54e39652a6697263634263ebb7da539e62fb82fdee1014ee535bb5e09261d394,documents,documents/fle/routine.txt
+notes/project.md,42,63ab6cc4561d636f59285915bbd7d1a32092631a2d4dcd0036ffdc8d5ebedfbc,documents,documents/notes/project.md
+python/analyze.py,37,3701c9c6e5adb51edd46ec48d67fc7e9b76b007b4939daa8672b639781681b93,code,code/python/analyze.py

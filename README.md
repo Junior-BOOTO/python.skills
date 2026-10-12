@@ -73,3 +73,9 @@ Le projet [Wine Quality — ACP](wine-quality-acp/README.md) réunit préparatio
 [Code, tests et modèles](afriflow-explain/) · [Démonstration interactive](https://junior-booto-fle.juniorbooto.chatgpt.site/afriflow-explain.html)
 
 11 775 transferts et 1 800 dossiers synthétiques. À budget égal (36 alertes sur 360 dossiers test), l’approche avec parcours repère 19 des 42 scénarios injectés, contre 3 pour les résumés de transactions ; 17 faux positifs subsistent. Chronologie, preuves par opération et couverture des horodatages visibles. Aucune banque connectée, aucun partenariat et aucune performance bancaire réelle revendiquée.
+
+
+### Portfolio File Guardian : organiser sans perdre les originaux
+[Code, documentation et tests](portfolio-file-guardian/) · [Présentation et rapport](https://junior-booto-fle.juniorbooto.chatgpt.site/portfolio-file-guardian.html)
+
+Inventaire SHA-256, simulation par défaut, catégories configurables et organisation par copie avec journal de restauration. Démonstration sur 8 fichiers synthétiques : un groupe de doublons exacts, une collision de nom aux contenus distincts, 8 copies vérifiées puis retirées et tous les originaux conservés. 20 tests de comportement réussis localement sous Linux ; prototype local, sans synchronisation cloud ni suppression automatique des doublons.

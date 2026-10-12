@@ -1,0 +1,48 @@
+{
+  "project": "Portfolio File Guardian",
+  "version": "1.0.0",
+  "author": "Junior BOOTO Waba",
+  "objective": "Inventory and reversible copy-only file organization",
+  "data": "Synthetic demonstration only",
+  "dependencies": {
+    "runtime": "Python >=3.10 standard library",
+    "packaging": "setuptools >=61 optional"
+  },
+  "status": "completed",
+  "stages": {
+    "implementation": "completed",
+    "behavior_tests": "completed",
+    "demo_copy_restore": "completed",
+    "html_visual_browser_review": "blocked",
+    "github_publication": "pending",
+    "site_publication": "pending"
+  },
+  "limitations": [
+    "No browser executable available for screenshot or visual QA",
+    "Linux tests only; proposed CI not executed on GitHub",
+    "Copy-only; no global transaction or cloud synchronization"
+  ],
+  "sources": [
+    {
+      "title": "53 Must Do Python Projects For All",
+      "author": "Edcorner Learning",
+      "use": "Conceptual inspiration; no source code or PDF redistributed"
+    }
+  ],
+  "next_action": "Follow CI run and collect feedback on larger authorized local datasets",
+  "files": [
+    "src/",
+    "tests/",
+    "scripts/demo.py",
+    "reports/",
+    "docs/portfolio.html",
+    "docs/portfolio.md",
+    "README.md"
+  ],
+  "publication": {
+    "authorized": true,
+    "github_url": "https://github.com/Junior-BOOTO/python.skills/tree/main/portfolio-file-guardian",
+    "site_url": "https://junior-booto-fle.juniorbooto.chatgpt.site/portfolio-file-guardian.html",
+    "status_at_packaging": "prepared"
+  }
+}
