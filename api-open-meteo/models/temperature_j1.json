@@ -1,0 +1,55 @@
+{
+  "type": "ridge",
+  "features": [
+    "temp_lag1",
+    "temp_lag2",
+    "temp_mean3",
+    "temp_mean7",
+    "rain_lag1",
+    "rain_mean3",
+    "sin_day",
+    "cos_day"
+  ],
+  "mean": [
+    14.671707317073169,
+    14.674146341463414,
+    14.67349593495935,
+    14.672613240418118,
+    4.085365853658536,
+    4.090081300813008,
+    0.5274400536342646,
+    -0.17640886534396757
+  ],
+  "scale": [
+    0.6808026197214808,
+    0.6782077371143277,
+    0.5870388468466569,
+    0.4936446168137671,
+    5.39632941985703,
+    4.3232483325795314,
+    0.4231515572455604,
+    0.7152829241992256
+  ],
+  "coefficients": [
+    0.2070527580300803,
+    0.051551822436699785,
+    0.07798943077466162,
+    0.022559328864951027,
+    -0.03369280808153799,
+    0.016304657734957453,
+    0.06841505367340991,
+    0.056123664928907316
+  ],
+  "intercept": 14.665853658536586,
+  "name": "Ridge_retards_calendrier_alpha_100",
+  "target": "Température quotidienne moyenne ERA5, °C",
+  "horizon": "J+1, une prévision par jour à partir des jours précédents",
+  "trained_until": "2025-07-31",
+  "validation_until": "2025-09-30",
+  "test_period": [
+    "2025-10-01",
+    "2025-12-31"
+  ],
+  "raw_source_sha256": "777d268f5a85673f03faf0a14ddf385e7d00ae6659c4409143605e1b5ee4f997",
+  "warning": "Réanalyse rétrospective ; pas garantie que les entrées étaient disponibles à une heure de prévision réelle."
+}

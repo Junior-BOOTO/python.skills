@@ -1,0 +1,59 @@
+{
+  "analysis": {
+    "days": 365,
+    "temperature_mean_C": 14.505753424657534,
+    "temperature_min_daily_mean_C": 12.6,
+    "temperature_max_daily_mean_C": 16.5,
+    "precipitation_total_mm": 1424.3000000000002,
+    "rainy_days_at_least_1mm": 270,
+    "wettest_month": "2025-04-01",
+    "wettest_month_mm": 227.1,
+    "spearman_temperature_precipitation": -0.029570251399652647
+  },
+  "horizon": "J+1",
+  "usable_days": 358,
+  "train_days": 205,
+  "validation_days": 61,
+  "test_days": 92,
+  "selected_model": "Ridge_retards_calendrier_alpha_100",
+  "selection": "MAE validation ; référence simple privilégiée si écart inférieur à 1 %",
+  "validation_selected": {
+    "model": "Ridge_retards_calendrier_alpha_100",
+    "MAE_C": 0.37332596706257376,
+    "RMSE_C": 0.474496859655473,
+    "R2": -0.016418750620003975,
+    "mean_error_observed_minus_predicted_C": -0.07831600871118534
+  },
+  "train": {
+    "MAE_C": 0.39930081066845774,
+    "RMSE_C": 0.4969351525406582,
+    "R2": 0.468132874548036,
+    "mean_error_observed_minus_predicted_C": -6.325563379327721e-16
+  },
+  "test": [
+    {
+      "model": "Ridge_retards_calendrier_alpha_100",
+      "MAE_C": 0.34024560065805565,
+      "RMSE_C": 0.4485357622689505,
+      "R2": 0.46760624137174456,
+      "mean_error_observed_minus_predicted_C": 0.07366982461376098
+    },
+    {
+      "model": "Reference_persistance",
+      "MAE_C": 0.391304347826087,
+      "RMSE_C": 0.4907846424017273,
+      "R2": 0.36258726937903907,
+      "mean_error_observed_minus_predicted_C": 0.017391304347826084
+    },
+    {
+      "model": "Reference_moyenne_train",
+      "MAE_C": 0.5103658536585366,
+      "RMSE_C": 0.6326542013525198,
+      "R2": -0.05918445267548478,
+      "mean_error_observed_minus_predicted_C": -0.14954931071049854
+    }
+  ],
+  "mae_reduction_vs_persistence": 0.130483464984969,
+  "test_residual_lag1_correlation": 0.21496428853433466,
+  "export_reload_verified": true
+}

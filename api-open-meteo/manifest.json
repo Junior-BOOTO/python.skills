@@ -1,0 +1,40 @@
+{
+  "objectif": "Tester une collecte API réelle et une analyse enchaînée sur Bogotá 2025",
+  "requete": "https://archive-api.open-meteo.com/v1/archive?latitude=4.711&longitude=-74.0721&start_date=2025-01-01&end_date=2025-12-31&daily=temperature_2m_mean%2Cprecipitation_sum&timezone=America%2FBogota&models=era5",
+  "parametres": {
+    "latitude": 4.711,
+    "longitude": -74.0721,
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31",
+    "daily": "temperature_2m_mean,precipitation_sum",
+    "timezone": "America/Bogota",
+    "models": "era5"
+  },
+  "reponse_sha256": "777d268f5a85673f03faf0a14ddf385e7d00ae6659c4409143605e1b5ee4f997",
+  "verifications": [
+    "365 dates consécutives et uniques",
+    "Unités °C/mm et timezone",
+    "Absences contrôlées",
+    "Totaux mensuels et annuel réconciliés"
+  ],
+  "etapes": {
+    "DataCollect": "completed",
+    "DataAnalyse": "completed",
+    "DataML": "completed"
+  },
+  "raison_ml": null,
+  "licence": "Données CC BY 4.0 ; attribution Open-Meteo et Copernicus ERA5. Accès gratuit API destiné au non-commercial, conditions à vérifier pour offre commerciale.",
+  "connexion_gpt": "Appel exécuté depuis le script ; aucune action installée dans les trois GPT indépendants.",
+  "prochaine_etape": "Tester sur autres années et observations indépendantes ; vérifier la disponibilité réelle des données à l’heure d’émission.",
+  "objectif_modele": "Température moyenne du lendemain à partir du passé, démonstration sur réanalyse",
+  "horizon": "1 jour",
+  "selection": "MAE validation ; référence simple privilégiée si écart inférieur à 1 %",
+  "decoupage": "Dates cibles : train janvier–juillet, validation août–septembre, test octobre–décembre 2025",
+  "pretraitement": "Retards et moyennes strictement décalés ; standardisation ajustée sur train uniquement",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  }
+}

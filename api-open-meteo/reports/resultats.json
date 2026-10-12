@@ -1,0 +1,17 @@
+{
+  "jours": 365,
+  "valeurs_absentes": 0,
+  "temperature_moyenne_annuelle_c": 14.505753424657534,
+  "precipitations_annuelles_mm": 1424.3,
+  "coordonnees_demandees": [
+    4.711,
+    -74.0721
+  ],
+  "coordonnees_grille_retournees": [
+    4.75,
+    -74.0
+  ],
+  "elevation_grille_m": 2557.0,
+  "timezone": "America/Bogota",
+  "nature": "Réanalyse ERA5 via Open-Meteo, pas observation directe de station"
+}

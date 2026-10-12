@@ -1,0 +1,153 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Open-Meteo — collecte historique",
+    "version": "1.0.0",
+    "description": "Réanalyse ERA5 ; démonstration non commerciale."
+  },
+  "servers": [
+    {
+      "url": "https://archive-api.open-meteo.com"
+    }
+  ],
+  "paths": {
+    "/v1/archive": {
+      "get": {
+        "operationId": "collecterMeteoHistorique",
+        "summary": "Lire température et précipitations historiques",
+        "parameters": [
+          {
+            "name": "latitude",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "number"
+            }
+          },
+          {
+            "name": "longitude",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "number"
+            }
+          },
+          {
+            "name": "start_date",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+          },
+          {
+            "name": "end_date",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+          },
+          {
+            "name": "daily",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "temperature_2m_mean,precipitation_sum"
+              ]
+            }
+          },
+          {
+            "name": "timezone",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "America/Bogota"
+            }
+          },
+          {
+            "name": "models",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "era5"
+              ],
+              "default": "era5"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Données quotidiennes et unités",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "latitude": {
+                      "type": "number"
+                    },
+                    "longitude": {
+                      "type": "number"
+                    },
+                    "timezone": {
+                      "type": "string"
+                    },
+                    "daily_units": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      }
+                    },
+                    "daily": {
+                      "type": "object",
+                      "properties": {
+                        "time": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "temperature_2m_mean": {
+                          "type": "array",
+                          "items": {
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          }
+                        },
+                        "precipitation_sum": {
+                          "type": "array",
+                          "items": {
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Paramètres invalides"
+          },
+          "429": {
+            "description": "Limite de service atteinte"
+          }
+        }
+      }
+    }
+  }
+}

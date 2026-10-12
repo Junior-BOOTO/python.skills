@@ -1,0 +1,11 @@
+{
+  "days": 365,
+  "temperature_mean_C": 14.505753424657534,
+  "temperature_min_daily_mean_C": 12.6,
+  "temperature_max_daily_mean_C": 16.5,
+  "precipitation_total_mm": 1424.3000000000002,
+  "rainy_days_at_least_1mm": 270,
+  "wettest_month": "2025-04-01",
+  "wettest_month_mm": 227.1,
+  "spearman_temperature_precipitation": -0.029570251399652647
+}
