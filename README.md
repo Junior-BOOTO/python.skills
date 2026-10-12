@@ -24,7 +24,7 @@ Je développe mes compétences en Python et en analyse de données. Ce dépôt r
 
 ## Mes assistants IA pour les données
 
-[DataCollect, DataAnalyse et DataML](assistants-ia/README.md) : trois assistants spécialisés pour la collecte, l’analyse et le machine learning. Présentations, liens ChatGPT, livrables et limites d’accès. Les GPT indépendants ne s’échangent pas automatiquement leurs fichiers. Plusieurs projets de ce dépôt coordonnent les étapes dans un script Python et un dossier partagé, avec résultats et contrôles exécutés.
+[Python Project Studio, DataLab Coordinateur, DataCollect, DataAnalyse et DataML](assistants-ia/README.md) : cinq assistants pour concevoir des projets Python, collecter, analyser et modéliser. Python Project Studio accompagne code, tests et documentation. DataLab Coordinateur réutilise les fichiers entre trois rôles dans une même session ; il ne contacte pas automatiquement les GPT indépendants. Présentations publiques, liens ChatGPT et limites d’accès documentés : les assistants restent soumis à leurs droits de partage.
 
 ## Bibliothèque de références
 
