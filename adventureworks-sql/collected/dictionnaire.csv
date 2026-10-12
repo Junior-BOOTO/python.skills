@@ -1,0 +1,42 @@
+table,column,source_index_0_based,sqlite_type,source_file
+ProductCategory,ProductCategoryID,0,INTEGER PRIMARY KEY,raw/ProductCategory.csv
+ProductCategory,Name,1,TEXT NOT NULL,raw/ProductCategory.csv
+ProductSubcategory,ProductSubcategoryID,0,INTEGER PRIMARY KEY,raw/ProductSubcategory.csv
+ProductSubcategory,ProductCategoryID,1,INTEGER REFERENCES ProductCategory(ProductCategoryID),raw/ProductSubcategory.csv
+ProductSubcategory,Name,2,TEXT NOT NULL,raw/ProductSubcategory.csv
+Product,ProductID,0,INTEGER PRIMARY KEY,raw/Product.csv
+Product,Name,1,TEXT NOT NULL,raw/Product.csv
+Product,StandardCost,8,REAL,raw/Product.csv
+Product,ProductSubcategoryID,18,INTEGER REFERENCES ProductSubcategory(ProductSubcategoryID),raw/Product.csv
+SalesTerritory,TerritoryID,0,INTEGER PRIMARY KEY,raw/SalesTerritory.csv
+SalesTerritory,Name,1,TEXT NOT NULL,raw/SalesTerritory.csv
+SalesTerritory,CountryRegionCode,2,TEXT,raw/SalesTerritory.csv
+SalesTerritory,TerritoryGroup,3,TEXT,raw/SalesTerritory.csv
+Customer,CustomerID,0,INTEGER PRIMARY KEY,raw/Customer.csv
+Customer,PersonID,1,INTEGER,raw/Customer.csv
+Customer,StoreID,2,INTEGER,raw/Customer.csv
+Customer,TerritoryID,3,INTEGER REFERENCES SalesTerritory(TerritoryID),raw/Customer.csv
+SalesPerson,BusinessEntityID,0,INTEGER PRIMARY KEY,raw/SalesPerson.csv
+SalesPerson,TerritoryID,1,INTEGER REFERENCES SalesTerritory(TerritoryID),raw/SalesPerson.csv
+SalesOrderHeader,SalesOrderID,0,INTEGER PRIMARY KEY,raw/SalesOrderHeader.csv
+SalesOrderHeader,OrderDate,2,TEXT NOT NULL,raw/SalesOrderHeader.csv
+SalesOrderHeader,Status,5,INTEGER,raw/SalesOrderHeader.csv
+SalesOrderHeader,OnlineOrderFlag,6,INTEGER,raw/SalesOrderHeader.csv
+SalesOrderHeader,CustomerID,10,INTEGER REFERENCES Customer(CustomerID),raw/SalesOrderHeader.csv
+SalesOrderHeader,SalesPersonID,11,INTEGER REFERENCES SalesPerson(BusinessEntityID),raw/SalesOrderHeader.csv
+SalesOrderHeader,TerritoryID,12,INTEGER REFERENCES SalesTerritory(TerritoryID),raw/SalesOrderHeader.csv
+SalesOrderHeader,SubTotal,19,REAL,raw/SalesOrderHeader.csv
+SalesOrderHeader,TaxAmt,20,REAL,raw/SalesOrderHeader.csv
+SalesOrderHeader,Freight,21,REAL,raw/SalesOrderHeader.csv
+SalesOrderHeader,TotalDue,22,REAL,raw/SalesOrderHeader.csv
+SalesOrderDetail,SalesOrderID,0,INTEGER REFERENCES SalesOrderHeader(SalesOrderID),raw/SalesOrderDetail.csv
+SalesOrderDetail,SalesOrderDetailID,1,INTEGER PRIMARY KEY,raw/SalesOrderDetail.csv
+SalesOrderDetail,OrderQty,3,INTEGER,raw/SalesOrderDetail.csv
+SalesOrderDetail,ProductID,4,INTEGER REFERENCES Product(ProductID),raw/SalesOrderDetail.csv
+SalesOrderDetail,UnitPrice,6,REAL,raw/SalesOrderDetail.csv
+SalesOrderDetail,UnitPriceDiscount,7,REAL,raw/SalesOrderDetail.csv
+SalesOrderDetail,LineTotal,8,REAL,raw/SalesOrderDetail.csv
+ProductCostHistory,ProductID,0,INTEGER REFERENCES Product(ProductID),raw/ProductCostHistory.csv
+ProductCostHistory,StartDate,1,TEXT NOT NULL,raw/ProductCostHistory.csv
+ProductCostHistory,EndDate,2,TEXT,raw/ProductCostHistory.csv
+ProductCostHistory,StandardCost,3,REAL,raw/ProductCostHistory.csv

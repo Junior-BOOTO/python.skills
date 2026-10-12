@@ -1,0 +1,66 @@
+{
+  "repository": "microsoft/sql-server-samples",
+  "commit": "896f3925c077358b5c5b7ccdbcd70aaaf8bdf3ca",
+  "files": [
+    {
+      "name": "Customer.csv",
+      "sha": "86647686ac7924d04d1c7a2e2e379be68caa9c33",
+      "size": 1717324,
+      "url": "https://raw.githubusercontent.com/microsoft/sql-server-samples/896f3925c077358b5c5b7ccdbcd70aaaf8bdf3ca/samples/databases/adventure-works/oltp-install-script/Customer.csv"
+    },
+    {
+      "name": "Product.csv",
+      "sha": "017cfccb850b98ed114bd3f78f48ad36f9a3f697",
+      "size": 88536,
+      "url": "https://raw.githubusercontent.com/microsoft/sql-server-samples/896f3925c077358b5c5b7ccdbcd70aaaf8bdf3ca/samples/databases/adventure-works/oltp-install-script/Product.csv"
+    },
+    {
+      "name": "ProductCategory.csv",
+      "sha": "189ad0c423c60872cc9e36717783b2db9fde71e4",
+      "size": 290,
+      "url": "https://raw.githubusercontent.com/microsoft/sql-server-samples/896f3925c077358b5c5b7ccdbcd70aaaf8bdf3ca/samples/databases/adventure-works/oltp-install-script/ProductCategory.csv"
+    },
+    {
+      "name": "ProductCostHistory.csv",
+      "sha": "47628da6c888c5c4a175ccab6f3e38738dc4ea3c",
+      "size": 28978,
+      "url": "https://raw.githubusercontent.com/microsoft/sql-server-samples/896f3925c077358b5c5b7ccdbcd70aaaf8bdf3ca/samples/databases/adventure-works/oltp-install-script/ProductCostHistory.csv"
+    },
+    {
+      "name": "ProductSubcategory.csv",
+      "sha": "523c4e90e0b5009163d93d8d7e1f871269c842e7",
+      "size": 2799,
+      "url": "https://raw.githubusercontent.com/microsoft/sql-server-samples/896f3925c077358b5c5b7ccdbcd70aaaf8bdf3ca/samples/databases/adventure-works/oltp-install-script/ProductSubcategory.csv"
+    },
+    {
+      "name": "SalesOrderDetail.csv",
+      "sha": "4a67c5d68652b231227dfcb39247e42ae15cad07",
+      "size": 13727911,
+      "url": "https://raw.githubusercontent.com/microsoft/sql-server-samples/896f3925c077358b5c5b7ccdbcd70aaaf8bdf3ca/samples/databases/adventure-works/oltp-install-script/SalesOrderDetail.csv"
+    },
+    {
+      "name": "SalesOrderHeader.csv",
+      "sha": "fff8408494acb213ec98842dceed56ff4363e669",
+      "size": 7899987,
+      "url": "https://raw.githubusercontent.com/microsoft/sql-server-samples/896f3925c077358b5c5b7ccdbcd70aaaf8bdf3ca/samples/databases/adventure-works/oltp-install-script/SalesOrderHeader.csv"
+    },
+    {
+      "name": "SalesPerson.csv",
+      "sha": "fa8663bc4448c86afd679801c38f24c510e9a0b9",
+      "size": 1975,
+      "url": "https://raw.githubusercontent.com/microsoft/sql-server-samples/896f3925c077358b5c5b7ccdbcd70aaaf8bdf3ca/samples/databases/adventure-works/oltp-install-script/SalesPerson.csv"
+    },
+    {
+      "name": "SalesTerritory.csv",
+      "sha": "0fe5565ca77c36ba4d00ab30afebaef14e54271c",
+      "size": 1250,
+      "url": "https://raw.githubusercontent.com/microsoft/sql-server-samples/896f3925c077358b5c5b7ccdbcd70aaaf8bdf3ca/samples/databases/adventure-works/oltp-install-script/SalesTerritory.csv"
+    },
+    {
+      "name": "instawdb.sql",
+      "sha": "86d6e5f8b93641743bdd80a8a5e4895c71d86cef",
+      "size": 329368,
+      "url": "https://raw.githubusercontent.com/microsoft/sql-server-samples/896f3925c077358b5c5b7ccdbcd70aaaf8bdf3ca/samples/databases/adventure-works/oltp-install-script/instawdb.sql"
+    }
+  ]
+}

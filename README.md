@@ -9,6 +9,7 @@ Je développe mes compétences en Python et en analyse de données. Ce dépôt d
 
 | Projet | Contenu | Limites |
 | --- | --- | --- |
+| [AdventureWorks — SQL avancé](adventureworks-sql/README.md) | 14 exercices calculés, 3 bonus, vues, segmentation et fonctions de fenêtre. | Adaptation SQLite ; retours non calculables et marge standard estimée documentés. |
 | [Global Superstore — Tableau de bord](global-superstore-dashboard/README.md) | Filtres interactifs, KPI commerciaux, préparation Python et exports BI. | Données fictives historiques 2011–2014 ; version web, sans flux temps réel. |
 | [Wine Quality — ACP](wine-quality-acp/README.md) | Analyse de 6 497 vins, ACP sur 11 variables, graphiques et parcours Python coordonné. | ACP descriptive ; 50,2 % de variance en 2D, sans prédiction ni données clients. |
 | [Chinook — SQL et Python](chinook-sql/README.md) | 26 exercices SQL, résultats CSV, rapport et script Python reproductible. | Base de démonstration ; adaptation documentée des années des exercices. |

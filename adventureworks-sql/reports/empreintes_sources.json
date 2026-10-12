@@ -1,0 +1,52 @@
+[
+  {
+    "file": "Customer.csv",
+    "sha256": "4704aa5b46aed326599014524c821aca50e938587e6a1133c0f6d9aae5c5efc6",
+    "size": 1717324
+  },
+  {
+    "file": "Product.csv",
+    "sha256": "df0379a7cba8b11b97ea5d104cf1313ef9f683137b6426f2fac6bb8c74c2a2ea",
+    "size": 88536
+  },
+  {
+    "file": "ProductCategory.csv",
+    "sha256": "d86dde135e023960633ed1d6a2fb72f56b74aa2f7d07af983b6bff5e33dfceb2",
+    "size": 290
+  },
+  {
+    "file": "ProductCostHistory.csv",
+    "sha256": "afed7eb09583840258462cfbf003c4705cc4dc7a565dec50919fc1aa68f8160f",
+    "size": 28978
+  },
+  {
+    "file": "ProductSubcategory.csv",
+    "sha256": "a90dce80f310044b99a920790cbf60b83982079af421a5935fda7bc7ab69bc75",
+    "size": 2799
+  },
+  {
+    "file": "SalesOrderDetail.csv",
+    "sha256": "220129977aa63e34fa4a1d66c2604bd2184373151efb09c98b343371ba77ab8a",
+    "size": 13727911
+  },
+  {
+    "file": "SalesOrderHeader.csv",
+    "sha256": "cf637c7d58006ebbc13daf0b8ed6cf7f738165d298ae0b5479a59237429c1882",
+    "size": 7899987
+  },
+  {
+    "file": "SalesPerson.csv",
+    "sha256": "92ed21c0e22bf0060a746d53c1f8f0ed68a1ece4b0d5b9c60dbc233d52499206",
+    "size": 1975
+  },
+  {
+    "file": "SalesTerritory.csv",
+    "sha256": "cb087c101765605e848635f6127123b1a0814397635ce5faebe52f516ccfc861",
+    "size": 1250
+  },
+  {
+    "file": "instawdb.sql",
+    "sha256": "d979f036750f9c7b4fb7be3d58cdbb596a74f864a6325998501b3a96c6ad53f9",
+    "size": 329368
+  }
+]

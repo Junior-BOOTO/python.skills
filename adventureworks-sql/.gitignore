@@ -1,0 +1,3 @@
+raw/
+collected/*.sqlite
+__pycache__/

@@ -1,0 +1,24 @@
+{
+  "tables": {
+    "ProductCategory": 4,
+    "ProductSubcategory": 37,
+    "Product": 504,
+    "SalesTerritory": 10,
+    "Customer": 19820,
+    "SalesPerson": 17,
+    "SalesOrderHeader": 31465,
+    "SalesOrderDetail": 121317,
+    "ProductCostHistory": 395
+  },
+  "date_min": "2022-05-30",
+  "date_max": "2025-06-29",
+  "line_revenue": 109846381.399888,
+  "header_subtotal": 109846381.4039,
+  "max_order_rounding_difference": 5.0000002374872565e-05,
+  "max_line_formula_error": "0",
+  "cost_missing_lines": 64,
+  "join_rows": 121317,
+  "integrity": "ok",
+  "foreign_key_errors": 0,
+  "sqlite_version": "3.53.1"
+}

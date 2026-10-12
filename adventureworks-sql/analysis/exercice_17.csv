@@ -1,0 +1,31 @@
+Territoire,ProductID,Produit,Revenu,Rang
+Australia,749,"Road-150 Red, 62",397187.97,1
+Australia,783,"Mountain-200 Black, 42",394869.42,2
+Australia,779,"Mountain-200 Silver, 38",393702.3,3
+Canada,782,"Mountain-200 Black, 38",735839.95,1
+Canada,783,"Mountain-200 Black, 42",642039.84,2
+Canada,779,"Mountain-200 Silver, 38",523208.52,3
+Central,782,"Mountain-200 Black, 38",249334.27,1
+Central,783,"Mountain-200 Black, 42",244959.62,2
+Central,780,"Mountain-200 Silver, 42",232825.68,3
+France,782,"Mountain-200 Black, 38",380029.62,1
+France,783,"Mountain-200 Black, 42",293010.16,2
+France,780,"Mountain-200 Silver, 42",261595.44,3
+Germany,957,"Touring-1000 Yellow, 60",197812.01,1
+Germany,779,"Mountain-200 Silver, 38",190868.89,2
+Germany,969,"Touring-1000 Blue, 60",188013.48,3
+Northeast,793,"Road-250 Black, 44",263343.39,1
+Northeast,783,"Mountain-200 Black, 42",219499.4,2
+Northeast,780,"Mountain-200 Silver, 42",214565.93,3
+Northwest,782,"Mountain-200 Black, 38",779305.85,1
+Northwest,783,"Mountain-200 Black, 42",678674.83,2
+Northwest,784,"Mountain-200 Black, 46",656404.38,3
+Southeast,775,"Mountain-100 Black, 38",304128.45,1
+Southeast,782,"Mountain-200 Black, 38",300059.05,2
+Southeast,777,"Mountain-100 Black, 44",251057.07,3
+Southwest,782,"Mountain-200 Black, 38",869681.54,1
+Southwest,783,"Mountain-200 Black, 42",835830.23,2
+Southwest,779,"Mountain-200 Silver, 38",782814.34,3
+United Kingdom,783,"Mountain-200 Black, 42",390017.16,1
+United Kingdom,782,"Mountain-200 Black, 38",376256.23,2
+United Kingdom,779,"Mountain-200 Silver, 38",318651.26,3
