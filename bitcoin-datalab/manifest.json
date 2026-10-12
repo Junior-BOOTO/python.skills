@@ -1,0 +1,17 @@
+{
+  "source": "Bitstamp / CryptoDataDownload BTC-USD CSV fourni",
+  "sha256": "867e534a5acd7db11d14ab548d3cb14f4ac2ac8f4adfb5a6bd534bfded8083ad",
+  "target": "cl\u00f4ture t+1",
+  "horizon": "1 jour",
+  "status": {
+    "collection": "completed",
+    "analysis": "completed",
+    "model": "completed"
+  },
+  "results": "reports/results.json",
+  "source_url": "https://www.cryptodatadownload.com/cdd/Bitstamp_BTCUSD_d.csv",
+  "source_raw_sha256": "e47c35e9685883b3f025bb8507216bcb8ccb81fbf29cf50e407be30aca4c1c02",
+  "excluded": "22 mai absent ; donn\u00e9es \u00e0 partir du 23 mai exclues",
+  "test_consulted": true,
+  "conclusion": "Ridge moins performant que persistence au test"
+}

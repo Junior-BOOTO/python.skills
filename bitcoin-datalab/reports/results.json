@@ -1,0 +1,36 @@
+{
+  "rows": 1967,
+  "start": "2021-01-01 00:00:00+00:00",
+  "end": "2026-05-21 00:00:00+00:00",
+  "excluded_incomplete": 0,
+  "daily_return_std": 0.03051125436077583,
+  "max_drawdown": -0.7666336091416391,
+  "validation_mae_usd": {
+    "persistence": 1474.5025906735757,
+    "ridge": 1466.7496699793355,
+    "forest": 1484.4757688001118
+  },
+  "selected_on_validation": "ridge",
+  "test_metrics": [
+    {
+      "model": "persistence",
+      "test_mae_usd": 1425.7010309278353,
+      "test_rmse_usd": 1961.9034102063697
+    },
+    {
+      "model": "ridge",
+      "test_mae_usd": 1445.0965288464195,
+      "test_rmse_usd": 1975.1208675429095
+    }
+  ],
+  "features": [
+    "r1",
+    "r3",
+    "r7",
+    "vol7",
+    "vol30",
+    "range",
+    "volume_change"
+  ],
+  "protocol": "60/20/20 chronologique, une observation de s\u00e9paration, cible rendement t+1, cours reconstruit ; pr\u00e9vision apr\u00e8s cl\u00f4ture UTC"
+}
