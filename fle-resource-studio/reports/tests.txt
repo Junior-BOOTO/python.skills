@@ -1,0 +1,25 @@
+test_all_forty_five_variants (test_studio.StudioTests.test_all_forty_five_variants) ... ok
+test_catalog_five_themes_fifty_entries (test_studio.StudioTests.test_catalog_five_themes_fifty_entries) ... ok
+test_civic_criteria_align_right_and_duties (test_studio.StudioTests.test_civic_criteria_align_right_and_duties) ... ok
+test_duplicate_ids_and_bad_video_url_rejected (test_studio.StudioTests.test_duplicate_ids_and_bad_video_url_rejected) ... ok
+test_export_no_overwrite_and_text_audio_only (test_studio.StudioTests.test_export_no_overwrite_and_text_audio_only) ... ok
+test_french_only_activity_not_mislabeled_comprehension (test_studio.StudioTests.test_french_only_activity_not_mislabeled_comprehension) ... ok
+test_full_review_can_approve (test_studio.StudioTests.test_full_review_can_approve) ... ok
+test_html_and_script_escaping (test_studio.StudioTests.test_html_and_script_escaping) ... ok
+test_incomplete_review_not_approved (test_studio.StudioTests.test_incomplete_review_not_approved) ... ok
+test_kit_detached_from_catalog (test_studio.StudioTests.test_kit_detached_from_catalog) ... ok
+test_local_api_validation_and_no_writes (test_studio.StudioTests.test_local_api_validation_and_no_writes) ... ok
+test_main_activity_and_resources (test_studio.StudioTests.test_main_activity_and_resources) ... ok
+test_matching_answers_are_correct (test_studio.StudioTests.test_matching_answers_are_correct) ... ok
+test_missing_youtube_key_and_invalid_id (test_studio.StudioTests.test_missing_youtube_key_and_invalid_id) ... ok
+test_objective_common_across_supports (test_studio.StudioTests.test_objective_common_across_supports) ... ok
+test_pending_video_never_approved (test_studio.StudioTests.test_pending_video_never_approved) ... ok
+test_three_steps_sum_to_45 (test_studio.StudioTests.test_three_steps_sum_to_45) ... ok
+test_unknown_theme_level_and_options_rejected (test_studio.StudioTests.test_unknown_theme_level_and_options_rejected) ... ok
+test_youtube_error_does_not_leak_key (test_studio.StudioTests.test_youtube_error_does_not_leak_key) ... ok
+test_youtube_metadata_never_auto_approves (test_studio.StudioTests.test_youtube_metadata_never_auto_approves) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.039s
+
+OK

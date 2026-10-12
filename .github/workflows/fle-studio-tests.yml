@@ -1,0 +1,24 @@
+name: FLE Resource Studio tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: fle-resource-studio
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Resource and local API tests
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+      - name: Rebuild studio
+        env:
+          PYTHONPATH: src
+        run: python -m fle_studio studio --output reports/studio-ci.html

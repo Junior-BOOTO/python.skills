@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "theme": "routine",
+  "title": "La routine quotidienne",
+  "level": "A1",
+  "suggested_grade": 4,
+  "duration_minutes": 45,
+  "objective": "Présenter trois actions de sa journée avec « Je… ».",
+  "support": "model",
+  "aid_language": "es",
+  "differentiation": "Avec modèle : banque de mots et débuts de phrases. Choisir trois éléments et compléter les phrases, puis les dire à un partenaire.",
+  "lexicon": [
+    {
+      "id": "routine-1",
+      "fr": "je me réveille",
+      "es": "me despierto",
+      "en": "I wake up",
+      "cue": "☀️"
+    },
+    {
+      "id": "routine-2",
+      "fr": "je me lève",
+      "es": "me levanto",
+      "en": "I get up",
+      "cue": "🛏️"
+    },
+    {
+      "id": "routine-3",
+      "fr": "je me lave",
+      "es": "me lavo",
+      "en": "I wash myself",
+      "cue": "🚿"
+    },
+    {
+      "id": "routine-4",
+      "fr": "je m’habille",
+      "es": "me visto",
+      "en": "I get dressed",
+      "cue": "👕"
+    },
+    {
+      "id": "routine-5",
+      "fr": "je prends le petit-déjeuner",
+      "es": "desayuno",
+      "en": "I have breakfast",
+      "cue": "🥣"
+    },
+    {
+      "id": "routine-6",
+      "fr": "je vais à l’école",
+      "es": "voy a la escuela",
+      "en": "I go to school",
+      "cue": "🎒"
+    },
+    {
+      "id": "routine-7",
+      "fr": "je déjeune",
+      "es": "almuerzo",
+      "en": "I have lunch",
+      "cue": "🍽️"
+    },
+    {
+      "id": "routine-8",
+      "fr": "je fais mes devoirs",
+      "es": "hago mis tareas",
+      "en": "I do my homework",
+      "cue": "✏️"
+    },
+    {
+      "id": "routine-9",
+      "fr": "je joue",
+      "es": "juego",
+      "en": "I play",
+      "cue": "⚽"
+    },
+    {
+      "id": "routine-10",
+      "fr": "je me couche",
+      "es": "me acuesto",
+      "en": "I go to bed",
+      "cue": "🌙"
+    }
+  ],
+  "models": [
+    "Je me lève.",
+    "Je vais à l’école.",
+    "Je me couche."
+  ],
+  "grammar": "Je + verbe au présent. Repérer je me / je m’ dans les modèles, sans tableau de conjugaison complet.",
+  "teacher": {
+    "stages": [
+      {
+        "name": "Ouverture",
+        "minutes": 8,
+        "grouping": "classe entière",
+        "instructions": "Afficher trois expressions ou objets/dessins du thème. Faire nommer ce qui est déjà connu, autoriser une réponse initiale en espagnol, puis reformuler en français. Annoncer explicitement le lien avec le thème et la tâche finale."
+      },
+      {
+        "name": "Activité principale",
+        "minutes": 29,
+        "grouping": "binômes, puis production individuelle",
+        "instructions": "Les élèves vont écouter les trois modèles lus par l’enseignant (8 min), associer le lexique à des objets ou dessins (7 min), préparer trois phrases avec leur aide choisie (7 min), puis les présenter à leur partenaire (7 min). Pour les droits et devoirs : choisir un droit et deux devoirs. Le partenaire écoute et demande une répétition si nécessaire."
+      },
+      {
+        "name": "Clôture",
+        "minutes": 8,
+        "grouping": "production individuelle puis classe entière",
+        "instructions": "Chaque élève associe trois expressions à leur sens, puis dit ses trois phrases. L’enseignant utilise les trois critères et note atteint / en cours / non observé, ainsi que l’aide utilisée. Conserver la production écrite ou une trace de l’observation dans le portfolio ; aucun enregistrement audio d’élève nécessaire."
+      }
+    ],
+    "resources": "Glossaire FR/ES/EN : aide de sens graduée. Fiche apprenant : préparer les phrases. Dictionnaire : vérifier un mot choisi, avec accompagnement. Portfolio : conserver la production et la grille. Objets ou dessins explicites fournis par l’enseignant : relier mot et référent. Aucun manuel ni numéro de page inventé.",
+    "review_status": "teacher_review_required",
+    "criteria": [
+      {
+        "id": "recognize",
+        "text": "Je peux reconnaître au moins 3 expressions du thème.",
+        "evidence": "Associer oralement trois expressions à leur sens ou à un dessin explicite.",
+        "threshold": "3 correspondances correctes sur 3"
+      },
+      {
+        "id": "produce",
+        "text": "Je peux dire 3 phrases simples sur le thème.",
+        "evidence": "Présentation individuelle au partenaire, puis observation par l’enseignant.",
+        "threshold": "3 phrases compréhensibles."
+      },
+      {
+        "id": "structure",
+        "text": "Je peux utiliser le modèle de phrase du thème.",
+        "evidence": "Observation de la structure travaillée, avec aides selon le parcours.",
+        "threshold": "Structure correcte dans au moins 2 phrases sur 3."
+      }
+    ]
+  },
+  "learner": {
+    "exercise": {
+      "prompt": "Retrouve le sens de ces trois expressions. Écris la bonne lettre.",
+      "items": [
+        {
+          "id": "routine-1",
+          "fr": "je me réveille"
+        },
+        {
+          "id": "routine-2",
+          "fr": "je me lève"
+        },
+        {
+          "id": "routine-3",
+          "fr": "je me lave"
+        }
+      ],
+      "choices": [
+        {
+          "letter": "A",
+          "text": "me lavo"
+        },
+        {
+          "letter": "B",
+          "text": "me levanto"
+        },
+        {
+          "letter": "C",
+          "text": "me despierto"
+        }
+      ],
+      "answers": {
+        "1": "C",
+        "2": "B",
+        "3": "A"
+      },
+      "note": "Glossaire original, aide de sens ; pas de traduction automatique en direct."
+    },
+    "task": "Choisis trois expressions et présente trois phrases.",
+    "writing_lines": [
+      "",
+      "",
+      ""
+    ],
+    "criteria": [
+      "Je peux reconnaître au moins 3 expressions du thème.",
+      "Je peux dire 3 phrases simples sur le thème.",
+      "Je peux utiliser le modèle de phrase du thème."
+    ]
+  },
+  "approved_videos": [],
+  "video_candidates": [
+    {
+      "id": "yW5PvraL-wA",
+      "title": "Conversation sur la routine — candidate à examiner",
+      "channel": "Français avec Tangerine Academy",
+      "url": "https://www.youtube.com/watch?v=yW5PvraL-wA",
+      "discovery_source": "Public web search, 2026-10-12",
+      "review_status": "pending",
+      "reviewer": null,
+      "checks": {
+        "age_appropriate": null,
+        "language_accessible": null,
+        "matches_objective": null,
+        "usable_segment": null
+      },
+      "rights": "Link only; no video, captions or transcript redistributed",
+      "note": "Métadonnées repérées ; vidéo non visionnée, adéquation au primaire non établie."
+    }
+  ],
+  "audio": {
+    "script": "Je me lève.\nJe vais à l’école.\nJe me couche.",
+    "recording_available": false,
+    "mode": "browser_voice_optional",
+    "note": "Lecture vocale selon les voix du navigateur. À contrôler avant la classe. Aucune voix ou bande-son préenregistrée incluse."
+  },
+  "provenance": {
+    "author": "Junior BOOTO Waba",
+    "translation_mode": "explicit_original_glossary_not_live_translation",
+    "sources": [
+      {
+        "title": "Python Projects With API",
+        "author": "Minal Pandey",
+        "use": "Concepts catalogue/API, YouTube, traduction et synthèse vocale ; aucun code ou PDF redistribué"
+      },
+      {
+        "title": "YouTube Data API videos.list",
+        "url": "https://developers.google.com/youtube/v3/docs/videos/list",
+        "use": "Référence du connecteur optionnel de métadonnées"
+      }
+    ],
+    "classroom_validation": "not_claimed"
+  }
+}

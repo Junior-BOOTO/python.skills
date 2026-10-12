@@ -1,0 +1,17 @@
+{
+  "tests_passed": 20,
+  "skipped": 0,
+  "exit_code": 0,
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "checked_at": "2026-10-12T14:33:01.217465+00:00",
+  "themes": 5,
+  "glossary_entries": 50,
+  "supported_variants": 45,
+  "exported_default_kits": 5,
+  "javascript_syntax": "passed",
+  "browser_visual_qa": "not_performed",
+  "browser_speech": "not_performed",
+  "youtube_authenticated_api": "not_called",
+  "classroom_validation": "not_claimed"
+}

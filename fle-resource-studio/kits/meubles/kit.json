@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "theme": "meubles",
+  "title": "Les meubles de la maison",
+  "level": "A1",
+  "suggested_grade": 2,
+  "duration_minutes": 45,
+  "objective": "Nommer trois meubles avec « C’est un/une… ».",
+  "support": "model",
+  "aid_language": "es",
+  "differentiation": "Avec modèle : banque de mots et débuts de phrases. Choisir trois éléments et compléter les phrases, puis les dire à un partenaire.",
+  "lexicon": [
+    {
+      "id": "meubles-1",
+      "fr": "un lit",
+      "es": "una cama",
+      "en": "a bed",
+      "cue": "🛏️"
+    },
+    {
+      "id": "meubles-2",
+      "fr": "une chaise",
+      "es": "una silla",
+      "en": "a chair",
+      "cue": "🪑"
+    },
+    {
+      "id": "meubles-3",
+      "fr": "une table",
+      "es": "una mesa",
+      "en": "a table",
+      "cue": "▤"
+    },
+    {
+      "id": "meubles-4",
+      "fr": "un canapé",
+      "es": "un sofá",
+      "en": "a sofa",
+      "cue": "🛋️"
+    },
+    {
+      "id": "meubles-5",
+      "fr": "une armoire",
+      "es": "un armario",
+      "en": "a wardrobe",
+      "cue": "▥"
+    },
+    {
+      "id": "meubles-6",
+      "fr": "une étagère",
+      "es": "una estantería",
+      "en": "a shelf",
+      "cue": "▦"
+    },
+    {
+      "id": "meubles-7",
+      "fr": "un fauteuil",
+      "es": "un sillón",
+      "en": "an armchair",
+      "cue": "🛋️"
+    },
+    {
+      "id": "meubles-8",
+      "fr": "un bureau",
+      "es": "un escritorio",
+      "en": "a desk",
+      "cue": "✍️"
+    },
+    {
+      "id": "meubles-9",
+      "fr": "une commode",
+      "es": "una cómoda",
+      "en": "a chest of drawers",
+      "cue": "▧"
+    },
+    {
+      "id": "meubles-10",
+      "fr": "une bibliothèque",
+      "es": "una biblioteca (mueble)",
+      "en": "a bookcase",
+      "cue": "📚"
+    }
+  ],
+  "models": [
+    "C’est un lit.",
+    "C’est une chaise.",
+    "C’est une table."
+  ],
+  "grammar": "C’est + un/une + nom. L’article fait partie du mot appris.",
+  "teacher": {
+    "stages": [
+      {
+        "name": "Ouverture",
+        "minutes": 8,
+        "grouping": "classe entière",
+        "instructions": "Afficher trois expressions ou objets/dessins du thème. Faire nommer ce qui est déjà connu, autoriser une réponse initiale en espagnol, puis reformuler en français. Annoncer explicitement le lien avec le thème et la tâche finale."
+      },
+      {
+        "name": "Activité principale",
+        "minutes": 29,
+        "grouping": "binômes, puis production individuelle",
+        "instructions": "Les élèves vont écouter les trois modèles lus par l’enseignant (8 min), associer le lexique à des objets ou dessins (7 min), préparer trois phrases avec leur aide choisie (7 min), puis les présenter à leur partenaire (7 min). Pour les droits et devoirs : choisir un droit et deux devoirs. Le partenaire écoute et demande une répétition si nécessaire."
+      },
+      {
+        "name": "Clôture",
+        "minutes": 8,
+        "grouping": "production individuelle puis classe entière",
+        "instructions": "Chaque élève associe trois expressions à leur sens, puis dit ses trois phrases. L’enseignant utilise les trois critères et note atteint / en cours / non observé, ainsi que l’aide utilisée. Conserver la production écrite ou une trace de l’observation dans le portfolio ; aucun enregistrement audio d’élève nécessaire."
+      }
+    ],
+    "resources": "Glossaire FR/ES/EN : aide de sens graduée. Fiche apprenant : préparer les phrases. Dictionnaire : vérifier un mot choisi, avec accompagnement. Portfolio : conserver la production et la grille. Objets ou dessins explicites fournis par l’enseignant : relier mot et référent. Aucun manuel ni numéro de page inventé.",
+    "review_status": "teacher_review_required",
+    "criteria": [
+      {
+        "id": "recognize",
+        "text": "Je peux reconnaître au moins 3 expressions du thème.",
+        "evidence": "Associer oralement trois expressions à leur sens ou à un dessin explicite.",
+        "threshold": "3 correspondances correctes sur 3"
+      },
+      {
+        "id": "produce",
+        "text": "Je peux dire 3 phrases simples sur le thème.",
+        "evidence": "Présentation individuelle au partenaire, puis observation par l’enseignant.",
+        "threshold": "3 phrases compréhensibles."
+      },
+      {
+        "id": "structure",
+        "text": "Je peux utiliser le modèle de phrase du thème.",
+        "evidence": "Observation de la structure travaillée, avec aides selon le parcours.",
+        "threshold": "Structure correcte dans au moins 2 phrases sur 3."
+      }
+    ]
+  },
+  "learner": {
+    "exercise": {
+      "prompt": "Retrouve le sens de ces trois expressions. Écris la bonne lettre.",
+      "items": [
+        {
+          "id": "meubles-1",
+          "fr": "un lit"
+        },
+        {
+          "id": "meubles-2",
+          "fr": "une chaise"
+        },
+        {
+          "id": "meubles-3",
+          "fr": "une table"
+        }
+      ],
+      "choices": [
+        {
+          "letter": "A",
+          "text": "una mesa"
+        },
+        {
+          "letter": "B",
+          "text": "una silla"
+        },
+        {
+          "letter": "C",
+          "text": "una cama"
+        }
+      ],
+      "answers": {
+        "1": "C",
+        "2": "B",
+        "3": "A"
+      },
+      "note": "Glossaire original, aide de sens ; pas de traduction automatique en direct."
+    },
+    "task": "Choisis trois expressions et présente trois phrases.",
+    "writing_lines": [
+      "",
+      "",
+      ""
+    ],
+    "criteria": [
+      "Je peux reconnaître au moins 3 expressions du thème.",
+      "Je peux dire 3 phrases simples sur le thème.",
+      "Je peux utiliser le modèle de phrase du thème."
+    ]
+  },
+  "approved_videos": [],
+  "video_candidates": [],
+  "audio": {
+    "script": "C’est un lit.\nC’est une chaise.\nC’est une table.",
+    "recording_available": false,
+    "mode": "browser_voice_optional",
+    "note": "Lecture vocale selon les voix du navigateur. À contrôler avant la classe. Aucune voix ou bande-son préenregistrée incluse."
+  },
+  "provenance": {
+    "author": "Junior BOOTO Waba",
+    "translation_mode": "explicit_original_glossary_not_live_translation",
+    "sources": [
+      {
+        "title": "Python Projects With API",
+        "author": "Minal Pandey",
+        "use": "Concepts catalogue/API, YouTube, traduction et synthèse vocale ; aucun code ou PDF redistribué"
+      },
+      {
+        "title": "YouTube Data API videos.list",
+        "url": "https://developers.google.com/youtube/v3/docs/videos/list",
+        "use": "Référence du connecteur optionnel de métadonnées"
+      }
+    ],
+    "classroom_validation": "not_claimed"
+  }
+}

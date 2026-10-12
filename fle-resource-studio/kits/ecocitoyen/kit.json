@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "theme": "ecocitoyen",
+  "title": "Droits, devoirs et écoresponsabilité",
+  "level": "A1",
+  "suggested_grade": 5,
+  "duration_minutes": 45,
+  "objective": "Dire un droit et deux devoirs avec « J’ai le droit de… / Je dois… ».",
+  "support": "model",
+  "aid_language": "es",
+  "differentiation": "Avec modèle : banque de mots et débuts de phrases. Choisir trois éléments et compléter les phrases, puis les dire à un partenaire.",
+  "lexicon": [
+    {
+      "id": "ecocitoyen-1",
+      "fr": "jouer",
+      "es": "jugar",
+      "en": "to play",
+      "cue": "⚽"
+    },
+    {
+      "id": "ecocitoyen-2",
+      "fr": "apprendre",
+      "es": "aprender",
+      "en": "to learn",
+      "cue": "📚"
+    },
+    {
+      "id": "ecocitoyen-3",
+      "fr": "être respecté",
+      "es": "ser respetado",
+      "en": "to be respected",
+      "cue": "🤝"
+    },
+    {
+      "id": "ecocitoyen-4",
+      "fr": "respecter les autres",
+      "es": "respetar a los demás",
+      "en": "to respect others",
+      "cue": "💬"
+    },
+    {
+      "id": "ecocitoyen-5",
+      "fr": "respecter la nature",
+      "es": "respetar la naturaleza",
+      "en": "to respect nature",
+      "cue": "🌳"
+    },
+    {
+      "id": "ecocitoyen-6",
+      "fr": "trier les déchets",
+      "es": "separar los residuos",
+      "en": "to sort waste",
+      "cue": "♻️"
+    },
+    {
+      "id": "ecocitoyen-7",
+      "fr": "économiser l’eau",
+      "es": "ahorrar agua",
+      "en": "to save water",
+      "cue": "💧"
+    },
+    {
+      "id": "ecocitoyen-8",
+      "fr": "éteindre la lumière",
+      "es": "apagar la luz",
+      "en": "to turn off the light",
+      "cue": "💡"
+    },
+    {
+      "id": "ecocitoyen-9",
+      "fr": "protéger les plantes",
+      "es": "proteger las plantas",
+      "en": "to protect plants",
+      "cue": "🌱"
+    },
+    {
+      "id": "ecocitoyen-10",
+      "fr": "garder la classe propre",
+      "es": "mantener el salón limpio",
+      "en": "to keep the classroom clean",
+      "cue": "🧹"
+    }
+  ],
+  "models": [
+    "J’ai le droit de jouer.",
+    "Je dois respecter la nature.",
+    "Je dois économiser l’eau."
+  ],
+  "grammar": "Je dois + infinitif ; j’ai le droit de + infinitif. Exemples pédagogiques de vie collective, pas une description exhaustive de la législation colombienne.",
+  "teacher": {
+    "stages": [
+      {
+        "name": "Ouverture",
+        "minutes": 8,
+        "grouping": "classe entière",
+        "instructions": "Afficher trois expressions ou objets/dessins du thème. Faire nommer ce qui est déjà connu, autoriser une réponse initiale en espagnol, puis reformuler en français. Annoncer explicitement le lien avec le thème et la tâche finale."
+      },
+      {
+        "name": "Activité principale",
+        "minutes": 29,
+        "grouping": "binômes, puis production individuelle",
+        "instructions": "Les élèves vont écouter les trois modèles lus par l’enseignant (8 min), associer le lexique à des objets ou dessins (7 min), préparer trois phrases avec leur aide choisie (7 min), puis les présenter à leur partenaire (7 min). Pour les droits et devoirs : choisir un droit et deux devoirs. Le partenaire écoute et demande une répétition si nécessaire."
+      },
+      {
+        "name": "Clôture",
+        "minutes": 8,
+        "grouping": "production individuelle puis classe entière",
+        "instructions": "Chaque élève associe trois expressions à leur sens, puis dit ses trois phrases. L’enseignant utilise les trois critères et note atteint / en cours / non observé, ainsi que l’aide utilisée. Conserver la production écrite ou une trace de l’observation dans le portfolio ; aucun enregistrement audio d’élève nécessaire."
+      }
+    ],
+    "resources": "Glossaire FR/ES/EN : aide de sens graduée. Fiche apprenant : préparer les phrases. Dictionnaire : vérifier un mot choisi, avec accompagnement. Portfolio : conserver la production et la grille. Objets ou dessins explicites fournis par l’enseignant : relier mot et référent. Aucun manuel ni numéro de page inventé.",
+    "review_status": "teacher_review_required",
+    "criteria": [
+      {
+        "id": "recognize",
+        "text": "Je peux reconnaître au moins 3 expressions du thème.",
+        "evidence": "Associer oralement trois expressions à leur sens ou à un dessin explicite.",
+        "threshold": "3 correspondances correctes sur 3"
+      },
+      {
+        "id": "produce",
+        "text": "Je peux dire un droit et deux devoirs en français.",
+        "evidence": "Présentation individuelle au partenaire, puis observation par l’enseignant.",
+        "threshold": "3 phrases compréhensibles : un droit + deux devoirs."
+      },
+      {
+        "id": "structure",
+        "text": "Je peux utiliser « J’ai le droit de… » et « Je dois… ».",
+        "evidence": "Observation de la structure travaillée, avec aides selon le parcours.",
+        "threshold": "Structure correcte dans au moins 2 phrases sur 3."
+      }
+    ]
+  },
+  "learner": {
+    "exercise": {
+      "prompt": "Retrouve le sens de ces trois expressions. Écris la bonne lettre.",
+      "items": [
+        {
+          "id": "ecocitoyen-1",
+          "fr": "jouer"
+        },
+        {
+          "id": "ecocitoyen-2",
+          "fr": "apprendre"
+        },
+        {
+          "id": "ecocitoyen-3",
+          "fr": "être respecté"
+        }
+      ],
+      "choices": [
+        {
+          "letter": "A",
+          "text": "ser respetado"
+        },
+        {
+          "letter": "B",
+          "text": "aprender"
+        },
+        {
+          "letter": "C",
+          "text": "jugar"
+        }
+      ],
+      "answers": {
+        "1": "C",
+        "2": "B",
+        "3": "A"
+      },
+      "note": "Glossaire original, aide de sens ; pas de traduction automatique en direct."
+    },
+    "task": "Prépare un droit et deux devoirs, puis présente-les.",
+    "writing_lines": [
+      "",
+      "",
+      ""
+    ],
+    "criteria": [
+      "Je peux reconnaître au moins 3 expressions du thème.",
+      "Je peux dire un droit et deux devoirs en français.",
+      "Je peux utiliser « J’ai le droit de… » et « Je dois… »."
+    ]
+  },
+  "approved_videos": [],
+  "video_candidates": [],
+  "audio": {
+    "script": "J’ai le droit de jouer.\nJe dois respecter la nature.\nJe dois économiser l’eau.",
+    "recording_available": false,
+    "mode": "browser_voice_optional",
+    "note": "Lecture vocale selon les voix du navigateur. À contrôler avant la classe. Aucune voix ou bande-son préenregistrée incluse."
+  },
+  "provenance": {
+    "author": "Junior BOOTO Waba",
+    "translation_mode": "explicit_original_glossary_not_live_translation",
+    "sources": [
+      {
+        "title": "Python Projects With API",
+        "author": "Minal Pandey",
+        "use": "Concepts catalogue/API, YouTube, traduction et synthèse vocale ; aucun code ou PDF redistribué"
+      },
+      {
+        "title": "YouTube Data API videos.list",
+        "url": "https://developers.google.com/youtube/v3/docs/videos/list",
+        "use": "Référence du connecteur optionnel de métadonnées"
+      }
+    ],
+    "classroom_validation": "not_claimed"
+  }
+}

@@ -1,0 +1,469 @@
+{
+  "schema_version": 1,
+  "author": "Junior BOOTO Waba",
+  "level": "A1",
+  "review_status": "teacher_review_required",
+  "translation_mode": "explicit_original_glossary_not_live_translation",
+  "themes": [
+    {
+      "id": "meubles",
+      "title": "Les meubles de la maison",
+      "suggested_grade": 2,
+      "level": "A1",
+      "objective": "Nommer trois meubles avec « C’est un/une… ».",
+      "lexicon": [
+        {
+          "id": "meubles-1",
+          "fr": "un lit",
+          "es": "una cama",
+          "en": "a bed",
+          "cue": "🛏️"
+        },
+        {
+          "id": "meubles-2",
+          "fr": "une chaise",
+          "es": "una silla",
+          "en": "a chair",
+          "cue": "🪑"
+        },
+        {
+          "id": "meubles-3",
+          "fr": "une table",
+          "es": "una mesa",
+          "en": "a table",
+          "cue": "▤"
+        },
+        {
+          "id": "meubles-4",
+          "fr": "un canapé",
+          "es": "un sofá",
+          "en": "a sofa",
+          "cue": "🛋️"
+        },
+        {
+          "id": "meubles-5",
+          "fr": "une armoire",
+          "es": "un armario",
+          "en": "a wardrobe",
+          "cue": "▥"
+        },
+        {
+          "id": "meubles-6",
+          "fr": "une étagère",
+          "es": "una estantería",
+          "en": "a shelf",
+          "cue": "▦"
+        },
+        {
+          "id": "meubles-7",
+          "fr": "un fauteuil",
+          "es": "un sillón",
+          "en": "an armchair",
+          "cue": "🛋️"
+        },
+        {
+          "id": "meubles-8",
+          "fr": "un bureau",
+          "es": "un escritorio",
+          "en": "a desk",
+          "cue": "✍️"
+        },
+        {
+          "id": "meubles-9",
+          "fr": "une commode",
+          "es": "una cómoda",
+          "en": "a chest of drawers",
+          "cue": "▧"
+        },
+        {
+          "id": "meubles-10",
+          "fr": "une bibliothèque",
+          "es": "una biblioteca (mueble)",
+          "en": "a bookcase",
+          "cue": "📚"
+        }
+      ],
+      "models": [
+        "C’est un lit.",
+        "C’est une chaise.",
+        "C’est une table."
+      ],
+      "grammar": "C’est + un/une + nom. L’article fait partie du mot appris.",
+      "videos": []
+    },
+    {
+      "id": "routine",
+      "title": "La routine quotidienne",
+      "suggested_grade": 4,
+      "level": "A1",
+      "objective": "Présenter trois actions de sa journée avec « Je… ».",
+      "lexicon": [
+        {
+          "id": "routine-1",
+          "fr": "je me réveille",
+          "es": "me despierto",
+          "en": "I wake up",
+          "cue": "☀️"
+        },
+        {
+          "id": "routine-2",
+          "fr": "je me lève",
+          "es": "me levanto",
+          "en": "I get up",
+          "cue": "🛏️"
+        },
+        {
+          "id": "routine-3",
+          "fr": "je me lave",
+          "es": "me lavo",
+          "en": "I wash myself",
+          "cue": "🚿"
+        },
+        {
+          "id": "routine-4",
+          "fr": "je m’habille",
+          "es": "me visto",
+          "en": "I get dressed",
+          "cue": "👕"
+        },
+        {
+          "id": "routine-5",
+          "fr": "je prends le petit-déjeuner",
+          "es": "desayuno",
+          "en": "I have breakfast",
+          "cue": "🥣"
+        },
+        {
+          "id": "routine-6",
+          "fr": "je vais à l’école",
+          "es": "voy a la escuela",
+          "en": "I go to school",
+          "cue": "🎒"
+        },
+        {
+          "id": "routine-7",
+          "fr": "je déjeune",
+          "es": "almuerzo",
+          "en": "I have lunch",
+          "cue": "🍽️"
+        },
+        {
+          "id": "routine-8",
+          "fr": "je fais mes devoirs",
+          "es": "hago mis tareas",
+          "en": "I do my homework",
+          "cue": "✏️"
+        },
+        {
+          "id": "routine-9",
+          "fr": "je joue",
+          "es": "juego",
+          "en": "I play",
+          "cue": "⚽"
+        },
+        {
+          "id": "routine-10",
+          "fr": "je me couche",
+          "es": "me acuesto",
+          "en": "I go to bed",
+          "cue": "🌙"
+        }
+      ],
+      "models": [
+        "Je me lève.",
+        "Je vais à l’école.",
+        "Je me couche."
+      ],
+      "grammar": "Je + verbe au présent. Repérer je me / je m’ dans les modèles, sans tableau de conjugaison complet.",
+      "videos": [
+        {
+          "id": "yW5PvraL-wA",
+          "title": "Conversation sur la routine — candidate à examiner",
+          "channel": "Français avec Tangerine Academy",
+          "url": "https://www.youtube.com/watch?v=yW5PvraL-wA",
+          "discovery_source": "Public web search, 2026-10-12",
+          "review_status": "pending",
+          "reviewer": null,
+          "checks": {
+            "age_appropriate": null,
+            "language_accessible": null,
+            "matches_objective": null,
+            "usable_segment": null
+          },
+          "rights": "Link only; no video, captions or transcript redistributed",
+          "note": "Métadonnées repérées ; vidéo non visionnée, adéquation au primaire non établie."
+        }
+      ]
+    },
+    {
+      "id": "taches",
+      "title": "Les travaux ménagers",
+      "suggested_grade": 3,
+      "level": "A1",
+      "objective": "Dire trois actions pour aider à la maison avec « Je… ».",
+      "lexicon": [
+        {
+          "id": "taches-1",
+          "fr": "je range les livres",
+          "es": "ordeno los libros",
+          "en": "I put away the books",
+          "cue": "📚"
+        },
+        {
+          "id": "taches-2",
+          "fr": "je nettoie la table",
+          "es": "limpio la mesa",
+          "en": "I clean the table",
+          "cue": "▤"
+        },
+        {
+          "id": "taches-3",
+          "fr": "j’arrose les plantes",
+          "es": "riego las plantas",
+          "en": "I water the plants",
+          "cue": "🌱"
+        },
+        {
+          "id": "taches-4",
+          "fr": "je fais le lit",
+          "es": "tiendo la cama",
+          "en": "I make the bed",
+          "cue": "🛏️"
+        },
+        {
+          "id": "taches-5",
+          "fr": "je balaie",
+          "es": "barro",
+          "en": "I sweep",
+          "cue": "🧹"
+        },
+        {
+          "id": "taches-6",
+          "fr": "je lave la vaisselle",
+          "es": "lavo los platos",
+          "en": "I wash the dishes",
+          "cue": "🍽️"
+        },
+        {
+          "id": "taches-7",
+          "fr": "je plie les vêtements",
+          "es": "doblo la ropa",
+          "en": "I fold the clothes",
+          "cue": "👕"
+        },
+        {
+          "id": "taches-8",
+          "fr": "je mets la table",
+          "es": "pongo la mesa",
+          "en": "I set the table",
+          "cue": "🥄"
+        },
+        {
+          "id": "taches-9",
+          "fr": "je range les jouets",
+          "es": "guardo los juguetes",
+          "en": "I put away the toys",
+          "cue": "🧸"
+        },
+        {
+          "id": "taches-10",
+          "fr": "je sors les déchets",
+          "es": "saco la basura",
+          "en": "I take out the rubbish",
+          "cue": "♻️"
+        }
+      ],
+      "models": [
+        "Je range les livres.",
+        "Je fais le lit.",
+        "J’arrose les plantes."
+      ],
+      "grammar": "Je + action. Devant une voyelle : je → j’ dans « j’arrose ». Activités décrites, jamais imposées aux enfants ; supervision adulte pour les produits et outils.",
+      "videos": []
+    },
+    {
+      "id": "paysages",
+      "title": "Les paysages naturels",
+      "suggested_grade": 4,
+      "level": "A1",
+      "objective": "Décrire trois éléments d’un paysage avec « Je vois… ».",
+      "lexicon": [
+        {
+          "id": "paysages-1",
+          "fr": "un arbre",
+          "es": "un árbol",
+          "en": "a tree",
+          "cue": "🌳"
+        },
+        {
+          "id": "paysages-2",
+          "fr": "une fleur",
+          "es": "una flor",
+          "en": "a flower",
+          "cue": "🌼"
+        },
+        {
+          "id": "paysages-3",
+          "fr": "une feuille",
+          "es": "una hoja",
+          "en": "a leaf",
+          "cue": "🍃"
+        },
+        {
+          "id": "paysages-4",
+          "fr": "une montagne",
+          "es": "una montaña",
+          "en": "a mountain",
+          "cue": "⛰️"
+        },
+        {
+          "id": "paysages-5",
+          "fr": "une rivière",
+          "es": "un río",
+          "en": "a river",
+          "cue": "〰️"
+        },
+        {
+          "id": "paysages-6",
+          "fr": "un lac",
+          "es": "un lago",
+          "en": "a lake",
+          "cue": "💧"
+        },
+        {
+          "id": "paysages-7",
+          "fr": "une forêt",
+          "es": "un bosque",
+          "en": "a forest",
+          "cue": "🌲"
+        },
+        {
+          "id": "paysages-8",
+          "fr": "le soleil",
+          "es": "el sol",
+          "en": "the sun",
+          "cue": "☀️"
+        },
+        {
+          "id": "paysages-9",
+          "fr": "un nuage",
+          "es": "una nube",
+          "en": "a cloud",
+          "cue": "☁️"
+        },
+        {
+          "id": "paysages-10",
+          "fr": "la mer",
+          "es": "el mar",
+          "en": "the sea",
+          "cue": "🌊"
+        }
+      ],
+      "models": [
+        "Je vois une montagne.",
+        "Je vois un arbre.",
+        "Je vois une rivière."
+      ],
+      "grammar": "Je vois + groupe nominal. Conserver les articles ; il y a peut être une extension après maîtrise du modèle.",
+      "videos": []
+    },
+    {
+      "id": "ecocitoyen",
+      "title": "Droits, devoirs et écoresponsabilité",
+      "suggested_grade": 5,
+      "level": "A1",
+      "objective": "Dire un droit et deux devoirs avec « J’ai le droit de… / Je dois… ».",
+      "lexicon": [
+        {
+          "id": "ecocitoyen-1",
+          "fr": "jouer",
+          "es": "jugar",
+          "en": "to play",
+          "cue": "⚽"
+        },
+        {
+          "id": "ecocitoyen-2",
+          "fr": "apprendre",
+          "es": "aprender",
+          "en": "to learn",
+          "cue": "📚"
+        },
+        {
+          "id": "ecocitoyen-3",
+          "fr": "être respecté",
+          "es": "ser respetado",
+          "en": "to be respected",
+          "cue": "🤝"
+        },
+        {
+          "id": "ecocitoyen-4",
+          "fr": "respecter les autres",
+          "es": "respetar a los demás",
+          "en": "to respect others",
+          "cue": "💬"
+        },
+        {
+          "id": "ecocitoyen-5",
+          "fr": "respecter la nature",
+          "es": "respetar la naturaleza",
+          "en": "to respect nature",
+          "cue": "🌳"
+        },
+        {
+          "id": "ecocitoyen-6",
+          "fr": "trier les déchets",
+          "es": "separar los residuos",
+          "en": "to sort waste",
+          "cue": "♻️"
+        },
+        {
+          "id": "ecocitoyen-7",
+          "fr": "économiser l’eau",
+          "es": "ahorrar agua",
+          "en": "to save water",
+          "cue": "💧"
+        },
+        {
+          "id": "ecocitoyen-8",
+          "fr": "éteindre la lumière",
+          "es": "apagar la luz",
+          "en": "to turn off the light",
+          "cue": "💡"
+        },
+        {
+          "id": "ecocitoyen-9",
+          "fr": "protéger les plantes",
+          "es": "proteger las plantas",
+          "en": "to protect plants",
+          "cue": "🌱"
+        },
+        {
+          "id": "ecocitoyen-10",
+          "fr": "garder la classe propre",
+          "es": "mantener el salón limpio",
+          "en": "to keep the classroom clean",
+          "cue": "🧹"
+        }
+      ],
+      "models": [
+        "J’ai le droit de jouer.",
+        "Je dois respecter la nature.",
+        "Je dois économiser l’eau."
+      ],
+      "grammar": "Je dois + infinitif ; j’ai le droit de + infinitif. Exemples pédagogiques de vie collective, pas une description exhaustive de la législation colombienne.",
+      "videos": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Python Projects With API",
+      "author": "Minal Pandey",
+      "use": "Concepts catalogue/API, YouTube, traduction et synthèse vocale ; aucun code ou PDF redistribué"
+    },
+    {
+      "title": "YouTube Data API videos.list",
+      "url": "https://developers.google.com/youtube/v3/docs/videos/list",
+      "use": "Référence du connecteur optionnel de métadonnées"
+    }
+  ]
+}

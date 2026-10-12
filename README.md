@@ -85,3 +85,9 @@ Inventaire SHA-256, simulation par défaut, catégories configurables et organis
 [Code, documentation et tests](portfolio-evidence-hub/) · [Tableau de bord](https://junior-booto-fle.juniorbooto.chatgpt.site/portfolio-evidence-hub.html)
 
 Audit en lecture seule de trois projets réels : inventaire GitHub figé au commit audité, résultats CI attribués, concordance locale et observations HTTP datées. 24 contrôles : 13 vérifiés, 1 absence selon la règle, 9 à vérifier et 1 différence de fins de ligne expliquée. 20 tests du Hub réussis localement. Rapport historique, sans score d’expertise ni actualisation automatique.
+
+
+### FLE Resource Studio : une ressource, trois chemins pour apprendre
+[Code, catalogue et API locale](fle-resource-studio/) · [Studio interactif](https://junior-booto-fle.juniorbooto.chatgpt.site/fle-resource-studio.html)
+
+Cinq thèmes FLE A1, 50 entrées de glossaire FR/ES/EN, trois aides différenciées et 45 combinaisons vérifiées. Fiches enseignant/apprenant, corrigés et critères observables ; 20 tests locaux réussis. Lecture vocale facultative selon navigateur, aucune bande-son enregistrée. Vidéos candidates à revoir, aucune efficacité en classe revendiquée.

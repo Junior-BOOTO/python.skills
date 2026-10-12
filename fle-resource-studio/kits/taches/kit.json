@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "theme": "taches",
+  "title": "Les travaux ménagers",
+  "level": "A1",
+  "suggested_grade": 3,
+  "duration_minutes": 45,
+  "objective": "Dire trois actions pour aider à la maison avec « Je… ».",
+  "support": "model",
+  "aid_language": "es",
+  "differentiation": "Avec modèle : banque de mots et débuts de phrases. Choisir trois éléments et compléter les phrases, puis les dire à un partenaire.",
+  "lexicon": [
+    {
+      "id": "taches-1",
+      "fr": "je range les livres",
+      "es": "ordeno los libros",
+      "en": "I put away the books",
+      "cue": "📚"
+    },
+    {
+      "id": "taches-2",
+      "fr": "je nettoie la table",
+      "es": "limpio la mesa",
+      "en": "I clean the table",
+      "cue": "▤"
+    },
+    {
+      "id": "taches-3",
+      "fr": "j’arrose les plantes",
+      "es": "riego las plantas",
+      "en": "I water the plants",
+      "cue": "🌱"
+    },
+    {
+      "id": "taches-4",
+      "fr": "je fais le lit",
+      "es": "tiendo la cama",
+      "en": "I make the bed",
+      "cue": "🛏️"
+    },
+    {
+      "id": "taches-5",
+      "fr": "je balaie",
+      "es": "barro",
+      "en": "I sweep",
+      "cue": "🧹"
+    },
+    {
+      "id": "taches-6",
+      "fr": "je lave la vaisselle",
+      "es": "lavo los platos",
+      "en": "I wash the dishes",
+      "cue": "🍽️"
+    },
+    {
+      "id": "taches-7",
+      "fr": "je plie les vêtements",
+      "es": "doblo la ropa",
+      "en": "I fold the clothes",
+      "cue": "👕"
+    },
+    {
+      "id": "taches-8",
+      "fr": "je mets la table",
+      "es": "pongo la mesa",
+      "en": "I set the table",
+      "cue": "🥄"
+    },
+    {
+      "id": "taches-9",
+      "fr": "je range les jouets",
+      "es": "guardo los juguetes",
+      "en": "I put away the toys",
+      "cue": "🧸"
+    },
+    {
+      "id": "taches-10",
+      "fr": "je sors les déchets",
+      "es": "saco la basura",
+      "en": "I take out the rubbish",
+      "cue": "♻️"
+    }
+  ],
+  "models": [
+    "Je range les livres.",
+    "Je fais le lit.",
+    "J’arrose les plantes."
+  ],
+  "grammar": "Je + action. Devant une voyelle : je → j’ dans « j’arrose ». Activités décrites, jamais imposées aux enfants ; supervision adulte pour les produits et outils.",
+  "teacher": {
+    "stages": [
+      {
+        "name": "Ouverture",
+        "minutes": 8,
+        "grouping": "classe entière",
+        "instructions": "Afficher trois expressions ou objets/dessins du thème. Faire nommer ce qui est déjà connu, autoriser une réponse initiale en espagnol, puis reformuler en français. Annoncer explicitement le lien avec le thème et la tâche finale."
+      },
+      {
+        "name": "Activité principale",
+        "minutes": 29,
+        "grouping": "binômes, puis production individuelle",
+        "instructions": "Les élèves vont écouter les trois modèles lus par l’enseignant (8 min), associer le lexique à des objets ou dessins (7 min), préparer trois phrases avec leur aide choisie (7 min), puis les présenter à leur partenaire (7 min). Pour les droits et devoirs : choisir un droit et deux devoirs. Le partenaire écoute et demande une répétition si nécessaire."
+      },
+      {
+        "name": "Clôture",
+        "minutes": 8,
+        "grouping": "production individuelle puis classe entière",
+        "instructions": "Chaque élève associe trois expressions à leur sens, puis dit ses trois phrases. L’enseignant utilise les trois critères et note atteint / en cours / non observé, ainsi que l’aide utilisée. Conserver la production écrite ou une trace de l’observation dans le portfolio ; aucun enregistrement audio d’élève nécessaire."
+      }
+    ],
+    "resources": "Glossaire FR/ES/EN : aide de sens graduée. Fiche apprenant : préparer les phrases. Dictionnaire : vérifier un mot choisi, avec accompagnement. Portfolio : conserver la production et la grille. Objets ou dessins explicites fournis par l’enseignant : relier mot et référent. Aucun manuel ni numéro de page inventé.",
+    "review_status": "teacher_review_required",
+    "criteria": [
+      {
+        "id": "recognize",
+        "text": "Je peux reconnaître au moins 3 expressions du thème.",
+        "evidence": "Associer oralement trois expressions à leur sens ou à un dessin explicite.",
+        "threshold": "3 correspondances correctes sur 3"
+      },
+      {
+        "id": "produce",
+        "text": "Je peux dire 3 phrases simples sur le thème.",
+        "evidence": "Présentation individuelle au partenaire, puis observation par l’enseignant.",
+        "threshold": "3 phrases compréhensibles."
+      },
+      {
+        "id": "structure",
+        "text": "Je peux utiliser le modèle de phrase du thème.",
+        "evidence": "Observation de la structure travaillée, avec aides selon le parcours.",
+        "threshold": "Structure correcte dans au moins 2 phrases sur 3."
+      }
+    ]
+  },
+  "learner": {
+    "exercise": {
+      "prompt": "Retrouve le sens de ces trois expressions. Écris la bonne lettre.",
+      "items": [
+        {
+          "id": "taches-1",
+          "fr": "je range les livres"
+        },
+        {
+          "id": "taches-2",
+          "fr": "je nettoie la table"
+        },
+        {
+          "id": "taches-3",
+          "fr": "j’arrose les plantes"
+        }
+      ],
+      "choices": [
+        {
+          "letter": "A",
+          "text": "riego las plantas"
+        },
+        {
+          "letter": "B",
+          "text": "limpio la mesa"
+        },
+        {
+          "letter": "C",
+          "text": "ordeno los libros"
+        }
+      ],
+      "answers": {
+        "1": "C",
+        "2": "B",
+        "3": "A"
+      },
+      "note": "Glossaire original, aide de sens ; pas de traduction automatique en direct."
+    },
+    "task": "Choisis trois expressions et présente trois phrases.",
+    "writing_lines": [
+      "",
+      "",
+      ""
+    ],
+    "criteria": [
+      "Je peux reconnaître au moins 3 expressions du thème.",
+      "Je peux dire 3 phrases simples sur le thème.",
+      "Je peux utiliser le modèle de phrase du thème."
+    ]
+  },
+  "approved_videos": [],
+  "video_candidates": [],
+  "audio": {
+    "script": "Je range les livres.\nJe fais le lit.\nJ’arrose les plantes.",
+    "recording_available": false,
+    "mode": "browser_voice_optional",
+    "note": "Lecture vocale selon les voix du navigateur. À contrôler avant la classe. Aucune voix ou bande-son préenregistrée incluse."
+  },
+  "provenance": {
+    "author": "Junior BOOTO Waba",
+    "translation_mode": "explicit_original_glossary_not_live_translation",
+    "sources": [
+      {
+        "title": "Python Projects With API",
+        "author": "Minal Pandey",
+        "use": "Concepts catalogue/API, YouTube, traduction et synthèse vocale ; aucun code ou PDF redistribué"
+      },
+      {
+        "title": "YouTube Data API videos.list",
+        "url": "https://developers.google.com/youtube/v3/docs/videos/list",
+        "use": "Référence du connecteur optionnel de métadonnées"
+      }
+    ],
+    "classroom_validation": "not_claimed"
+  }
+}

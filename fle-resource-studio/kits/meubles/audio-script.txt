@@ -1,0 +1,3 @@
+C’est un lit.
+C’est une chaise.
+C’est une table.

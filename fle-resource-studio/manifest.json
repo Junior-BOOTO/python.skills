@@ -1,0 +1,36 @@
+{
+  "project": "FLE Resource Studio",
+  "version": "1.0.0",
+  "author": "Junior BOOTO Waba",
+  "status": "completed",
+  "scope": "A1 explicit catalog, differentiated kits, optional browser speech and local API",
+  "source_catalog_sha256": "cca94980c8daf5695e82cfbfc15dd9953b9f44c24ecbc2366468b3cc7b4e33e9",
+  "stages": {
+    "catalog": "completed",
+    "kits_and_studio": "completed",
+    "tests_and_api": "completed",
+    "youtube_live_connection": "skipped",
+    "recorded_audio": "blocked",
+    "browser_visual_qa": "blocked",
+    "classroom_validation": "skipped",
+    "github_publication": "pending",
+    "site_publication": "pending"
+  },
+  "next_action": "Teacher review and browser verification before classroom use",
+  "files": [
+    "data/catalog.json",
+    "src/",
+    "tests/",
+    "kits/",
+    "reports/",
+    "docs/",
+    "README.md"
+  ],
+  "source_inspiration": "Python Projects With API, Minal Pandey; concepts only",
+  "publication": {
+    "authorized": true,
+    "status_at_packaging": "prepared",
+    "github_url": "https://github.com/Junior-BOOTO/python.skills/tree/main/fle-resource-studio",
+    "site_url": "https://junior-booto-fle.juniorbooto.chatgpt.site/fle-resource-studio.html"
+  }
+}
