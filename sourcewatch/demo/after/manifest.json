@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "quality_review_required": false,
+  "network": {
+    "mode": "offline",
+    "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+    "response_sha256": "e535c86064122a42f9bbb86522d775d131e7c52eb9bae5d06ab7cf70e2536867"
+  },
+  "coverage": {
+    "available_in_feed": 3,
+    "examined": 3,
+    "limit": 20,
+    "complete_feed_examined": true
+  },
+  "record_count": 3,
+  "errors": [],
+  "artifacts": [
+    "snapshot.json",
+    "groups.json",
+    "report.html"
+  ],
+  "scope": "Métadonnées, flux unique, pas contenu complet ni exécution permanente"
+}

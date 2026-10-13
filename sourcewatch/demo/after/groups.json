@@ -1,0 +1,71 @@
+[
+  {
+    "url": "https://example.org/atelier",
+    "observations": [
+      {
+        "key": "7919fc1708a8668567edcd9bf48aed15543f71fefc6194ec65eba82b06ce7e7b",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "A",
+        "title": "Python atelier — version corrigée",
+        "url": "https://example.org/atelier",
+        "published_at_utc": "2026-10-12T10:00:00+00:00",
+        "collected_at_utc": "2026-10-13T21:25:42.448184+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "59d49a594246f108c48772dfa72c25013b0b344e6c89f56df6984e0a0f99adb1"
+      }
+    ],
+    "titles": [
+      "Python atelier — version corrigée"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://example.org/new",
+    "observations": [
+      {
+        "key": "ec37b661328da720a1c52821bb04ad902c14d370cd3cadc3313c97bdc3916d16",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "D",
+        "title": "Machine learning in education",
+        "url": "https://example.org/new",
+        "published_at_utc": "2026-10-13T12:00:00+00:00",
+        "collected_at_utc": "2026-10-13T21:25:42.448184+00:00",
+        "relevance_reasons": [
+          "ia: machine learning",
+          "education: education",
+          "education: learning"
+        ],
+        "metadata_sha256": "8dc9d3340d2848aa592bebe3a262c71e8249126bf016f53443142b8c51cc29ba"
+      }
+    ],
+    "titles": [
+      "Machine learning in education"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://example.org/teaching",
+    "observations": [
+      {
+        "key": "d9dffb05046476011942a43556ab04cf88f16efbe8cbb82a5e5123a55c067d56",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "B",
+        "title": "Teaching with Python",
+        "url": "https://example.org/teaching",
+        "published_at_utc": "2026-10-12T11:00:00+00:00",
+        "collected_at_utc": "2026-10-13T21:25:42.448184+00:00",
+        "relevance_reasons": [
+          "python: python",
+          "education: teaching"
+        ],
+        "metadata_sha256": "8829cd461b417182b58cf6835c4b4159e645a7064ae2547a2a0118e388537c52"
+      }
+    ],
+    "titles": [
+      "Teaching with Python"
+    ],
+    "source_count": 1
+  }
+]

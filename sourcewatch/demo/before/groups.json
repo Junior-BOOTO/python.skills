@@ -1,0 +1,67 @@
+[
+  {
+    "url": "https://example.org/atelier",
+    "observations": [
+      {
+        "key": "7919fc1708a8668567edcd9bf48aed15543f71fefc6194ec65eba82b06ce7e7b",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "A",
+        "title": "Python atelier — version initiale",
+        "url": "https://example.org/atelier",
+        "published_at_utc": "2026-10-12T10:00:00+00:00",
+        "collected_at_utc": "2026-10-13T21:25:42.166073+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "a24fda1590e01babf410c5ec5b5dd24464c3f442bcf2de1261b30585e0316221"
+      }
+    ],
+    "titles": [
+      "Python atelier — version initiale"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://example.org/old",
+    "observations": [
+      {
+        "key": "a2e24ddf33ab4b75fb0f72f8db40f551a0793e02d38c07d671ca2cae990f02a9",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "C",
+        "title": "Ancien élément dans la fenêtre",
+        "url": "https://example.org/old",
+        "published_at_utc": "2026-10-12T12:00:00+00:00",
+        "collected_at_utc": "2026-10-13T21:25:42.166073+00:00",
+        "relevance_reasons": [],
+        "metadata_sha256": "33b06f94934f76f04819642a1036e0bfbefc21abb0d17f1b90a6c1407201ecf0"
+      }
+    ],
+    "titles": [
+      "Ancien élément dans la fenêtre"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://example.org/teaching",
+    "observations": [
+      {
+        "key": "d9dffb05046476011942a43556ab04cf88f16efbe8cbb82a5e5123a55c067d56",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "B",
+        "title": "Teaching with Python",
+        "url": "https://example.org/teaching",
+        "published_at_utc": "2026-10-12T11:00:00+00:00",
+        "collected_at_utc": "2026-10-13T21:25:42.166073+00:00",
+        "relevance_reasons": [
+          "python: python",
+          "education: teaching"
+        ],
+        "metadata_sha256": "8829cd461b417182b58cf6835c4b4159e645a7064ae2547a2a0118e388537c52"
+      }
+    ],
+    "titles": [
+      "Teaching with Python"
+    ],
+    "source_count": 1
+  }
+]

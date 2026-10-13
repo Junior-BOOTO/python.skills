@@ -1,0 +1,8 @@
+{
+  "status": "blocked",
+  "error": "Réponse non XML/RSS",
+  "network": {
+    "mode": "live",
+    "source_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+  }
+}

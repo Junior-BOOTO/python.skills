@@ -1,0 +1,28 @@
+[
+  {
+    "key": "7919fc1708a8668567edcd9bf48aed15543f71fefc6194ec65eba82b06ce7e7b",
+    "status": "changed",
+    "title": "Python atelier — version corrigée",
+    "fields": [
+      "title"
+    ]
+  },
+  {
+    "key": "d9dffb05046476011942a43556ab04cf88f16efbe8cbb82a5e5123a55c067d56",
+    "status": "unchanged",
+    "title": "Teaching with Python",
+    "fields": []
+  },
+  {
+    "key": "ec37b661328da720a1c52821bb04ad902c14d370cd3cadc3313c97bdc3916d16",
+    "status": "new",
+    "title": "Machine learning in education",
+    "fields": []
+  },
+  {
+    "key": "a2e24ddf33ab4b75fb0f72f8db40f551a0793e02d38c07d671ca2cae990f02a9",
+    "status": "absent_from_snapshot",
+    "title": "Ancien élément dans la fenêtre",
+    "fields": []
+  }
+]

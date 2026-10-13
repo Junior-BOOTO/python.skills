@@ -1,0 +1,15 @@
+{
+  "python_tests_passed": 25,
+  "live_count": 20,
+  "live_errors": 0,
+  "canonical_url_groups": 20,
+  "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+  "fixture_changes": {
+    "new": 1,
+    "changed": 1,
+    "unchanged": 1,
+    "absent_from_snapshot": 1
+  },
+  "replay_metadata_identical": true,
+  "browser_visual_qa": "not_run"
+}

@@ -1,0 +1,444 @@
+[
+  {
+    "url": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
+    "observations": [
+      {
+        "key": "cac6a322e735b757851535b9480f8feb6593b8abf3eeb66fb0c51de21fbccd2d",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
+        "title": "RISC-V is now officially supported by CPython!",
+        "url": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
+        "published_at_utc": "2026-08-24T00:00:00+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: cpython"
+        ],
+        "metadata_sha256": "73a05d9505081fb9ba4a9b41e5faf2547598194b1cc86210111c0f804c5d5b87"
+      }
+    ],
+    "titles": [
+      "RISC-V is now officially supported by CPython!"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/09/language-summit-2026-developer-in-residence-update-and-future/",
+    "observations": [
+      {
+        "key": "bdc18c5f443c5f9ff26c52b947f7b03317b34be912ff55b527b7706da3ae1875",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/09/language-summit-2026-developer-in-residence-update-and-future/",
+        "title": "Developer-in-Residence Update & Future (Python Language Summit 2026)",
+        "url": "https://blog.python.org/2026/09/language-summit-2026-developer-in-residence-update-and-future/",
+        "published_at_utc": "2026-09-30T12:00:07+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "0ef044f18241b28644ab6bb2f79b2b58102a3f208c2c1e20560c116a1fcd9b14"
+      }
+    ],
+    "titles": [
+      "Developer-in-Residence Update & Future (Python Language Summit 2026)"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/09/language-summit-2026-free-threading-post-era/",
+    "observations": [
+      {
+        "key": "52065a748131426f71168a83750d7463b513aa6ade0ce8069de59733479c8763",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/09/language-summit-2026-free-threading-post-era/",
+        "title": "Free-Threaded Python Post-Era (Python Language Summit 2026)",
+        "url": "https://blog.python.org/2026/09/language-summit-2026-free-threading-post-era/",
+        "published_at_utc": "2026-09-30T12:00:08+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "29168c835bd78e263b0c607dcd9d1a2919f5bb8364dbe4a67a2f1c94bbc1118e"
+      }
+    ],
+    "titles": [
+      "Free-Threaded Python Post-Era (Python Language Summit 2026)"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/09/language-summit-2026-garbage-collection-generational-incremental-both/",
+    "observations": [
+      {
+        "key": "5e989641ab250405951eedc647a5649bf8fbb3e03ae90b33dee21783544d54c9",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/09/language-summit-2026-garbage-collection-generational-incremental-both/",
+        "title": "Garbage Collection: Generational? Incremental? Both! (Python Language Summit 2026)",
+        "url": "https://blog.python.org/2026/09/language-summit-2026-garbage-collection-generational-incremental-both/",
+        "published_at_utc": "2026-09-30T12:00:02+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "6fbe252fa515e6e7cef8e78a7c05cdf8c62974c61d62cae47eea3d712714d071"
+      }
+    ],
+    "titles": [
+      "Garbage Collection: Generational? Incremental? Both! (Python Language Summit 2026)"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/09/language-summit-2026-lightning-talks/",
+    "observations": [
+      {
+        "key": "2ae39b8083371ea9be44113c9c929803b26f326c4266d38d78ba7d0d2aba8ef1",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/09/language-summit-2026-lightning-talks/",
+        "title": "Lightning Talks (Python Language Summit 2026)",
+        "url": "https://blog.python.org/2026/09/language-summit-2026-lightning-talks/",
+        "published_at_utc": "2026-09-30T12:00:10+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "83db1af697c46e0025e1d74d896d297db985a54259bd94ea64b0cd61faccea3e"
+      }
+    ],
+    "titles": [
+      "Lightning Talks (Python Language Summit 2026)"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/09/language-summit-2026-macos-python/",
+    "observations": [
+      {
+        "key": "3467df573e7424ad79b5e41314b32c0b3a87b300d060020bcbf32ee88430380a",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/09/language-summit-2026-macos-python/",
+        "title": "macOS and Python (Python Language Summit 2026)",
+        "url": "https://blog.python.org/2026/09/language-summit-2026-macos-python/",
+        "published_at_utc": "2026-09-30T12:00:01+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "acad0e8bbc6f1fe62de6988b9543aa576f892d6cdcc9ade704a701fc5e38f42d"
+      }
+    ],
+    "titles": [
+      "macOS and Python (Python Language Summit 2026)"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/09/language-summit-2026-memory-buffer-protocol/",
+    "observations": [
+      {
+        "key": "7acd325c6cf20374129098386e8f8e18f9af3f07a82c16ea76693041f4215fb5",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/09/language-summit-2026-memory-buffer-protocol/",
+        "title": "Memory Buffer Protocol (Python Language Summit 2026)",
+        "url": "https://blog.python.org/2026/09/language-summit-2026-memory-buffer-protocol/",
+        "published_at_utc": "2026-09-30T12:00:03+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "f2b4641473cbdece0283384f083a3375739804287187dfad0b940a9287c57321"
+      }
+    ],
+    "titles": [
+      "Memory Buffer Protocol (Python Language Summit 2026)"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/09/language-summit-2026-memory-snapshots/",
+    "observations": [
+      {
+        "key": "51167fd50ee4045c86db20e6466cf954abc4a4dbcb3a94351dfda5ed314137fd",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/09/language-summit-2026-memory-snapshots/",
+        "title": "Memory Snapshots for CPython (Python Language Summit 2026)",
+        "url": "https://blog.python.org/2026/09/language-summit-2026-memory-snapshots/",
+        "published_at_utc": "2026-09-30T12:00:04+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python",
+          "python: cpython"
+        ],
+        "metadata_sha256": "a103757cfb5065c40e213482445cb3e85ba2fd12c8b89dc2a381a9eb427b8802"
+      }
+    ],
+    "titles": [
+      "Memory Snapshots for CPython (Python Language Summit 2026)"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/09/language-summit-2026-namespaces/",
+    "observations": [
+      {
+        "key": "2bb60e24ba2a108a8f2e5b7489567312ee2c1401c7ca8d4ca5689a5239f2d445",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/09/language-summit-2026-namespaces/",
+        "title": "One namespace to namespace them all (Python Language Summit 2026)",
+        "url": "https://blog.python.org/2026/09/language-summit-2026-namespaces/",
+        "published_at_utc": "2026-09-30T12:00:00+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "c8f65112b70f0f518a5b08692ef4e374b767fcc03a70d1f02872a31f5c8a7e3b"
+      }
+    ],
+    "titles": [
+      "One namespace to namespace them all (Python Language Summit 2026)"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/09/language-summit-2026-pep-827-type-manipulation/",
+    "observations": [
+      {
+        "key": "aa3da21700caa400fc9901b0412d4a6416ec79c4f2419e324838cc4284da145b",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/09/language-summit-2026-pep-827-type-manipulation/",
+        "title": "PEP 827: Type Manipulation (Python Language Summit 2026)",
+        "url": "https://blog.python.org/2026/09/language-summit-2026-pep-827-type-manipulation/",
+        "published_at_utc": "2026-09-30T12:00:09+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "7b0147019d275929280b4a067cfad66bbda63e3f7280d4f83dc13e72548616b5"
+      }
+    ],
+    "titles": [
+      "PEP 827: Type Manipulation (Python Language Summit 2026)"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/09/language-summit-2026-rust-for-cpython/",
+    "observations": [
+      {
+        "key": "8e0115c35ed1943a0d9a830daaa755852e718527cca7f4c9d2eeb66217c79d52",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/09/language-summit-2026-rust-for-cpython/",
+        "title": "Rust for CPython (Python Language Summit 2026)",
+        "url": "https://blog.python.org/2026/09/language-summit-2026-rust-for-cpython/",
+        "published_at_utc": "2026-09-30T12:00:05+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python",
+          "python: cpython"
+        ],
+        "metadata_sha256": "6f245cd7d85066812dc162190a8739421367ac3a72d9dd50053b31ab82e92deb"
+      }
+    ],
+    "titles": [
+      "Rust for CPython (Python Language Summit 2026)"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/09/language-summit-2026-spicycrab/",
+    "observations": [
+      {
+        "key": "54ffd99a627097aa4c9a0a51ad55739b2e2a2853e37e318de04e1d5b825f4e56",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/09/language-summit-2026-spicycrab/",
+        "title": "Spicycrab (Python Language Summit 2026)",
+        "url": "https://blog.python.org/2026/09/language-summit-2026-spicycrab/",
+        "published_at_utc": "2026-09-30T12:00:06+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "33751fb992f7cdc74fb74fd50766ab311d8d58f2e6ac043bd2b2efe927e4bd82"
+      }
+    ],
+    "titles": [
+      "Spicycrab (Python Language Summit 2026)"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/09/language-summit-2026/",
+    "observations": [
+      {
+        "key": "604a7e9740ae808d34430a7e899e3983f310ee7b71ce070276ba678c5f0fb460",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/09/language-summit-2026/",
+        "title": "Python Language Summit 2026",
+        "url": "https://blog.python.org/2026/09/language-summit-2026/",
+        "published_at_utc": "2026-09-30T12:00:11+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "7cf0c6fa56fde5ff2294142c0eb6446194c3448f5ba65e5040eaa20d40450444"
+      }
+    ],
+    "titles": [
+      "Python Language Summit 2026"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/09/python-3150-rc2/",
+    "observations": [
+      {
+        "key": "57c44a8b9827f06bd7ef447f720593ee30fe57b83d111e79766575ed7ff675c3",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/09/python-3150-rc2/",
+        "title": "Python 3.15.0 candidate 2 is here!",
+        "url": "https://blog.python.org/2026/09/python-3150-rc2/",
+        "published_at_utc": "2026-09-01T00:00:00+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "b7015d1ba5925e0ff39b18a8aaac0ed3321f44d974fa76781c32cd2158e3dba8"
+      }
+    ],
+    "titles": [
+      "Python 3.15.0 candidate 2 is here!"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/09/python-docs-in-german/",
+    "observations": [
+      {
+        "key": "11cb805a5de530f01dd5a38fd1acf2f8f0a6ae36d51acc208a5c61c644fb20d2",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/09/python-docs-in-german/",
+        "title": "The Python documentation is now available in German",
+        "url": "https://blog.python.org/2026/09/python-docs-in-german/",
+        "published_at_utc": "2026-09-26T00:00:00+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "c4510b3a8c6a884bca99c79538e0b669d2883cbe6d0926a091b3265a88b8cddf"
+      }
+    ],
+    "titles": [
+      "The Python documentation is now available in German"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/09/the-python-documentation-is-now-available-in-persian/",
+    "observations": [
+      {
+        "key": "c864cae831e434e08f8f91a96fb3a963c1c6acb2d21ac1a91acd86ed9d050409",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/09/the-python-documentation-is-now-available-in-persian/",
+        "title": "The Python documentation is now available in Persian",
+        "url": "https://blog.python.org/2026/09/the-python-documentation-is-now-available-in-persian/",
+        "published_at_utc": "2026-09-23T00:00:00+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "707cc2fc276c5ac1555bd73ec932a28f0893ae103073003d5770da00fe6ff43a"
+      }
+    ],
+    "titles": [
+      "The Python documentation is now available in Persian"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/10/python-31022-31117/",
+    "observations": [
+      {
+        "key": "0462fae1a0115269bac321ac6d69710593ac1118571497fdf379c03a14443c6f",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/10/python-31022-31117/",
+        "title": "Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!",
+        "url": "https://blog.python.org/2026/10/python-31022-31117/",
+        "published_at_utc": "2026-10-01T00:00:00+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "bffdfb5468ee305bab9b47278460f5dcff13ceb1a19f482db5a3d88e603f3b9a"
+      }
+    ],
+    "titles": [
+      "Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/10/python-3150-final-is-here/",
+    "observations": [
+      {
+        "key": "fdda60037070292a16b55f4385d54a6f72b418c15508fa114718902a43183d8e",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/10/python-3150-final-is-here/",
+        "title": "Python 3.15.0 (final) is here!",
+        "url": "https://blog.python.org/2026/10/python-3150-final-is-here/",
+        "published_at_utc": "2026-10-09T00:00:00+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "e3ea3dd042d2317582b659a24b92f0f28dff4e26cd7fc828cc8b902911c32901"
+      }
+    ],
+    "titles": [
+      "Python 3.15.0 (final) is here!"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/10/python-3150-rc3/",
+    "observations": [
+      {
+        "key": "805a0f8a50a9723041710b989d20942ee13627ea8f6b62b5e601ce1b0deb9bfd",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/10/python-3150-rc3/",
+        "title": "Python 3.15.0 candidate 3 is here!",
+        "url": "https://blog.python.org/2026/10/python-3150-rc3/",
+        "published_at_utc": "2026-10-02T00:00:00+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "4fd5cd36b4f6cfbecc240241a98bc82d80f19078e6b2a2b950530bd7ec3682f0"
+      }
+    ],
+    "titles": [
+      "Python 3.15.0 candidate 3 is here!"
+    ],
+    "source_count": 1
+  },
+  {
+    "url": "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available/",
+    "observations": [
+      {
+        "key": "a49ae1cf1487f57bee0f9aa662e841d7a47885f8fe1815f5abcb4764f9b74aac",
+        "source": "https://blog.python.org/feeds/posts/default?alt=rss",
+        "guid": "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available/",
+        "title": "Python 3.16.0 alpha 1 is now available",
+        "url": "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available/",
+        "published_at_utc": "2026-10-13T00:00:00+00:00",
+        "collected_at_utc": "2026-10-13T21:25:40.956496+00:00",
+        "relevance_reasons": [
+          "python: python"
+        ],
+        "metadata_sha256": "cf184d0e9c2d655c7204a5e8ea83ac62db36c88c6e653f8c1556762b53797fee"
+      }
+    ],
+    "titles": [
+      "Python 3.16.0 alpha 1 is now available"
+    ],
+    "source_count": 1
+  }
+]
