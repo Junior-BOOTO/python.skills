@@ -1,0 +1,5 @@
+id,date,description,amount,currency,source_file,source_sha256,source_page,source_table,source_row,issues
+A001,2026-01-01,Livres,100.00,USD,01_report.pdf,c8e9dc06e62a830f61d3dc13d382bae705d4476bfc9c344446ffb0244a58d062,1,1,2,duplicate_exact
+A001,2026-01-01,Livres,100.00,USD,02_report.pdf,b80dab76eb34527a97bb0680afc307f837c0f1b7cdafce8fbadfc288dde5c030,1,1,2,duplicate_exact
+A004,2026-02-30,Erreur de saisie,abc,USD,02_report.pdf,b80dab76eb34527a97bb0680afc307f837c0f1b7cdafce8fbadfc288dde5c030,1,1,4,invalid_amount;invalid_date
+A007,2026-01-05,Devise hors contrat,50.00,EUR,03_expenses.csv,24c3a539b424f35f6304d09bd82072233cf64bb1e39e8a5367c39b99dda2b22f,,1,4,unsupported_currency

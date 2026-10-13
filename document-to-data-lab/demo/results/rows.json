@@ -1,0 +1,200 @@
+[
+  {
+    "id": "A001",
+    "date": "2026-01-01",
+    "description": "Livres",
+    "amount": "100.00",
+    "currency": "USD",
+    "source_page": 1,
+    "source_table": 1,
+    "source_row": 2,
+    "source_file": "01_report.pdf",
+    "source_sha256": "c8e9dc06e62a830f61d3dc13d382bae705d4476bfc9c344446ffb0244a58d062",
+    "raw": {
+      "id": "A001",
+      "date": "2026-01-01",
+      "description": "Livres",
+      "amount": "100.00",
+      "currency": "USD"
+    },
+    "issues": [
+      "duplicate_exact"
+    ],
+    "status": "review"
+  },
+  {
+    "id": "A002",
+    "date": "2026-01-02",
+    "description": "Transport",
+    "amount": "30.00",
+    "currency": "USD",
+    "source_page": 1,
+    "source_table": 1,
+    "source_row": 3,
+    "source_file": "01_report.pdf",
+    "source_sha256": "c8e9dc06e62a830f61d3dc13d382bae705d4476bfc9c344446ffb0244a58d062",
+    "raw": {
+      "id": "A002",
+      "date": "2026-01-02",
+      "description": "Transport",
+      "amount": "30.00",
+      "currency": "USD"
+    },
+    "issues": [],
+    "status": "accepted"
+  },
+  {
+    "id": "A001",
+    "date": "2026-01-01",
+    "description": "Livres",
+    "amount": "100.00",
+    "currency": "USD",
+    "source_page": 1,
+    "source_table": 1,
+    "source_row": 2,
+    "source_file": "02_report.pdf",
+    "source_sha256": "b80dab76eb34527a97bb0680afc307f837c0f1b7cdafce8fbadfc288dde5c030",
+    "raw": {
+      "id": "A001",
+      "date": "2026-01-01",
+      "description": "Livres",
+      "amount": "100.00",
+      "currency": "USD"
+    },
+    "issues": [
+      "duplicate_exact"
+    ],
+    "status": "review"
+  },
+  {
+    "id": "A003",
+    "date": "2026-01-03",
+    "description": "Materiel",
+    "amount": "25.00",
+    "currency": "USD",
+    "source_page": 1,
+    "source_table": 1,
+    "source_row": 3,
+    "source_file": "02_report.pdf",
+    "source_sha256": "b80dab76eb34527a97bb0680afc307f837c0f1b7cdafce8fbadfc288dde5c030",
+    "raw": {
+      "id": "A003",
+      "date": "2026-01-03",
+      "description": "Materiel",
+      "amount": "25.00",
+      "currency": "USD"
+    },
+    "issues": [],
+    "status": "accepted"
+  },
+  {
+    "id": "A004",
+    "date": "2026-02-30",
+    "description": "Erreur de saisie",
+    "amount": "abc",
+    "currency": "USD",
+    "source_page": 1,
+    "source_table": 1,
+    "source_row": 4,
+    "source_file": "02_report.pdf",
+    "source_sha256": "b80dab76eb34527a97bb0680afc307f837c0f1b7cdafce8fbadfc288dde5c030",
+    "raw": {
+      "id": "A004",
+      "date": "2026-02-30",
+      "description": "Erreur de saisie",
+      "amount": "abc",
+      "currency": "USD"
+    },
+    "issues": [
+      "invalid_amount",
+      "invalid_date"
+    ],
+    "status": "review"
+  },
+  {
+    "id": "A005",
+    "date": "2026-01-04",
+    "description": "Papeterie",
+    "amount": "12000.00",
+    "currency": "COP",
+    "source_page": null,
+    "source_table": 1,
+    "source_row": 2,
+    "source_file": "03_expenses.csv",
+    "source_sha256": "24c3a539b424f35f6304d09bd82072233cf64bb1e39e8a5367c39b99dda2b22f",
+    "raw": {
+      "id": "A005",
+      "date": "2026-01-04",
+      "description": "Papeterie",
+      "amount": "12000",
+      "currency": "COP"
+    },
+    "issues": [],
+    "status": "accepted"
+  },
+  {
+    "id": "A006",
+    "date": "2026-01-04",
+    "description": "Impression",
+    "amount": "18000.00",
+    "currency": "COP",
+    "source_page": null,
+    "source_table": 1,
+    "source_row": 3,
+    "source_file": "03_expenses.csv",
+    "source_sha256": "24c3a539b424f35f6304d09bd82072233cf64bb1e39e8a5367c39b99dda2b22f",
+    "raw": {
+      "id": "A006",
+      "date": "2026-01-04",
+      "description": "Impression",
+      "amount": "18000",
+      "currency": "COP"
+    },
+    "issues": [],
+    "status": "accepted"
+  },
+  {
+    "id": "A007",
+    "date": "2026-01-05",
+    "description": "Devise hors contrat",
+    "amount": "50.00",
+    "currency": "EUR",
+    "source_page": null,
+    "source_table": 1,
+    "source_row": 4,
+    "source_file": "03_expenses.csv",
+    "source_sha256": "24c3a539b424f35f6304d09bd82072233cf64bb1e39e8a5367c39b99dda2b22f",
+    "raw": {
+      "id": "A007",
+      "date": "2026-01-05",
+      "description": "Devise hors contrat",
+      "amount": "50",
+      "currency": "EUR"
+    },
+    "issues": [
+      "unsupported_currency"
+    ],
+    "status": "review"
+  },
+  {
+    "id": "A008",
+    "date": "2026-01-05",
+    "description": "=SUM(A1:A2)",
+    "amount": "10.50",
+    "currency": "USD",
+    "source_page": null,
+    "source_table": 1,
+    "source_row": 5,
+    "source_file": "03_expenses.csv",
+    "source_sha256": "24c3a539b424f35f6304d09bd82072233cf64bb1e39e8a5367c39b99dda2b22f",
+    "raw": {
+      "id": "A008",
+      "date": "2026-01-05",
+      "description": "=SUM(A1:A2)",
+      "amount": "10,50",
+      "currency": "USD"
+    },
+    "issues": [],
+    "status": "accepted"
+  }
+]

@@ -1,0 +1,6 @@
+id,date,description,amount,currency,source_file,source_sha256,source_page,source_table,source_row
+A002,2026-01-02,Transport,30.00,USD,01_report.pdf,c8e9dc06e62a830f61d3dc13d382bae705d4476bfc9c344446ffb0244a58d062,1,1,3
+A003,2026-01-03,Materiel,25.00,USD,02_report.pdf,b80dab76eb34527a97bb0680afc307f837c0f1b7cdafce8fbadfc288dde5c030,1,1,3
+A005,2026-01-04,Papeterie,12000.00,COP,03_expenses.csv,24c3a539b424f35f6304d09bd82072233cf64bb1e39e8a5367c39b99dda2b22f,,1,2
+A006,2026-01-04,Impression,18000.00,COP,03_expenses.csv,24c3a539b424f35f6304d09bd82072233cf64bb1e39e8a5367c39b99dda2b22f,,1,3
+A008,2026-01-05,'=SUM(A1:A2),10.50,USD,03_expenses.csv,24c3a539b424f35f6304d09bd82072233cf64bb1e39e8a5367c39b99dda2b22f,,1,5

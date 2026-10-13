@@ -9,6 +9,7 @@ Je développe mes compétences en Python et en analyse de données. Ce dépôt r
 
 | Projet | Contenu | Limites |
 | --- | --- | --- |
+| [Document-to-Data Lab — extraction et qualité](document-to-data-lab/README.md) | Tableaux PDF/CSV, provenance, anomalies et totaux par devise ; 22 tests locaux. | Démo fictive : 9 lignes, 5 acceptées ; OCR absent, PDF texte à bordures. |
 | [Bitcoin DataLab — collecte et prévision](bitcoin-datalab/README.md) | Historique Bitstamp, contrôles qualité, Ridge et forêt, test chronologique et modèles exportés. | 1 967 jours (2021–mai 2026) ; Ridge moins bon que cours inchangé sur test. |
 | [API météo Bogotá — Analyse et modèle](api-open-meteo/README.md) | Collecte HTTP, contrôles, analyse et modèle Ridge à J+1, parcours coordonné reproductible. | Réanalyse ERA5 2025 ; MAE test 0,340 °C, pas validation de prévision opérationnelle. |
 | [Superstore — Analyse bivariée](superstore-bivariate/README.md) | Tableaux croisés, distributions et corrélations entre catégories, marchés, remises et bénéfices. | Données fictives ; associations descriptives, sans conclusion causale. |

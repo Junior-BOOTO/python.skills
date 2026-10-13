@@ -1,0 +1,10 @@
+{
+  "tests_passed": 22,
+  "tests_failed": 0,
+  "environment": "Linux",
+  "pdf_fixture_data_cells_matched": 25,
+  "pdf_fixture_data_cells_total": 25,
+  "browser_visual_qa": "not_run",
+  "source_preservation": "passed",
+  "demo": "synthetic"
+}

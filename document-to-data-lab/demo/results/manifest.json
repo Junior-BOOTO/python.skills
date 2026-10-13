@@ -1,0 +1,43 @@
+{
+  "objective": "Extraction PDF/CSV, validation et consolidation par devise",
+  "source_hashes": [
+    {
+      "file": "01_report.pdf",
+      "sha256": "c8e9dc06e62a830f61d3dc13d382bae705d4476bfc9c344446ffb0244a58d062",
+      "status": "completed"
+    },
+    {
+      "file": "02_report.pdf",
+      "sha256": "b80dab76eb34527a97bb0680afc307f837c0f1b7cdafce8fbadfc288dde5c030",
+      "status": "completed"
+    },
+    {
+      "file": "03_expenses.csv",
+      "sha256": "24c3a539b424f35f6304d09bd82072233cf64bb1e39e8a5367c39b99dda2b22f",
+      "status": "completed"
+    },
+    {
+      "file": "04_incompatible.csv",
+      "sha256": "d4ef022290729683a38d36b84d1e7799e4f32936c87fb9add01e9319fa0c9170",
+      "status": "blocked",
+      "error": "Schéma incompatible : id, date, description, amount, currency requis"
+    }
+  ],
+  "files": [
+    "accepted.csv",
+    "review.csv",
+    "rows.json",
+    "summary.json",
+    "report.html"
+  ],
+  "transformations": [
+    "alias en-têtes",
+    "dates ISO",
+    "montants Decimal",
+    "monnaies majuscules",
+    "quarantaine des anomalies"
+  ],
+  "status": "completed",
+  "quality_review_required": true,
+  "ocr": "not_implemented"
+}

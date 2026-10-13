@@ -1,0 +1,5 @@
+﻿identifiant;date;description;montant;devise
+A005;2026-01-04;Papeterie;12000;COP
+A006;2026-01-04;Impression;18000;COP
+A007;2026-01-05;Devise hors contrat;50;EUR
+A008;2026-01-05;=SUM(A1:A2);10,50;USD
