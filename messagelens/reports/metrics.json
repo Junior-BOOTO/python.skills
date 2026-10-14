@@ -1,0 +1,110 @@
+{
+  "messages": 5571,
+  "excluded_without_ascii_tokens": 3,
+  "spam": 747,
+  "groups": 5007,
+  "similarity_group_threshold": 0.94,
+  "group_overlap": 0,
+  "split": {
+    "train": {
+      "messages": 3320,
+      "spam": 425,
+      "groups": 3003
+    },
+    "validation": {
+      "messages": 1103,
+      "spam": 144,
+      "groups": 1002
+    },
+    "test": {
+      "messages": 1148,
+      "spam": 178,
+      "groups": 1002
+    }
+  },
+  "validation_options": [
+    {
+      "threshold": 0.3,
+      "precision": 0.7202072538860104,
+      "recall": 0.9652777777777778,
+      "f1": 0.8249258160237388,
+      "matrix": [
+        [
+          905,
+          54
+        ],
+        [
+          5,
+          139
+        ]
+      ]
+    },
+    {
+      "threshold": 0.5,
+      "precision": 0.8741721854304636,
+      "recall": 0.9166666666666666,
+      "f1": 0.8949152542372881,
+      "matrix": [
+        [
+          940,
+          19
+        ],
+        [
+          12,
+          132
+        ]
+      ]
+    },
+    {
+      "threshold": 0.7,
+      "precision": 0.8840579710144928,
+      "recall": 0.8472222222222222,
+      "f1": 0.8652482269503546,
+      "matrix": [
+        [
+          943,
+          16
+        ],
+        [
+          22,
+          122
+        ]
+      ]
+    }
+  ],
+  "selected_threshold": 0.5,
+  "test": {
+    "precision": 0.9273743016759777,
+    "recall": 0.9325842696629213,
+    "f1": 0.9299719887955182,
+    "matrix": [
+      [
+        957,
+        13
+      ],
+      [
+        12,
+        166
+      ]
+    ],
+    "average_precision": 0.9746700000254717
+  },
+  "baseline_all_ham": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "matrix": [
+      [
+        970,
+        0
+      ],
+      [
+        178,
+        0
+      ]
+    ]
+  },
+  "portable_max_error": 2.220446049250313e-16,
+  "source": "https://archive.ics.uci.edu/static/public/228/sms+spam+collection.zip",
+  "raw_archive_sha256": "1587ea43e58e82b14ff1f5425c88e17f8496bfcdb67a583dbff9eefaf9963ce3"
+}

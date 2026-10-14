@@ -1,0 +1,158 @@
+[
+  {
+    "text": "Congratulations! Claim your free prize now. Visit https://example.org/claim",
+    "score": 0.774476037972593,
+    "label": "spam",
+    "known_terms": 8,
+    "logit": 1.2337603056131266,
+    "contributions": [
+      {
+        "term": "url",
+        "value": 0.9949372332424907
+      },
+      {
+        "term": "free",
+        "value": 0.9058240467154356
+      },
+      {
+        "term": "your",
+        "value": 0.48686604482187695
+      },
+      {
+        "term": "claim",
+        "value": 0.4535444493213462
+      },
+      {
+        "term": "prize",
+        "value": 0.37398857812307423
+      },
+      {
+        "term": "now",
+        "value": 0.3014905773876736
+      },
+      {
+        "term": "visit",
+        "value": 0.29720304034801914
+      },
+      {
+        "term": "congratulations",
+        "value": 0.07991619415268467
+      }
+    ],
+    "type": "original synthetic example, no security ground truth"
+  },
+  {
+    "text": "Can we meet at the library tomorrow afternoon?",
+    "score": 0.0339691833978977,
+    "label": "ham",
+    "known_terms": 8,
+    "logit": -3.347741991984246,
+    "contributions": [
+      {
+        "term": "at",
+        "value": -0.2865650044464946
+      },
+      {
+        "term": "can",
+        "value": -0.24532635911962866
+      },
+      {
+        "term": "the",
+        "value": 0.18787758936793508
+      },
+      {
+        "term": "we",
+        "value": -0.1385175863351862
+      },
+      {
+        "term": "tomorrow",
+        "value": -0.08508232209982311
+      },
+      {
+        "term": "afternoon",
+        "value": -0.05737909804241766
+      },
+      {
+        "term": "library",
+        "value": -0.053779290252856445
+      },
+      {
+        "term": "meet",
+        "value": -0.00896006255629974
+      }
+    ],
+    "type": "original synthetic example, no security ground truth"
+  },
+  {
+    "text": "Your account needs verification. Please contact support.",
+    "score": 0.17426623430522575,
+    "label": "ham",
+    "known_terms": 6,
+    "logit": -1.5556881919593404,
+    "contributions": [
+      {
+        "term": "your",
+        "value": 0.5099747072883578
+      },
+      {
+        "term": "contact",
+        "value": 0.37115411351062183
+      },
+      {
+        "term": "please",
+        "value": 0.27638151607498335
+      },
+      {
+        "term": "needs",
+        "value": -0.04650181706932851
+      },
+      {
+        "term": "account",
+        "value": -0.02795521498328617
+      },
+      {
+        "term": "support",
+        "value": 0.021268361718785957
+      }
+    ],
+    "type": "original synthetic example, no security ground truth"
+  },
+  {
+    "text": "Free Python workshop at the community school next week.",
+    "score": 0.21724107161448533,
+    "label": "ham",
+    "known_terms": 7,
+    "logit": -1.2818171005601884,
+    "contributions": [
+      {
+        "term": "free",
+        "value": 0.9204980243282854
+      },
+      {
+        "term": "at",
+        "value": -0.28041447510452483
+      },
+      {
+        "term": "week",
+        "value": 0.27167431447966706
+      },
+      {
+        "term": "next",
+        "value": 0.20809044594506998
+      },
+      {
+        "term": "the",
+        "value": 0.18384518273008346
+      },
+      {
+        "term": "community",
+        "value": 0.16244608237025826
+      },
+      {
+        "term": "school",
+        "value": -0.087946816809553
+      }
+    ],
+    "type": "original synthetic example, no security ground truth"
+  }
+]

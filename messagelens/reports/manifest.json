@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "target": "English SMS spam UCI label",
+  "source": "https://archive.ics.uci.edu/static/public/228/sms+spam+collection.zip",
+  "raw_sha256": "1587ea43e58e82b14ff1f5425c88e17f8496bfcdb67a583dbff9eefaf9963ce3",
+  "test_consulted": true,
+  "group_overlap": 0,
+  "model": "model.json",
+  "limits": "No French/Spanish, phishing, fraud or current-email validation; uncalibrated score"
+}

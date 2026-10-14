@@ -9,6 +9,7 @@ Je développe mes compétences en Python et en analyse de données. Ce dépôt r
 
 | Projet | Contenu | Limites |
 | --- | --- | --- |
+| [MessageLens — NLP explicable](messagelens/README.md) | Spam SMS, groupes de similarité, contributions des mots et inférence navigateur ; 17 tests. | Anglais historique : 166/178 spams détectés, 13 faux positifs ; pas preuve de fraude. |
 | [SourceWatch — veille documentée](sourcewatch/README.md) | RSS Python Insider, provenance, classement explicable, snapshots ; 25 tests locaux. | 20 entrées réelles sur 50 ; comparaison de changements fictifs, sans veille permanente. |
 | [Document-to-Data Lab — extraction et qualité](document-to-data-lab/README.md) | Tableaux PDF/CSV, provenance, anomalies et totaux par devise ; 22 tests locaux. | Démo fictive : 9 lignes, 5 acceptées ; OCR absent, PDF texte à bordures. |
 | [Bitcoin DataLab — collecte et prévision](bitcoin-datalab/README.md) | Historique Bitstamp, contrôles qualité, Ridge et forêt, test chronologique et modèles exportés. | 1 967 jours (2021–mai 2026) ; Ridge moins bon que cours inchangé sur test. |
