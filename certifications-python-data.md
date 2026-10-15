@@ -13,7 +13,6 @@ Formations attestées au nom de Junior BOOTO. Cette liste décrit le parcours de
 | Prompt Engineering for AI Applications | Alison | 21 janvier 2025 | Conception de consignes pour applications d'IA. |
 | Leveraging AI in Predictive Analytics, Automation, and Data Management | Alison | 9 février 2025 | IA, automatisation et données. |
 | À la recherche de l'Intelligence Artificielle | France Université Numérique | 20 novembre 2024 | Fondements, usages et limites de l'IA. |
-
 | Write with AI | SoloLearn | 6 mars 2025 | IA et rédaction. |
 | Visualize Your Data | SoloLearn | 5 mars 2025 | Visualisation de données. |
 | Python Developer | SoloLearn | 4 mars 2024 | Python. |
@@ -24,7 +23,6 @@ Formations attestées au nom de Junior BOOTO. Cette liste décrit le parcours de
 | Python Intermediate | SoloLearn | 24 mars 2024 | Python. |
 | Tech for Everyone | SoloLearn | 26 mars 2024 | Culture numérique. |
 | Data Analytics with AI | SoloLearn | 14 juillet 2024 | Analyse de données et IA. |
-
 | [Fondamentaux pour le Big Data (Institut Mines-Télécom)](https://openbadgefactory.com/obv3/credentials/7127395a4721396a48d5771a5e3ae5e10be343be) | France Université Numérique | 11 mars 2026 | Données massives, Python, NumPy et statistiques. |
 | Machine learning in Python with scikit-learn (Inria) | France Université Numérique | 11 mars 2026 | Apprentissage automatique et modélisation prédictive. |
 | Statistique pour l'ingénieur (Institut Mines-Télécom) | France Université Numérique | 15 juin 2026 | Statistique descriptive et inférentielle. |
@@ -34,13 +32,13 @@ Les deux copies de certains badges FUN transmis ont été dédoublonnées. Les c
 
 ## Great Learning — formations complémentaires
 
-Formations déclarées dans mon CV. Les certificats originaux n’ont pas été retrouvés lors de cette mise à jour ; leurs liens individuels de vérification restent à compléter. Ces formations ne constituent pas une expérience professionnelle en data science.
+Formations complémentaires de mon parcours. Le lien individuel de Data Interpretation est disponible ci-dessous. Statistical Methods for Decision Making et Introduction to Data Science ont été confirmées lors de la vérification précédente des justificatifs ; leurs liens restent à compléter. Les autres formations sont reprises du CV, sans justificatif individuel disponible ici.
 
 | Formation | Plateforme | Date indiquée |
 |---|---|---|
 | Statistical Methods for Decision Making | Great Learning | janvier 2025 |
 | Introduction to Data Science | Great Learning | janvier 2025 |
-| Data Interpretation | Great Learning | janvier 2025 |
+| [Data Interpretation — certificat](https://www.mygreatlearning.com/certificate/KRXFOMCB) | Great Learning | janvier 2025 |
 | Probability for Data Science | Great Learning | non précisée |
 | Data preprocessing | Great Learning | décembre 2024 |
 | ChatGPT for coders | Great Learning | décembre 2024 |
