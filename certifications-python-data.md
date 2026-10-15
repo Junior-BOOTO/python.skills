@@ -25,9 +25,26 @@ Formations attestées au nom de Junior BOOTO. Cette liste décrit le parcours de
 | Tech for Everyone | SoloLearn | 26 mars 2024 | Culture numérique. |
 | Data Analytics with AI | SoloLearn | 14 juillet 2024 | Analyse de données et IA. |
 
-| Fondamentaux pour le Big Data (Institut Mines-Télécom) | France Université Numérique | 11 mars 2026 | Données massives, Python, NumPy et statistiques. |
+| [Fondamentaux pour le Big Data (Institut Mines-Télécom)](https://openbadgefactory.com/obv3/credentials/7127395a4721396a48d5771a5e3ae5e10be343be) | France Université Numérique | 11 mars 2026 | Données massives, Python, NumPy et statistiques. |
 | Machine learning in Python with scikit-learn (Inria) | France Université Numérique | 11 mars 2026 | Apprentissage automatique et modélisation prédictive. |
 | Statistique pour l'ingénieur (Institut Mines-Télécom) | France Université Numérique | 15 juin 2026 | Statistique descriptive et inférentielle. |
-| Les essentiels de la cybersécurité : du risque à la résilience (Institut Mines-Télécom) | France Université Numérique | 9 juillet 2026 | Cybermenaces, protection et analyse des risques. |
+| [Les essentiels de la cybersécurité : du risque à la résilience (Institut Mines-Télécom)](https://openbadgefactory.com/obv3/credentials/6d26071d1db47b06c3d60425945963fa100688d5) | France Université Numérique | 9 juillet 2026 | Cybermenaces, protection et analyse des risques. |
 
 Les deux copies de certains badges FUN transmis ont été dédoublonnées. Les certificats Alison comportent des liens de vérification individuels ; ils peuvent être fournis séparément sur demande. Cette page n'expose pas leurs identifiants dans le dépôt public.
+
+## Great Learning — formations complémentaires
+
+Formations déclarées dans mon CV. Les certificats originaux n’ont pas été retrouvés lors de cette mise à jour ; leurs liens individuels de vérification restent à compléter. Ces formations ne constituent pas une expérience professionnelle en data science.
+
+| Formation | Plateforme | Date indiquée |
+|---|---|---|
+| Statistical Methods for Decision Making | Great Learning | janvier 2025 |
+| Introduction to Data Science | Great Learning | janvier 2025 |
+| Data Interpretation | Great Learning | janvier 2025 |
+| Probability for Data Science | Great Learning | non précisée |
+| Data preprocessing | Great Learning | décembre 2024 |
+| ChatGPT for coders | Great Learning | décembre 2024 |
+
+Data preprocessing et ChatGPT for coders sont deux formations distinctes.
+
+[Voir le parcours sur mon site](https://junior-booto-fle.juniorbooto.chatgpt.site/parcours-formations.html#formations-python).
