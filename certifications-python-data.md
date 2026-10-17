@@ -12,6 +12,9 @@ Formations attestées au nom de Junior BOOTO. Cette liste décrit le parcours de
 | Logic, Reasoning and Resolution Refutation | Alison | 10 février 2025 | Raisonnement logique. |
 | Prompt Engineering for AI Applications | Alison | 21 janvier 2025 | Conception de consignes pour applications d'IA. |
 | Leveraging AI in Predictive Analytics, Automation, and Data Management | Alison | 9 février 2025 | IA, automatisation et données. |
+| Data Science Masterclass for Beginners | Alison | 22 février 2025 | Fondements de la science des données. |
+| Data Science - Working with Data | Alison | 8 février 2025 | Manipulation et préparation des données. |
+| Machine Learning with Artificial Intelligence | Alison | 26 février 2025 | Apprentissage automatique et intelligence artificielle. |
 | À la recherche de l'Intelligence Artificielle | France Université Numérique | 20 novembre 2024 | Fondements, usages et limites de l'IA. |
 | Write with AI | SoloLearn | 6 mars 2025 | IA et rédaction. |
 | Visualize Your Data | SoloLearn | 5 mars 2025 | Visualisation de données. |
@@ -27,6 +30,8 @@ Formations attestées au nom de Junior BOOTO. Cette liste décrit le parcours de
 | Machine learning in Python with scikit-learn (Inria) | France Université Numérique | 11 mars 2026 | Apprentissage automatique et modélisation prédictive. |
 | Statistique pour l'ingénieur (Institut Mines-Télécom) | France Université Numérique | 15 juin 2026 | Statistique descriptive et inférentielle. |
 | [Les essentiels de la cybersécurité : du risque à la résilience (Institut Mines-Télécom)](https://openbadgefactory.com/obv3/credentials/6d26071d1db47b06c3d60425945963fa100688d5) | France Université Numérique | 9 juillet 2026 | Cybermenaces, protection et analyse des risques. |
+
+Les sept certificats Alison transmis le 17 octobre 2026 ont été rapprochés de cette liste : quatre formations déjà présentes ont été conservées sans doublon et trois formations ont été ajoutées. Leurs intitulés et dates ont été contrôlés sur les documents fournis.
 
 Les deux copies de certains badges FUN transmis ont été dédoublonnées. Les certificats Alison comportent des liens de vérification individuels ; ils peuvent être fournis séparément sur demande. Cette page n'expose pas leurs identifiants dans le dépôt public.
 
