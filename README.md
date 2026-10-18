@@ -5,6 +5,10 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 [Profil et CV](https://github.com/Junior-BOOTO) · [Site professionnel](https://junior-booto-fle.juniorbooto.chatgpt.site) · [Portfolio FLE](https://github.com/Junior-BOOTO/portfolio-fle) · [Catalogue complet](CATALOGUE.md)
 
+## CV Python & Data · Français · English · Español
+
+[Consulter mes trois CV](cv/README.md) : versions harmonisées de trois pages, avec quatre projets personnels et les liens de certification.
+
 ## Quatre projets pour commencer
 
 | Projet | Ce qu’il permet d’examiner | Limite principale |
@@ -41,3 +45,4 @@ Ces carnets retracent ma progression ; leurs environnements et données nécessa
 - [Modèle de README](templates/README-PYTHON.md) · [Reproduction du démonstrateur FLE](fle-learning-analytics/README.md).
 
 Les jeux synthétiques sont signalés comme tels ; les données RH originales absentes ne donnent lieu à aucun résultat revendiqué. Les données d’élèves et les documents confidentiels restent exclus des ressources publiques.
+
