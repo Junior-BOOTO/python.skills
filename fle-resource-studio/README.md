@@ -4,6 +4,12 @@
 
 Préparer une ressource FLE A1 à partir d'un thème, d'une aide et d'une langue de soutien. Le studio assemble des contenus explicites et inspectables ; il ne prétend ni générer librement toutes les séances, ni certifier un niveau CECRL.
 
+## Version téléchargeable
+
+[Version 1.0.0 et fichiers de distribution](https://github.com/Junior-BOOTO/python.skills/releases/tag/fle-resource-studio-v1.0.0) · [Démarrage rapide](DEMARRAGE.md) · [Historique](CHANGELOG.md)
+
+La publication est effectuée par GitHub Actions uniquement après réussite des tests. Le rapport de validation accompagne l’archive. Cette distribution n’ajoute ni validation en classe ni licence ouverte générale.
+
 ## Ouvrir le studio
 
 Ouvrir `reports/studio.html` dans un navigateur moderne. Le choix du thème, de l'appui et de la langue utilise des variantes préconstruites par Python. Les fiches individuelles `kits/<theme>/kit.html` sont autonomes. Aucun compte, clé payante ou API externe n'est nécessaire pour les ressources principales.
