@@ -1,10 +1,10 @@
 # Bibliothèque de références — Python, analyse des données et data science
 
-**Junior BOOTO Waba · Vingt-trois ouvrages · Mise à jour du 18 octobre 2026**
+**Junior BOOTO Waba · Vingt-cinq ouvrages · Mise à jour du 18 octobre 2026**
 
 [Bibliographie sur mon site](https://junior-booto-fle.juniorbooto.chatgpt.site/bibliographie-python.html) · [Retour au portfolio Python](../README.md)
 
-Ces références accompagnent mon apprentissage et mes projets. Les objectifs de lecture sont des propositions ; cette sélection ne constitue pas une preuve de maîtrise ni de lecture intégrale. Les notices et liens d’accès sont publiés ; les fichiers des livres ne sont pas redistribués. Pour les exemples anciens, vérifier les versions des outils avant exécution. Voir aussi le [guide d’application des trois nouveaux ouvrages aux projets du dépôt](application-dans-les-projets.md).
+Ces références accompagnent mon apprentissage et mes projets. Les objectifs de lecture sont des propositions ; cette sélection ne constitue pas une preuve de maîtrise ni de lecture intégrale. Les notices et liens d’accès sont publiés ; les fichiers des livres ne sont pas redistribués. Pour les exemples anciens, vérifier les versions des outils avant exécution. Voir aussi le [guide d’application des ouvrages ajoutés aux projets du dépôt](application-dans-les-projets.md).
 
 ## Fondamentaux
 
@@ -82,6 +82,14 @@ Référence d’étude ; la présence dans cette sélection ne constitue pas une
 
 [Page officielle de la collection](https://python-course.eu/about/pdf-version-of-this-site.php)
 
+### Learn SQLite with Python in 24 Hours for Beginners
+
+**S. Basu** · Éditeur non précisé dans la copie consultée · 2021
+
+Pratiquer les schémas SQLite, les opérations CRUD, les requêtes SELECT et les jointures depuis Python.
+
+Référence d’étude ; copie privée du Drive, fichier non redistribué.
+
 ### Python pour le data scientist
 
 **Emmanuel Jakobowicz** · Dunod · 2021
@@ -135,6 +143,18 @@ Référence d’étude ; la présence dans cette sélection ne constitue pas une
 Explorer les étapes et les applications d’un projet de données.
 
 Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.
+
+## Ingénierie des données
+
+### Data Pipelines Pocket Reference: Moving and Processing Data for Analytics
+
+**James Densmore** · O’Reilly · 2021
+
+Étudier l’ingestion, la transformation, la validation, l’orchestration et le suivi des pipelines analytiques en Python et SQL.
+
+Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.
+
+[Référence officielle O’Reilly](https://oreilly.com/library/view/data-pipelines-pocket/9781492087822/)
 
 ## Analyse et visualisation
 
