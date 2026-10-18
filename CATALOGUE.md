@@ -80,7 +80,7 @@ Audit en lecture seule de trois projets réels : inventaire GitHub figé au comm
 
 ## Bibliothèque de références
 
-[Vingt ouvrages Python, analyse des données et data science](bibliotheque/README.md), organisés par domaine avec des objectifs de lecture et des liens officiels. [Sélection sur mon site](https://junior-booto-fle.juniorbooto.chatgpt.site/bibliographie-python.html).
+[Vingt-trois ouvrages Python, analyse des données et data science](bibliotheque/README.md), organisés par domaine avec des objectifs de lecture et des liens d’accès. Pour appliquer les trois nouvelles références aux projets du dépôt, lire le [guide d’application](bibliotheque/application-dans-les-projets.md). [Bibliographie sur mon site](https://junior-booto-fle.juniorbooto.chatgpt.site/bibliographie-python.html).
 
 ## Carnets d’apprentissage
 
