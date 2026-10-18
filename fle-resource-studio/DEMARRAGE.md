@@ -1,8 +1,8 @@
-# Démarrer avec FLE Resource Studio — 1.0.0
+# Démarrer avec FLE Resource Studio — 1.0.1
 
 ## Sans Python : consulter les ressources
-1. Télécharger l’archive ZIP depuis la [version publiée](https://github.com/Junior-BOOTO/python.skills/releases/tag/fle-resource-studio-v1.0.0), puis utiliser « Extraire tout ».
-2. Ouvrir le dossier fle-resource-studio-1.0.0.
+1. Télécharger l’archive ZIP depuis la [version publiée](https://github.com/Junior-BOOTO/python.skills/releases/tag/fle-resource-studio-v1.0.1), puis utiliser « Extraire tout ».
+2. Ouvrir le dossier fle-resource-studio-1.0.1.
 3. Ouvrir reports/studio.html dans un navigateur. Les ressources principales sont autonomes.
 4. Choisir le thème, l’aide et la langue de soutien. La lecture vocale dépend des voix disponibles sur votre appareil.
 5. Pour une fiche autonome, ouvrir kits/<theme>/kit.html : meubles, taches, routine, paysages ou ecocitoyen.

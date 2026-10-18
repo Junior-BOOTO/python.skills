@@ -1,9 +1,9 @@
-# FLE Resource Studio 1.0.0
+# FLE Resource Studio 1.0.1
 
 Première distribution versionnée du prototype FLE × Python de Junior BOOTO Waba.
 
 ## Téléchargements
-- fle-resource-studio-1.0.0.zip : code, catalogue, studio HTML autonome, cinq kits, tests et guide DEMARRAGE.md.
+- fle-resource-studio-1.0.1.zip : code, catalogue, studio HTML autonome, cinq kits, tests et guide DEMARRAGE.md.
 - SHA256SUMS.txt : empreinte de l’archive produite.
 - release-validation.json : liste des fichiers et résultats des contrôles exécutés sur l’archive extraite.
 
@@ -17,3 +17,6 @@ La synthèse vocale réelle, l’impression et le rendu visuel restent à vérif
 
 ## Droits
 Les conditions de réutilisation du projet et des sources restent celles indiquées dans le README ; la publication n’attribue aucune licence ouverte générale.
+
+## Correction d’impression
+Profil A4 compact : lexique et modèles sur la première page, activités et grille sur la seconde. Les cinq thèmes sont contrôlés automatiquement sur deux pages dans Chromium.

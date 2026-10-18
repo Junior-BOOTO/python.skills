@@ -47,7 +47,9 @@ const { pathToFileURL } = require('node:url');
         const visible = await page.locator(cls).evaluateAll(es => es.some(e => getComputedStyle(e).display !== 'none'));
         if (visible) throw Error('Teacher or answers visible in print');
       }
-      await page.pdf({ path: path.join(out, theme + '-A4.pdf'), format: 'A4', printBackground: true });
+      const pdf = await page.pdf({ path: path.join(out, theme + '-A4.pdf'), format: 'A4', printBackground: true });
+      const pages = (pdf.toString('latin1').match(/\/Type\s*\/Page\b/g) || []).length;
+      if (pages !== 2) throw Error(theme + ': expected 2 A4 pages, got ' + pages);
       if (theme === 'meubles') await page.screenshot({ path: path.join(out, 'meubles-print.png'), fullPage: true });
       printed.push(theme);
     }

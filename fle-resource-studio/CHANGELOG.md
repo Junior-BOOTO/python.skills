@@ -1,5 +1,10 @@
 # Historique — FLE Resource Studio
 
+## 1.0.1 — 18 octobre 2026
+- Correction du profil A4 : marges explicites, typographie compacte et saut avant la fiche apprenant.
+- Conservation de la grille entière et masquage de l’état de lecture vocale à l’impression.
+- Contrôle navigateur des 45 variantes, de l’export JSON et des cinq fiches A4.
+
 ## 1.0.0 — Préparation de la première publication versionnée, 18 octobre 2026
 - Conservation du moteur et des ressources existants : cinq thèmes A1, trois aides, glossaire FR/ES/EN.
 - Ajout d’un guide de démarrage sans Python et de commandes Linux/macOS et PowerShell.

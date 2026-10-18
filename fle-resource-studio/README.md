@@ -6,7 +6,7 @@ Préparer une ressource FLE A1 à partir d'un thème, d'une aide et d'une langue
 
 ## Version téléchargeable
 
-[Version 1.0.0 et fichiers de distribution](https://github.com/Junior-BOOTO/python.skills/releases/tag/fle-resource-studio-v1.0.0) · [Démarrage rapide](DEMARRAGE.md) · [Historique](CHANGELOG.md)
+[Version 1.0.1 et fichiers de distribution](https://github.com/Junior-BOOTO/python.skills/releases/tag/fle-resource-studio-v1.0.1) · [Démarrage rapide](DEMARRAGE.md) · [Historique](CHANGELOG.md)
 
 La publication est effectuée par GitHub Actions uniquement après réussite des tests. Le rapport de validation accompagne l’archive. Cette distribution n’ajoute ni validation en classe ni licence ouverte générale.
 
@@ -108,3 +108,6 @@ Références consultées :
 - https://www.youtube.com/watch?v=yW5PvraL-wA (candidate non validée pédagogiquement)
 
 Le code et les propositions de ressources ne reçoivent pas automatiquement une licence ouverte. La licence doit être choisie par l'auteur avant une redistribution sous licence ouverte. Projet présenté dans les axes FLE et Python/data du portfolio : [studio](https://junior-booto-fle.juniorbooto.chatgpt.site/fle-resource-studio.html) · [code](https://github.com/Junior-BOOTO/python.skills/tree/main/fle-resource-studio). La lecture vocale reste dépendante du navigateur et les ressources nécessitent une revue enseignante.
+
+## Contrôle du rendu — 18 octobre 2026
+La version 1.0.0 a été examinée dans Chromium sur ordinateur et mobile : 45 variantes et export JSON vérifiés. L’inspection des PDF a révélé une grille répartie sur trois pages. La version 1.0.1 corrige le profil A4 et les sauts : une page de lexique/modèles puis une page d’activités et de critères. La lecture vocale réelle, les autres navigateurs et l’impression physique restent à vérifier. Les preuves du contrôle sont conservées dans les artefacts GitHub Actions du processus de publication.
