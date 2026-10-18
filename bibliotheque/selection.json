@@ -299,5 +299,33 @@
     "note": "Référence d’étude ; exemples conçus pour Excel, à adapter avec discernement en Python.",
     "url": "https://www.cengage.com/highered",
     "year": "2011"
+  },
+  {
+    "title": "Data Pipelines Pocket Reference: Moving and Processing Data for Analytics",
+    "authors": "James Densmore",
+    "publisher": "O’Reilly",
+    "group": "data-engineering",
+    "levels": [
+      "Ingénierie des données",
+      "Science des données"
+    ],
+    "use": "Concevoir des étapes d’ingestion, transformation, validation, orchestration et suivi de pipelines analytiques en Python et SQL.",
+    "note": "Référence d’étude ; les notions sont à appliquer et vérifier dans les projets, sans prétendre à une maîtrise acquise.",
+    "url": "https://oreil.ly/data-pipelines-pocket-ref",
+    "year": "2021"
+  },
+  {
+    "title": "Learn SQLite with Python in 24 Hours for Beginners",
+    "authors": "S. Basu",
+    "publisher": "Éditeur non précisé dans la copie consultée",
+    "group": "python",
+    "levels": [
+      "Pratique Python",
+      "Bases de données"
+    ],
+    "use": "Pratiquer la création de schémas SQLite, les opérations CRUD, les requêtes SELECT et les jointures depuis Python.",
+    "note": "Référence d’étude issue d’une copie privée du Drive ; notice bibliographique seulement, aucun fichier ni contenu du livre redistribué.",
+    "url": "",
+    "year": "2021"
   }
 ]
