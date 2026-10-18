@@ -1,16 +1,18 @@
-# Appliquer trois ouvrages aux projets Python et data
+# Appliquer cinq ouvrages aux projets Python et data
 
 **Junior BOOTO Waba · Mis à jour le 18 octobre 2026**
 
-Ce guide transforme trois références de lecture en pratiques concrètes pour le portfolio. C’est une synthèse originale et un parcours d’application : il ne reproduit pas les livres. Les projets cités existaient déjà dans le dépôt; ce guide ne prétend pas qu’ils ont été réalisés à partir de ces ouvrages.
+Ce guide transforme cinq références de lecture en pratiques concrètes pour le portfolio. C’est une synthèse originale et un parcours d’application : il ne reproduit pas les livres. Les projets cités existaient déjà dans le dépôt; ce guide ne prétend pas qu’ils ont été réalisés à partir de ces ouvrages.
 
-## Les trois références
+## Les cinq références
 
 | Ouvrage | Apport à travailler | Projets du dépôt où l’appliquer |
 | --- | --- | --- |
 | *Think Like a Data Analyst*, version MEAP 2 | Cadrer une question, formuler une hypothèse, choisir une mesure et présenter une conclusion utile. | [Superstore — Analyse bivariée](../superstore-bivariate/README.md), [Wine Quality — ACP](../wine-quality-acp/README.md) |
 | *Data Analysis with Python* — Bernd Klein | Pratiquer NumPy, pandas, Matplotlib, la lecture de fichiers, les regroupements et le traitement des valeurs manquantes. | [Superstore — Analyse bivariée](../superstore-bivariate/README.md), [Document-to-Data Lab](../document-to-data-lab/README.md) |
 | *Data Analysis and Decision Making*, 4e édition — S. Christian Albright, Wayne L. Winston et Christopher J. Zappe | Consolider les distributions, les relations entre variables, l’inférence, la régression, les séries temporelles, la décision et la simulation. | [Superstore — Analyse bivariée](../superstore-bivariate/README.md), [BikeDemand](../bike-demand/README.md), [Prévision des ventes](../sales-time-series/README.md) |
+| *Data Pipelines Pocket Reference* — James Densmore | Documenter ingestion, transformations, contrôles de qualité, orchestration et suivi d’un pipeline réutilisable. | [Document-to-Data Lab](../document-to-data-lab/README.md), [BikeDemand](../bike-demand/README.md) |
+| *Learn SQLite with Python in 24 Hours for Beginners* — S. Basu | Relier les bases SQLite aux requêtes et analyses reproductibles en Python. | [Chinook — SQL et Python](../chinook-sql/README.md), [Document-to-Data Lab](../document-to-data-lab/README.md) |
 
 Voir les notices complètes et les liens d’accès dans [la bibliothèque de références](README.md).
 
@@ -27,6 +29,8 @@ Voir les notices complètes et les liens d’accès dans [la bibliothèque de r�
 ## Mise en pratique dans le dépôt
 
 - Dans **Superstore**, vérifier que les taux utilisent le bon dénominateur, comparer les mesures d’association et garder les conclusions descriptives.
+- Dans **Document-to-Data Lab**, prolonger la provenance déjà documentée par des contrôles de validation explicites, des étapes rejouables et un suivi des anomalies, en s’inspirant du parcours sur les pipelines.
+- Dans **Chinook**, relier les requêtes SQL et les jointures à un accès SQLite depuis Python, puis documenter les résultats et les limites de la base de démonstration.
 - Dans **BikeDemand** et **sales-time-series**, comparer une méthode à une référence et respecter l’ordre temporel de l’évaluation.
 - Dans **Document-to-Data Lab**, relier chaque résultat à sa source et rendre visibles les lignes acceptées, rejetées et à examiner.
 
