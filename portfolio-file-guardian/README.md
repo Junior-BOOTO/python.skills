@@ -6,6 +6,12 @@ Inventorier des ressources, identifier leurs doublons exacts et préparer leur o
 
 [Examiner le rapport HTML généré](reports/report.html)
 
+## Version téléchargeable
+
+[Version 1.0.0 et archive ZIP](https://github.com/Junior-BOOTO/python.skills/releases/tag/portfolio-file-guardian-v1.0.0) · [Démarrage rapide](DEMARRAGE.md) · [Historique](CHANGELOG.md)
+
+L’archive est construite après réussite des tests ; les empreintes et le rapport de vérification sont joints à la version. Les limites et conditions de réutilisation restent celles décrites ici.
+
 ## Problème et apport
 
 Un portfolio rassemble souvent des ressources FLE, du code et des données dans plusieurs dossiers. Deux fichiers portant des noms différents peuvent être identiques ; deux fichiers de même nom peuvent être différents. Guardian distingue ces situations et propose des catégories selon les extensions.
