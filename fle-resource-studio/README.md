@@ -70,7 +70,7 @@ Les options sont validées ; POST/PUT/DELETE sont refusés. Le serveur reste li�
 
 « Écouter les modèles » utilise `speechSynthesis` si une voix française est disponible dans le navigateur. L'outil affiche un état explicite en cas d'absence de voix ou d'erreur. La vitesse est réglée à 0,85 ; ce n'est pas une mesure pédagogique de débit. Certaines voix utilisent un service distant selon le navigateur. Aucune parole d'élève n'est enregistrée.
 
-Aucun moteur français de synthèse vocale exécutable n'était disponible pour créer une bande-son dans cet environnement. **Aucun MP3/WAV n'est donc livré.** Les scripts TXT sont fournis et la lecture de l'enseignant constitue un parcours complet. La lecture vocale réelle et le rendu visuel en navigateur n'ont pas été testés ici ; la syntaxe JavaScript a été vérifiée.
+Aucun moteur français de synthèse vocale exécutable n'était disponible pour créer une bande-son dans cet environnement. **Aucun MP3/WAV n'est donc livré.** Les scripts TXT sont fournis et la lecture de l'enseignant constitue un parcours complet. La lecture vocale réelle reste à vérifier. Le rendu navigateur a été contrôlé dans Chromium le 18 octobre 2026 ; voir le compte rendu daté en fin de page.
 
 ## Traductions : état exact
 
@@ -94,7 +94,7 @@ La variable `YOUTUBE_API_KEY` est lue par le connecteur. Ne jamais publier une c
 
 20 tests de comportement réussis localement sous Linux. Les 45 combinaisons ont été construites et vérifiées, cinq kits par défaut exportés et la syntaxe JavaScript contrôlée. Résultats et versions : `reports/validation.json` et `reports/tests.txt`.
 
-La feuille d'impression masque la fiche enseignant, les vidéos et le corrigé. Son rendu complet reste à vérifier dans votre navigateur ; pour une mise en page fixe destinée à l'impression professionnelle, prévoir une exportation PDF avec contrôle visuel.
+La feuille d'impression masque la fiche enseignant, les vidéos et le corrigé. Le profil A4 a été contrôlé dans Chromium le 18 octobre 2026 sur les cinq thèmes : deux pages par fiche. L’impression physique et les autres navigateurs restent à vérifier.
 
 Pas de profil d'élève, de note automatique, de chatbot conversationnel, de reconnaissance vocale, de connexion Drive ni de stockage cloud. L'objectif est fixé par le thème et aligné avec la tâche et les critères ; un objectif différent exige une adaptation de la séance entière.
 
@@ -111,3 +111,5 @@ Le code et les propositions de ressources ne reçoivent pas automatiquement une 
 
 ## Contrôle du rendu — 18 octobre 2026
 La version 1.0.0 a été examinée dans Chromium sur ordinateur et mobile : 45 variantes et export JSON vérifiés. L’inspection des PDF a révélé une grille répartie sur trois pages. La version 1.0.1 corrige le profil A4 et les sauts : une page de lexique/modèles puis une page d’activités et de critères. La lecture vocale réelle, les autres navigateurs et l’impression physique restent à vérifier. Les preuves du contrôle sont conservées dans les artefacts GitHub Actions du processus de publication.
+
+[Compte rendu de la vérification navigateur et impression](docs/verification-navigateur-2026-10-18.md).
