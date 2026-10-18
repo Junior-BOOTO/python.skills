@@ -154,7 +154,7 @@ Référence d’étude ; la présence dans cette sélection ne constitue pas une
 
 Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.
 
-[Référence officielle O’Reilly](https://oreilly.com/library/view/data-pipelines-pocket/9781492087822/)
+[Référence officielle O’Reilly](https://ore.ly/data-pipelines-pocket-ref)
 
 ## Analyse et visualisation
 
