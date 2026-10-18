@@ -1,0 +1,75 @@
+name: Guardian release and FLE browser review
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/guardian-release.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: guardian-release-1.0.0
+  cancel-in-progress: false
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12']
+    defaults:
+      run:
+        working-directory: portfolio-file-guardian
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run behavior tests
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+  publish:
+    needs: tests
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and check extracted archive
+        run: python portfolio-file-guardian/scripts/package_release.py --output dist
+      - name: Publish once at tested commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_COMMIT: ${{ github.sha }}
+        run: |
+          set -eu
+          tag=portfolio-file-guardian-v1.0.0
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Existing release will not be replaced."
+            exit 1
+          fi
+          gh release create "$tag" dist/portfolio-file-guardian-1.0.0.zip dist/SHA256SUMS.txt dist/release-validation.json --target "$RELEASE_COMMIT" --title "Portfolio File Guardian 1.0.0" --notes-file portfolio-file-guardian/RELEASE_NOTES.md
+  browser:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser test dependencies
+        run: |
+          npm install --no-save --package-lock=false playwright@1.62.1
+          npx playwright install --with-deps chromium
+      - name: Check studio variants, exports and printing
+        run: node fle-resource-studio/scripts/check-browser.cjs browser-evidence
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fle-studio-browser-evidence
+          path: browser-evidence/
+          retention-days: 30
