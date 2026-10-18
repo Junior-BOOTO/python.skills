@@ -1,10 +1,10 @@
 # Bibliothèque de références — Python, analyse des données et data science
 
-**Junior BOOTO Waba · Vingt ouvrages · Sélection du 10 octobre 2026**
+**Junior BOOTO Waba · Vingt-trois ouvrages · Mise à jour du 18 octobre 2026**
 
-[Consulter la même sélection sur mon site](https://junior-booto-fle.juniorbooto.chatgpt.site/bibliographie-python.html) · [Retour au portfolio Python](../README.md)
+[Bibliographie sur mon site](https://junior-booto-fle.juniorbooto.chatgpt.site/bibliographie-python.html) · [Retour au portfolio Python](../README.md)
 
-Ces références accompagnent mon apprentissage et mes projets. Les objectifs de lecture sont des propositions ; cette sélection ne constitue pas une preuve de maîtrise ni de lecture intégrale. Les notices et liens officiels sont publiés ; les fichiers privés des livres ne sont pas redistribués. Pour les exemples anciens, vérifier les versions des outils avant exécution.
+Ces références accompagnent mon apprentissage et mes projets. Les objectifs de lecture sont des propositions ; cette sélection ne constitue pas une preuve de maîtrise ni de lecture intégrale. Les notices et liens d’accès sont publiés ; les fichiers des livres ne sont pas redistribués. Pour les exemples anciens, vérifier les versions des outils avant exécution. Voir aussi le [guide d’application des trois nouveaux ouvrages aux projets du dépôt](application-dans-les-projets.md).
 
 ## Fondamentaux
 
@@ -72,6 +72,16 @@ Référence d’étude ; la présence dans cette sélection ne constitue pas une
 
 [Site officiel ou fiche de référence](https://www.xoolive.org/python/)
 
+### Data Analysis with Python
+
+**Bernd Klein** · Bodenseo / Python Course · 2021
+
+Pratiquer NumPy, pandas, Matplotlib, la lecture de fichiers et le traitement des valeurs manquantes.
+
+Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.
+
+[Page officielle de la collection](https://python-course.eu/about/pdf-version-of-this-site.php)
+
 ### Python pour le data scientist
 
 **Emmanuel Jakobowicz** · Dunod · 2021
@@ -91,6 +101,16 @@ Comprendre les données et conduire une première analyse.
 Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.
 
 [Site officiel ou fiche de référence](https://openstax.org/books/principles-data-science/pages/1-introduction)
+
+### Think Like a Data Analyst — MEAP, version 2
+
+**Manning Publications** · 2023 · Auteur non indiqué dans la version fournie
+
+Cadrer une question analytique, formuler une hypothèse, choisir des mesures et communiquer les résultats.
+
+Version MEAP prépublication ; référence d’étude, pas preuve de maîtrise.
+
+[Discussion officielle Manning](https://livebook.manning.com/#!/book/think-like-a-data-analyst/discussion)
 
 ### Data Science Fundamentals Pocket Primer
 
@@ -117,6 +137,16 @@ Explorer les étapes et les applications d’un projet de données.
 Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.
 
 ## Analyse et visualisation
+
+### Data Analysis and Decision Making — 4e édition
+
+**S. Christian Albright, Wayne L. Winston et Christopher J. Zappe** · South-Western / Cengage Learning · 2011
+
+Étudier les distributions, les relations entre variables, l’inférence, la régression, les séries temporelles, la décision, l’optimisation et la simulation. Les exemples du livre s’appuient sur Excel.
+
+Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.
+
+[Éditeur](https://www.cengage.com/highered)
 
 ### Exploratory Data Analysis
 
