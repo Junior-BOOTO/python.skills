@@ -1,0 +1,56 @@
+name: FLE Studio versioned release
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fle-studio-release.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: fle-studio-release-1.0.0
+  cancel-in-progress: false
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12']
+    defaults:
+      run:
+        working-directory: fle-resource-studio
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run behavior tests
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+  publish:
+    needs: tests
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build archive and verify extracted commands
+        run: python fle-resource-studio/scripts/package_release.py --output dist
+      - name: Publish once at the tested commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_COMMIT: ${{ github.sha }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag=fle-resource-studio-v1.0.0
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Release already exists; refusing to replace it."
+            exit 1
+          fi
+          gh release create "$tag" dist/fle-resource-studio-1.0.0.zip dist/SHA256SUMS.txt dist/release-validation.json --target "$RELEASE_COMMIT" --title "FLE Resource Studio 1.0.0" --notes-file fle-resource-studio/RELEASE_NOTES.md
