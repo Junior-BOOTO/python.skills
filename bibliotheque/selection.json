@@ -258,5 +258,46 @@
     "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
     "url": "",
     "year": "2015"
+  },
+  {
+    "title": "Think Like a Data Analyst — MEAP, version 2",
+    "authors": "Auteur non indiqué dans la version fournie",
+    "publisher": "Manning Publications",
+    "group": "python",
+    "levels": [
+      "Science des données"
+    ],
+    "use": "Cadrer une question analytique, formuler une hypothèse, choisir des mesures et communiquer les résultats.",
+    "note": "Version MEAP prépublication fournie (2023) ; référence d’étude, pas preuve de maîtrise.",
+    "url": "https://livebook.manning.com/#!/book/think-like-a-data-analyst/discussion",
+    "year": "2023"
+  },
+  {
+    "title": "Data Analysis with Python",
+    "authors": "Bernd Klein",
+    "publisher": "Bodenseo / Python Course",
+    "group": "python",
+    "levels": [
+      "Pratique Python",
+      "Analyse et visualisation"
+    ],
+    "use": "Pratiquer NumPy, pandas, Matplotlib, la lecture de fichiers, les regroupements et les valeurs manquantes.",
+    "note": "Référence d’étude ; la présence dans cette sélection ne constitue pas une preuve de maîtrise.",
+    "url": "https://python-course.eu/about/pdf-version-of-this-site.php",
+    "year": "2021"
+  },
+  {
+    "title": "Data Analysis and Decision Making — 4e édition",
+    "authors": "S. Christian Albright, Wayne L. Winston et Christopher J. Zappe",
+    "publisher": "South-Western / Cengage Learning",
+    "group": "python",
+    "levels": [
+      "Analyse et visualisation",
+      "Modélisation"
+    ],
+    "use": "Étudier distributions, relations entre variables, inférence, régression, séries temporelles, décision, optimisation et simulation.",
+    "note": "Référence d’étude ; exemples conçus pour Excel, à adapter avec discernement en Python.",
+    "url": "https://www.cengage.com/highered",
+    "year": "2011"
   }
 ]
