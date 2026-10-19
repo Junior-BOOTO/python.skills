@@ -115,9 +115,13 @@ Import de neuf tables commerciales Microsoft dans SQLite : 31 465 commandes et 1
 
 ### Formations complémentaires SoloLearn
 
-- Rencontrez Claude — certificat de cours · 19 octobre 2026.
-- Mentalité de croissance à l’ère de l’IA — certificat de cours · 19 octobre 2026.
-- Tests A/B alimentés par l’IA — certificat de cours · 19 octobre 2026.
+- Détection et atténuation des biais dans les systèmes d’IA (Bias Detection and Mitigation in AI Systems) — SoloLearn · certificat de cours · 19 octobre 2026.
+- Apprentissage automatique pour débutants (Machine Learning for Beginners) — SoloLearn · certificat de cours · 19 octobre 2026.
+- Rencontrez Claude — SoloLearn · certificat de cours · 19 octobre 2026.
+- Mentalité de croissance à l’ère de l’IA (Growth Mindset in the Age of AI) — SoloLearn · certificat de cours · 19 octobre 2026.
+- Vibe Coding (programmation assistée par IA) — SoloLearn · certificat de cours · 19 octobre 2026.
+- Agentic Workflows (flux de travail agentiques) — SoloLearn · certificat de cours · 19 octobre 2026.
+- Tests A/B alimentés par l’IA (AI-Powered A/B Testing) — SoloLearn · certificat de cours · 19 octobre 2026.
 
 Python Developer (04/03/2024) ; Python Intermediate (24/03/2024) ; Coding for Data (09/03/2024) ; Coding Foundations (27/03/2024).
 
