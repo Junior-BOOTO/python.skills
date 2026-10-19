@@ -115,6 +115,10 @@ Import de neuf tables commerciales Microsoft dans SQLite : 31 465 commandes et 1
 
 ### Formations complémentaires SoloLearn
 
+- Rencontrez Claude — certificat de cours · 19 octobre 2026.
+- Mentalité de croissance à l’ère de l’IA — certificat de cours · 19 octobre 2026.
+- Tests A/B alimentés par l’IA — certificat de cours · 19 octobre 2026.
+
 Python Developer (04/03/2024) ; Python Intermediate (24/03/2024) ; Coding for Data (09/03/2024) ; Coding Foundations (27/03/2024).
 
 Introduction to SQL (19/03/2024) ; SQL Intermediate (20/03/2024) ; Data Analytics with AI et Generative AI in Practice (14/07/2024) ; Visualize Your Data (mars 2025).
