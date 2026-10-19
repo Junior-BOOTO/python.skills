@@ -9,6 +9,10 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 [Consulter mes trois CV](cv/README.md) : versions harmonisées de trois pages, avec quatre projets personnels et les liens de certification.
 
+## Certificats SoloLearn en IA et données
+
+J’ai ajouté les [10 nouveaux certificats et leurs justificatifs](certifications/sololearn/README.md), classés selon leur pertinence pour les données et l’IA. La [galerie du portfolio](https://junior-booto-fle.juniorbooto.chatgpt.site/certificats-ia.html) est disponible en français, anglais et espagnol.
+
 ## Quatre projets pour commencer
 
 | Projet | Ce qu’il permet d’examiner | Limite principale |
