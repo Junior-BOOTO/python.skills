@@ -11,7 +11,7 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 ## Certificats SoloLearn en IA et données
 
-J’ai ajouté les [10 nouveaux certificats et leurs justificatifs](certifications/sololearn/README.md), classés selon leur pertinence pour les données et l’IA. La [galerie du portfolio](https://junior-booto-fle.juniorbooto.chatgpt.site/certificats-ia.html) est disponible en français, anglais et espagnol.
+J’ai ajouté les [13 certificats et leurs justificatifs](certifications/sololearn/README.md), classés selon leur pertinence pour les données et l’IA. La [galerie du portfolio](https://junior-booto-fle.juniorbooto.chatgpt.site/certificats-ia.html) est disponible en français, anglais et espagnol.
 
 ## Quatre projets pour commencer
 
@@ -49,4 +49,3 @@ Ces carnets retracent ma progression ; leurs environnements et données nécessa
 - [Modèle de README](templates/README-PYTHON.md) · [Reproduction du démonstrateur FLE](fle-learning-analytics/README.md).
 
 Les jeux synthétiques sont signalés comme tels ; les données RH originales absentes ne donnent lieu à aucun résultat revendiqué. Les données d’élèves et les documents confidentiels restent exclus des ressources publiques.
-
