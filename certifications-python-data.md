@@ -28,9 +28,9 @@ Formations attestées au nom de Junior BOOTO. Cette liste décrit le parcours de
 | Data Analytics with AI | SoloLearn | 14 juillet 2024 | Analyse de données et IA. |
 | [Rencontrez Claude](certifications/sololearn/11-rencontrez-claude.jpg) | SoloLearn | 19 octobre 2026 | Découverte de Claude et de ses usages. |
 | [Mentalité de croissance à l’ère de l’IA](certifications/sololearn/12-mentalite-croissance-ere-ia.jpg) | SoloLearn | 19 octobre 2026 | Apprentissage et état d’esprit de croissance à l’ère de l’IA. |
-| [Vibe Coding](https://junior-booto-fle.juniorbooto.chatgpt.site/certificats/sololearn/14-vibe-coding.jpg) | SoloLearn | 19 octobre 2026 | Programmation assistée par IA et prototypage. |
-| [Agentic Workflows](https://junior-booto-fle.juniorbooto.chatgpt.site/certificats/sololearn/15-agentic-workflows.jpg) | SoloLearn | 19 octobre 2026 | Conception de flux de travail avec des agents d’IA. |
-| [Tests A/B alimentés par l’IA](https://junior-booto-fle.juniorbooto.chatgpt.site/certificats/sololearn/13-tests-ab-ia.jpg) | SoloLearn | 19 octobre 2026 | Expérimentation et optimisation par tests A/B avec l’IA. |
+| [Vibe Coding](certifications/sololearn/14-vibe-coding.jpg) | SoloLearn | 19 octobre 2026 | Programmation assistée par IA et prototypage. |
+| [Agentic Workflows](certifications/sololearn/15-agentic-workflows.jpg) | SoloLearn | 19 octobre 2026 | Conception de flux de travail avec des agents d’IA. |
+| [Tests A/B alimentés par l’IA](certifications/sololearn/13-tests-ab-ia.jpg) | SoloLearn | 19 octobre 2026 | Expérimentation et optimisation par tests A/B avec l’IA. |
 | [Fondamentaux pour le Big Data (Institut Mines-Télécom)](https://openbadgefactory.com/obv3/credentials/7127395a4721396a48d5771a5e3ae5e10be343be) | France Université Numérique | 11 mars 2026 | Données massives, Python, NumPy et statistiques. |
 | Machine learning in Python with scikit-learn (Inria) | France Université Numérique | 11 mars 2026 | Apprentissage automatique et modélisation prédictive. |
 | Statistique pour l'ingénieur (Institut Mines-Télécom) | France Université Numérique | 15 juin 2026 | Statistique descriptive et inférentielle. |
