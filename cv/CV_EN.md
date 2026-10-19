@@ -115,9 +115,13 @@ Executed 14 analyses and 3 additional queries; checked data granularity, keys an
 
 ### Additional SoloLearn Training
 
-- Meet Claude — course certificate · 19 Oct 2026.
-- Growth Mindset in the Age of AI — course certificate · 19 Oct 2026.
-- AI-Powered A/B Testing — course certificate · 19 Oct 2026.
+- Bias Detection and Mitigation in AI Systems — SoloLearn · course certificate · 19 Oct 2026.
+- Machine Learning for Beginners — SoloLearn · course certificate · 19 Oct 2026.
+- Meet Claude — SoloLearn · course certificate · 19 Oct 2026.
+- Growth Mindset in the Age of AI — SoloLearn · course certificate · 19 Oct 2026.
+- Vibe Coding — SoloLearn · course certificate · 19 Oct 2026.
+- Agentic Workflows — SoloLearn · course certificate · 19 Oct 2026.
+- AI-Powered A/B Testing — SoloLearn · course certificate · 19 Oct 2026.
 
 Python Developer (4 Mar 2024); Python Intermediate (24 Mar 2024); Coding for Data (9 Mar 2024); Coding Foundations (27 Mar 2024).
 
