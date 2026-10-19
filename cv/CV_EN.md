@@ -115,6 +115,10 @@ Executed 14 analyses and 3 additional queries; checked data granularity, keys an
 
 ### Additional SoloLearn Training
 
+- Meet Claude — course certificate · 19 Oct 2026.
+- Growth Mindset in the Age of AI — course certificate · 19 Oct 2026.
+- AI-Powered A/B Testing — course certificate · 19 Oct 2026.
+
 Python Developer (4 Mar 2024); Python Intermediate (24 Mar 2024); Coding for Data (9 Mar 2024); Coding Foundations (27 Mar 2024).
 
 Introduction to SQL (19 Mar 2024); SQL Intermediate (20 Mar 2024); Data Analytics with AI and Generative AI in Practice (14 Jul 2024); Visualize Your Data (Mar 2025).
