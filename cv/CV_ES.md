@@ -115,9 +115,13 @@ Ejecuté 14 análisis y 3 consultas adicionales; comprobé granularidad, claves 
 
 ### Formación complementaria en SoloLearn
 
-- Conoce a Claude — certificado de curso · 19 oct 2026.
-- Mentalidad de crecimiento en la era de la IA — certificado de curso · 19 oct 2026.
-- Pruebas A/B impulsadas por IA — certificado de curso · 19 oct 2026.
+- Detección y mitigación de sesgos en sistemas de IA (Bias Detection and Mitigation in AI Systems) — SoloLearn · certificado de curso · 19 oct 2026.
+- Aprendizaje automático para principiantes (Machine Learning for Beginners) — SoloLearn · certificado de curso · 19 oct 2026.
+- Conoce a Claude — SoloLearn · certificado de curso · 19 oct 2026.
+- Mentalidad de crecimiento en la era de la IA (Growth Mindset in the Age of AI) — SoloLearn · certificado de curso · 19 oct 2026.
+- Vibe Coding (programación asistida por IA) — SoloLearn · certificado de curso · 19 oct 2026.
+- Agentic Workflows (flujos de trabajo con agentes) — SoloLearn · certificado de curso · 19 oct 2026.
+- Pruebas A/B impulsadas por IA (AI-Powered A/B Testing) — SoloLearn · certificado de curso · 19 oct 2026.
 
 Python Developer (4 mar 2024); Python Intermediate (24 mar 2024); Coding for Data (9 mar 2024); Coding Foundations (27 mar 2024).
 
