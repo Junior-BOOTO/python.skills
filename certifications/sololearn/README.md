@@ -11,6 +11,10 @@ Junior BOOTO Waba · Certificats de cours SoloLearn fournis par leur titulaire.
 - [Littératie des données avec l’IA — 26 février 2025](09-litteratie-donnees-ia.jpg)
 - [IA générative en pratique — 14 juillet 2024](10-ia-generative-pratique.jpg)
 
+- [Rencontrez Claude — 19 octobre 2026](11-rencontrez-claude.jpg)
+- [Mentalité de croissance à l’ère de l’IA — 19 octobre 2026](12-mentalite-croissance-ere-ia.jpg)
+- [Tests A/B alimentés par l’IA — 19 octobre 2026](13-tests-ab-ia.jpg)
+
 ## Applications transversales de l’IA
 
 - [Marketing des médias sociaux avec l’IA — 19 octobre 2026](02-marketing-reseaux-sociaux-ia.jpg)
