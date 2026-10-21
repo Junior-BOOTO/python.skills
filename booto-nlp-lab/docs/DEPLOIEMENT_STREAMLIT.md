@@ -1,3 +1,12 @@
+# Alternatives d'hébergement : Render
+
+Le dépôt GitHub contient à sa racine [`render.yaml`](../../render.yaml), un Blueprint pour une instance Python gratuite Render (si ce plan est disponible lors de la création). Pour ouvrir le formulaire de création du service préconfiguré :
+
+**[Déployer sur Render — action manuelle requise](https://render.com/deploy?repo=https://github.com/Junior-BOOTO/python.skills)**
+
+Vérifier le nom du service `booto-nlp-lab`, le sous-dossier `booto-nlp-lab`, Python 3.11.11 et le port `$PORT`. L'URL publique `*.onrender.com` n'existera qu'une fois le service créé et déployé avec succès. Render nécessite l'approbation du propriétaire du compte pour créer les ressources.
+
+---
 # Déploiement de BOOTO NLP LAB sur Streamlit Community Cloud
 
 **Statut : configuration GitHub préparée ; aucune URL publique Streamlit confirmée.**
