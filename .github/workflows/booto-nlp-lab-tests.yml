@@ -1,0 +1,33 @@
+name: BOOTO NLP LAB · Tests
+
+on:
+  push:
+    paths:
+      - 'booto-nlp-lab/**'
+      - '.github/workflows/booto-nlp-lab-tests.yml'
+  pull_request:
+    paths:
+      - 'booto-nlp-lab/**'
+      - '.github/workflows/booto-nlp-lab-tests.yml'
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: booto-nlp-lab
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: booto-nlp-lab/requirements.txt
+      - name: Installer les dépendances
+        run: python -m pip install -r requirements.txt
+      - name: Exécuter les tests
+        run: python -m pytest -q
+      - name: Vérifier la syntaxe de l'application
+        run: python -m compileall -q app src
+      - name: Vérifier les imports Streamlit et langid
+        run: python -c "import streamlit, langid; print('Dépendances OK')"
