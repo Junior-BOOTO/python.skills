@@ -1,0 +1,301 @@
+document_id,text,language,category,source,license
+fr-001,Les élèves révisent le vocabulaire français en classe avec leur professeur. Cet exemple appartient au corpus de démonstration.,fr,education,synthetic_demo,original_synthetic_demo
+fr-002,Les développeurs conçoivent un logiciel informatique pour analyser les données. Cet exemple appartient au corpus de démonstration.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-003,Les arbres protègent les sols et améliorent la qualité de l’air. Cet exemple appartient au corpus de démonstration.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-004,Une école organise des ateliers pour améliorer la lecture et l’écriture. Cet exemple appartient au corpus de démonstration.,fr,education,synthetic_demo,original_synthetic_demo
+fr-005,Un système de cybersécurité protège les serveurs contre les attaques. Cet exemple appartient au corpus de démonstration.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-006,La forêt abrite des espèces animales et végétales menacées. Cet exemple appartient au corpus de démonstration.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-007,Le programme pédagogique encourage les étudiants à résoudre des exercices. Cet exemple appartient au corpus de démonstration.,fr,education,synthetic_demo,original_synthetic_demo
+fr-008,La programmation Python facilite la création de nouvelles applications numériques. Cet exemple appartient au corpus de démonstration.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-009,Une association organise une collecte de déchets près de la rivière. Cet exemple appartient au corpus de démonstration.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-010,Les enseignants expliquent les consignes et évaluent les devoirs chaque semaine. Cet exemple appartient au corpus de démonstration.,fr,education,synthetic_demo,original_synthetic_demo
+fr-011,Un modèle d’intelligence artificielle classifie les informations automatiquement. Cet exemple appartient au corpus de démonstration.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-012,Les scientifiques étudient les effets du changement climatique. Cet exemple appartient au corpus de démonstration.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-013,La bibliothèque scolaire offre des romans pour pratiquer la compréhension écrite. Cet exemple appartient au corpus de démonstration.,fr,education,synthetic_demo,original_synthetic_demo
+fr-014,Les ingénieurs testent un algorithme et optimisent les performances du réseau. Cet exemple appartient au corpus de démonstration.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-015,La protection de la biodiversité concerne les écosystèmes naturels. Cet exemple appartient au corpus de démonstration.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-016,Un groupe d’apprenants prépare une présentation orale sur les langues. Cet exemple appartient au corpus de démonstration.,fr,education,synthetic_demo,original_synthetic_demo
+fr-017,Une plateforme web affiche des graphiques et des résultats statistiques. Cet exemple appartient au corpus de démonstration.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-018,Les habitants réduisent les déchets plastiques et recyclent les emballages. Cet exemple appartient au corpus de démonstration.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-019,Les élèves travaillent en binômes pour développer leur expression française. Cet exemple appartient au corpus de démonstration.,fr,education,synthetic_demo,original_synthetic_demo
+fr-020,Un ordinateur exécute des calculs sur un ensemble de fichiers numériques. Cet exemple appartient au corpus de démonstration.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-021,Une réserve naturelle protège les oiseaux et les plantes sauvages. Cet exemple appartient au corpus de démonstration.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-022,Le manuel scolaire présente une activité de grammaire et de conjugaison. Cet exemple appartient au corpus de démonstration.,fr,education,synthetic_demo,original_synthetic_demo
+fr-023,Une équipe technique développe une interface pour les utilisateurs. Cet exemple appartient au corpus de démonstration.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-024,La sécheresse affecte les cultures et la qualité des sols agricoles. Cet exemple appartient au corpus de démonstration.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-025,Une enseignante prépare des questionnaires et des critères de réussite. Cet exemple appartient au corpus de démonstration.,fr,education,synthetic_demo,original_synthetic_demo
+fr-026,Les bases de données stockent des informations structurées sur les produits. Cet exemple appartient au corpus de démonstration.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-027,Le développement durable encourage une gestion responsable de l’eau. Cet exemple appartient au corpus de démonstration.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-028,Le cours propose une situation de communication à la cafétéria de l’école. Cet exemple appartient au corpus de démonstration.,fr,education,synthetic_demo,original_synthetic_demo
+fr-029,Les chercheurs comparent des modèles d’apprentissage automatique sur ordinateur. Cet exemple appartient au corpus de démonstration.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-030,Les élèves plantent des arbres pour soutenir la reforestation. Cet exemple appartient au corpus de démonstration.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-031,Les élèves révisent le vocabulaire français en classe avec leur professeur. La discussion se déroule dans un contexte local.,fr,education,synthetic_demo,original_synthetic_demo
+fr-032,Les développeurs conçoivent un logiciel informatique pour analyser les données. La discussion se déroule dans un contexte local.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-033,Les arbres protègent les sols et améliorent la qualité de l’air. La discussion se déroule dans un contexte local.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-034,Une école organise des ateliers pour améliorer la lecture et l’écriture. La discussion se déroule dans un contexte local.,fr,education,synthetic_demo,original_synthetic_demo
+fr-035,Un système de cybersécurité protège les serveurs contre les attaques. La discussion se déroule dans un contexte local.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-036,La forêt abrite des espèces animales et végétales menacées. La discussion se déroule dans un contexte local.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-037,Le programme pédagogique encourage les étudiants à résoudre des exercices. La discussion se déroule dans un contexte local.,fr,education,synthetic_demo,original_synthetic_demo
+fr-038,La programmation Python facilite la création de nouvelles applications numériques. La discussion se déroule dans un contexte local.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-039,Une association organise une collecte de déchets près de la rivière. La discussion se déroule dans un contexte local.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-040,Les enseignants expliquent les consignes et évaluent les devoirs chaque semaine. La discussion se déroule dans un contexte local.,fr,education,synthetic_demo,original_synthetic_demo
+fr-041,Un modèle d’intelligence artificielle classifie les informations automatiquement. La discussion se déroule dans un contexte local.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-042,Les scientifiques étudient les effets du changement climatique. La discussion se déroule dans un contexte local.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-043,La bibliothèque scolaire offre des romans pour pratiquer la compréhension écrite. La discussion se déroule dans un contexte local.,fr,education,synthetic_demo,original_synthetic_demo
+fr-044,Les ingénieurs testent un algorithme et optimisent les performances du réseau. La discussion se déroule dans un contexte local.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-045,La protection de la biodiversité concerne les écosystèmes naturels. La discussion se déroule dans un contexte local.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-046,Un groupe d’apprenants prépare une présentation orale sur les langues. La discussion se déroule dans un contexte local.,fr,education,synthetic_demo,original_synthetic_demo
+fr-047,Une plateforme web affiche des graphiques et des résultats statistiques. La discussion se déroule dans un contexte local.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-048,Les habitants réduisent les déchets plastiques et recyclent les emballages. La discussion se déroule dans un contexte local.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-049,Les élèves travaillent en binômes pour développer leur expression française. La discussion se déroule dans un contexte local.,fr,education,synthetic_demo,original_synthetic_demo
+fr-050,Un ordinateur exécute des calculs sur un ensemble de fichiers numériques. La discussion se déroule dans un contexte local.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-051,Une réserve naturelle protège les oiseaux et les plantes sauvages. La discussion se déroule dans un contexte local.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-052,Le manuel scolaire présente une activité de grammaire et de conjugaison. La discussion se déroule dans un contexte local.,fr,education,synthetic_demo,original_synthetic_demo
+fr-053,Une équipe technique développe une interface pour les utilisateurs. La discussion se déroule dans un contexte local.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-054,La sécheresse affecte les cultures et la qualité des sols agricoles. La discussion se déroule dans un contexte local.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-055,Une enseignante prépare des questionnaires et des critères de réussite. La discussion se déroule dans un contexte local.,fr,education,synthetic_demo,original_synthetic_demo
+fr-056,Les bases de données stockent des informations structurées sur les produits. La discussion se déroule dans un contexte local.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-057,Le développement durable encourage une gestion responsable de l’eau. La discussion se déroule dans un contexte local.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-058,Le cours propose une situation de communication à la cafétéria de l’école. La discussion se déroule dans un contexte local.,fr,education,synthetic_demo,original_synthetic_demo
+fr-059,Les chercheurs comparent des modèles d’apprentissage automatique sur ordinateur. La discussion se déroule dans un contexte local.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-060,Les élèves plantent des arbres pour soutenir la reforestation. La discussion se déroule dans un contexte local.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-061,Les élèves révisent le vocabulaire français en classe avec leur professeur. Plusieurs participants présentent leurs observations.,fr,education,synthetic_demo,original_synthetic_demo
+fr-062,Les développeurs conçoivent un logiciel informatique pour analyser les données. Plusieurs participants présentent leurs observations.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-063,Les arbres protègent les sols et améliorent la qualité de l’air. Plusieurs participants présentent leurs observations.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-064,Une école organise des ateliers pour améliorer la lecture et l’écriture. Plusieurs participants présentent leurs observations.,fr,education,synthetic_demo,original_synthetic_demo
+fr-065,Un système de cybersécurité protège les serveurs contre les attaques. Plusieurs participants présentent leurs observations.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-066,La forêt abrite des espèces animales et végétales menacées. Plusieurs participants présentent leurs observations.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-067,Le programme pédagogique encourage les étudiants à résoudre des exercices. Plusieurs participants présentent leurs observations.,fr,education,synthetic_demo,original_synthetic_demo
+fr-068,La programmation Python facilite la création de nouvelles applications numériques. Plusieurs participants présentent leurs observations.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-069,Une association organise une collecte de déchets près de la rivière. Plusieurs participants présentent leurs observations.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-070,Les enseignants expliquent les consignes et évaluent les devoirs chaque semaine. Plusieurs participants présentent leurs observations.,fr,education,synthetic_demo,original_synthetic_demo
+fr-071,Un modèle d’intelligence artificielle classifie les informations automatiquement. Plusieurs participants présentent leurs observations.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-072,Les scientifiques étudient les effets du changement climatique. Plusieurs participants présentent leurs observations.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-073,La bibliothèque scolaire offre des romans pour pratiquer la compréhension écrite. Plusieurs participants présentent leurs observations.,fr,education,synthetic_demo,original_synthetic_demo
+fr-074,Les ingénieurs testent un algorithme et optimisent les performances du réseau. Plusieurs participants présentent leurs observations.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-075,La protection de la biodiversité concerne les écosystèmes naturels. Plusieurs participants présentent leurs observations.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-076,Un groupe d’apprenants prépare une présentation orale sur les langues. Plusieurs participants présentent leurs observations.,fr,education,synthetic_demo,original_synthetic_demo
+fr-077,Une plateforme web affiche des graphiques et des résultats statistiques. Plusieurs participants présentent leurs observations.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-078,Les habitants réduisent les déchets plastiques et recyclent les emballages. Plusieurs participants présentent leurs observations.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-079,Les élèves travaillent en binômes pour développer leur expression française. Plusieurs participants présentent leurs observations.,fr,education,synthetic_demo,original_synthetic_demo
+fr-080,Un ordinateur exécute des calculs sur un ensemble de fichiers numériques. Plusieurs participants présentent leurs observations.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-081,Une réserve naturelle protège les oiseaux et les plantes sauvages. Plusieurs participants présentent leurs observations.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-082,Le manuel scolaire présente une activité de grammaire et de conjugaison. Plusieurs participants présentent leurs observations.,fr,education,synthetic_demo,original_synthetic_demo
+fr-083,Une équipe technique développe une interface pour les utilisateurs. Plusieurs participants présentent leurs observations.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-084,La sécheresse affecte les cultures et la qualité des sols agricoles. Plusieurs participants présentent leurs observations.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-085,Une enseignante prépare des questionnaires et des critères de réussite. Plusieurs participants présentent leurs observations.,fr,education,synthetic_demo,original_synthetic_demo
+fr-086,Les bases de données stockent des informations structurées sur les produits. Plusieurs participants présentent leurs observations.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-087,Le développement durable encourage une gestion responsable de l’eau. Plusieurs participants présentent leurs observations.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-088,Le cours propose une situation de communication à la cafétéria de l’école. Plusieurs participants présentent leurs observations.,fr,education,synthetic_demo,original_synthetic_demo
+fr-089,Les chercheurs comparent des modèles d’apprentissage automatique sur ordinateur. Plusieurs participants présentent leurs observations.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-090,Les élèves plantent des arbres pour soutenir la reforestation. Plusieurs participants présentent leurs observations.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-091,Les élèves révisent le vocabulaire français en classe avec leur professeur. Le rapport résume les principales conclusions.,fr,education,synthetic_demo,original_synthetic_demo
+fr-092,Les développeurs conçoivent un logiciel informatique pour analyser les données. Le rapport résume les principales conclusions.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-093,Les arbres protègent les sols et améliorent la qualité de l’air. Le rapport résume les principales conclusions.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-094,Une école organise des ateliers pour améliorer la lecture et l’écriture. Le rapport résume les principales conclusions.,fr,education,synthetic_demo,original_synthetic_demo
+fr-095,Un système de cybersécurité protège les serveurs contre les attaques. Le rapport résume les principales conclusions.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-096,La forêt abrite des espèces animales et végétales menacées. Le rapport résume les principales conclusions.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-097,Le programme pédagogique encourage les étudiants à résoudre des exercices. Le rapport résume les principales conclusions.,fr,education,synthetic_demo,original_synthetic_demo
+fr-098,La programmation Python facilite la création de nouvelles applications numériques. Le rapport résume les principales conclusions.,fr,technology,synthetic_demo,original_synthetic_demo
+fr-099,Une association organise une collecte de déchets près de la rivière. Le rapport résume les principales conclusions.,fr,environment,synthetic_demo,original_synthetic_demo
+fr-100,Les enseignants expliquent les consignes et évaluent les devoirs chaque semaine. Le rapport résume les principales conclusions.,fr,education,synthetic_demo,original_synthetic_demo
+en-001,The students practice new vocabulary with their teacher during language lessons. This example belongs to a demonstration corpus.,en,education,synthetic_demo,original_synthetic_demo
+en-002,Software developers write computer programs that analyze digital data. This example belongs to a demonstration corpus.,en,technology,synthetic_demo,original_synthetic_demo
+en-003,Trees protect the soil and help improve air quality. This example belongs to a demonstration corpus.,en,environment,synthetic_demo,original_synthetic_demo
+en-004,A school offers reading workshops to improve writing and comprehension. This example belongs to a demonstration corpus.,en,education,synthetic_demo,original_synthetic_demo
+en-005,Cybersecurity systems protect networks and servers from online attacks. This example belongs to a demonstration corpus.,en,technology,synthetic_demo,original_synthetic_demo
+en-006,The forest supports endangered animal and plant species. This example belongs to a demonstration corpus.,en,environment,synthetic_demo,original_synthetic_demo
+en-007,The curriculum encourages students to solve exercises and discuss ideas. This example belongs to a demonstration corpus.,en,education,synthetic_demo,original_synthetic_demo
+en-008,Python programming helps engineers create useful applications quickly. This example belongs to a demonstration corpus.,en,technology,synthetic_demo,original_synthetic_demo
+en-009,A community group collects plastic waste near the river. This example belongs to a demonstration corpus.,en,environment,synthetic_demo,original_synthetic_demo
+en-010,Teachers explain assignments and assess student projects every week. This example belongs to a demonstration corpus.,en,education,synthetic_demo,original_synthetic_demo
+en-011,An artificial intelligence model classifies information automatically. This example belongs to a demonstration corpus.,en,technology,synthetic_demo,original_synthetic_demo
+en-012,Scientists study the effects of global climate change. This example belongs to a demonstration corpus.,en,environment,synthetic_demo,original_synthetic_demo
+en-013,The school library provides books for children learning another language. This example belongs to a demonstration corpus.,en,education,synthetic_demo,original_synthetic_demo
+en-014,Engineers test the algorithm and improve the network performance. This example belongs to a demonstration corpus.,en,technology,synthetic_demo,original_synthetic_demo
+en-015,Biodiversity conservation protects fragile natural ecosystems. This example belongs to a demonstration corpus.,en,environment,synthetic_demo,original_synthetic_demo
+en-016,A student group prepares an oral presentation about classroom routines. This example belongs to a demonstration corpus.,en,education,synthetic_demo,original_synthetic_demo
+en-017,A web platform displays interactive charts and statistical results. This example belongs to a demonstration corpus.,en,technology,synthetic_demo,original_synthetic_demo
+en-018,Residents reduce plastic waste and recycle packaging materials. This example belongs to a demonstration corpus.,en,environment,synthetic_demo,original_synthetic_demo
+en-019,Learners work together to improve their communication and speaking skills. This example belongs to a demonstration corpus.,en,education,synthetic_demo,original_synthetic_demo
+en-020,A computer processes large collections of files and numerical data. This example belongs to a demonstration corpus.,en,technology,synthetic_demo,original_synthetic_demo
+en-021,A protected nature reserve shelters birds and wild plants. This example belongs to a demonstration corpus.,en,environment,synthetic_demo,original_synthetic_demo
+en-022,The textbook includes grammar activities and verbs in the present tense. This example belongs to a demonstration corpus.,en,education,synthetic_demo,original_synthetic_demo
+en-023,The technical team develops a simple user interface for the software. This example belongs to a demonstration corpus.,en,technology,synthetic_demo,original_synthetic_demo
+en-024,Drought damages crops and agricultural soil quality. This example belongs to a demonstration corpus.,en,environment,synthetic_demo,original_synthetic_demo
+en-025,A teacher designs quizzes and transparent learning assessment criteria. This example belongs to a demonstration corpus.,en,education,synthetic_demo,original_synthetic_demo
+en-026,Database systems store structured information about products. This example belongs to a demonstration corpus.,en,technology,synthetic_demo,original_synthetic_demo
+en-027,Sustainable development supports careful management of water resources. This example belongs to a demonstration corpus.,en,environment,synthetic_demo,original_synthetic_demo
+en-028,The class practices conversations at the school cafeteria. This example belongs to a demonstration corpus.,en,education,synthetic_demo,original_synthetic_demo
+en-029,Researchers compare machine learning models in experimental projects. This example belongs to a demonstration corpus.,en,technology,synthetic_demo,original_synthetic_demo
+en-030,Students plant trees to help forests recover after fires. This example belongs to a demonstration corpus.,en,environment,synthetic_demo,original_synthetic_demo
+en-031,The students practice new vocabulary with their teacher during language lessons. The discussion takes place in a local setting.,en,education,synthetic_demo,original_synthetic_demo
+en-032,Software developers write computer programs that analyze digital data. The discussion takes place in a local setting.,en,technology,synthetic_demo,original_synthetic_demo
+en-033,Trees protect the soil and help improve air quality. The discussion takes place in a local setting.,en,environment,synthetic_demo,original_synthetic_demo
+en-034,A school offers reading workshops to improve writing and comprehension. The discussion takes place in a local setting.,en,education,synthetic_demo,original_synthetic_demo
+en-035,Cybersecurity systems protect networks and servers from online attacks. The discussion takes place in a local setting.,en,technology,synthetic_demo,original_synthetic_demo
+en-036,The forest supports endangered animal and plant species. The discussion takes place in a local setting.,en,environment,synthetic_demo,original_synthetic_demo
+en-037,The curriculum encourages students to solve exercises and discuss ideas. The discussion takes place in a local setting.,en,education,synthetic_demo,original_synthetic_demo
+en-038,Python programming helps engineers create useful applications quickly. The discussion takes place in a local setting.,en,technology,synthetic_demo,original_synthetic_demo
+en-039,A community group collects plastic waste near the river. The discussion takes place in a local setting.,en,environment,synthetic_demo,original_synthetic_demo
+en-040,Teachers explain assignments and assess student projects every week. The discussion takes place in a local setting.,en,education,synthetic_demo,original_synthetic_demo
+en-041,An artificial intelligence model classifies information automatically. The discussion takes place in a local setting.,en,technology,synthetic_demo,original_synthetic_demo
+en-042,Scientists study the effects of global climate change. The discussion takes place in a local setting.,en,environment,synthetic_demo,original_synthetic_demo
+en-043,The school library provides books for children learning another language. The discussion takes place in a local setting.,en,education,synthetic_demo,original_synthetic_demo
+en-044,Engineers test the algorithm and improve the network performance. The discussion takes place in a local setting.,en,technology,synthetic_demo,original_synthetic_demo
+en-045,Biodiversity conservation protects fragile natural ecosystems. The discussion takes place in a local setting.,en,environment,synthetic_demo,original_synthetic_demo
+en-046,A student group prepares an oral presentation about classroom routines. The discussion takes place in a local setting.,en,education,synthetic_demo,original_synthetic_demo
+en-047,A web platform displays interactive charts and statistical results. The discussion takes place in a local setting.,en,technology,synthetic_demo,original_synthetic_demo
+en-048,Residents reduce plastic waste and recycle packaging materials. The discussion takes place in a local setting.,en,environment,synthetic_demo,original_synthetic_demo
+en-049,Learners work together to improve their communication and speaking skills. The discussion takes place in a local setting.,en,education,synthetic_demo,original_synthetic_demo
+en-050,A computer processes large collections of files and numerical data. The discussion takes place in a local setting.,en,technology,synthetic_demo,original_synthetic_demo
+en-051,A protected nature reserve shelters birds and wild plants. The discussion takes place in a local setting.,en,environment,synthetic_demo,original_synthetic_demo
+en-052,The textbook includes grammar activities and verbs in the present tense. The discussion takes place in a local setting.,en,education,synthetic_demo,original_synthetic_demo
+en-053,The technical team develops a simple user interface for the software. The discussion takes place in a local setting.,en,technology,synthetic_demo,original_synthetic_demo
+en-054,Drought damages crops and agricultural soil quality. The discussion takes place in a local setting.,en,environment,synthetic_demo,original_synthetic_demo
+en-055,A teacher designs quizzes and transparent learning assessment criteria. The discussion takes place in a local setting.,en,education,synthetic_demo,original_synthetic_demo
+en-056,Database systems store structured information about products. The discussion takes place in a local setting.,en,technology,synthetic_demo,original_synthetic_demo
+en-057,Sustainable development supports careful management of water resources. The discussion takes place in a local setting.,en,environment,synthetic_demo,original_synthetic_demo
+en-058,The class practices conversations at the school cafeteria. The discussion takes place in a local setting.,en,education,synthetic_demo,original_synthetic_demo
+en-059,Researchers compare machine learning models in experimental projects. The discussion takes place in a local setting.,en,technology,synthetic_demo,original_synthetic_demo
+en-060,Students plant trees to help forests recover after fires. The discussion takes place in a local setting.,en,environment,synthetic_demo,original_synthetic_demo
+en-061,The students practice new vocabulary with their teacher during language lessons. Several participants describe their observations.,en,education,synthetic_demo,original_synthetic_demo
+en-062,Software developers write computer programs that analyze digital data. Several participants describe their observations.,en,technology,synthetic_demo,original_synthetic_demo
+en-063,Trees protect the soil and help improve air quality. Several participants describe their observations.,en,environment,synthetic_demo,original_synthetic_demo
+en-064,A school offers reading workshops to improve writing and comprehension. Several participants describe their observations.,en,education,synthetic_demo,original_synthetic_demo
+en-065,Cybersecurity systems protect networks and servers from online attacks. Several participants describe their observations.,en,technology,synthetic_demo,original_synthetic_demo
+en-066,The forest supports endangered animal and plant species. Several participants describe their observations.,en,environment,synthetic_demo,original_synthetic_demo
+en-067,The curriculum encourages students to solve exercises and discuss ideas. Several participants describe their observations.,en,education,synthetic_demo,original_synthetic_demo
+en-068,Python programming helps engineers create useful applications quickly. Several participants describe their observations.,en,technology,synthetic_demo,original_synthetic_demo
+en-069,A community group collects plastic waste near the river. Several participants describe their observations.,en,environment,synthetic_demo,original_synthetic_demo
+en-070,Teachers explain assignments and assess student projects every week. Several participants describe their observations.,en,education,synthetic_demo,original_synthetic_demo
+en-071,An artificial intelligence model classifies information automatically. Several participants describe their observations.,en,technology,synthetic_demo,original_synthetic_demo
+en-072,Scientists study the effects of global climate change. Several participants describe their observations.,en,environment,synthetic_demo,original_synthetic_demo
+en-073,The school library provides books for children learning another language. Several participants describe their observations.,en,education,synthetic_demo,original_synthetic_demo
+en-074,Engineers test the algorithm and improve the network performance. Several participants describe their observations.,en,technology,synthetic_demo,original_synthetic_demo
+en-075,Biodiversity conservation protects fragile natural ecosystems. Several participants describe their observations.,en,environment,synthetic_demo,original_synthetic_demo
+en-076,A student group prepares an oral presentation about classroom routines. Several participants describe their observations.,en,education,synthetic_demo,original_synthetic_demo
+en-077,A web platform displays interactive charts and statistical results. Several participants describe their observations.,en,technology,synthetic_demo,original_synthetic_demo
+en-078,Residents reduce plastic waste and recycle packaging materials. Several participants describe their observations.,en,environment,synthetic_demo,original_synthetic_demo
+en-079,Learners work together to improve their communication and speaking skills. Several participants describe their observations.,en,education,synthetic_demo,original_synthetic_demo
+en-080,A computer processes large collections of files and numerical data. Several participants describe their observations.,en,technology,synthetic_demo,original_synthetic_demo
+en-081,A protected nature reserve shelters birds and wild plants. Several participants describe their observations.,en,environment,synthetic_demo,original_synthetic_demo
+en-082,The textbook includes grammar activities and verbs in the present tense. Several participants describe their observations.,en,education,synthetic_demo,original_synthetic_demo
+en-083,The technical team develops a simple user interface for the software. Several participants describe their observations.,en,technology,synthetic_demo,original_synthetic_demo
+en-084,Drought damages crops and agricultural soil quality. Several participants describe their observations.,en,environment,synthetic_demo,original_synthetic_demo
+en-085,A teacher designs quizzes and transparent learning assessment criteria. Several participants describe their observations.,en,education,synthetic_demo,original_synthetic_demo
+en-086,Database systems store structured information about products. Several participants describe their observations.,en,technology,synthetic_demo,original_synthetic_demo
+en-087,Sustainable development supports careful management of water resources. Several participants describe their observations.,en,environment,synthetic_demo,original_synthetic_demo
+en-088,The class practices conversations at the school cafeteria. Several participants describe their observations.,en,education,synthetic_demo,original_synthetic_demo
+en-089,Researchers compare machine learning models in experimental projects. Several participants describe their observations.,en,technology,synthetic_demo,original_synthetic_demo
+en-090,Students plant trees to help forests recover after fires. Several participants describe their observations.,en,environment,synthetic_demo,original_synthetic_demo
+en-091,The students practice new vocabulary with their teacher during language lessons. The report summarizes its main conclusions.,en,education,synthetic_demo,original_synthetic_demo
+en-092,Software developers write computer programs that analyze digital data. The report summarizes its main conclusions.,en,technology,synthetic_demo,original_synthetic_demo
+en-093,Trees protect the soil and help improve air quality. The report summarizes its main conclusions.,en,environment,synthetic_demo,original_synthetic_demo
+en-094,A school offers reading workshops to improve writing and comprehension. The report summarizes its main conclusions.,en,education,synthetic_demo,original_synthetic_demo
+en-095,Cybersecurity systems protect networks and servers from online attacks. The report summarizes its main conclusions.,en,technology,synthetic_demo,original_synthetic_demo
+en-096,The forest supports endangered animal and plant species. The report summarizes its main conclusions.,en,environment,synthetic_demo,original_synthetic_demo
+en-097,The curriculum encourages students to solve exercises and discuss ideas. The report summarizes its main conclusions.,en,education,synthetic_demo,original_synthetic_demo
+en-098,Python programming helps engineers create useful applications quickly. The report summarizes its main conclusions.,en,technology,synthetic_demo,original_synthetic_demo
+en-099,A community group collects plastic waste near the river. The report summarizes its main conclusions.,en,environment,synthetic_demo,original_synthetic_demo
+en-100,Teachers explain assignments and assess student projects every week. The report summarizes its main conclusions.,en,education,synthetic_demo,original_synthetic_demo
+es-001,Los estudiantes practican nuevo vocabulario con la profesora de idiomas. Este ejemplo forma parte de un corpus de demostración.,es,education,synthetic_demo,original_synthetic_demo
+es-002,Los desarrolladores crean programas informáticos para analizar datos digitales. Este ejemplo forma parte de un corpus de demostración.,es,technology,synthetic_demo,original_synthetic_demo
+es-003,Los árboles protegen el suelo y ayudan a mejorar la calidad del aire. Este ejemplo forma parte de un corpus de demostración.,es,environment,synthetic_demo,original_synthetic_demo
+es-004,La escuela organiza talleres para mejorar la lectura y la escritura. Este ejemplo forma parte de un corpus de demostración.,es,education,synthetic_demo,original_synthetic_demo
+es-005,La ciberseguridad protege las redes y los servidores de ataques externos. Este ejemplo forma parte de un corpus de demostración.,es,technology,synthetic_demo,original_synthetic_demo
+es-006,El bosque alberga especies de animales y plantas amenazadas. Este ejemplo forma parte de un corpus de demostración.,es,environment,synthetic_demo,original_synthetic_demo
+es-007,El programa educativo anima a resolver ejercicios y explicar las respuestas. Este ejemplo forma parte de un corpus de demostración.,es,education,synthetic_demo,original_synthetic_demo
+es-008,La programación en Python permite diseñar aplicaciones tecnológicas. Este ejemplo forma parte de un corpus de demostración.,es,technology,synthetic_demo,original_synthetic_demo
+es-009,Una asociación recoge residuos plásticos cerca del río. Este ejemplo forma parte de un corpus de demostración.,es,environment,synthetic_demo,original_synthetic_demo
+es-010,Los docentes revisan tareas y evalúan proyectos cada semana. Este ejemplo forma parte de un corpus de demostración.,es,education,synthetic_demo,original_synthetic_demo
+es-011,Un modelo de inteligencia artificial clasifica información automáticamente. Este ejemplo forma parte de un corpus de demostración.,es,technology,synthetic_demo,original_synthetic_demo
+es-012,Los científicos estudian los efectos del cambio climático. Este ejemplo forma parte de un corpus de demostración.,es,environment,synthetic_demo,original_synthetic_demo
+es-013,La biblioteca escolar ofrece libros para desarrollar la comprensión lectora. Este ejemplo forma parte de un corpus de demostración.,es,education,synthetic_demo,original_synthetic_demo
+es-014,Los ingenieros prueban algoritmos y mejoran el rendimiento del sistema. Este ejemplo forma parte de un corpus de demostración.,es,technology,synthetic_demo,original_synthetic_demo
+es-015,La conservación de la biodiversidad protege los ecosistemas naturales. Este ejemplo forma parte de un corpus de demostración.,es,environment,synthetic_demo,original_synthetic_demo
+es-016,Un grupo de alumnos prepara una exposición oral sobre sus clases. Este ejemplo forma parte de un corpus de demostración.,es,education,synthetic_demo,original_synthetic_demo
+es-017,Una plataforma web muestra gráficos y resultados estadísticos. Este ejemplo forma parte de un corpus de demostración.,es,technology,synthetic_demo,original_synthetic_demo
+es-018,Las familias reducen los desechos y reciclan envases usados. Este ejemplo forma parte de un corpus de demostración.,es,environment,synthetic_demo,original_synthetic_demo
+es-019,Los estudiantes trabajan en parejas para mejorar la expresión comunicativa. Este ejemplo forma parte de un corpus de demostración.,es,education,synthetic_demo,original_synthetic_demo
+es-020,El ordenador procesa numerosos archivos y datos numéricos. Este ejemplo forma parte de un corpus de demostración.,es,technology,synthetic_demo,original_synthetic_demo
+es-021,Una reserva natural cuida las aves y las plantas silvestres. Este ejemplo forma parte de un corpus de demostración.,es,environment,synthetic_demo,original_synthetic_demo
+es-022,El libro escolar incluye actividades de gramática y conjugación. Este ejemplo forma parte de un corpus de demostración.,es,education,synthetic_demo,original_synthetic_demo
+es-023,El equipo técnico desarrolla una interfaz sencilla para sus usuarios. Este ejemplo forma parte de un corpus de demostración.,es,technology,synthetic_demo,original_synthetic_demo
+es-024,La sequía perjudica los cultivos y los suelos agrícolas. Este ejemplo forma parte de un corpus de demostración.,es,environment,synthetic_demo,original_synthetic_demo
+es-025,Una profesora diseña cuestionarios y criterios para la evaluación. Este ejemplo forma parte de un corpus de demostración.,es,education,synthetic_demo,original_synthetic_demo
+es-026,Las bases de datos guardan información organizada sobre productos. Este ejemplo forma parte de un corpus de demostración.,es,technology,synthetic_demo,original_synthetic_demo
+es-027,El desarrollo sostenible mejora la gestión responsable del agua. Este ejemplo forma parte de un corpus de demostración.,es,environment,synthetic_demo,original_synthetic_demo
+es-028,La clase practica diálogos en la cafetería de la escuela. Este ejemplo forma parte de un corpus de demostración.,es,education,synthetic_demo,original_synthetic_demo
+es-029,Los investigadores comparan modelos de aprendizaje automático. Este ejemplo forma parte de un corpus de demostración.,es,technology,synthetic_demo,original_synthetic_demo
+es-030,Los estudiantes siembran árboles para recuperar los bosques. Este ejemplo forma parte de un corpus de demostración.,es,environment,synthetic_demo,original_synthetic_demo
+es-031,Los estudiantes practican nuevo vocabulario con la profesora de idiomas. La conversación ocurre en un contexto local.,es,education,synthetic_demo,original_synthetic_demo
+es-032,Los desarrolladores crean programas informáticos para analizar datos digitales. La conversación ocurre en un contexto local.,es,technology,synthetic_demo,original_synthetic_demo
+es-033,Los árboles protegen el suelo y ayudan a mejorar la calidad del aire. La conversación ocurre en un contexto local.,es,environment,synthetic_demo,original_synthetic_demo
+es-034,La escuela organiza talleres para mejorar la lectura y la escritura. La conversación ocurre en un contexto local.,es,education,synthetic_demo,original_synthetic_demo
+es-035,La ciberseguridad protege las redes y los servidores de ataques externos. La conversación ocurre en un contexto local.,es,technology,synthetic_demo,original_synthetic_demo
+es-036,El bosque alberga especies de animales y plantas amenazadas. La conversación ocurre en un contexto local.,es,environment,synthetic_demo,original_synthetic_demo
+es-037,El programa educativo anima a resolver ejercicios y explicar las respuestas. La conversación ocurre en un contexto local.,es,education,synthetic_demo,original_synthetic_demo
+es-038,La programación en Python permite diseñar aplicaciones tecnológicas. La conversación ocurre en un contexto local.,es,technology,synthetic_demo,original_synthetic_demo
+es-039,Una asociación recoge residuos plásticos cerca del río. La conversación ocurre en un contexto local.,es,environment,synthetic_demo,original_synthetic_demo
+es-040,Los docentes revisan tareas y evalúan proyectos cada semana. La conversación ocurre en un contexto local.,es,education,synthetic_demo,original_synthetic_demo
+es-041,Un modelo de inteligencia artificial clasifica información automáticamente. La conversación ocurre en un contexto local.,es,technology,synthetic_demo,original_synthetic_demo
+es-042,Los científicos estudian los efectos del cambio climático. La conversación ocurre en un contexto local.,es,environment,synthetic_demo,original_synthetic_demo
+es-043,La biblioteca escolar ofrece libros para desarrollar la comprensión lectora. La conversación ocurre en un contexto local.,es,education,synthetic_demo,original_synthetic_demo
+es-044,Los ingenieros prueban algoritmos y mejoran el rendimiento del sistema. La conversación ocurre en un contexto local.,es,technology,synthetic_demo,original_synthetic_demo
+es-045,La conservación de la biodiversidad protege los ecosistemas naturales. La conversación ocurre en un contexto local.,es,environment,synthetic_demo,original_synthetic_demo
+es-046,Un grupo de alumnos prepara una exposición oral sobre sus clases. La conversación ocurre en un contexto local.,es,education,synthetic_demo,original_synthetic_demo
+es-047,Una plataforma web muestra gráficos y resultados estadísticos. La conversación ocurre en un contexto local.,es,technology,synthetic_demo,original_synthetic_demo
+es-048,Las familias reducen los desechos y reciclan envases usados. La conversación ocurre en un contexto local.,es,environment,synthetic_demo,original_synthetic_demo
+es-049,Los estudiantes trabajan en parejas para mejorar la expresión comunicativa. La conversación ocurre en un contexto local.,es,education,synthetic_demo,original_synthetic_demo
+es-050,El ordenador procesa numerosos archivos y datos numéricos. La conversación ocurre en un contexto local.,es,technology,synthetic_demo,original_synthetic_demo
+es-051,Una reserva natural cuida las aves y las plantas silvestres. La conversación ocurre en un contexto local.,es,environment,synthetic_demo,original_synthetic_demo
+es-052,El libro escolar incluye actividades de gramática y conjugación. La conversación ocurre en un contexto local.,es,education,synthetic_demo,original_synthetic_demo
+es-053,El equipo técnico desarrolla una interfaz sencilla para sus usuarios. La conversación ocurre en un contexto local.,es,technology,synthetic_demo,original_synthetic_demo
+es-054,La sequía perjudica los cultivos y los suelos agrícolas. La conversación ocurre en un contexto local.,es,environment,synthetic_demo,original_synthetic_demo
+es-055,Una profesora diseña cuestionarios y criterios para la evaluación. La conversación ocurre en un contexto local.,es,education,synthetic_demo,original_synthetic_demo
+es-056,Las bases de datos guardan información organizada sobre productos. La conversación ocurre en un contexto local.,es,technology,synthetic_demo,original_synthetic_demo
+es-057,El desarrollo sostenible mejora la gestión responsable del agua. La conversación ocurre en un contexto local.,es,environment,synthetic_demo,original_synthetic_demo
+es-058,La clase practica diálogos en la cafetería de la escuela. La conversación ocurre en un contexto local.,es,education,synthetic_demo,original_synthetic_demo
+es-059,Los investigadores comparan modelos de aprendizaje automático. La conversación ocurre en un contexto local.,es,technology,synthetic_demo,original_synthetic_demo
+es-060,Los estudiantes siembran árboles para recuperar los bosques. La conversación ocurre en un contexto local.,es,environment,synthetic_demo,original_synthetic_demo
+es-061,Los estudiantes practican nuevo vocabulario con la profesora de idiomas. Varios participantes explican sus observaciones.,es,education,synthetic_demo,original_synthetic_demo
+es-062,Los desarrolladores crean programas informáticos para analizar datos digitales. Varios participantes explican sus observaciones.,es,technology,synthetic_demo,original_synthetic_demo
+es-063,Los árboles protegen el suelo y ayudan a mejorar la calidad del aire. Varios participantes explican sus observaciones.,es,environment,synthetic_demo,original_synthetic_demo
+es-064,La escuela organiza talleres para mejorar la lectura y la escritura. Varios participantes explican sus observaciones.,es,education,synthetic_demo,original_synthetic_demo
+es-065,La ciberseguridad protege las redes y los servidores de ataques externos. Varios participantes explican sus observaciones.,es,technology,synthetic_demo,original_synthetic_demo
+es-066,El bosque alberga especies de animales y plantas amenazadas. Varios participantes explican sus observaciones.,es,environment,synthetic_demo,original_synthetic_demo
+es-067,El programa educativo anima a resolver ejercicios y explicar las respuestas. Varios participantes explican sus observaciones.,es,education,synthetic_demo,original_synthetic_demo
+es-068,La programación en Python permite diseñar aplicaciones tecnológicas. Varios participantes explican sus observaciones.,es,technology,synthetic_demo,original_synthetic_demo
+es-069,Una asociación recoge residuos plásticos cerca del río. Varios participantes explican sus observaciones.,es,environment,synthetic_demo,original_synthetic_demo
+es-070,Los docentes revisan tareas y evalúan proyectos cada semana. Varios participantes explican sus observaciones.,es,education,synthetic_demo,original_synthetic_demo
+es-071,Un modelo de inteligencia artificial clasifica información automáticamente. Varios participantes explican sus observaciones.,es,technology,synthetic_demo,original_synthetic_demo
+es-072,Los científicos estudian los efectos del cambio climático. Varios participantes explican sus observaciones.,es,environment,synthetic_demo,original_synthetic_demo
+es-073,La biblioteca escolar ofrece libros para desarrollar la comprensión lectora. Varios participantes explican sus observaciones.,es,education,synthetic_demo,original_synthetic_demo
+es-074,Los ingenieros prueban algoritmos y mejoran el rendimiento del sistema. Varios participantes explican sus observaciones.,es,technology,synthetic_demo,original_synthetic_demo
+es-075,La conservación de la biodiversidad protege los ecosistemas naturales. Varios participantes explican sus observaciones.,es,environment,synthetic_demo,original_synthetic_demo
+es-076,Un grupo de alumnos prepara una exposición oral sobre sus clases. Varios participantes explican sus observaciones.,es,education,synthetic_demo,original_synthetic_demo
+es-077,Una plataforma web muestra gráficos y resultados estadísticos. Varios participantes explican sus observaciones.,es,technology,synthetic_demo,original_synthetic_demo
+es-078,Las familias reducen los desechos y reciclan envases usados. Varios participantes explican sus observaciones.,es,environment,synthetic_demo,original_synthetic_demo
+es-079,Los estudiantes trabajan en parejas para mejorar la expresión comunicativa. Varios participantes explican sus observaciones.,es,education,synthetic_demo,original_synthetic_demo
+es-080,El ordenador procesa numerosos archivos y datos numéricos. Varios participantes explican sus observaciones.,es,technology,synthetic_demo,original_synthetic_demo
+es-081,Una reserva natural cuida las aves y las plantas silvestres. Varios participantes explican sus observaciones.,es,environment,synthetic_demo,original_synthetic_demo
+es-082,El libro escolar incluye actividades de gramática y conjugación. Varios participantes explican sus observaciones.,es,education,synthetic_demo,original_synthetic_demo
+es-083,El equipo técnico desarrolla una interfaz sencilla para sus usuarios. Varios participantes explican sus observaciones.,es,technology,synthetic_demo,original_synthetic_demo
+es-084,La sequía perjudica los cultivos y los suelos agrícolas. Varios participantes explican sus observaciones.,es,environment,synthetic_demo,original_synthetic_demo
+es-085,Una profesora diseña cuestionarios y criterios para la evaluación. Varios participantes explican sus observaciones.,es,education,synthetic_demo,original_synthetic_demo
+es-086,Las bases de datos guardan información organizada sobre productos. Varios participantes explican sus observaciones.,es,technology,synthetic_demo,original_synthetic_demo
+es-087,El desarrollo sostenible mejora la gestión responsable del agua. Varios participantes explican sus observaciones.,es,environment,synthetic_demo,original_synthetic_demo
+es-088,La clase practica diálogos en la cafetería de la escuela. Varios participantes explican sus observaciones.,es,education,synthetic_demo,original_synthetic_demo
+es-089,Los investigadores comparan modelos de aprendizaje automático. Varios participantes explican sus observaciones.,es,technology,synthetic_demo,original_synthetic_demo
+es-090,Los estudiantes siembran árboles para recuperar los bosques. Varios participantes explican sus observaciones.,es,environment,synthetic_demo,original_synthetic_demo
+es-091,Los estudiantes practican nuevo vocabulario con la profesora de idiomas. El informe resume las conclusiones principales.,es,education,synthetic_demo,original_synthetic_demo
+es-092,Los desarrolladores crean programas informáticos para analizar datos digitales. El informe resume las conclusiones principales.,es,technology,synthetic_demo,original_synthetic_demo
+es-093,Los árboles protegen el suelo y ayudan a mejorar la calidad del aire. El informe resume las conclusiones principales.,es,environment,synthetic_demo,original_synthetic_demo
+es-094,La escuela organiza talleres para mejorar la lectura y la escritura. El informe resume las conclusiones principales.,es,education,synthetic_demo,original_synthetic_demo
+es-095,La ciberseguridad protege las redes y los servidores de ataques externos. El informe resume las conclusiones principales.,es,technology,synthetic_demo,original_synthetic_demo
+es-096,El bosque alberga especies de animales y plantas amenazadas. El informe resume las conclusiones principales.,es,environment,synthetic_demo,original_synthetic_demo
+es-097,El programa educativo anima a resolver ejercicios y explicar las respuestas. El informe resume las conclusiones principales.,es,education,synthetic_demo,original_synthetic_demo
+es-098,La programación en Python permite diseñar aplicaciones tecnológicas. El informe resume las conclusiones principales.,es,technology,synthetic_demo,original_synthetic_demo
+es-099,Una asociación recoge residuos plásticos cerca del río. El informe resume las conclusiones principales.,es,environment,synthetic_demo,original_synthetic_demo
+es-100,Los docentes revisan tareas y evalúan proyectos cada semana. El informe resume las conclusiones principales.,es,education,synthetic_demo,original_synthetic_demo
