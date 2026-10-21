@@ -74,6 +74,14 @@ Lire `docs/ARCHITECTURE.md`, `docs/PLAN_DE_TESTS.md` et `docs/CAHIER_DES_CHARGES
 
 Pour mettre ce prototype dans un nouveau dépôt GitHub dédié : `docs/GUIDE_PUBLICATION_GITHUB.md`. Le statut des vérifications et les travaux restant à effectuer sont dans `docs/ETAT_ET_PROCHAINES_ETAPES.md`.
 
+## Déployer BOOTO NLP LAB sur Render
+
+Le dépôt racine contient un [Blueprint Render](../render.yaml) configuré pour le module `booto-nlp-lab`. Pour lancer votre propre déploiement depuis Render, cliquez sur le lien suivant, connectez-vous au compte Render et **approuvez explicitement la création du service** :
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Junior-BOOTO/python.skills)
+
+**Important : le code est prêt au déploiement, mais aucun service Render n'a encore été créé ou vérifié depuis cette session.** L'instance gratuite peut se mettre en veille et la disponibilité doit être testée après création du service.
+
 ## Déploiement Streamlit Community Cloud
 
 Le code du prototype est **préparé pour le déploiement**, mais aucune URL publique d'application n'est encore validée. Consultez [le guide de déploiement](docs/DEPLOIEMENT_STREAMLIT.md) ; dépôt `Junior-BOOTO/python.skills`, branche `main`, point d'entrée `booto-nlp-lab/app/main.py`, Python 3.11. Les dépendances cloud sont déclarées dans `app/requirements.txt`. Les tests automatiques du dépôt monorepo sont définis à la racine, sous `.github/workflows/booto-nlp-lab-tests.yml`.
