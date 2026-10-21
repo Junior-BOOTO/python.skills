@@ -4,6 +4,18 @@
 
 Préparer une ressource FLE A1 à partir d'un thème, d'une aide et d'une langue de soutien. Le studio assemble des contenus explicites et inspectables ; il ne prétend ni générer librement toutes les séances, ni certifier un niveau CECRL.
 
+
+## Découvrir le projet en trois minutes
+
+1. **Essayer** : [ouvrir le studio](https://junior-booto-fle.juniorbooto.chatgpt.site/fle-resource-studio.html), choisir un thème, une aide et une langue.
+2. **Observer** : comparer les modèles et les critères « Je peux… » entre deux aides. Cinq thèmes, trois aides et trois langues donnent 45 combinaisons vérifiées.
+3. **Examiner** : [validation](reports/validation.json), [tests](reports/tests.txt), [contrôle navigateur daté](docs/verification-navigateur-2026-10-18.md).
+
+**Compétences illustrées** : Python, catalogue structuré, exports et différenciation. Ressources à relire ; aucun effet mesuré en classe revendiqué.
+
+**Reproduire** : [démarrage rapide](DEMARRAGE.md), puis section « Reproduire avec Python » ci-dessous.
+
+
 ## Version téléchargeable
 
 [Version 1.0.1 et fichiers de distribution](https://github.com/Junior-BOOTO/python.skills/releases/tag/fle-resource-studio-v1.0.1) · [Démarrage rapide](DEMARRAGE.md) · [Historique](CHANGELOG.md)
