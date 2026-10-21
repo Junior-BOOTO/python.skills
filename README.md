@@ -6,6 +6,8 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 [Profil et CV](https://github.com/Junior-BOOTO) · [Site professionnel](https://junior-booto-fle.juniorbooto.chatgpt.site) · [Portfolio FLE](https://github.com/Junior-BOOTO/portfolio-fle) · [Catalogue complet](CATALOGUE.md)
 
 
+> [**Déployer BOOTO NLP LAB sur Render**](https://render.com/deploy?repo=https://github.com/Junior-BOOTO/python.skills) · Préconfiguration prête ; nécessite votre connexion et approbation sur Render. Ce lien **n'est pas une application déjà en ligne**.
+
 ## Nouveau laboratoire NLP · Prototype multilingue
 
 **[BOOTO NLP LAB V1 — Multilingual Text Analyzer](booto-nlp-lab/README.md)** : import de CSV, détection des langues (français, anglais, espagnol), classification thématique, mots-clés TF-IDF, similarité de documents et export. Application Python et interface Streamlit, avec un corpus **entièrement synthétique** de 300 textes ; performances externes encore à valider. [Guide de déploiement](booto-nlp-lab/docs/DEPLOIEMENT_STREAMLIT.md). **Aucune démonstration publique Streamlit n'est encore confirmée.**
