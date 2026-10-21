@@ -6,6 +6,18 @@ Inventorier des ressources, identifier leurs doublons exacts et préparer leur o
 
 [Examiner le rapport HTML généré](reports/report.html)
 
+
+## Découvrir le projet en trois minutes
+
+1. **Voir** : [rapport de démonstration](https://junior-booto-fle.juniorbooto.chatgpt.site/guardian-reports/report.html).
+2. **Comparer** : un contenu identique sous deux noms et deux contenus différents portant le même nom. Huit fichiers synthétiques ; un groupe de doublons exacts.
+3. **Examiner** : [copie et restauration](reports/demo-evidence.json), [inventaire](reports/inventory.csv), [validation](reports/validation.json), [tests](reports/tests.txt).
+
+**Compétences illustrées** : SHA-256, contrôle des chemins, simulation et journalisation. Originaux conservés ; aucune suppression automatique des doublons.
+
+**Reproduire** : [démarrage rapide](DEMARRAGE.md), puis lancer la démonstration décrite ci-dessous sur les fichiers fictifs temporaires.
+
+
 ## Version téléchargeable
 
 [Version 1.0.0 et archive ZIP](https://github.com/Junior-BOOTO/python.skills/releases/tag/portfolio-file-guardian-v1.0.0) · [Démarrage rapide](DEMARRAGE.md) · [Historique](CHANGELOG.md)
