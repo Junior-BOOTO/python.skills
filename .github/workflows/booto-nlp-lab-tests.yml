@@ -29,5 +29,14 @@ jobs:
         run: python -m pytest -q
       - name: Vérifier la syntaxe de l'application
         run: python -m compileall -q app src
+      - name: Vérifier que Streamlit lance l'interface sur le corpus de démonstration
+        run: |
+          python - <<'PY'
+          from streamlit.testing.v1 import AppTest
+          test = AppTest.from_file("app/main.py", default_timeout=120).run()
+          if test.exception:
+              raise RuntimeError("Erreur(s) d'interface Streamlit : " + "; ".join(str(exc) for exc in test.exception))
+          print("Smoke test Streamlit: interface chargee sans exception.")
+          PY
       - name: Vérifier les imports Streamlit et langid
         run: python -c "import streamlit, langid; print('Dépendances OK')"
