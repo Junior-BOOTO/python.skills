@@ -43,6 +43,12 @@ Audit en lecture seule de trois projets réels : inventaire GitHub figé au comm
 | [Chinook — SQL et Python](chinook-sql/README.md) | 26 exercices SQL, résultats CSV, rapport et script Python reproductible. | Base de démonstration ; adaptation documentée des années des exercices. |
 | [Analyse exploratoire des performances](employee-performance-analysis/README.md) | Script, notebook, statistiques descriptives et détection IQR des valeurs atypiques. | CSV original absent ; résultats RH non établis. |
 
+### BOOTO NLP LAB V1 — Analyse multilingue de textes
+
+[Code Python, tests et instructions](booto-nlp-lab/README.md) · [Préparer le déploiement Streamlit](booto-nlp-lab/docs/DEPLOIEMENT_STREAMLIT.md)
+
+Prototype d'analyse de corpus français, anglais et espagnol : import CSV, détection linguistique, classification éducation/technologie/environnement, termes TF-IDF, similarité cosinus et export. Jeu de 300 textes synthétiques, pas de validation indépendante sur des textes réels ; **application publique pas encore déployée**.
+
 ## Modèles et séries temporelles
 
 | Projet | Contenu | Limites |
