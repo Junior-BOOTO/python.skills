@@ -2,6 +2,11 @@
 
 **Multilingual Text Analyzer | Français · English · Español**
 
+[![Tests BOOTO NLP LAB](https://github.com/Junior-BOOTO/python.skills/actions/workflows/booto-nlp-lab-tests.yml/badge.svg)](https://github.com/Junior-BOOTO/python.skills/actions/workflows/booto-nlp-lab-tests.yml)
+
+**Vérification GitHub Actions du 21 octobre 2026 :** [exécution réussie](https://github.com/Junior-BOOTO/python.skills/actions/runs/39688183316) pour le commit `181fe6d`. Installation, 13 tests unitaires, vérification syntaxique et test de démarrage de l'interface Streamlit réussis sur Ubuntu / Python 3.11. **Cela ne signifie pas que le service est déjà déployé**, ni que les scores ML sont validés sur des données réelles.
+
+
 > **État : prototype initial, pas une V1 validée.** Ce dépôt fournit le socle technique et une démonstration expérimentale. Les seuils du cahier des charges ne sont pas encore certifiés sur un jeu de données réel indépendant.
 
 ## Objectif
