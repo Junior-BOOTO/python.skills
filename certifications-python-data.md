@@ -56,3 +56,7 @@ Formations complémentaires de mon parcours. Le lien individuel de Data Interpre
 Data preprocessing et ChatGPT for coders sont deux formations distinctes.
 
 [Voir le parcours sur mon site](https://junior-booto-fle.juniorbooto.chatgpt.site/parcours-formations.html#formations-python).
+
+## Google · Badges de formation
+
+[Consulter les 12 badges Google, leurs visuels et les liens officiels](certifications/google/README.md).
