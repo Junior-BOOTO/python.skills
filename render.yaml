@@ -1,0 +1,16 @@
+# BOOTO NLP LAB — Render Blueprint
+# Programme Streamlit dans le sous-dossier booto-nlp-lab/.
+# Le service n'est pas créé par ce fichier seul : connectez Render et approuvez le Blueprint.
+services:
+  - type: web
+    name: booto-nlp-lab
+    runtime: python
+    plan: free
+    rootDir: booto-nlp-lab
+    buildCommand: python -m pip install -r requirements.txt
+    startCommand: python -m streamlit run app/main.py --server.address 0.0.0.0 --server.port $PORT --server.headless true --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
+    autoDeployTrigger: off
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.11
