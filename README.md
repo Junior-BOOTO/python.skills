@@ -5,6 +5,18 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 [Profil et CV](https://github.com/Junior-BOOTO) · [Site professionnel](https://junior-booto-fle.juniorbooto.chatgpt.site) · [Portfolio FLE](https://github.com/Junior-BOOTO/portfolio-fle) · [Catalogue complet](CATALOGUE.md)
 
+
+## Trois projets phares · Démonstrations et preuves
+
+| Projet | Essayer | Résultat à examiner | Code et reproduction |
+|---|---|---|---|
+| FLE Resource Studio | [Studio](https://junior-booto-fle.juniorbooto.chatgpt.site/fle-resource-studio.html) | 45 combinaisons vérifiées ; ressources à relire. | [Parcours guidé](fle-resource-studio/README.md#découvrir-le-projet-en-trois-minutes) |
+| Portfolio File Guardian | [Rapport synthétique](https://junior-booto-fle.juniorbooto.chatgpt.site/guardian-reports/report.html) | 8 fichiers, 1 groupe de doublons ; originaux conservés. | [Parcours guidé](portfolio-file-guardian/README.md#découvrir-le-projet-en-trois-minutes) |
+| AfriFlow Explain | [Démonstration](https://junior-booto-fle.juniorbooto.chatgpt.site/afriflow-explain.html) | 19 scénarios repérés contre 3 à budget égal ; 17 faux positifs. Données synthétiques. | [Parcours guidé](afriflow-explain/README.md#découvrir-le-projet-en-trois-minutes) |
+
+Résultats issus des rapports datés des projets ; aucune nouvelle exécution des modèles ou tests revendiquée ici.
+
+
 ## CV Python & Data · Français · English · Español
 
 [Consulter mes trois CV](cv/README.md) : versions harmonisées de trois pages, avec quatre projets personnels et les liens de certification.
