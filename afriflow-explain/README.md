@@ -2,6 +2,18 @@
 
 **Explorer les parcours, expliquer les alertes, mesurer les limites.** Projet de portfolio original dans sa réalisation, inspiré de méthodes de réseaux financiers existantes. Démonstration 100 % synthétique : aucune banque connectée, aucun partenariat, aucune donnée personnelle réelle.
 
+
+## Découvrir le projet en trois minutes
+
+1. **Explorer** : [démonstration interactive](https://junior-booto-fle.juniorbooto.chatgpt.site/afriflow-explain.html), sélectionner un dossier et parcourir sa chronologie.
+2. **Suivre une preuve** : sélectionner un motif, retrouver ses opérations et examiner la couverture des horodatages.
+3. **Comparer** : 36 alertes sur 360 dossiers de test pour chaque modèle ; 19 scénarios injectés repérés avec les parcours, contre 3 sans eux, et 17 faux positifs avec les parcours. Voir [les métriques](models/metrics.json) et [les versions](reports/versions.json).
+
+**Compétences illustrées** : pipeline Python, graphes, analyse temporelle et comparaison de modèles. Données entièrement synthétiques ; aucune performance bancaire réelle établie.
+
+**Reproduire** : suivre les commandes de la section « Reproduction » ci-dessous pour reconstruire le pipeline, la démonstration et les tests.
+
+
 ## Expérience interactive
 [Ouvrir la démonstration](https://junior-booto-fle.juniorbooto.chatgpt.site/afriflow-explain.html).
 Choisir un dossier, avancer dans la chronologie, cliquer sur un motif, voir les identifiants de ses opérations et consulter la qualité des horodatages. La vérité de simulation est masquée dans un volet séparé ; elle sert à l'évaluation, pas aux explications.
