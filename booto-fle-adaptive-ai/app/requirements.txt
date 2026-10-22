@@ -1,0 +1,2 @@
+# Installations for Streamlit Community Cloud (main entry point in app/main.py)
+streamlit>=1.35,<2
