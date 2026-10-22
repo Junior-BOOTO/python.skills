@@ -13,7 +13,8 @@ Créer un **nouveau Web Service**, sans réutiliser ni renommer les services BOO
 5. **Root Directory** : `eval-fle-ai-engine` (exactement).
 6. **Build Command** : `python -m pip install -r requirements.txt`.
 7. **Start Command** : `python -m streamlit run app.py --server.address 0.0.0.0 --server.port $PORT --server.headless true --browser.gatherUsageStats false`.
-8. Choisir la région et le plan adapté (gratuit si Render le propose effectivement).
+8. Dans **Environment**, ajouter `PYTHON_VERSION` = `3.11.11`. Cette version est celle utilisée pour le contrôle GitHub Actions ; ne pas dépendre du Python par défaut de Render.
+9. Choisir la région et le plan adapté (gratuit si Render le propose effectivement).
 9. Déployer le service. Attendre la confirmation Render, puis cliquer sur l’URL `onrender.com` **assignée à ce nouveau service**.
 10. Vérifier : page d’accueil, bascule Grade 4/5, téléchargements DOCX/PDF, correction anonyme. Ne pas entrer de données réelles d’élèves.
 
