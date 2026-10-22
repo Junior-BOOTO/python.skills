@@ -1,0 +1,38 @@
+name: PhonoFLE AI · Tests
+
+on:
+  push:
+    paths:
+      - 'phonofle-ai/**'
+      - '.github/workflows/phonofle-ai-tests.yml'
+  pull_request:
+    paths:
+      - 'phonofle-ai/**'
+      - '.github/workflows/phonofle-ai-tests.yml'
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: phonofle-ai
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Installer les dépendances
+        run: python -m pip install -r requirements.txt pytest
+      - name: Tests du moteur
+        run: python -m pytest -q
+      - name: Syntaxe des scripts
+        run: python -m compileall -q src app
+      - name: Smoke test de l'interface Streamlit
+        run: |
+          python - <<'PY'
+          from streamlit.testing.v1 import AppTest
+          at = AppTest.from_file("app/main.py", default_timeout=120).run()
+          if at.exception:
+              raise RuntimeError("; ".join(str(x) for x in at.exception))
+          print("PhonoFLE AI UI loaded")
+          PY
