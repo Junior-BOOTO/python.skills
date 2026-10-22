@@ -8,11 +8,17 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 > [**Déployer BOOTO NLP LAB sur Render**](https://render.com/deploy?repo=https://github.com/Junior-BOOTO/python.skills) · Préconfiguration prête ; nécessite votre connexion et approbation sur Render. Ce lien **n'est pas une application déjà en ligne**.
 
+## BOOTO Correcteur FLE AI V1 · Rétroaction pédagogique écrite A1
+
+**[Moteur Python, application Streamlit et documentation](correcteur-fle-ai/README.md)** · [Démonstration HTML](correcteur-fle-ai/demo/index.html) · [Guide de déploiement Render](correcteur-fle-ai/docs/DEPLOIEMENT_RENDER.md)
+
+Nouveau prototype transparent de correction ciblée pour Grades 4 et 5 : **20 règles explicites**, propositions de reformulation et validation individuelle par l’enseignant. Fiches de rétroaction exportables en **PDF, DOCX et TXT**. **22 tests Python locaux réussis** ; pas de modèle génératif, pas de notation CECRL ni de validation en classe. **Déploiement Render indépendant à effectuer.**
+
 ## Éval’FLE AI Engine V1 · Évaluations scolaires FLE
 
 **[Consulter le code et la documentation](eval-fle-ai-engine/README.md)** · [Démonstration HTML](eval-fle-ai-engine/demo/EvalFLE_Demo.html) · [Guide du nouveau service Render](eval-fle-ai-engine/docs/DEPLOIEMENT_RENDER.md)
 
-Nouveau prototype Python/Streamlit : **60 QCM originaux de démonstration** pour Grades 4–5, avec variantes reproductibles, corrigés, grilles de réponses et exports **Word + PDF**. **19 tests locaux réussis** lors de la publication. Les contenus doivent être alignés aux programmes avant une évaluation scolaire réelle ; aucune certification CECRL ni performance pédagogique n'est revendiquée. **Le service Render dédié n'est pas encore déployé.**
+Nouveau prototype Python/Streamlit : **60 QCM originaux de démonstration** pour Grades 4–5, avec variantes reproductibles, corrigés, grilles de réponses et exports **Word + PDF**. **19 tests locaux réussis** lors de la publication. Les contenus doivent être alignés aux programmes avant une évaluation scolaire réelle ; aucune certification CECRL ni performance pédagogique n'est revendiquée. **[Application sur Render](https://booto-eval-fle-ai.onrender.com/)** ; version déployée et affichée, corrigés améliorés à recontrôler après actualisation.
 
 ## BOOTO AI & DATA INNOVATION LAB — Page d'accueil française
 
