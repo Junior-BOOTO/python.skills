@@ -1,0 +1,842 @@
+[
+  {
+    "id": "G4-LA -01",
+    "grade": 4,
+    "category": "La maison",
+    "criterion": "Je peux reconnaître les pièces et les meubles de la maison.",
+    "question": "Dans quelle pièce prépare-t-on habituellement le repas ?",
+    "choices": [
+      "Dans la cuisine",
+      "Dans la chambre",
+      "Dans le jardin",
+      "Dans le garage"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LA -02",
+    "grade": 4,
+    "category": "La maison",
+    "criterion": "Je peux reconnaître les pièces et les meubles de la maison.",
+    "question": "Quel meuble utilise-t-on pour dormir ?",
+    "choices": [
+      "Le lit",
+      "La table",
+      "La chaise",
+      "Le bureau"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LA -03",
+    "grade": 4,
+    "category": "La maison",
+    "criterion": "Je peux reconnaître les pièces et les meubles de la maison.",
+    "question": "Où prend-on souvent une douche ?",
+    "choices": [
+      "Dans la salle de bains",
+      "Dans le salon",
+      "Dans la cuisine",
+      "Dans le couloir"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LA -04",
+    "grade": 4,
+    "category": "La maison",
+    "criterion": "Je peux reconnaître les pièces et les meubles de la maison.",
+    "question": "Quel objet permet de s’asseoir ?",
+    "choices": [
+      "Une chaise",
+      "Un miroir",
+      "Un tapis",
+      "Une lampe"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LA -05",
+    "grade": 4,
+    "category": "La maison",
+    "criterion": "Je peux reconnaître les pièces et les meubles de la maison.",
+    "question": "Où peut-on regarder la télévision avec sa famille ?",
+    "choices": [
+      "Dans le salon",
+      "Dans la salle de bains",
+      "Dans le garage",
+      "Dans l’escalier"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LA -06",
+    "grade": 4,
+    "category": "La maison",
+    "criterion": "Je peux reconnaître les pièces et les meubles de la maison.",
+    "question": "Quel meuble sert à ranger les vêtements ?",
+    "choices": [
+      "Une armoire",
+      "Un canapé",
+      "Un lavabo",
+      "Une cuisinière"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LA -07",
+    "grade": 4,
+    "category": "La maison",
+    "criterion": "Je peux reconnaître les pièces et les meubles de la maison.",
+    "question": "Pour éclairer une pièce, on allume…",
+    "choices": [
+      "une lampe",
+      "un oreiller",
+      "une porte",
+      "une assiette"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LA -08",
+    "grade": 4,
+    "category": "La maison",
+    "criterion": "Je peux reconnaître les pièces et les meubles de la maison.",
+    "question": "Quel objet se trouve souvent dans la cuisine ?",
+    "choices": [
+      "Un réfrigérateur",
+      "Un oreiller",
+      "Une baignoire",
+      "Une couverture"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LA -09",
+    "grade": 4,
+    "category": "La maison",
+    "criterion": "Je peux reconnaître les pièces et les meubles de la maison.",
+    "question": "Le canapé se trouve généralement…",
+    "choices": [
+      "dans le salon",
+      "sur le toit",
+      "dans la baignoire",
+      "dans le jardin"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LA -10",
+    "grade": 4,
+    "category": "La maison",
+    "criterion": "Je peux reconnaître les pièces et les meubles de la maison.",
+    "question": "Quel objet utilise-t-on pour se laver les mains ?",
+    "choices": [
+      "Un lavabo",
+      "Un fauteuil",
+      "Un tableau",
+      "Un balcon"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LES-01",
+    "grade": 4,
+    "category": "Les paysages",
+    "criterion": "Je peux identifier et décrire des éléments naturels simples.",
+    "question": "Quel mot désigne un cours d’eau ?",
+    "choices": [
+      "Une rivière",
+      "Une montagne",
+      "Une fleur",
+      "Une forêt"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LES-02",
+    "grade": 4,
+    "category": "Les paysages",
+    "criterion": "Je peux identifier et décrire des éléments naturels simples.",
+    "question": "Quel élément naturel est très élevé et rocheux ?",
+    "choices": [
+      "Une montagne",
+      "Un lac",
+      "Une feuille",
+      "Un champ"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LES-03",
+    "grade": 4,
+    "category": "Les paysages",
+    "criterion": "Je peux identifier et décrire des éléments naturels simples.",
+    "question": "Quel endroit contient beaucoup d’arbres ?",
+    "choices": [
+      "Une forêt",
+      "Une plage",
+      "Un désert",
+      "Un bâtiment"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LES-04",
+    "grade": 4,
+    "category": "Les paysages",
+    "criterion": "Je peux identifier et décrire des éléments naturels simples.",
+    "question": "Quel élément est une grande étendue d’eau douce entourée de terres ?",
+    "choices": [
+      "Un lac",
+      "Un soleil",
+      "Une vallée",
+      "Une colline"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LES-05",
+    "grade": 4,
+    "category": "Les paysages",
+    "criterion": "Je peux identifier et décrire des éléments naturels simples.",
+    "question": "Quelle partie de l’arbre est généralement verte ?",
+    "choices": [
+      "La feuille",
+      "La racine",
+      "Le tronc",
+      "L’écorce"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LES-06",
+    "grade": 4,
+    "category": "Les paysages",
+    "criterion": "Je peux identifier et décrire des éléments naturels simples.",
+    "question": "Quel élément éclaire la Terre pendant la journée ?",
+    "choices": [
+      "Le soleil",
+      "La rivière",
+      "La forêt",
+      "La roche"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LES-07",
+    "grade": 4,
+    "category": "Les paysages",
+    "criterion": "Je peux identifier et décrire des éléments naturels simples.",
+    "question": "Complète : « Je vois une ___ dans le jardin. »",
+    "choices": [
+      "fleur",
+      "montagne",
+      "rivière",
+      "forêt"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LES-08",
+    "grade": 4,
+    "category": "Les paysages",
+    "criterion": "Je peux identifier et décrire des éléments naturels simples.",
+    "question": "Complète : « Il y a des arbres dans la ___. »",
+    "choices": [
+      "forêt",
+      "mer",
+      "maison",
+      "école"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LES-09",
+    "grade": 4,
+    "category": "Les paysages",
+    "criterion": "Je peux identifier et décrire des éléments naturels simples.",
+    "question": "Quel mot désigne une étendue de sable près de la mer ?",
+    "choices": [
+      "Une plage",
+      "Une vallée",
+      "Un volcan",
+      "Une grotte"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-LES-10",
+    "grade": 4,
+    "category": "Les paysages",
+    "criterion": "Je peux identifier et décrire des éléments naturels simples.",
+    "question": "La rivière traverse le paysage. Qu’est-ce qu’une rivière ?",
+    "choices": [
+      "De l’eau qui coule",
+      "Une plante qui pousse",
+      "Une colline très haute",
+      "Une pierre ronde"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-MA -01",
+    "grade": 4,
+    "category": "Ma journée typique",
+    "criterion": "Je peux raconter une routine simple avec des verbes et des marqueurs de temps.",
+    "question": "Complète : « Le matin, je ___ à sept heures. »",
+    "choices": [
+      "me lève",
+      "me lèves",
+      "se lève",
+      "me levons"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-MA -02",
+    "grade": 4,
+    "category": "Ma journée typique",
+    "criterion": "Je peux raconter une routine simple avec des verbes et des marqueurs de temps.",
+    "question": "Complète : « Ensuite, je ___ pour aller à l’école. »",
+    "choices": [
+      "me prépare",
+      "te prépare",
+      "se prépare",
+      "nous préparons"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-MA -03",
+    "grade": 4,
+    "category": "Ma journée typique",
+    "criterion": "Je peux raconter une routine simple avec des verbes et des marqueurs de temps.",
+    "question": "Complète : « À midi, je ___ le déjeuner. »",
+    "choices": [
+      "mange",
+      "manges",
+      "mangeons",
+      "mangent"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-MA -04",
+    "grade": 4,
+    "category": "Ma journée typique",
+    "criterion": "Je peux raconter une routine simple avec des verbes et des marqueurs de temps.",
+    "question": "Complète : « Le soir, je ___. »",
+    "choices": [
+      "me couche",
+      "te couches",
+      "se couche",
+      "nous couchons"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-MA -05",
+    "grade": 4,
+    "category": "Ma journée typique",
+    "criterion": "Je peux raconter une routine simple avec des verbes et des marqueurs de temps.",
+    "question": "Quelle expression indique le moment après le matin ?",
+    "choices": [
+      "L’après-midi",
+      "Hier soir",
+      "La nuit dernière",
+      "L’année passée"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-MA -06",
+    "grade": 4,
+    "category": "Ma journée typique",
+    "criterion": "Je peux raconter une routine simple avec des verbes et des marqueurs de temps.",
+    "question": "Quel connecteur exprime l’ordre des activités ?",
+    "choices": [
+      "Ensuite",
+      "Parce que",
+      "Mais",
+      "Ou"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-MA -07",
+    "grade": 4,
+    "category": "Ma journée typique",
+    "criterion": "Je peux raconter une routine simple avec des verbes et des marqueurs de temps.",
+    "question": "Quelle phrase indique une heure exacte ?",
+    "choices": [
+      "Je pars à huit heures.",
+      "Je pars peut-être demain.",
+      "Je pars souvent.",
+      "Je pars parfois."
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-MA -08",
+    "grade": 4,
+    "category": "Ma journée typique",
+    "criterion": "Je peux raconter une routine simple avec des verbes et des marqueurs de temps.",
+    "question": "Quelle phrase indique une heure approximative ?",
+    "choices": [
+      "Je mange vers midi.",
+      "Je mange à midi exactement.",
+      "Je mange tous les jours.",
+      "Je mange rapidement."
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-MA -09",
+    "grade": 4,
+    "category": "Ma journée typique",
+    "criterion": "Je peux raconter une routine simple avec des verbes et des marqueurs de temps.",
+    "question": "Complète : « Enfin, je ___ dans mon lit. »",
+    "choices": [
+      "dors",
+      "dort",
+      "dormons",
+      "dorment"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G4-MA -10",
+    "grade": 4,
+    "category": "Ma journée typique",
+    "criterion": "Je peux raconter une routine simple avec des verbes et des marqueurs de temps.",
+    "question": "Quelle suite est chronologique ?",
+    "choices": [
+      "Je me lève, je déjeune, je vais à l’école.",
+      "Je vais à l’école, je me lève, je dors.",
+      "Je dors, je vais à l’école, je me réveille.",
+      "Je déjeune, je dors, je me lève."
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-DRO-01",
+    "grade": 5,
+    "category": "Droits et devoirs",
+    "criterion": "Je peux distinguer des droits et des responsabilités à l’école.",
+    "question": "Quel est un droit de chaque enfant ?",
+    "choices": [
+      "Recevoir une éducation",
+      "Déranger la classe",
+      "Casser les livres",
+      "Exclure un camarade"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-DRO-02",
+    "grade": 5,
+    "category": "Droits et devoirs",
+    "criterion": "Je peux distinguer des droits et des responsabilités à l’école.",
+    "question": "Quel est un devoir à l’école ?",
+    "choices": [
+      "Respecter les autres",
+      "Insulter les camarades",
+      "Salir la salle",
+      "Ignorer les consignes de sécurité"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-DRO-03",
+    "grade": 5,
+    "category": "Droits et devoirs",
+    "criterion": "Je peux distinguer des droits et des responsabilités à l’école.",
+    "question": "Complète : « J’ai le droit de ___ mon opinion avec respect. »",
+    "choices": [
+      "exprimer",
+      "détruire",
+      "voler",
+      "punir"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-DRO-04",
+    "grade": 5,
+    "category": "Droits et devoirs",
+    "criterion": "Je peux distinguer des droits et des responsabilités à l’école.",
+    "question": "Que fait un élève responsable avec le matériel commun ?",
+    "choices": [
+      "Il en prend soin.",
+      "Il le cache.",
+      "Il le casse.",
+      "Il le jette sans raison."
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-DRO-05",
+    "grade": 5,
+    "category": "Droits et devoirs",
+    "criterion": "Je peux distinguer des droits et des responsabilités à l’école.",
+    "question": "Quel comportement respecte le droit des autres ?",
+    "choices": [
+      "Écouter quand quelqu’un parle",
+      "Couper la parole sans cesse",
+      "Se moquer d’un élève",
+      "Refuser de partager l’espace"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-DRO-06",
+    "grade": 5,
+    "category": "Droits et devoirs",
+    "criterion": "Je peux distinguer des droits et des responsabilités à l’école.",
+    "question": "Complète : « Nous devons ___ la cour de récréation. »",
+    "choices": [
+      "respecter",
+      "détruire",
+      "salir",
+      "abîmer"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-DRO-07",
+    "grade": 5,
+    "category": "Droits et devoirs",
+    "criterion": "Je peux distinguer des droits et des responsabilités à l’école.",
+    "question": "Quelle phrase montre une responsabilité ?",
+    "choices": [
+      "Je range mon matériel après la leçon.",
+      "Je pousse les autres dans le couloir.",
+      "Je prends les affaires des autres.",
+      "Je crie pendant les présentations."
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-DRO-08",
+    "grade": 5,
+    "category": "Droits et devoirs",
+    "criterion": "Je peux distinguer des droits et des responsabilités à l’école.",
+    "question": "Que faire si un camarade est victime de moqueries ?",
+    "choices": [
+      "Prévenir un adulte de confiance",
+      "Rire avec les autres",
+      "Publier les moqueries",
+      "Ignorer systématiquement la situation"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-DRO-09",
+    "grade": 5,
+    "category": "Droits et devoirs",
+    "criterion": "Je peux distinguer des droits et des responsabilités à l’école.",
+    "question": "Quel droit favorise l’apprentissage ?",
+    "choices": [
+      "Le droit de poser des questions",
+      "Le droit de frapper",
+      "Le droit de tricher",
+      "Le droit de voler"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-DRO-10",
+    "grade": 5,
+    "category": "Droits et devoirs",
+    "criterion": "Je peux distinguer des droits et des responsabilités à l’école.",
+    "question": "Complète : « Pour vivre ensemble, nous devons ___ les différences. »",
+    "choices": [
+      "respecter",
+      "effacer",
+      "interdire",
+      "moquer"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-ÉCO-01",
+    "grade": 5,
+    "category": "Écoresponsabilité",
+    "criterion": "Je peux reconnaître des gestes écoresponsables au quotidien.",
+    "question": "Quel geste économise l’eau ?",
+    "choices": [
+      "Fermer le robinet après usage",
+      "Laisser couler l’eau",
+      "Ouvrir tous les robinets",
+      "Laver un objet longtemps sans raison"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-ÉCO-02",
+    "grade": 5,
+    "category": "Écoresponsabilité",
+    "criterion": "Je peux reconnaître des gestes écoresponsables au quotidien.",
+    "question": "Comment réduire le papier gaspillé ?",
+    "choices": [
+      "Utiliser les deux faces d’une feuille",
+      "Jeter les feuilles propres",
+      "Imprimer chaque phrase séparément",
+      "Refuser de recycler"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-ÉCO-03",
+    "grade": 5,
+    "category": "Écoresponsabilité",
+    "criterion": "Je peux reconnaître des gestes écoresponsables au quotidien.",
+    "question": "Quel geste protège la cour de l’école ?",
+    "choices": [
+      "Mettre les déchets dans une poubelle",
+      "Jeter les papiers par terre",
+      "Abîmer les plantes",
+      "Laisser les emballages au sol"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-ÉCO-04",
+    "grade": 5,
+    "category": "Écoresponsabilité",
+    "criterion": "Je peux reconnaître des gestes écoresponsables au quotidien.",
+    "question": "Que signifie « recycler » ?",
+    "choices": [
+      "Transformer des déchets en nouvelles matières",
+      "Jeter tous les objets dans la nature",
+      "Acheter toujours du neuf",
+      "Gaspiller davantage de ressources"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-ÉCO-05",
+    "grade": 5,
+    "category": "Écoresponsabilité",
+    "criterion": "Je peux reconnaître des gestes écoresponsables au quotidien.",
+    "question": "Quel transport peut réduire la pollution pour un court trajet ?",
+    "choices": [
+      "La marche",
+      "La voiture individuelle",
+      "La moto individuelle",
+      "L’avion"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-ÉCO-06",
+    "grade": 5,
+    "category": "Écoresponsabilité",
+    "criterion": "Je peux reconnaître des gestes écoresponsables au quotidien.",
+    "question": "Quel geste réduit la consommation d’électricité ?",
+    "choices": [
+      "Éteindre les lumières inutiles",
+      "Allumer toutes les lampes",
+      "Laisser la télévision fonctionner sans regarder",
+      "Ouvrir le réfrigérateur longtemps"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-ÉCO-07",
+    "grade": 5,
+    "category": "Écoresponsabilité",
+    "criterion": "Je peux reconnaître des gestes écoresponsables au quotidien.",
+    "question": "Pourquoi planter des arbres ?",
+    "choices": [
+      "Ils contribuent à préserver la biodiversité.",
+      "Ils fabriquent du plastique.",
+      "Ils augmentent les déchets.",
+      "Ils empêchent toujours la pluie."
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-ÉCO-08",
+    "grade": 5,
+    "category": "Écoresponsabilité",
+    "criterion": "Je peux reconnaître des gestes écoresponsables au quotidien.",
+    "question": "Quel objet est souvent réutilisable ?",
+    "choices": [
+      "Une gourde",
+      "Une serviette en papier jetable",
+      "Une assiette cassée",
+      "Un emballage sale"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-ÉCO-09",
+    "grade": 5,
+    "category": "Écoresponsabilité",
+    "criterion": "Je peux reconnaître des gestes écoresponsables au quotidien.",
+    "question": "Quel comportement protège les animaux ?",
+    "choices": [
+      "Respecter leur habitat",
+      "Détruire leurs nids",
+      "Laisser du plastique dans la forêt",
+      "Capturer les animaux sauvages"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-ÉCO-10",
+    "grade": 5,
+    "category": "Écoresponsabilité",
+    "criterion": "Je peux reconnaître des gestes écoresponsables au quotidien.",
+    "question": "Complète : « Pour protéger la planète, nous devons ___ les déchets. »",
+    "choices": [
+      "réduire",
+      "multiplier",
+      "abandonner",
+      "répandre"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-COM-01",
+    "grade": 5,
+    "category": "Communication quotidienne",
+    "criterion": "Je peux comprendre des phrases simples et organiser des actions quotidiennes.",
+    "question": "Complète : « Chaque matin, nous ___ à l’école. »",
+    "choices": [
+      "allons",
+      "vais",
+      "va",
+      "allez"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-COM-02",
+    "grade": 5,
+    "category": "Communication quotidienne",
+    "criterion": "Je peux comprendre des phrases simples et organiser des actions quotidiennes.",
+    "question": "Quelle expression marque la dernière étape ?",
+    "choices": [
+      "Enfin",
+      "D’abord",
+      "Au début",
+      "Premièrement"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-COM-03",
+    "grade": 5,
+    "category": "Communication quotidienne",
+    "criterion": "Je peux comprendre des phrases simples et organiser des actions quotidiennes.",
+    "question": "Complète : « Je ___ mes devoirs après l’école. »",
+    "choices": [
+      "fais",
+      "fait",
+      "font",
+      "faites"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-COM-04",
+    "grade": 5,
+    "category": "Communication quotidienne",
+    "criterion": "Je peux comprendre des phrases simples et organiser des actions quotidiennes.",
+    "question": "Quelle phrase parle d’une habitude ?",
+    "choices": [
+      "Je lis chaque soir.",
+      "Je lirai peut-être demain.",
+      "Je lisais hier à midi.",
+      "Je lirais si je pouvais."
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-COM-05",
+    "grade": 5,
+    "category": "Communication quotidienne",
+    "criterion": "Je peux comprendre des phrases simples et organiser des actions quotidiennes.",
+    "question": "Quel connecteur exprime une cause ?",
+    "choices": [
+      "Parce que",
+      "Ensuite",
+      "Puis",
+      "Enfin"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-COM-06",
+    "grade": 5,
+    "category": "Communication quotidienne",
+    "criterion": "Je peux comprendre des phrases simples et organiser des actions quotidiennes.",
+    "question": "Complète : « Nous trions les déchets ___ protéger la nature. »",
+    "choices": [
+      "pour",
+      "mais",
+      "ou",
+      "donc"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-COM-07",
+    "grade": 5,
+    "category": "Communication quotidienne",
+    "criterion": "Je peux comprendre des phrases simples et organiser des actions quotidiennes.",
+    "question": "Quelle phrase contient un conseil simple ?",
+    "choices": [
+      "Il faut respecter les autres.",
+      "Il ne respecte jamais rien.",
+      "Il a oublié son cahier.",
+      "Il lit un journal."
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-COM-08",
+    "grade": 5,
+    "category": "Communication quotidienne",
+    "criterion": "Je peux comprendre des phrases simples et organiser des actions quotidiennes.",
+    "question": "Complète : « Elle ___ de l’eau après le sport. »",
+    "choices": [
+      "boit",
+      "bois",
+      "buvons",
+      "buvez"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-COM-09",
+    "grade": 5,
+    "category": "Communication quotidienne",
+    "criterion": "Je peux comprendre des phrases simples et organiser des actions quotidiennes.",
+    "question": "Quel adverbe exprime une habitude fréquente ?",
+    "choices": [
+      "Souvent",
+      "Demain",
+      "Hier",
+      "Bientôt"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "G5-COM-10",
+    "grade": 5,
+    "category": "Communication quotidienne",
+    "criterion": "Je peux comprendre des phrases simples et organiser des actions quotidiennes.",
+    "question": "Quelle phrase est au présent ?",
+    "choices": [
+      "Nous protégeons la planète.",
+      "Nous protégerons la planète.",
+      "Nous avons protégé la planète.",
+      "Nous protégions la planète."
+    ],
+    "correct_index": 0
+  }
+]
