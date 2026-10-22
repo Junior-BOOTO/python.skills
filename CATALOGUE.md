@@ -10,6 +10,12 @@ Projets regroupés par usage. Les résultats et limites ci-dessous reprennent la
 | --- | --- | --- |
 | [FLE Learning Analytics](fle-learning-analytics/README.md) | Génération de données synthétiques, analyse des quatre compétences, graphique et étude de cas pédagogique. | Démonstration fictive ; aucune efficacité pédagogique réelle mesurée. |
 
+### BOOTO FLE Adaptive AI : personnaliser des activités de routine A1
+
+[Prototype, démonstration HTML et moteur Python](booto-fle-adaptive-ai/README.md) · [Cahier des charges](booto-fle-adaptive-ai/docs/CAHIER_DES_CHARGES_V1.md)
+
+Douze QCM répartis en quatre compétences écrites, observation orale facultative saisie par l'enseignant, trois recommandations de micro-activités au maximum avec motif explicite, tableau de bord de **12 profils synthétiques**. Moteur **à règles**, sans Machine Learning ni évaluation orale automatique. **19 tests unitaires locaux réussis** ; l'efficacité en classe, l'accessibilité et le niveau CECRL ne sont pas validés. Projet de démonstration, sans données personnelles d'élèves.
+
 ### FLE Resource Studio : une ressource, trois chemins pour apprendre
 [Code, catalogue et API locale](fle-resource-studio/) · [Studio interactif](https://junior-booto-fle.juniorbooto.chatgpt.site/fle-resource-studio.html)
 
