@@ -10,6 +10,12 @@ Projets regroupés par usage. Les résultats et limites ci-dessous reprennent la
 | --- | --- | --- |
 | [FLE Learning Analytics](fle-learning-analytics/README.md) | Génération de données synthétiques, analyse des quatre compétences, graphique et étude de cas pédagogique. | Démonstration fictive ; aucune efficacité pédagogique réelle mesurée. |
 
+### Éval’FLE AI Engine V1 — QCM, corrigés et exports scolaires
+
+[Projet Python et Streamlit](eval-fle-ai-engine/README.md) · [Démonstration HTML](eval-fle-ai-engine/demo/EvalFLE_Demo.html) · [Installation Render](eval-fle-ai-engine/docs/DEPLOIEMENT_RENDER.md)
+
+Prototype de génération d'évaluations FLE A1 pour Grades 4 et 5, avec banque **de 60 questions fictives de démonstration**, exports PDF/DOCX et correction non nominative. Un moteur déterministe mélange les questions et les options de réponse. **19 tests locaux validés**, sans validation pédagogique sur élèves ni certification du niveau CECRL. Application publique non encore déployée.
+
 ### BOOTO FLE Adaptive AI : personnaliser des activités de routine A1
 
 [Prototype, démonstration HTML et moteur Python](booto-fle-adaptive-ai/README.md) · [Cahier des charges](booto-fle-adaptive-ai/docs/CAHIER_DES_CHARGES_V1.md)
