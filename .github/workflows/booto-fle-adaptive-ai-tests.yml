@@ -1,0 +1,40 @@
+name: BOOTO FLE Adaptive AI · Tests
+
+on:
+  push:
+    paths:
+      - 'booto-fle-adaptive-ai/**'
+      - '.github/workflows/booto-fle-adaptive-ai-tests.yml'
+  pull_request:
+    paths:
+      - 'booto-fle-adaptive-ai/**'
+      - '.github/workflows/booto-fle-adaptive-ai-tests.yml'
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: booto-fle-adaptive-ai
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Installer les dépendances
+        run: |
+          python -m pip install -r requirements.txt
+          python -m pip install pytest
+      - name: Exécuter les tests du moteur
+        run: python -m pytest -q
+      - name: Vérifier syntaxe du code
+        run: python -m compileall -q app src scripts
+      - name: Tester le lancement de l'interface Streamlit
+        run: |
+          python - <<'PY'
+          from streamlit.testing.v1 import AppTest
+          at = AppTest.from_file("app/main.py", default_timeout=120).run()
+          if at.exception:
+              raise RuntimeError("Erreur interface Streamlit: " + "; ".join(str(e) for e in at.exception))
+          print("Streamlit: l'interface charge sans exception.")
+          PY

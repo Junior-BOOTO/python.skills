@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "titre": "Ma journée typique",
+    "classe": "Grade 4",
+    "niveau": "A1",
+    "theme_pyp": "Qui nous sommes",
+    "origine": "Questions originales du prototype, à valider pédagogiquement",
+    "version": "0.1"
+  },
+  "items": [
+    {
+      "id": "LEX01",
+      "competence": "lexique",
+      "question": "Quelle activité signifie « se lever » ?",
+      "options": [
+        "Sortir du lit",
+        "Lire un livre",
+        "Prendre le bus"
+      ],
+      "answer_index": 0,
+      "feedback": "Se lever = sortir du lit."
+    },
+    {
+      "id": "LEX02",
+      "competence": "lexique",
+      "question": "Quelle activité fait-on généralement avant de dormir ?",
+      "options": [
+        "Se coucher",
+        "Faire du sport",
+        "Aller à l’école"
+      ],
+      "answer_index": 0,
+      "feedback": "On se couche avant de dormir."
+    },
+    {
+      "id": "LEX03",
+      "competence": "lexique",
+      "question": "« Je prends mon petit-déjeuner » signifie…",
+      "options": [
+        "Je mange le matin",
+        "Je joue le soir",
+        "Je me couche"
+      ],
+      "answer_index": 0,
+      "feedback": "Le petit-déjeuner est le repas du matin."
+    },
+    {
+      "id": "VER01",
+      "competence": "verbes",
+      "question": "Complète : « Le matin, je ___ à sept heures. »",
+      "options": [
+        "me lève",
+        "se lève",
+        "te lèves"
+      ],
+      "answer_index": 0,
+      "feedback": "Avec je : je me lève."
+    },
+    {
+      "id": "VER02",
+      "competence": "verbes",
+      "question": "Complète : « Après le sport, je ___ . »",
+      "options": [
+        "me prépare",
+        "se prépare",
+        "nous préparons"
+      ],
+      "answer_index": 0,
+      "feedback": "Avec je : je me prépare."
+    },
+    {
+      "id": "VER03",
+      "competence": "verbes",
+      "question": "Quelle phrase est correcte ?",
+      "options": [
+        "Je me couche à neuf heures.",
+        "Je se couche à neuf heures.",
+        "Je te couche à neuf heures."
+      ],
+      "answer_index": 0,
+      "feedback": "Le pronom réfléchi avec je est me."
+    },
+    {
+      "id": "TMP01",
+      "competence": "connecteurs",
+      "question": "Pour commencer la journée, on dit…",
+      "options": [
+        "Le matin",
+        "Enfin",
+        "Le soir"
+      ],
+      "answer_index": 0,
+      "feedback": "Le matin introduit le début de la journée."
+    },
+    {
+      "id": "TMP02",
+      "competence": "connecteurs",
+      "question": "Complète : « Je déjeune. ___, je retourne en classe. »",
+      "options": [
+        "Ensuite",
+        "Hier",
+        "Jamais"
+      ],
+      "answer_index": 0,
+      "feedback": "Ensuite marque la succession."
+    },
+    {
+      "id": "TMP03",
+      "competence": "connecteurs",
+      "question": "Pour présenter la dernière activité, on utilise…",
+      "options": [
+        "Enfin",
+        "D’abord",
+        "À midi"
+      ],
+      "answer_index": 0,
+      "feedback": "Enfin introduit la fin d’une séquence."
+    },
+    {
+      "id": "HEU01",
+      "competence": "heures",
+      "question": "Quelle phrase indique une heure précise ?",
+      "options": [
+        "Je pars à huit heures.",
+        "Je pars le matin.",
+        "Je pars ensuite."
+      ],
+      "answer_index": 0,
+      "feedback": "À huit heures = heure précise."
+    },
+    {
+      "id": "HEU02",
+      "competence": "heures",
+      "question": "Quelle phrase exprime une heure approximative ?",
+      "options": [
+        "Je mange vers midi.",
+        "Je mange à midi exactement.",
+        "Je mange après."
+      ],
+      "answer_index": 0,
+      "feedback": "Vers indique une approximation."
+    },
+    {
+      "id": "HEU03",
+      "competence": "heures",
+      "question": "À 19 h, il est…",
+      "options": [
+        "sept heures du soir",
+        "sept heures du matin",
+        "midi"
+      ],
+      "answer_index": 0,
+      "feedback": "19 h = 7 h du soir."
+    }
+  ]
+}

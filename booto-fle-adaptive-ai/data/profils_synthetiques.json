@@ -1,0 +1,233 @@
+{
+  "notice": "PROFILS ENTIEREMENT SYNTHETIQUES. Ne représentent aucun élève réel.",
+  "profiles": [
+    {
+      "student_id": "SYN-01",
+      "type_donnees": "synthetiques",
+      "answers": {
+        "LEX01": 0,
+        "LEX02": 0,
+        "LEX03": 0,
+        "VER01": 0,
+        "VER02": 0,
+        "VER03": 0,
+        "TMP01": 0,
+        "TMP02": 0,
+        "TMP03": 0,
+        "HEU01": 0,
+        "HEU02": 0,
+        "HEU03": 0
+      },
+      "oral_score": 2
+    },
+    {
+      "student_id": "SYN-02",
+      "type_donnees": "synthetiques",
+      "answers": {
+        "LEX01": 0,
+        "LEX02": 0,
+        "LEX03": 0,
+        "VER01": 0,
+        "VER02": 1,
+        "VER03": 0,
+        "TMP01": 2,
+        "TMP02": 1,
+        "TMP03": 0,
+        "HEU01": 2,
+        "HEU02": 1,
+        "HEU03": 2
+      },
+      "oral_score": 1
+    },
+    {
+      "student_id": "SYN-03",
+      "type_donnees": "synthetiques",
+      "answers": {
+        "LEX01": 1,
+        "LEX02": 0,
+        "LEX03": 1,
+        "VER01": 1,
+        "VER02": 0,
+        "VER03": 1,
+        "TMP01": 1,
+        "TMP02": 0,
+        "TMP03": 0,
+        "HEU01": 1,
+        "HEU02": 0,
+        "HEU03": 1
+      },
+      "oral_score": 0
+    },
+    {
+      "student_id": "SYN-04",
+      "type_donnees": "synthetiques",
+      "answers": {
+        "LEX01": 0,
+        "LEX02": 0,
+        "LEX03": 2,
+        "VER01": 0,
+        "VER02": 0,
+        "VER03": 0,
+        "TMP01": 0,
+        "TMP02": 0,
+        "TMP03": 0,
+        "HEU01": 0,
+        "HEU02": 0,
+        "HEU03": 2
+      },
+      "oral_score": 2
+    },
+    {
+      "student_id": "SYN-05",
+      "type_donnees": "synthetiques",
+      "answers": {
+        "LEX01": 1,
+        "LEX02": 2,
+        "LEX03": 1,
+        "VER01": 1,
+        "VER02": 2,
+        "VER03": 1,
+        "TMP01": 1,
+        "TMP02": 2,
+        "TMP03": 0,
+        "HEU01": 0,
+        "HEU02": 2,
+        "HEU03": 0
+      },
+      "oral_score": null
+    },
+    {
+      "student_id": "SYN-06",
+      "type_donnees": "synthetiques",
+      "answers": {
+        "LEX01": 0,
+        "LEX02": 0,
+        "LEX03": 0,
+        "VER01": 0,
+        "VER02": 0,
+        "VER03": 0,
+        "TMP01": 2,
+        "TMP02": 0,
+        "TMP03": 0,
+        "HEU01": 2,
+        "HEU02": 0,
+        "HEU03": 0
+      },
+      "oral_score": 2
+    },
+    {
+      "student_id": "SYN-07",
+      "type_donnees": "synthetiques",
+      "answers": {
+        "LEX01": 0,
+        "LEX02": 0,
+        "LEX03": 1,
+        "VER01": 0,
+        "VER02": 2,
+        "VER03": 1,
+        "TMP01": 0,
+        "TMP02": 0,
+        "TMP03": 1,
+        "HEU01": 1,
+        "HEU02": 2,
+        "HEU03": 1
+      },
+      "oral_score": 1
+    },
+    {
+      "student_id": "SYN-08",
+      "type_donnees": "synthetiques",
+      "answers": {
+        "LEX01": 2,
+        "LEX02": 1,
+        "LEX03": 0,
+        "VER01": 0,
+        "VER02": 1,
+        "VER03": 0,
+        "TMP01": 2,
+        "TMP02": 1,
+        "TMP03": 0,
+        "HEU01": 0,
+        "HEU02": 1,
+        "HEU03": 0
+      },
+      "oral_score": 1
+    },
+    {
+      "student_id": "SYN-09",
+      "type_donnees": "synthetiques",
+      "answers": {
+        "LEX01": 0,
+        "LEX02": 0,
+        "LEX03": 0,
+        "VER01": 1,
+        "VER02": 0,
+        "VER03": 0,
+        "TMP01": 0,
+        "TMP02": 0,
+        "TMP03": 0,
+        "HEU01": 1,
+        "HEU02": 0,
+        "HEU03": 1
+      },
+      "oral_score": null
+    },
+    {
+      "student_id": "SYN-10",
+      "type_donnees": "synthetiques",
+      "answers": {
+        "LEX01": 0,
+        "LEX02": 0,
+        "LEX03": 2,
+        "VER01": 0,
+        "VER02": 0,
+        "VER03": 2,
+        "TMP01": 0,
+        "TMP02": 0,
+        "TMP03": 2,
+        "HEU01": 0,
+        "HEU02": 0,
+        "HEU03": 2
+      },
+      "oral_score": 2
+    },
+    {
+      "student_id": "SYN-11",
+      "type_donnees": "synthetiques",
+      "answers": {
+        "LEX01": 1,
+        "LEX02": 2,
+        "LEX03": 1,
+        "VER01": 1,
+        "VER02": 2,
+        "VER03": 0,
+        "TMP01": 1,
+        "TMP02": 2,
+        "TMP03": 1,
+        "HEU01": 1,
+        "HEU02": 2,
+        "HEU03": 0
+      },
+      "oral_score": 0
+    },
+    {
+      "student_id": "SYN-12",
+      "type_donnees": "synthetiques",
+      "answers": {
+        "LEX01": 2,
+        "LEX02": 0,
+        "LEX03": 2,
+        "VER01": 0,
+        "VER02": 0,
+        "VER03": 0,
+        "TMP01": 2,
+        "TMP02": 0,
+        "TMP03": 0,
+        "HEU01": 0,
+        "HEU02": 0,
+        "HEU03": 0
+      },
+      "oral_score": 2
+    }
+  ]
+}

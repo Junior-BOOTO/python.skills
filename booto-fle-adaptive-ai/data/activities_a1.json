@@ -1,0 +1,47 @@
+{
+  "lexique": {
+    "id": "ACT-LEX",
+    "titre": "Ma routine en images (à préparer)",
+    "minutes": 7,
+    "consigne": "Associer six verbes de la routine à six images préparées par l’enseignant. Dire une phrase avec chaque action.",
+    "reussite": "Au moins 6 associations correctes sur 8.",
+    "accompagnement": "Proposer une banque de mots et la lecture audio par l’enseignant.",
+    "approfondissement": "Décrire une routine différente de la sienne."
+  },
+  "verbes": {
+    "id": "ACT-VER",
+    "titre": "Je + verbe pronominal",
+    "minutes": 8,
+    "consigne": "Compléter puis oraliser : je me lève ; je me prépare ; je me couche. Ajouter une heure.",
+    "reussite": "Produire 3 phrases correctes avec je.",
+    "accompagnement": "Fournir des cartes modèles « je + me + verbe ».",
+    "approfondissement": "Comparer je me lève / il se lève."
+  },
+  "connecteurs": {
+    "id": "ACT-CON",
+    "titre": "Ma journée en ordre",
+    "minutes": 8,
+    "consigne": "Mettre quatre activités en ordre avec le matin, ensuite, l’après-midi et enfin.",
+    "reussite": "Construire une suite logique de 4 activités.",
+    "accompagnement": "Proposer une frise de journée et des étiquettes à classer.",
+    "approfondissement": "Ajouter à midi et le soir."
+  },
+  "heures": {
+    "id": "ACT-HEU",
+    "titre": "À ou vers ?",
+    "minutes": 6,
+    "consigne": "Lire des horaires et créer 4 phrases : 2 avec « à », 2 avec « vers ».",
+    "reussite": "Distinguer correctement 3 horaires sur 4.",
+    "accompagnement": "Montrer une horloge et fournir deux phrases modèles.",
+    "approfondissement": "Utiliser les heures et les minutes."
+  },
+  "oral": {
+    "id": "ACT-ORA",
+    "titre": "Mon mini-récit oral",
+    "minutes": 6,
+    "consigne": "Dire au moins 3 phrases sur sa journée avec un connecteur et une heure ; l’enseignant observe.",
+    "reussite": "3 phrases intelligibles, 1 connecteur, 1 indication d’heure.",
+    "accompagnement": "Donner trois amorces et laisser préparer 30 secondes.",
+    "approfondissement": "Poser puis répondre à une question sur la journée."
+  }
+}

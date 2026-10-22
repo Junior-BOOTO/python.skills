@@ -1,0 +1,2 @@
+# Python 3.11 recommandé. Le moteur et ses tests fonctionnent sans dépendances tierces.
+streamlit>=1.35,<2
