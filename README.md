@@ -12,11 +12,11 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 **[Page d'accueil finale (HTML)](https://github.com/Junior-BOOTO/portfolio-fle/blob/main/projets/booto-ai-lab/index.html)** · [Démonstration BOOTO FLE Adaptive AI](https://github.com/Junior-BOOTO/portfolio-fle/blob/main/projets/booto-ai-lab/demos/adaptive.html) · [Démonstration PhonoFLE AI](https://github.com/Junior-BOOTO/portfolio-fle/blob/main/projets/booto-ai-lab/demos/phonofle.html).
 
-Le laboratoire valorise BOOTO NLP LAB, BOOTO FLE Adaptive AI et PhonoFLE AI dans une présentation en français avec une identité visuelle bleu, turquoise et violet. **Le contenu est publié sur GitHub ; son intégration au domaine professionnel reste à faire.**
+Le laboratoire valorise BOOTO NLP LAB, BOOTO FLE Adaptive AI et PhonoFLE AI dans une présentation en français avec une identité visuelle bleu, turquoise et violet. **[Le laboratoire est accessible sur le site professionnel](https://junior-booto-fle.juniorbooto.chatgpt.site/projets/booto-ai-lab/)**, avec les deux démonstrations FLE interactives.
 
 ## PhonoFLE AI · Discrimination auditive et phonétique A1
 
-**[PhonoFLE AI V1](phonofle-ai/README.md)** : prototype FR/ES pour distinguer /y/ (« u ») et /u/ (« ou »), avec **11 paires minimales**, quiz de 10 questions, synthèse vocale côté navigateur, conseils phonétiques et évaluation orale réservée à l'enseignant. [Démonstration HTML](phonofle-ai/demo/phonofle_ai_demo.html) · [Code Python](phonofle-ai/src/phonofle/engine.py) · [Tests](phonofle-ai/tests/test_engine.py). **Ne reconnaît pas la voix ni ne note automatiquement la prononciation. Non déployé sur un hébergement public.**
+**[PhonoFLE AI V1](phonofle-ai/README.md)** : prototype FR/ES pour distinguer /y/ (« u ») et /u/ (« ou »), avec **11 paires minimales**, quiz de 10 questions, synthèse vocale côté navigateur, conseils phonétiques et évaluation orale réservée à l'enseignant. [Démonstration HTML](phonofle-ai/demo/phonofle_ai_demo.html) · [Code Python](phonofle-ai/src/phonofle/engine.py) · [Tests](phonofle-ai/tests/test_engine.py). **Ne reconnaît pas la voix ni ne note automatiquement la prononciation. [Essayer la démonstration en ligne](https://junior-booto-fle.juniorbooto.chatgpt.site/projets/booto-ai-lab/demos/phonofle.html).**
 
 ## BOOTO FLE Adaptive AI · Différenciation pédagogique A1
 
