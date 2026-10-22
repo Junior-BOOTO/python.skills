@@ -1,0 +1,13 @@
+[
+ {"key":"tu_tout","word_y":"tu","word_u":"tout","ipa_y":"/ty/","ipa_u":"/tu/","meaning_y_es":"tú","meaning_u_es":"todo"},
+ {"key":"rue_roue","word_y":"rue","word_u":"roue","ipa_y":"/ʁy/","ipa_u":"/ʁu/","meaning_y_es":"calle","meaning_u_es":"rueda"},
+ {"key":"lu_loup","word_y":"lu","word_u":"loup","ipa_y":"/ly/","ipa_u":"/lu/","meaning_y_es":"leído","meaning_u_es":"lobo"},
+ {"key":"vu_vous","word_y":"vu","word_u":"vous","ipa_y":"/vy/","ipa_u":"/vu/","meaning_y_es":"visto","meaning_u_es":"usted/ustedes"},
+ {"key":"bu_bout","word_y":"bu","word_u":"bout","ipa_y":"/by/","ipa_u":"/bu/","meaning_y_es":"bebido","meaning_u_es":"extremo"},
+ {"key":"su_sous","word_y":"su","word_u":"sous","ipa_y":"/sy/","ipa_u":"/su/","meaning_y_es":"sabido","meaning_u_es":"debajo de"},
+ {"key":"jus_joue","word_y":"jus","word_u":"joue","ipa_y":"/ʒy/","ipa_u":"/ʒu/","meaning_y_es":"zumo","meaning_u_es":"mejilla"},
+ {"key":"du_doux","word_y":"du","word_u":"doux","ipa_y":"/dy/","ipa_u":"/du/","meaning_y_es":"del","meaning_u_es":"suave"},
+ {"key":"pull_poule","word_y":"pull","word_u":"poule","ipa_y":"/pyl/","ipa_u":"/pul/","meaning_y_es":"suéter","meaning_u_es":"gallina"},
+ {"key":"pur_pour","word_y":"pur","word_u":"pour","ipa_y":"/pyʁ/","ipa_u":"/puʁ/","meaning_y_es":"puro","meaning_u_es":"para"},
+ {"key":"sur_sourd","word_y":"sur","word_u":"sourd","ipa_y":"/syʁ/","ipa_u":"/suʁ/","meaning_y_es":"sobre","meaning_u_es":"sordo"}
+]
