@@ -21,6 +21,12 @@ Douze QCM répartis en quatre compétences écrites, observation orale facultati
 
 Cinq thèmes FLE A1, 50 entrées de glossaire FR/ES/EN, trois aides différenciées et 45 combinaisons vérifiées. Fiches enseignant/apprenant, corrigés et critères observables ; 20 tests locaux réussis. Lecture vocale facultative selon navigateur, aucune bande-son enregistrée. Vidéos candidates à revoir, aucune efficacité en classe revendiquée.
 
+### PhonoFLE AI V1 — /y/ et /u/ (phonétique A1)
+
+[Prototype, moteur Python, tests et démonstration HTML](phonofle-ai/README.md) · [Cahier des charges](phonofle-ai/docs/CAHIER_DES_CHARGES_V1.md)
+
+11 paires minimales, quiz de discrimination auditive, interface bilingue FR/ES et conseils articulatoires. Observation de prononciation **uniquement par l'enseignant** ; la synthèse vocale du navigateur ne constitue pas un étalon phonétique certifié. Aucun enregistrement de voix, aucune expérimentation en classe.
+
 ## Automatisation et qualité des ressources
 
 | Projet | Contenu | Limites |
