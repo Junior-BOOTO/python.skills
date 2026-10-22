@@ -8,6 +8,10 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 > [**Déployer BOOTO NLP LAB sur Render**](https://render.com/deploy?repo=https://github.com/Junior-BOOTO/python.skills) · Préconfiguration prête ; nécessite votre connexion et approbation sur Render. Ce lien **n'est pas une application déjà en ligne**.
 
+## Présentation web des trois projets
+
+[BOOTO AI & DATA INNOVATION LAB — page HTML trilingue](https://github.com/Junior-BOOTO/portfolio-fle/blob/main/projets/booto-ai-lab/index.html) (source publiée sur GitHub, intégration au site professionnel externe en attente). Le laboratoire réunit NLP LAB, FLE Adaptive AI et PhonoFLE AI, avec le statut exact de chaque prototype.
+
 ## PhonoFLE AI · Discrimination auditive et phonétique A1
 
 **[PhonoFLE AI V1](phonofle-ai/README.md)** : prototype FR/ES pour distinguer /y/ (« u ») et /u/ (« ou »), avec **11 paires minimales**, quiz de 10 questions, synthèse vocale côté navigateur, conseils phonétiques et évaluation orale réservée à l'enseignant. [Démonstration HTML](phonofle-ai/demo/phonofle_ai_demo.html) · [Code Python](phonofle-ai/src/phonofle/engine.py) · [Tests](phonofle-ai/tests/test_engine.py). **Ne reconnaît pas la voix ni ne note automatiquement la prononciation. Non déployé sur un hébergement public.**
