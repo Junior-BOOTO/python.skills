@@ -2,6 +2,11 @@
 
 **FLE + Python · Grade 4 · A1 · PYP « Qui nous sommes »**
 
+[![Tests BOOTO FLE Adaptive AI](https://github.com/Junior-BOOTO/python.skills/actions/workflows/booto-fle-adaptive-ai-tests.yml/badge.svg)](https://github.com/Junior-BOOTO/python.skills/actions/workflows/booto-fle-adaptive-ai-tests.yml)
+
+**Vérification GitHub Actions :** [tests réussis le 22 octobre 2026](https://github.com/Junior-BOOTO/python.skills/actions/runs/39712872650) (Python 3.11 sous Ubuntu : tests du moteur, vérification de syntaxe et démarrage automatique de l'interface Streamlit). **Aucune application publique hébergée ni efficacité pédagogique réelle ne sont revendiquées.**
+
+
 > **Prototype original de différenciation formative, basé sur des règles explicites.** Ce projet ne constitue pas un modèle d'apprentissage automatique, un diagnostic CECRL certifié ou une efficacité pédagogique démontrée. Les douze profils du tableau de bord sont **entièrement synthétiques**.
 
 ## Problème et proposition
@@ -93,4 +98,4 @@ Les supports images permettant d'associer six activités à des photos, la valid
 
 ## Auteur et statut
 
-**Junior BOOTO Waba** — Enseignement du FLE, ingénierie pédagogique, Python & Data Science. Prototype de portfolio, daté du **21 octobre 2026**. Licence de redistribution **à définir avant publication externe**.
+**Junior BOOTO Waba** — Enseignement du FLE, ingénierie pédagogique, Python & Data Science. Prototype de portfolio, daté du **21 octobre 2026**. Code et démonstration **publiés sur GitHub**, mais **aucune licence de réutilisation ou redistribution n'a encore été accordée**. La visibilité publique ne vaut pas licence.
