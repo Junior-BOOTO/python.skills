@@ -8,6 +8,10 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 > [**Déployer BOOTO NLP LAB sur Render**](https://render.com/deploy?repo=https://github.com/Junior-BOOTO/python.skills) · Préconfiguration prête ; nécessite votre connexion et approbation sur Render. Ce lien **n'est pas une application déjà en ligne**.
 
+## BOOTO FLE Adaptive AI · Différenciation pédagogique A1
+
+**[BOOTO FLE Adaptive AI V1](booto-fle-adaptive-ai/README.md)** relie un quiz formatif de 12 QCM sur « Ma journée typique » à des recommandations d'activités transparentes : vocabulaire, verbes pronominaux, connecteurs temporels et heures. [Démonstration HTML autonome](booto-fle-adaptive-ai/demo/BOOTO_FLE_Adaptive_AI_Demo.html) · [Moteur Python et tests](booto-fle-adaptive-ai/src/booto_fle/engine.py) · [Documentation éthique](booto-fle-adaptive-ai/docs/ETHIQUE_ET_VALIDATION.md). Les 12 profils sont **synthétiques** ; il s'agit d'un moteur à règles, **sans apprentissage automatique ni validation CECRL**.
+
 ## Nouveau laboratoire NLP · Prototype multilingue
 
 **[BOOTO NLP LAB V1 — Multilingual Text Analyzer](booto-nlp-lab/README.md)** : import de CSV, détection des langues (français, anglais, espagnol), classification thématique, mots-clés TF-IDF, similarité de documents et export. Application Python et interface Streamlit, avec un corpus **entièrement synthétique** de 300 textes ; performances externes encore à valider. [Guide de déploiement](booto-nlp-lab/docs/DEPLOIEMENT_STREAMLIT.md). **Aucune démonstration publique Streamlit n'est encore confirmée.**
