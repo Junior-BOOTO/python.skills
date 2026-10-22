@@ -1,0 +1,18 @@
+# Deux démonstrations supplémentaires ; BOOTO NLP LAB reste géré séparément.
+services:
+  - type: web
+    name: booto-superstore-dashboard
+    runtime: static
+    branch: main
+    rootDir: global-superstore-dashboard
+    buildCommand: test -f web/index.html && test -f web/dashboard-data.json
+    staticPublishPath: ./web
+    autoDeployTrigger: 'off'
+  - type: web
+    name: booto-housing-lab
+    runtime: static
+    branch: main
+    rootDir: california-housing-regression
+    buildCommand: test -f web/index.html
+    staticPublishPath: ./web
+    autoDeployTrigger: 'off'
