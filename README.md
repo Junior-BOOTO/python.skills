@@ -8,6 +8,12 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 > [**Déployer BOOTO NLP LAB sur Render**](https://render.com/deploy?repo=https://github.com/Junior-BOOTO/python.skills) · Préconfiguration prête ; nécessite votre connexion et approbation sur Render. Ce lien **n'est pas une application déjà en ligne**.
 
+## Éval’FLE AI Engine V1 · Évaluations scolaires FLE
+
+**[Consulter le code et la documentation](eval-fle-ai-engine/README.md)** · [Démonstration HTML](eval-fle-ai-engine/demo/EvalFLE_Demo.html) · [Guide du nouveau service Render](eval-fle-ai-engine/docs/DEPLOIEMENT_RENDER.md)
+
+Nouveau prototype Python/Streamlit : **60 QCM originaux de démonstration** pour Grades 4–5, avec variantes reproductibles, corrigés, grilles de réponses et exports **Word + PDF**. **19 tests locaux réussis** lors de la publication. Les contenus doivent être alignés aux programmes avant une évaluation scolaire réelle ; aucune certification CECRL ni performance pédagogique n'est revendiquée. **Le service Render dédié n'est pas encore déployé.**
+
 ## BOOTO AI & DATA INNOVATION LAB — Page d'accueil française
 
 **[Page d'accueil finale (HTML)](https://github.com/Junior-BOOTO/portfolio-fle/blob/main/projets/booto-ai-lab/index.html)** · [Démonstration BOOTO FLE Adaptive AI](https://github.com/Junior-BOOTO/portfolio-fle/blob/main/projets/booto-ai-lab/demos/adaptive.html) · [Démonstration PhonoFLE AI](https://github.com/Junior-BOOTO/portfolio-fle/blob/main/projets/booto-ai-lab/demos/phonofle.html).
