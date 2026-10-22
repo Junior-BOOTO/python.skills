@@ -8,9 +8,11 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 > [**Déployer BOOTO NLP LAB sur Render**](https://render.com/deploy?repo=https://github.com/Junior-BOOTO/python.skills) · Préconfiguration prête ; nécessite votre connexion et approbation sur Render. Ce lien **n'est pas une application déjà en ligne**.
 
-## Présentation web des trois projets
+## BOOTO AI & DATA INNOVATION LAB — Page d'accueil française
 
-[BOOTO AI & DATA INNOVATION LAB — page HTML trilingue](https://github.com/Junior-BOOTO/portfolio-fle/blob/main/projets/booto-ai-lab/index.html) (source publiée sur GitHub, intégration au site professionnel externe en attente). Le laboratoire réunit NLP LAB, FLE Adaptive AI et PhonoFLE AI, avec le statut exact de chaque prototype.
+**[Page d'accueil finale (HTML)](https://github.com/Junior-BOOTO/portfolio-fle/blob/main/projets/booto-ai-lab/index.html)** · [Démonstration BOOTO FLE Adaptive AI](https://github.com/Junior-BOOTO/portfolio-fle/blob/main/projets/booto-ai-lab/demos/adaptive.html) · [Démonstration PhonoFLE AI](https://github.com/Junior-BOOTO/portfolio-fle/blob/main/projets/booto-ai-lab/demos/phonofle.html).
+
+Le laboratoire valorise BOOTO NLP LAB, BOOTO FLE Adaptive AI et PhonoFLE AI dans une présentation en français avec une identité visuelle bleu, turquoise et violet. **Le contenu est publié sur GitHub ; son intégration au domaine professionnel reste à faire.**
 
 ## PhonoFLE AI · Discrimination auditive et phonétique A1
 
