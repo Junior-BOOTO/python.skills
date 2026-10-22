@@ -1,6 +1,14 @@
 # PhonoFLE AI V1 · Écouter, distinguer, mieux prononcer
 
 **BOOTO AI & DATA INNOVATION LAB**  
+
+[![PhonoFLE AI — tests](https://github.com/Junior-BOOTO/python.skills/actions/workflows/phonofle-ai-tests.yml/badge.svg)](https://github.com/Junior-BOOTO/python.skills/actions/workflows/phonofle-ai-tests.yml)
+
+**Vérification GitHub Actions du 22 octobre 2026 :** [exécution réussie](https://github.com/Junior-BOOTO/python.skills/actions/runs/39715399071) — tests Python, syntaxe et test de démarrage Streamlit sur Python 3.11 sous Ubuntu. Ces tests ne remplacent ni les essais phonétiques avec apprenants ni une validation sur des voix réelles.
+
+[Voir la présentation trilingue du laboratoire](https://github.com/Junior-BOOTO/portfolio-fle/blob/main/projets/booto-ai-lab/index.html) — page HTML publiée sur GitHub, mais non encore intégrée au site professionnel externe.
+
+
 **Auteur : Junior BOOTO Waba** · Français langue étrangère · A1 · PYP / cours privés
 
 > **Statut : prototype pédagogique fonctionnel, non déployé et non validé en classe.** Le mot « AI » désigne ici la vision du laboratoire, pas une reconnaissance vocale déjà opérationnelle. Le moteur V1 utilise des règles explicites et des réponses de discrimination auditive. **Aucune évaluation automatique de la prononciation.**
