@@ -1,0 +1,37 @@
+name: BOOTO Correcteur FLE — tests
+on:
+  push:
+    paths:
+      - 'correcteur-fle-ai/**'
+      - '.github/workflows/correcteur-fle-ai-tests.yml'
+  pull_request:
+    paths:
+      - 'correcteur-fle-ai/**'
+      - '.github/workflows/correcteur-fle-ai-tests.yml'
+  workflow_dispatch:
+jobs:
+  test-and-smoke:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: correcteur-fle-ai
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install requirements
+        run: python -m pip install -r requirements-dev.txt
+      - name: Run 22 unit tests and export checks
+        run: python -m pytest -q
+      - name: Python compile checks
+        run: python -m compileall -q app.py src tests
+      - name: Check Streamlit start
+        run: |
+          python -m streamlit run app.py --server.address 127.0.0.1 --server.port 8501 --server.headless true >/tmp/correcteur-streamlit.log 2>&1 &
+          for i in $(seq 1 40); do
+            if curl -fsS http://127.0.0.1:8501/_stcore/health; then exit 0; fi
+            sleep 2
+          done
+          cat /tmp/correcteur-streamlit.log
+          exit 1

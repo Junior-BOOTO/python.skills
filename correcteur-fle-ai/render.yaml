@@ -1,0 +1,15 @@
+# Exemple de Blueprint autonome ; non activé dans le monorepo existant.
+# Le Blueprint actif du dépôt Junior-BOOTO/python.skills à sa racine ne doit pas être remplacé.
+services:
+  - type: web
+    name: booto-correcteur-fle-ai
+    runtime: python
+    plan: free
+    rootDir: correcteur-fle-ai
+    buildCommand: python -m pip install -r requirements.txt
+    startCommand: python -m streamlit run app.py --server.address 0.0.0.0 --server.port $PORT --server.headless true --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
+    autoDeployTrigger: 'off'
+    envVars:
+      - key: PYTHON_VERSION
+        value: '3.11.11'

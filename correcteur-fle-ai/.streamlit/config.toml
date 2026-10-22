@@ -1,0 +1,6 @@
+# Exemple de palette Streamlit ; aucun secret.
+[theme]
+primaryColor = "#10A8A0"
+backgroundColor = "#F7FAFE"
+secondaryBackgroundColor = "#EAF6FA"
+textColor = "#153154"
