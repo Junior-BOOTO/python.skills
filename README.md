@@ -8,6 +8,10 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 > [**Déployer BOOTO NLP LAB sur Render**](https://render.com/deploy?repo=https://github.com/Junior-BOOTO/python.skills) · Préconfiguration prête ; nécessite votre connexion et approbation sur Render. Ce lien **n'est pas une application déjà en ligne**.
 
+## PhonoFLE AI · Discrimination auditive et phonétique A1
+
+**[PhonoFLE AI V1](phonofle-ai/README.md)** : prototype FR/ES pour distinguer /y/ (« u ») et /u/ (« ou »), avec **11 paires minimales**, quiz de 10 questions, synthèse vocale côté navigateur, conseils phonétiques et évaluation orale réservée à l'enseignant. [Démonstration HTML](phonofle-ai/demo/phonofle_ai_demo.html) · [Code Python](phonofle-ai/src/phonofle/engine.py) · [Tests](phonofle-ai/tests/test_engine.py). **Ne reconnaît pas la voix ni ne note automatiquement la prononciation. Non déployé sur un hébergement public.**
+
 ## BOOTO FLE Adaptive AI · Différenciation pédagogique A1
 
 **[BOOTO FLE Adaptive AI V1](booto-fle-adaptive-ai/README.md)** relie un quiz formatif de 12 QCM sur « Ma journée typique » à des recommandations d'activités transparentes : vocabulaire, verbes pronominaux, connecteurs temporels et heures. [Démonstration HTML autonome](booto-fle-adaptive-ai/demo/BOOTO_FLE_Adaptive_AI_Demo.html) · [Moteur Python et tests](booto-fle-adaptive-ai/src/booto_fle/engine.py) · [Documentation éthique](booto-fle-adaptive-ai/docs/ETHIQUE_ET_VALIDATION.md). Les 12 profils sont **synthétiques** ; il s'agit d'un moteur à règles, **sans apprentissage automatique ni validation CECRL**.
