@@ -2,6 +2,8 @@
 
 **Junior BOOTO Waba · BOOTO AI & DATA INNOVATION LAB**
 
+**[🌐 Ouvrir l'application Streamlit sur Render](https://booto-correcteur-fle-ai.onrender.com/)** — Render affiche `Deploy succeeded · Live` le 22 octobre 2026, selon la capture du propriétaire. Le chargement et les exports PDF/DOCX/TXT restent à vérifier côté utilisateur. Hébergement gratuit : un temps de réveil peut être nécessaire.
+
 [![BOOTO Correcteur FLE — tests](https://github.com/Junior-BOOTO/python.skills/actions/workflows/correcteur-fle-ai-tests.yml/badge.svg)](https://github.com/Junior-BOOTO/python.skills/actions/workflows/correcteur-fle-ai-tests.yml)
 
 
@@ -50,7 +52,7 @@ python -m pytest -q
 - Language : Python 3 ; Python version : `PYTHON_VERSION=3.11.11`.
 - Build : `python -m pip install -r requirements.txt`.
 - Start : `python -m streamlit run app.py --server.address 0.0.0.0 --server.port $PORT --server.headless true`.
-- Plan gratuit si proposé. Le service n'existe pas tant que sa création n'a pas été confirmée sur Render. Un fichier `render.yaml` propre au dossier décrit la configuration, mais le Blueprint racine du dépôt appartient à BOOTO NLP LAB et ne doit pas être remplacé.
+- Plan gratuit si proposé. Le service Render a été créé et son premier déploiement confirmé par une capture du propriétaire ; les essais fonctionnels dans le navigateur restent à terminer. Un fichier `render.yaml` propre au dossier décrit la configuration, mais le Blueprint racine du dépôt appartient à BOOTO NLP LAB et ne doit pas être remplacé.
 
 ## Confidentialité et limites
 
