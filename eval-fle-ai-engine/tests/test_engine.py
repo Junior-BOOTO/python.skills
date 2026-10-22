@@ -87,3 +87,28 @@ def test_docx_teacher():
         assert b'Corrig' in z.read('word/document.xml')
 
 def test_safe_label():assert safe_label('<img>\nEcole')=='imgEcole'
+
+
+def test_teacher_word_answers_clearly_marked():
+    from docx import Document
+    for n in (12, 15, 30):
+        questions = generate_exam(4, n=n, seed=1)
+        doc = Document(BytesIO(build_docx(questions, teacher=True)))
+        text = '\n'.join(p.text for p in doc.paragraphs)
+        assert 'CORRIGÉ ENSEIGNANT — RÉPONSES MARQUÉES' in text
+        assert 'Grille de correction rapide' in text
+        assert text.count('☑') == n
+        assert len(doc.tables) == 2
+        assert sum(cell.text == 'X' for row in doc.tables[1].rows for cell in row.cells) == n
+        for i, q in enumerate(questions, 1):
+            assert doc.tables[1].rows[i].cells['ABCD'.index(q.answer)+1].text == 'X'
+
+
+def test_student_word_must_never_show_answer_marks():
+    from docx import Document
+    questions = generate_exam(5, n=30, seed=1)
+    doc = Document(BytesIO(build_docx(questions, teacher=False)))
+    text = '\n'.join(p.text for p in doc.paragraphs)
+    assert 'CORRIGÉ ENSEIGNANT' not in text
+    assert '☑' not in text
+    assert not any(cell.text == 'X' for table in doc.tables for row in table.rows for cell in row.cells)
