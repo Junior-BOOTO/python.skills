@@ -12,7 +12,7 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 **[Moteur Python, application Streamlit et documentation](correcteur-fle-ai/README.md)** · [Démonstration HTML](correcteur-fle-ai/demo/index.html) · [Guide de déploiement Render](correcteur-fle-ai/docs/DEPLOIEMENT_RENDER.md)
 
-Nouveau prototype transparent de correction ciblée pour Grades 4 et 5 : **20 règles explicites**, propositions de reformulation et validation individuelle par l’enseignant. Fiches de rétroaction exportables en **PDF, DOCX et TXT**. **22 tests Python locaux réussis** ; pas de modèle génératif, pas de notation CECRL ni de validation en classe. **Déploiement Render indépendant à effectuer.**
+Nouveau prototype transparent de correction ciblée pour Grades 4 et 5 : **20 règles explicites**, propositions de reformulation et validation individuelle par l’enseignant. Fiches de rétroaction exportables en **PDF, DOCX et TXT**. **22 tests Python locaux réussis** ; pas de modèle génératif, pas de notation CECRL ni de validation en classe. **[Ouvrir le service Render](https://booto-correcteur-fle-ai.onrender.com/)** — statut `Live` confirmé par capture le 22 octobre 2026 ; les tests fonctionnels et téléchargements restent à vérifier.
 
 ## Éval’FLE AI Engine V1 · Évaluations scolaires FLE
 
