@@ -41,6 +41,11 @@ Prototype sérieux Grade 5 / FLE A1 : quatre zones 3D, dialogues avec Amina, Ér
 
 | Application | Fonction | Accès direct |
 | --- | --- | --- |
+| BOOTO ScanGrade AI V2 | Scanner et correction supervisée d’exercices mixtes ; pilote sur copies fictives, sans OCR manuscrit. | [Ouvrir la version unifiée V2](https://booto-scangrade-ai-v2.onrender.com/) |
+| BOOTO WORLD LEARNING BRIDGE | Parcours FLE multilingue FR/ES/EN, Éco-Cité 3D et passeport anonyme. | [Explorer la plateforme](https://booto-world-learning-bridge.onrender.com/) |
+| BOOTO FLE MULTIVERSE 3D | Exploration d’Éco-Cité, dialogues et missions écologiques en FLE A1. | [Jouer à Éco-Cité](https://booto-fle-multiverse-3d.onrender.com/) |
+| ScanGrade V1 · version antérieure | QCM formatif, validation enseignante et registre trimestriel ; données fictives. | [Consulter la V1](https://booto-scangrade-ai-v1.onrender.com/) |
+| ScanGrade V0 · version antérieure | Scanner expérimental recto-verso et export ZIP ; données fictives. | [Consulter la V0](https://booto-scangrade-ai.onrender.com/) |
 | BOOTO NLP LAB | Analyse de documents et de textes multilingues. | [Ouvrir l’application](https://booto-nlp-lab-zuvr.onrender.com/) |
 | BOOTO Éval’FLE AI | Création d’évaluations pour l’enseignement du français. | [Ouvrir l’application](https://booto-eval-fle-ai.onrender.com/) |
 | BOOTO Correcteur FLE AI | Correction et rétroaction sur les productions écrites en FLE. | [Ouvrir l’application](https://booto-correcteur-fle-ai.onrender.com/) |
