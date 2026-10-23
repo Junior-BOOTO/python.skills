@@ -1,0 +1,19 @@
+name: BOOTO ScanGrade AI V2 tests
+on:
+  push:
+    paths:
+      - 'booto-scangrade-ai-v2/**'
+      - '.github/workflows/scangrade-ai-v2-tests.yml'
+  pull_request:
+    paths:
+      - 'booto-scangrade-ai-v2/**'
+      - '.github/workflows/scangrade-ai-v2-tests.yml'
+jobs:
+  gradebook-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test booto-scangrade-ai-v2/tests/*.test.cjs
