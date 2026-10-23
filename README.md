@@ -8,9 +8,9 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 ## BOOTO WORLD LEARNING BRIDGE · Éducation mondiale multilingue
 
-**[Explorer la première démo interactive et son code](booto-world-learning-bridge/README.md)** · [HTML autonome](booto-world-learning-bridge/index.html) · [Protocole de recherche](booto-world-learning-bridge/RECHERCHE_ET_VALIDATION.md)
+**[🌍 Ouvrir la plateforme sur Render](https://booto-world-learning-bridge.onrender.com/)** · [Code et documentation](booto-world-learning-bridge/README.md) · [HTML autonome](booto-world-learning-bridge/index.html) · [Protocole de recherche](booto-world-learning-bridge/RECHERCHE_ET_VALIDATION.md)
 
-**V1 immersive publiée sur GitHub** : une mission d’accompagnement FR/ES/EN et le **jeu Éco-Cité 3D WebGL intégré à la même page**, avec un **passeport pédagogique partagé, exportable et importable en JSON sans identité**. Deux chemins écologiques, rétroactions explicables, pas de compte ni d’API. Tests JavaScript et construction statique disponibles ; **déploiement Render du Bridge V1 à effectuer**, sans modifier le site Multiverse existant. Ce prototype ne mesure pas une maîtrise CECRL et n'a pas été évalué en classe.
+**V1 immersive publiée sur GitHub** : une mission d’accompagnement FR/ES/EN et le **jeu Éco-Cité 3D WebGL intégré à la même page**, avec un **passeport pédagogique partagé, exportable et importable en JSON sans identité**. Deux chemins écologiques, rétroactions explicables, pas de compte ni d’API. Tests JavaScript et construction statique disponibles ; **déploiement Render V1 confirmé « Live » sur capture le 23 octobre 2026**, sans modification du site Multiverse existant. Le test des missions sur l'URL publique reste à finaliser. Ce prototype ne mesure pas une maîtrise CECRL et n'a pas été évalué en classe.
 
 ## BOOTO FLE MULTIVERSE 3D · Mission Éco-Cité francophone
 
