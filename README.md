@@ -6,6 +6,13 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 [Profil et CV](https://github.com/Junior-BOOTO) · [Site professionnel](https://junior-booto-fle.juniorbooto.chatgpt.site) · [Portfolio FLE](https://github.com/Junior-BOOTO/portfolio-fle) · [Catalogue complet](CATALOGUE.md)
 
 
+## BOOTO FLE MULTIVERSE 3D · Mission Éco-Cité francophone
+
+**[Jeu 3D WebGL, code et documentation](booto-fle-multiverse-3d/README.md)** · [Démo autonome](booto-fle-multiverse-3d/DEMO_AUTONOME.html) · [Cahier des charges](booto-fle-multiverse-3d/docs/CAHIER_DES_CHARGES_V1.md)
+
+Prototype sérieux Grade 5 / FLE A1 : quatre zones 3D, dialogues avec Amina, Éric et Nadia, deux parcours (rivière ou plantation), transformations visuelles et bilan « Je peux… ». **Rendu 3D observé sur capture utilisateur ; tests des interactions à finaliser sur son appareil.** Code publié sur GitHub, **pas encore hébergé comme site Render**.
+
+
 ## BOOTO Demand & Stock Lab · Prévisions et stocks
 
 [**Explorer le projet et ses résultats**](demand-stock-lab/README.md) : prévision des ventes à quatre semaines, comparaison chronologique à une référence simple et simulation du réapprovisionnement. Démonstration sur **données synthétiques**, **8 tests réussis**. Interface Streamlit vérifiée par tests automatisés ; déploiement Render en attente. [Blueprint dédié](render-demand-stock.yaml).
