@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0c1835">
+<title>BOOTO ScanGrade AI V1 — Correction pédagogique et trimestres</title>
+<meta name="description" content="Prototype de correction QCM FLE A1, validation des notes et export Excel avec copies anonymes. Pas d'OCR manuscrit en V1.">
+<link rel="stylesheet" href="src/style.css"><script defer src="src/engine.js"></script><script defer src="src/zip.js"></script><script defer src="src/import-scans.js"></script><script defer src="src/export-xlsx.js"></script><script defer src="src/app.js"></script></head>
+<body>
+<header class="top"><div class="shell topin"><div class="logo"><span class="logomark">▧</span> BOOTO <strong>ScanGrade AI</strong></div><div class="topright"><span class="pill">V1 PILOTE · 2026</span><a href="https://booto-scangrade-ai.onrender.com/" target="_blank" rel="noopener noreferrer">📷 Scanner V0 ↗</a></div></div></header>
+<main class="shell">
+<section class="hero"><div><p class="eyebrow">BOOTO AI & DATA INNOVATION LAB</p><h1>De la copie à la <span>valorisation pédagogique.</span></h1><p class="lead">Un parcours de démonstration pour les enseignants : ouvrir les copies anonymes de ScanGrade V0, saisir les réponses, vérifier les notes, rédiger ou ajuster l'appréciation et constituer un registre trimestriel exportable.</p><div class="statusrow"><span>✓ FLE A1 · Grade 4</span><span>✓ Notes validées</span><span>✓ Fichier Excel</span><span>✓ Données fictives</span></div></div><aside class="safebox"><b>🔒 Prototype pédagogique — usage fictif uniquement</b><p>Cette version <strong>ne lit pas automatiquement l'écriture manuscrite</strong>. Elle calcule les résultats d'un QCM à partir des réponses saisies, puis propose un commentaire basé sur les critères observés. Ne chargez aucune véritable copie d'élève identifiable.</p></aside></section>
+<nav class="steps" aria-label="Étapes"><a href="#scans">01 · Copies</a><a href="#correction">02 · Correction</a><a href="#validation">03 · Validation</a><a href="#registre">04 · Registre</a></nav>
+<div id="notice" class="notice" role="status" aria-live="polite">Prêt : utilisez l'exemple fictif ou importez une archive ZIP de ScanGrade V0.</div>
+<div class="layout">
+<section class="panel" id="scans"><div class="panelhead"><span class="stepnum">01</span><div><p class="eyebrow">Copies papier</p><h2>Ouvrir un lot numérisé</h2></div></div><p>Importez le <strong>ZIP exporté par votre scanner V0</strong>. Les images seront prévisualisées directement sur cette tablette, sans envoi à un serveur.</p>
+<label class="filelabel">📂 Choisir un ZIP de ScanGrade V0 <input id="scanArchive" type="file" accept=".zip,application/zip"></label>
+<div class="hint">La V1 n'effectue pas de reconnaissance optique des réponses manuscrites. L'import sert à consulter les copies pendant la vérification.</div>
+<div class="minicards"><div><strong id="scanPages">0</strong><small>pages importées</small></div><div><strong id="scanCopies">0</strong><small>copies anonymes</small></div></div>
+<div id="scansView" class="scansview"><p class="muted">Aucun ZIP chargé. Vous pouvez utiliser l'exemple fictif de correction ci-dessous.</p></div></section>
+<section class="panel" id="correction"><div class="panelhead"><span class="stepnum">02</span><div><p class="eyebrow">Évaluation A1 · Ma journée typique</p><h2>Corriger 12 réponses QCM</h2></div></div>
+<div class="formgrid"><label>Code anonyme de la copie<input id="copyId" value="C001" maxlength="6" autocomplete="off" spellcheck="false" placeholder="C001"></label><label>Trimestre<select id="term"><option value="T1">T1 — Premier</option><option value="T2">T2 — Deuxième</option><option value="T3">T3 — Troisième</option></select></label><label>Barème<select id="scale"><option value="20">Sur 20</option><option value="10">Sur 10</option><option value="7">Sur 7</option><option value="100">Sur 100</option></select></label></div>
+<p>Pour chaque question, indiquez la réponse visible sur la copie. Le corrigé est préprogrammé <strong>pour cette activité de démonstration uniquement</strong>.</p>
+<div id="answerGrid" class="answers" aria-label="Réponses de la copie"></div>
+<div class="row actions"><button class="btn ghost" type="button" id="sample">↺ Remplir avec une copie fictive</button><button class="btn primary" type="button" id="prepare">Calculer une proposition de correction →</button></div>
+<details class="reference"><summary>📖 Consulter les 12 questions et le corrigé de démonstration</summary><div id="reference"></div></details>
+</section>
+<section class="panel full" id="validation"><div class="panelhead"><span class="stepnum">03</span><div><p class="eyebrow">Responsabilité pédagogique</p><h2>Vérifier avant d'enregistrer</h2></div></div>
+<div id="reviewEmpty" class="empty">Aucune correction préparée. Renseignez les réponses puis cliquez sur « Calculer ».</div>
+<div id="review" hidden><div class="scorecards"><div><small>Proposition automatique</small><strong id="suggestedScore">—</strong></div><div><small>Réponses correctes</small><strong id="correctCount">—</strong></div><div><small>Critères observés</small><strong id="groupCount">—</strong></div></div>
+<div id="groupBars" class="groupbars"></div><div class="reviewGrid"><label><b>Note finale validée par l'enseignant</b><input type="number" id="finalScore" min="0" max="20" step="0.01" inputmode="decimal"></label><label><b>Motif si la note est modifiée</b><input id="override" placeholder="Ex. erreur de transcription / réponse acceptable"></label></div>
+<label class="feedback"><b>Commentaire pédagogique individualisé et modifiable</b><textarea id="feedback" rows="7"></textarea></label><p class="hint">La synthèse est construite uniquement à partir des réponses QCM. Elle n'évalue ni l'oral, ni l'écriture libre, ni un niveau CECRL certifié.</p>
+<div class="row actions"><button id="approve" type="button" class="btn accent">✓ Valider et enregistrer cette correction</button></div>
+<div id="detailsView" class="detailsView"></div></div></section>
+<section class="panel full" id="registre"><div class="panelhead"><span class="stepnum">04</span><div><p class="eyebrow">Suivi longitudinal</p><h2>Registre des notes par trimestre</h2></div></div>
+<p>Les notes <strong>validées</strong> sont enregistrées localement sous des codes anonymes. Si vous corrigez à nouveau la même copie pour un trimestre, la valeur est mise à jour avec un numéro de révision.</p>
+<div class="minicards"><div><strong id="nRecords">0</strong><small>corrections validées</small></div><div><strong id="nLearners">0</strong><small>codes anonymes</small></div></div>
+<div class="tablewrap"><table><thead><tr><th>Copie</th><th>T1 /20</th><th>T2 /20</th><th>T3 /20</th><th>Moyenne*</th></tr></thead><tbody id="gradeRows"><tr><td colspan="5">Aucune donnée pour le moment.</td></tr></tbody></table></div>
+<p class="hint">* La moyenne porte uniquement sur les trimestres renseignés ; les notes sont converties sur 20. Une seule activité de démonstration est incluse. Ce tableau ne remplace pas le bulletin officiel.</p>
+<div class="row actions export"><button class="btn primary" id="excel" disabled>⬇ Télécharger Excel (.xlsx)</button><button class="btn ghost" id="csv" disabled>⬇ CSV</button><button class="btn ghost" id="json" disabled>⬇ Sauvegarde JSON</button><label class="btn ghost filebtn">↑ Restaurer un registre JSON <input id="importRegister" type="file" accept=".json,application/json"></label><button class="btn danger" id="clearRegister" disabled>Effacer les résultats</button></div>
+<p class="hint">Pour Google Sheets, importez manuellement le fichier Excel. <strong>La synchronisation automatique Google Sheets n'est pas encore disponible.</strong> Le stockage local du navigateur peut être supprimé et n'est pas un stockage institutionnel sécurisé.</p></section>
+</div>
+<footer>© 2026 Junior BOOTO Waba · BOOTO AI & DATA INNOVATION LAB · Prototype de recherche et de démonstration, réservé à des données fictives.</footer>
+</main></body></html>
