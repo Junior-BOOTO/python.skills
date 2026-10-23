@@ -6,7 +6,7 @@
 
 **Prototype FLE A1 reposant sur un corrigé prédéfini et la validation humaine, sans OCR manuscrit et sans modèle d'IA générative.** Le nom de la marque contient « AI » ; la V1 présentée ne doit pas être décrite comme capable de lire ou corriger automatiquement des copies manuscrites photographiées.
 
-V1 réalisée **dans un dossier indépendant** `booto-scangrade-ai-v1` pour ne pas remplacer la V0 numérisation déjà en ligne `https://booto-scangrade-ai.onrender.com/`. Déploiement V1 non encore effectué tant que les essais sur tablette ne sont pas terminés.
+V1 réalisée **dans un dossier indépendant** `booto-scangrade-ai-v1` pour ne pas remplacer la V0 numérisation déjà en ligne `https://booto-scangrade-ai.onrender.com/`. **[Ouvrir la V1 sur Render](https://booto-scangrade-ai-v1.onrender.com/)** — premier déploiement signalé « Deploy succeeded · Live » sur capture Render le 23 octobre 2026. Les tests interactifs sur la Lenovo Tab M11 restent à effectuer.
 
 ## Fonctionnalités vérifiables
 
