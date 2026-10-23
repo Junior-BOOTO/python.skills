@@ -6,6 +6,10 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 [Profil et CV](https://github.com/Junior-BOOTO) · [Site professionnel](https://junior-booto-fle.juniorbooto.chatgpt.site) · [Portfolio FLE](https://github.com/Junior-BOOTO/portfolio-fle) · [Catalogue complet](CATALOGUE.md)
 
 
+## BOOTO ScanGrade AI V2 · Plateforme unifiée — pilote de sécurité
+
+**[🧩 Nouvelle V2 : scanner + correction mixte + notes trimestrielles](booto-scangrade-ai-v2/README.md)** — une seule application statique destinée à la Lenovo Tab M11, conservant le scanner recto-verso et l'export ZIP, mais **transférant maintenant directement les copies photographiées à l'écran de correction**, sans import intermédiaire. Questions **QCM, vrai/faux, réponses courtes, questions ouvertes et images à identifier**, avec barème personnalisable, notes et commentaires soumis à **validation question par question par l'enseignant**. Registre T1/T2/T3, export XLSX/CSV/JSON. **Mécanismes protecteurs pour un pilote fictif :** anonymat par codes, mémoire volatile, blocage sans confirmation d'usage fictif, pas de connexion de données serveur. **Pas d'OCR manuscrit, pas d'IA générative ni de traitement sécurisé de véritables données de mineurs.** Huit tests automatisés réussis localement ; déploiement Render V2 à effectuer séparément des V0/V1.
+
 ## BOOTO ScanGrade AI V1 · Correction formative et notes trimestrielles — démonstration Render
 
 **[🧪 Essayer ScanGrade AI V1](https://booto-scangrade-ai-v1.onrender.com/)** · [Code, guide et tests du pilote](booto-scangrade-ai-v1/README.md) · [Scanner V0 déjà en ligne](https://booto-scangrade-ai.onrender.com/)
