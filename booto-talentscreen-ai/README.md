@@ -8,6 +8,10 @@ Premier projet hors éducation : une démo visuelle de gestion du recrutement, a
 
 **Important — exactitude technique :** cette V0 **n'utilise ni IA générative ni apprentissage automatique**. Elle ne lit pas automatiquement les PDF/DOCX et n'effectue **aucun score, classement, sélection ou rejet automatique** de candidats. Le nom « TalentScreen AI » décrit la ligne de produits envisagée, pas une capacité d'évaluation automatique de cette V0. Une simple occurrence de mot-clé ne prouve aucune compétence.
 
+## Démonstration publique
+
+**[🌐 Ouvrir BOOTO TalentScreen AI sur Render](https://booto-talentscreen-ai.onrender.com/)** — premier déploiement déclaré « Deploy succeeded · Live » par Render sur la capture du propriétaire, le 23 octobre 2026 à 18 h 48 (GMT-5). Le chargement effectif et les parcours fonctionnels restent à vérifier sur navigateur. **Utilisez uniquement les profils fictifs intégrés : aucun CV réel.**
+
 ## Accès et technologie
 
 Site statique sans serveur ni API. Lancer `python -m http.server 8000` à la racine du dossier puis ouvrir `http://localhost:8000`. Pour héberger sur Render **Static Site** : dépôt `Junior-BOOTO/python.skills`, racine `booto-talentscreen-ai`, Build `echo ready`, Publish `.`. Aucune clé API.
