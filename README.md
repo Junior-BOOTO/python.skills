@@ -6,6 +6,12 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 [Profil et CV](https://github.com/Junior-BOOTO) · [Site professionnel](https://junior-booto-fle.juniorbooto.chatgpt.site) · [Portfolio FLE](https://github.com/Junior-BOOTO/portfolio-fle) · [Catalogue complet](CATALOGUE.md)
 
 
+## BOOTO ScanGrade AI V1 · Correction formative et notes trimestrielles — pilote non déployé
+
+**[🧪 Code, guide et tests du prototype V1](booto-scangrade-ai-v1/README.md)** · [Scanner V0 déjà en ligne](https://booto-scangrade-ai.onrender.com/)
+
+La V1 ajoute un QCM original Grade 4 FLE A1 de 12 questions, des propositions de notes et d'appréciations fondées sur les réponses, leur validation par l'enseignant, un registre T1/T2/T3 et des exports **Excel XLSX / CSV / sauvegarde JSON**. Elle sait aussi prévisualiser les ZIP du scanner V0 dans le navigateur. **Limite essentielle : pas encore de reconnaissance de l'écriture manuscrite ni d'IA générative ; les réponses QCM sont saisies par l'enseignant.** Seulement des documents fictifs. Le déploiement V1 sur Render reste à faire séparément de la V0.
+
 ## BOOTO ScanGrade AI · Scanner de copies pour tablette — V0 expérimentale
 
 **[📷 Essayer ScanGrade AI V0 sur Render](https://booto-scangrade-ai.onrender.com/)** · [Code et guide](https://github.com/Junior-BOOTO/python.skills/tree/main/booto-scangrade-ai) · Conçu pour la **Lenovo Tab M11** : première photographie manuelle, détection expérimentale de nouvelles pages stabilisées, regroupement de copies anonymes recto/verso, export ZIP comprenant photos, inventaire CSV et manifeste JSON. **Pas encore de correction IA, de notes, de commentaires ni de synchronisation Excel ou Google Sheets.** Cinq tests automatisés validés localement ; capture réelle sur tablette et sécurité pour données scolaires à évaluer. **Ne pas utiliser de copies identifiables d'élèves dans cette V0.**
