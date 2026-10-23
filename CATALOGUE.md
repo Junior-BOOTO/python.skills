@@ -4,6 +4,10 @@
 
 Projets regroupés par usage. Les résultats et limites ci-dessous reprennent la documentation publiée ; ils ne constituent pas une nouvelle exécution des tests.
 
+## BOOTO TalentScreen AI — gestion RH responsable (prototype V0)
+
+**[💼 Voir l'atelier de recrutement fictif](https://github.com/Junior-BOOTO/python.skills/tree/main/booto-talentscreen-ai)**. Premier projet hors éducation du laboratoire : fiche de poste, compétences explicites, dossiers fictifs, extraits professionnels à vérifier, entretiens structurés, suivi manuel et exports XLSX/CSV/JSON. Dix tests automatisés réussis localement, export Excel structurellement vérifié. **Pas de modèle IA générative, de score, classement ou rejet de candidature**, pas d'import PDF/DOCX ni de stockage institutionnel. Réservé à la démonstration ; déploiement Render non encore effectué.
+
 ## BOOTO ScanGrade AI V2 — plateforme unifiée et correction mixte
 
 **[📱 Tester la V2 en ligne](https://booto-scangrade-ai-v2.onrender.com/)** · [Code et protections](https://github.com/Junior-BOOTO/python.skills/tree/main/booto-scangrade-ai-v2) — Scanner tablette intégré, capture automatique expérimentale, recto-verso, consultation sans ZIP intermédiaire, cinq types de questions (dont image à identifier et réponse ouverte), notes et appréciations validées par l'enseignant, registre T1/T2/T3, export XLSX/CSV/JSON. Huit tests Node réussis et essai navigateur simulé réussi localement. **Sécurité de pilote fictif uniquement** : pas de données identifiables d'enfants, pas d'OCR manuscrit, pas d'IA générative, pas d'accès institutionnel ni de connexion Google Sheets. Le premier déploiement Render de la V2 est confirmé « Live » sur une capture du 23 octobre 2026 ; la V2 reste à tester réellement sur la Lenovo Tab M11.
