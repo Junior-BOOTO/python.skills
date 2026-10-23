@@ -8,9 +8,9 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 ## 🧭 BOOTO TalentScreen AI · Innovation RH responsable
 
-**[💼 Découvrir le prototype interactif et son code](booto-talentscreen-ai/README.md)** · **[Page de démonstration HTML](booto-talentscreen-ai/index.html)**
+**[🌐 Essayer TalentScreen AI sur Render](https://booto-talentscreen-ai.onrender.com/)** · [Documentation et code](booto-talentscreen-ai/README.md)
 
-Premier projet du laboratoire hors éducation : **Talent Intelligence Workspace**, une interface RH fictive avec fiche de poste configurable, dossiers anonymes, repérage d'**indices textuels littéraux**, questions d'entretien communes, suivi manuel des étapes et export Excel (3 feuilles), CSV, JSON. **Dix tests Node réussis localement**, classeur XLSX vérifié au niveau ZIP/XML. Ce prototype **n'emploie pas encore de modèle IA**, ne lit pas les PDF/DOCX, ne classe pas et ne rejette pas automatiquement des personnes. **Aucun CV réel ou donnée nominative dans la démo**. Déploiement Render à effectuer en nouveau Static Site.
+Premier projet du laboratoire hors éducation : **Talent Intelligence Workspace**, une interface RH fictive avec fiche de poste configurable, dossiers anonymes, repérage d'**indices textuels littéraux**, questions d'entretien communes, suivi manuel des étapes et export Excel (3 feuilles), CSV, JSON. **Dix tests Node réussis localement**, classeur XLSX vérifié au niveau ZIP/XML. Ce prototype **n'emploie pas encore de modèle IA**, ne lit pas les PDF/DOCX, ne classe pas et ne rejette pas automatiquement des personnes. **Aucun CV réel ou donnée nominative dans la démo**. Premier déploiement Render confirmé « Deploy succeeded · Live » sur la capture du propriétaire le 23 octobre 2026. Tests d'ouverture et des fonctions en navigateur encore à réaliser.
 
 
 ## BOOTO ScanGrade AI V2 · Plateforme unifiée — pilote de sécurité
