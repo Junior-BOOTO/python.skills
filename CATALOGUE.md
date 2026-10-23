@@ -6,7 +6,7 @@ Projets regroupés par usage. Les résultats et limites ci-dessous reprennent la
 
 ## BOOTO TalentScreen AI — gestion RH responsable (prototype V0)
 
-**[💼 Voir l'atelier de recrutement fictif](https://github.com/Junior-BOOTO/python.skills/tree/main/booto-talentscreen-ai)**. Premier projet hors éducation du laboratoire : fiche de poste, compétences explicites, dossiers fictifs, extraits professionnels à vérifier, entretiens structurés, suivi manuel et exports XLSX/CSV/JSON. Dix tests automatisés réussis localement, export Excel structurellement vérifié. **Pas de modèle IA générative, de score, classement ou rejet de candidature**, pas d'import PDF/DOCX ni de stockage institutionnel. Réservé à la démonstration ; déploiement Render non encore effectué.
+**[🌐 Essayer BOOTO TalentScreen AI sur Render](https://booto-talentscreen-ai.onrender.com/)** · [Code et guide](https://github.com/Junior-BOOTO/python.skills/tree/main/booto-talentscreen-ai). Premier projet hors éducation du laboratoire : fiche de poste, compétences explicites, dossiers fictifs, extraits professionnels à vérifier, entretiens structurés, suivi manuel et exports XLSX/CSV/JSON. Dix tests automatisés réussis localement, export Excel structurellement vérifié. **Pas de modèle IA générative, de score, classement ou rejet de candidature**, pas d'import PDF/DOCX ni de stockage institutionnel. Réservé à la démonstration : premier déploiement Render « Live » confirmé par capture le 23 octobre 2026 ; essais interactifs en navigateur encore à réaliser.
 
 ## BOOTO ScanGrade AI V2 — plateforme unifiée et correction mixte
 
