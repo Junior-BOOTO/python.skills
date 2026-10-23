@@ -6,11 +6,11 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 [Profil et CV](https://github.com/Junior-BOOTO) · [Site professionnel](https://junior-booto-fle.juniorbooto.chatgpt.site) · [Portfolio FLE](https://github.com/Junior-BOOTO/portfolio-fle) · [Catalogue complet](CATALOGUE.md)
 
 
-## BOOTO ScanGrade AI V1 · Correction formative et notes trimestrielles — pilote non déployé
+## BOOTO ScanGrade AI V1 · Correction formative et notes trimestrielles — démonstration Render
 
-**[🧪 Code, guide et tests du prototype V1](booto-scangrade-ai-v1/README.md)** · [Scanner V0 déjà en ligne](https://booto-scangrade-ai.onrender.com/)
+**[🧪 Essayer ScanGrade AI V1](https://booto-scangrade-ai-v1.onrender.com/)** · [Code, guide et tests du pilote](booto-scangrade-ai-v1/README.md) · [Scanner V0 déjà en ligne](https://booto-scangrade-ai.onrender.com/)
 
-La V1 ajoute un QCM original Grade 4 FLE A1 de 12 questions, des propositions de notes et d'appréciations fondées sur les réponses, leur validation par l'enseignant, un registre T1/T2/T3 et des exports **Excel XLSX / CSV / sauvegarde JSON**. Elle sait aussi prévisualiser les ZIP du scanner V0 dans le navigateur. **Limite essentielle : pas encore de reconnaissance de l'écriture manuscrite ni d'IA générative ; les réponses QCM sont saisies par l'enseignant.** Seulement des documents fictifs. Le déploiement V1 sur Render reste à faire séparément de la V0.
+La V1 ajoute un QCM original Grade 4 FLE A1 de 12 questions, des propositions de notes et d'appréciations fondées sur les réponses, leur validation par l'enseignant, un registre T1/T2/T3 et des exports **Excel XLSX / CSV / sauvegarde JSON**. Elle sait aussi prévisualiser les ZIP du scanner V0 dans le navigateur. **Limite essentielle : pas encore de reconnaissance de l'écriture manuscrite ni d'IA générative ; les réponses QCM sont saisies par l'enseignant.** Seulement des documents fictifs. La V1 est déployée séparément sur Render (« Live » confirmé par capture). Les fonctions restent à tester sur la tablette.
 
 ## BOOTO ScanGrade AI · Scanner de copies pour tablette — V0 expérimentale
 
