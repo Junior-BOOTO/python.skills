@@ -1,7 +1,7 @@
 # BOOTO Demand & Stock Lab
 Junior BOOTO Waba · Projet de formation Python/Data réalisé avec assistance IA.
 
-Prévoir quatre semaines de ventes et simuler une quantité de réapprovisionnement pour un responsable de magasin. Prototype reproductible, sans clé payante. L’application Streamlit est préparée mais pas encore déployée ni vérifiée visuellement.
+Prévoir quatre semaines de ventes et simuler une quantité de réapprovisionnement pour un responsable de magasin. Prototype reproductible, sans clé payante. L’application Streamlit est vérifiée par tests automatisés ; le déploiement Render et la vérification visuelle dans un navigateur restent à réaliser.
 
 ## Démonstration
 ```bash
@@ -33,12 +33,14 @@ Exemple : demande prévue 100 unités, stock 20, livraisons 10 et réserve 5 →
 Formule : plafond(max(0, demande prévue sur 4 semaines + réserve − stock − livraisons)). La réserve est choisie par l’utilisateur ; elle ne correspond pas à un niveau de service statistique.
 
 ## Vérifications et limites
-5 tests réussis : série constante, calcul du stock, anomalies de données, pipeline et séparation temporelle d’une prévision. Moteur exécuté avec Python et numpy 2.3.5, pandas 2.2.3, scikit-learn 1.8.0. Interface non exécutée dans l’environnement de création : Streamlit absent. Version Streamlit à figer après validation de l’interface.
+8 tests réussis : moteur (5) et interface (3). Les tests d’interface couvrent le changement de produit, la simulation du stock, un import CSV valide et un import vide. Moteur exécuté avec Python et numpy 2.3.5, pandas 2.2.3, scikit-learn 1.8.0. Interface exécutée avec Streamlit 1.66.1 via AppTest. Les imports sont simulés au niveau du téléverseur ; le téléchargement dans un navigateur reste à vérifier.
 
 Ce MVP ne modélise pas les délais, commandes minimales, coûts, promotions, intervalles prédictifs, ventes perdues ni ruptures intra-période. Aucun gain financier réel revendiqué. Ne pas importer de données confidentielles dans un service public.
 
-## Déploiement Render à préparer
+## Déploiement Render prêt à configurer
 Type : Web Service. Commande de construction : `pip install -r demand-stock-lab/requirements.txt`. Démarrage : `streamlit run demand-stock-lab/app.py --server.address 0.0.0.0 --server.port $PORT`. Aucun service Render créé à ce stade.
+
+Blueprint dédié à la racine du dépôt : `render-demand-stock.yaml`. Dans Render, créer un Blueprint à partir du dépôt `Junior-BOOTO/python.skills`, puis renseigner ce chemin de fichier. Il définit uniquement ce nouveau service, en formule gratuite, sans clé API. Ne pas modifier les autres Blueprints.
 
 ## Prochaine étape
 Valider l’interface, puis tester sur un historique commercial autorisé et comparer plusieurs fenêtres temporelles avant tout usage opérationnel.
