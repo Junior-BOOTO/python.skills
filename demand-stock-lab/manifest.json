@@ -1,1 +1,10 @@
-{"project":"BOOTO Demand & Stock Lab","author":"Junior BOOTO Waba","data":"synthetic; seed 42; 3 products; 156 weeks","engine":"completed","tests":"completed; 5 passed","interface":"pending; Streamlit unavailable in creation environment","deployment":"pending","next_action":"Install Streamlit and verify upload, chart and export; evaluate authorized real data."}
+{
+  "project": "BOOTO Demand & Stock Lab",
+  "author": "Junior BOOTO Waba",
+  "data": "synthetic; seed 42; 3 products; 156 weeks",
+  "engine": "completed",
+  "tests": "completed; 8 passed",
+  "interface": "completed; Streamlit 1.66.1 AppTest; visual browser and download pending",
+  "deployment": "pending; dedicated Render Blueprint prepared; Render authentication required",
+  "next_action": "Authenticate to Render; create service from render-demand-stock.yaml; verify deployed UI and CSV download"
+}
