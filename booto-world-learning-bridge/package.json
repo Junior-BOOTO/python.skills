@@ -1,0 +1,13 @@
+{
+  "name": "booto-world-learning-bridge",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Offline multilingual global education mission prototype",
+  "scripts": {
+    "test": "node tests/smoke.cjs",
+    "build": "node scripts/build.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

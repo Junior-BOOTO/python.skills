@@ -1,0 +1,28 @@
+name: BOOTO WORLD LEARNING BRIDGE — smoke tests
+on:
+  push:
+    paths:
+      - 'booto-world-learning-bridge/**'
+      - '.github/workflows/booto-world-learning-bridge-tests.yml'
+  pull_request:
+    paths:
+      - 'booto-world-learning-bridge/**'
+      - '.github/workflows/booto-world-learning-bridge-tests.yml'
+  workflow_dispatch:
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: booto-world-learning-bridge
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test static page
+        run: npm test
+      - name: Build HTML
+        run: npm run build
+      - name: Verify publish directory
+        run: test -s dist/index.html
