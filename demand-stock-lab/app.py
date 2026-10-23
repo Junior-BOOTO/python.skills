@@ -1,13 +1,13 @@
 import pandas as pd
 import streamlit as st
-from engine import demo,run,order_quantity
+from engine import demo,run,order_quantity,validate
 st.set_page_config(page_title='BOOTO Demand & Stock Lab',layout='wide')
 st.title('BOOTO Demand & Stock Lab')
 st.caption('Junior BOOTO Waba · Prototype de portfolio · Prévisions hebdomadaires et simulation de stock')
 st.info('Démonstration synthétique par défaut. Aucun gain commercial réel mesuré.')
 f=st.file_uploader('CSV : date, product, sales — une ligne par produit et semaine',type='csv')
 try:
-    df=pd.read_csv(f) if f else demo()
+    df=validate(pd.read_csv(f) if f else demo())
     pred,metrics=run(df)
     product=st.selectbox('Produit',pred['product'].unique())
     history=df[df['product']==product].copy();history['date']=pd.to_datetime(history['date'])
