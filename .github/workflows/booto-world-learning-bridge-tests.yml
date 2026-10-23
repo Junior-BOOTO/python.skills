@@ -1,4 +1,4 @@
-name: BOOTO WORLD LEARNING BRIDGE — smoke tests
+name: BOOTO WORLD LEARNING BRIDGE — V1 integrated tests
 on:
   push:
     paths:
@@ -10,7 +10,7 @@ on:
       - '.github/workflows/booto-world-learning-bridge-tests.yml'
   workflow_dispatch:
 jobs:
-  test-and-build:
+  integration-tests:
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -20,9 +20,19 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Test static page
+      - name: Run integration tests
         run: npm test
-      - name: Build HTML
+      - name: Check JavaScript syntax
+        run: |
+          node --check src/passport.js
+          node --check game/src/mission.js
+          node --check game/src/app.js
+          node --check game/src/world.js
+      - name: Build static website
         run: npm run build
-      - name: Verify publish directory
-        run: test -s dist/index.html
+      - name: Verify distribution
+        run: |
+          test -s dist/index.html
+          test -s dist/game/index.html
+          test -s dist/game/src/app.js
+          test -s dist/src/passport.js

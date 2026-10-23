@@ -1,30 +1,31 @@
-# BOOTO WORLD LEARNING BRIDGE — Recherche & protocole de validation
+# BOOTO WORLD LEARNING BRIDGE V1 — Recherche, protocole et limites
 
-## Constat
+## Hypothèse de conception
 
-- UNESCO, *New UNESCO report calls for multilingual education to unlock learning*, 18 février 2025 (mise à jour 30 janvier 2026) : 40 % de la population mondiale n'accède pas à une éducation dans une langue qu'elle maîtrise. https://www.unesco.org/en/articles/new-unesco-guidance-calls-multilingual-education-unlock-learning-and-inclusion
-- UNICEF / Microsoft, *Learning Passport* : dispositif multilingue, adaptable, en ligne et hors ligne, avec historique de progression portable. Ce n'est donc ni une invention inédite d'un passeport numérique ni le premier dispositif hors connexion. https://www.unicef.org/learningpassport/about-learning-passport
-- UNESCO, *Languages matter*, 2025 : valorisation de l'éducation multilingue, notamment pour les contextes de migration et de diversité linguistique. https://www.unesco.org/en/articles/languages-matter-global-guidance-multilingual-education
+**À vérifier :** conserver des observations d'activités d'apprentissage quand l'apprenant passe d'une modalité 2D guidée à un jeu 3D réduit la fragmentation du retour pédagogique et améliore la compréhension de son parcours. Cela ne signifie pas que l'apprentissage s'améliore automatiquement.
 
-## Hypothèse du projet
+## Innovation testable
 
-Une tâche commune, articulée autour de contenus linguistiques contextualisés, d'un mode d'accès visuel/essentiel et d'un bilan explicable pourrait simplifier l'accompagnement pédagogique multilingue. La V0 est une **preuve d'interaction**, pas une preuve d'efficacité scolaire. La combinaison de mécanismes n'est pas revendiquée comme entièrement inédite.
+Une **même mission écologique francophone** sur deux supports, avec les mêmes intentions didactiques (identifier, demander, proposer, transmettre), trois langues d'accompagnement pour le mode guidé et un **passeport pédagogique portable, explicable et sans identité**.
 
-## Protocole à envisager avant déploiement éducatif réel
+Il s'agit d'une combinaison expérimentale, pas de l'affirmation qu'aucun outil équivalent existe.
 
-1. Co-conception avec des enseignants, parents et apprenants, en particulier les communautés linguistiques représentées.
-2. Révision humaine des traductions, des objectifs et des adaptations locales (aucun déploiement automatique de langues non revues).
-3. Test d'accessibilité clavier/lecteur d'écran et mobile à faible mémoire.
-4. Mesure comparée de la compréhension, des erreurs et de la capacité à transférer l'apprentissage hors du jeu, avec protocole adapté.
-5. Consentement, minimisation des données et évaluation du risque de profils individuels pour les enfants, avant toute sauvegarde ou collecte de données.
+## Démonstration V1
 
-## Différences V0 / vision
+1. Compléter la mission 2D guidée avec la langue d'interface ES puis recommencer en FR.
+2. Ouvrir le monde 3D ; compléter une fois la mission de recyclage et une fois la plantation.
+3. Vérifier que le passeport 3D distingue les chemins, compte les indices et propose trois répliques pertinentes de chaque parcours.
+4. Vérifier qu'une réponse erronée n'est pas enregistrée comme preuve de réussite.
+5. Exporter le JSON unifié ; vérifier ses deux sources et le champ `learner_identity: null`.
+6. Essayer l'import depuis un fichier exporté par la démo 3D séparée, ainsi que le refus d'un fichier invalide.
+7. Vérifier les contrôles clavier, le mode essentiel, la lisibilité mobile et l'expérience lorsque WebGL manque.
 
-| Fonction | V0 | Vision future |
-|---|---|---|
-| Langues | Français, espagnol, anglais pour l'interface ; phrases FLE en français | Langues locales co-conçues et revues |
-| Adaptation | Aide explicite après erreur | Diagnostic pédagogique prudent, à valider |
-| Visuel | Illustration SVG interactive | Liaison à BOOTO FLE MULTIVERSE 3D |
-| Accès | HTML autonome | PWA hors connexion avec contenus distribuables |
-| Passeport | Export JSON sans identité | Portabilité choisie par l'utilisateur et standards ouverts |
-| Recherche | Tests techniques de fonctionnement | Expérimentation pédagogique contrôlée |
+## Critères et données
+
+Éléments techniques contrôlables : cohérence du chemin, présence de traces en français, compteurs d'aide et de tentatives, validation du schéma, export hors ligne. **Aucune compétence CECRL ne peut être certifiée par ces exercices guidés.**
+
+Aucune donnée nominative ni histoire personnelle d'élève ; l'hébergement statique n'impose pas de base de données, mais Render peut enregistrer des logs de consultation. En cas d'expérimentation avec enfants, prévoir consentement institutionnel et parental, revue éthique et validation par des enseignants indépendants.
+
+## Conditions de validation scientifique future
+
+Étude exploratoire : observer les erreurs, recueillir un retour des enseignants et des apprenants, mesurer la clarté du feedback et l'accessibilité. Ensuite seulement, concevoir une expérimentation comparative avec mesures pré/post et critères prédéfinis. Ne pas qualifier les indicateurs internes du logiciel d'amélioration effective de l'apprentissage.

@@ -1,0 +1,207 @@
+{
+  "title": "BOOTO FLE MULTIVERSE 3D — Éco-Cité francophone",
+  "tagline": "Le monde change quand tu parles.",
+  "level": "FLE A1 · Grade 5",
+  "zones": [
+    {
+      "id": "mairie",
+      "name": "Place de la mairie",
+      "x": 0,
+      "z": 0,
+      "icon": "🏛️"
+    },
+    {
+      "id": "quartier",
+      "name": "Quartier des habitants",
+      "x": -12,
+      "z": -7,
+      "icon": "🏘️"
+    },
+    {
+      "id": "parc",
+      "name": "Parc des Trois Arbres",
+      "x": -11,
+      "z": 11,
+      "icon": "🌳"
+    },
+    {
+      "id": "riviere",
+      "name": "Rive de la Rivière Claire",
+      "x": 13,
+      "z": 5,
+      "icon": "💧"
+    }
+  ],
+  "characters": [
+    {
+      "id": "amina",
+      "name": "Amina",
+      "role": "Habitante",
+      "zone": "quartier",
+      "x": -12,
+      "z": -7,
+      "color": "#f59e72"
+    },
+    {
+      "id": "nadia",
+      "name": "Nadia",
+      "role": "Bénévole du parc",
+      "zone": "parc",
+      "x": -11,
+      "z": 11,
+      "color": "#a28df2"
+    },
+    {
+      "id": "eric",
+      "name": "Éric",
+      "role": "Agent écologique",
+      "zone": "riviere",
+      "x": 13,
+      "z": 5,
+      "color": "#20c8ac"
+    },
+    {
+      "id": "maire",
+      "name": "Mairie",
+      "role": "Bilan et mission",
+      "zone": "mairie",
+      "x": 0,
+      "z": 0,
+      "color": "#f7bf59"
+    }
+  ],
+  "dialogues": {
+    "amina": {
+      "line": "Bonjour ! Notre rivière est derrière le parc. Il y a des déchets. Que veux-tu savoir ?",
+      "options": [
+        {
+          "id": "ask_where",
+          "text": "Où est la rivière ?",
+          "valid": true,
+          "feedback": "Très bien ! Tu demandes un lieu. La rivière est à l’est, près du pont.",
+          "skill": "Demander où se trouve un lieu"
+        },
+        {
+          "id": "ask_help",
+          "text": "Comment pouvons-nous aider ?",
+          "valid": true,
+          "feedback": "Bonne question ! Tu peux nettoyer la rivière ou planter des arbres.",
+          "skill": "Demander comment aider"
+        },
+        {
+          "id": "off_topic",
+          "text": "J’aime les glaces au chocolat.",
+          "valid": false,
+          "feedback": "Cette phrase est correcte, mais elle ne répond pas au problème. Essaie de poser une question sur la rivière ou l’aide possible."
+        }
+      ]
+    },
+    "recycle": {
+      "line": "Éric : La rivière est sale. Quelle action proposes-tu pour les déchets ?",
+      "options": [
+        {
+          "id": "clean",
+          "text": "Nous devons recycler les déchets.",
+          "valid": true,
+          "feedback": "Très bonne proposition ! Les bacs de tri apparaissent et la rivière devient plus propre.",
+          "skill": "Proposer une action écologique"
+        },
+        {
+          "id": "other_good",
+          "text": "Il faut nettoyer la rivière.",
+          "valid": true,
+          "feedback": "Bonne proposition ! Tu as communiqué une action utile. La rive est nettoyée.",
+          "skill": "Formuler une obligation simple"
+        },
+        {
+          "id": "no_link",
+          "text": "Je joue au football.",
+          "valid": false,
+          "feedback": "Le football est une activité intéressante, mais ici nous parlons de la rivière. Choisis une proposition utile pour les déchets."
+        }
+      ]
+    },
+    "plant": {
+      "line": "Nadia : Le parc manque d’arbres. Que pouvons-nous faire ensemble ?",
+      "options": [
+        {
+          "id": "trees",
+          "text": "Nous pouvons planter des arbres.",
+          "valid": true,
+          "feedback": "Bonne idée ! De jeunes arbres et des fleurs apparaissent dans le parc.",
+          "skill": "Exprimer une possibilité"
+        },
+        {
+          "id": "garden",
+          "text": "Il faut protéger le parc.",
+          "valid": true,
+          "feedback": "Très bien ! Tu as formulé une action pour la nature. Le parc reverdit.",
+          "skill": "Proposer une mesure de protection"
+        },
+        {
+          "id": "no_link",
+          "text": "Je veux regarder la télévision.",
+          "valid": false,
+          "feedback": "Cette réponse ne propose aucune action pour le parc. Observe le jardin et essaie encore."
+        }
+      ]
+    },
+    "report_recycle": {
+      "line": "La mairie : Quelle amélioration peux-tu expliquer aux habitants ?",
+      "options": [
+        {
+          "id": "report_good",
+          "text": "La rivière est propre maintenant.",
+          "valid": true,
+          "feedback": "Merci ! Tu as partagé une information utile avec les habitants.",
+          "skill": "Transmettre une information simple"
+        },
+        {
+          "id": "report_good2",
+          "text": "Il y a des poubelles de tri.",
+          "valid": true,
+          "feedback": "Merci ! Tu as décrit un changement visible dans la ville.",
+          "skill": "Décrire une amélioration"
+        },
+        {
+          "id": "report_bad",
+          "text": "Le parc est rempli de nouveaux arbres.",
+          "valid": false,
+          "feedback": "Cette fois, tu as nettoyé la rivière. Décris ce qui a changé près de l’eau."
+        }
+      ]
+    },
+    "report_plant": {
+      "line": "La mairie : Quelle amélioration peux-tu expliquer aux habitants ?",
+      "options": [
+        {
+          "id": "report_good",
+          "text": "Il y a de nouveaux arbres dans le parc.",
+          "valid": true,
+          "feedback": "Bravo ! Tu as transmis une information claire sur le parc.",
+          "skill": "Décrire une amélioration"
+        },
+        {
+          "id": "report_good2",
+          "text": "Le parc est plus vert maintenant.",
+          "valid": true,
+          "feedback": "Merci ! Tu as observé et décrit le changement.",
+          "skill": "Décrire un lieu"
+        },
+        {
+          "id": "report_bad",
+          "text": "La rivière est parfaitement propre.",
+          "valid": false,
+          "feedback": "Tu as choisi de travailler dans le parc. Parle de ses arbres ou de sa nouvelle couleur."
+        }
+      ]
+    }
+  },
+  "can_do": [
+    "Je peux comprendre un court dialogue de mission.",
+    "Je peux demander où se trouve un lieu.",
+    "Je peux proposer une action pour aider la ville.",
+    "Je peux transmettre une information simple à un personnage."
+  ],
+  "disclaimer": "Démo fictive et formative : aucun niveau CECRL n'est certifié, aucune donnée d'élève n'est recueillie."
+}

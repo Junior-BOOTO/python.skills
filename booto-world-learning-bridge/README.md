@@ -1,46 +1,45 @@
-# BOOTO WORLD LEARNING BRIDGE — Proof of concept V0
+# BOOTO WORLD LEARNING BRIDGE — V1 immersive
 
-**Une compétence. Plusieurs langues. Plusieurs façons d’apprendre.**
+**Une compétence. Plusieurs langues. Plusieurs façons d'apprendre.**
 
-**Auteur : Junior BOOTO Waba — BOOTO AI & DATA INNOVATION LAB**
+**Auteur : Junior BOOTO Waba · BOOTO AI & DATA INNOVATION LAB**
 
-## Pourquoi ce démonstrateur ?
+## Réalisation vérifiable
 
-Concevoir un concept d’apprentissage international réellement testable dans un navigateur : une mission de résolution de problème environnemental en français A1, avec consignes en français / espagnol / anglais, plusieurs contextes fictifs, une interface visuelle ou essentielle, un choix d’action ayant des conséquences visibles, et un « passeport » de preuves explicables exportable en JSON.
+Cette V1 relie une mission FLE A1 multilingue (FR/ES/EN) **et le véritable Éco-Cité 3D WebGL** dans une même page, avec un passeport d'observations exportable en JSON. Une version autonome du jeu 3D se trouve dans `game/DEMO_AUTONOME.html`. La V1 n'utilise pas d'API payante ni de données d'élèves.
 
-Ceci **n’est pas** un produit éducatif mondial validé ni un diagnostic automatisé. Le niveau A1 est un objectif d’enseignement et non une certification délivrée par la démo. Les formulations en français de la mission sont les mêmes dans les trois langues d’accompagnement. Une intégration des langues minoritaires demandera une production et une relecture humaines.
+**[Page d'accueil / Démonstration](index.html)** · [Documentation scientifique](RECHERCHE_ET_VALIDATION.md)
 
-## Essayer
+1. Lancer `index.html` localement ; faire une mission en français avec une aide en FR, ES ou EN et, facultativement, exporter le passeport.
+2. Déplier **« Ouvrir le jeu 3D »** et terminer une mission : Amina → choix nettoyer/planter → Éric/Nadia → mairie.
+3. Une fois la mission terminée, les **preuves 3D sont automatiquement transmises au tableau de bord de la page par message local à la fenêtre**, sans transmission réseau ni stockage permanent. Sinon, cliquez sur le bouton « Transmettre ce bilan… » dans le jeu.
+4. Vérifier « Mon passeport de compétences partagé » : les trois répliques pertinentes du jeu 3D apparaissent.
+5. Cliquer **« Exporter les preuves des deux activités »** : fichier `BOOTO_WORLD_LEARNING_BRIDGE_Passeport_V1_anonyme.json` contenant les activités guidée et 3D.
+6. Vérifier l'import : ouvrir la démo 3D de manière autonome, télécharger le passeport JSON puis l'importer dans le Bridge.
 
-Ouvrir `index.html` localement dans Chrome, Edge ou Firefox. Aucune installation, clé API, connexion réseau ni compte. Un lien distinct ouvre BOOTO FLE MULTIVERSE 3D sur Render (ce lien requiert Internet).
+Une aide linguistique en FR/ES/EN entoure le jeu 3D ; les dialogues immersifs restent **en français A1**, ce qui est annoncé et assumé. Le changement de contexte fictif affecte la mission guidée 2D ; il ne génère pas un monde 3D culturellement différent.
 
-## Fonctionnalités V0
+## Fonctionnement et sécurité
 
-- Instructions localisées FR / ES / EN ; objectifs FLE en français.
-- Trois décors éducatifs *fictifs*, sans prétention d’exactitude culturelle de terrain.
-- Deux modes : illustration visuelle SVG ou mode essentiel, avec le même contenu.
-- Quatre tâches observables : identifier, demander, proposer, rendre compte.
-- Deux actions correctes à la troisième étape, qui modifient la scène.
-- Réponses inadéquates, indices, nouvelles tentatives, bilan transparent.
-- Export JSON sans identité ; aucune transmission vers un service externe et aucune sauvegarde automatique sur l’appareil.
-- Synthèse vocale française optionnelle **selon les voix installées dans le navigateur**.
+- `src/passport.js` : format versionné `booto.learning-evidence.v1`, contrôle des preuves, liaison entre les activités et fusion anonyme.
+- `game/src/mission.js` : règles déterministes et projection du passeport 3D uniquement après la fin du parcours.
+- `game/src/app.js` : transmission **postMessage** uniquement au parent, avec bouton de téléchargement local en alternative ; aucun compte ni backend.
+- `index.html` : langue d'accompagnement, mission guidée, panneau 3D, import/export et affichage de preuves sans noms.
+- `game/src/world.js` : véritable scène WebGL procédurale ; **mode de repli** si WebGL indisponible.
+- `tests/passport.test.cjs` : régression des deux parcours, validation et export de données anonymes.
 
-## Recette fonctionnelle
+Le parent vérifie l'origine et la fenêtre d'envoi en mode HTTPS, et valide la forme du message avant de l'afficher comme du texte. Les fichiers JSON importés sont limités en taille. **Ne saisissez pas de données nominatives.** L'utilisateur peut vider le passeport 3D et aucun historique automatique n'est enregistré.
 
-1. Passer de Français à Español puis English : l'interface et les explications changent ; les répliques françaises restent l'objet d'apprentissage.
-2. Choisir « Essentiel » : l'illustration disparaît mais la mission reste accessible.
-3. Répondre volontairement mal à la première question, utiliser un indice puis poursuivre.
-4. Au choix écologique, sélectionner « nettoyer » ; la rivière devient propre, la poubelle apparaît.
-5. Terminer avec une reformulation correspondante et exporter le JSON.
-6. Recommencer, choisir « planter » ; de nouveaux arbres apparaissent, puis compléter et exporter.
-7. Vérifier que le fichier exporté contient les étapes observées et aucun nom d'élève.
+## Tester et construire
 
-## Limites honnêtes
+Avec Node 18+ : `npm test` puis `npm run build`. Une sortie autonome dans `dist/` contient la page principale et le jeu WebGL (aucune dépendance externe).
 
-Pas de modèle d’IA générative, pas d’apprentissage adaptatif psychométriquement validé, pas de comptes, pas de banque de données scolaires, pas de comparaison entre systèmes éducatifs, pas de reconnaissance vocale. Le changement de décor est une maquette illustrative 2D en SVG, **pas un nouveau monde 3D**. Pour une expérience WebGL 3D déjà développée, voir le bouton « Multiverse 3D ».
+## Déploiement Render
 
-Les échanges sont des choix guidés, non une mesure de maîtrise du français. Une véritable étude de terrain nécessite enseignants, accessibilité, contenus dans des langues locales relus, consentement parental lorsqu'applicable, minimisation des données et validation scientifique.
+**Nouveau Static Site**, dépôt `Junior-BOOTO/python.skills`, branche `main`, **Root Directory `booto-world-learning-bridge`**, commande **`npm run build`**, **Publish Directory `dist`**. Aucune variable Python ou clé API. Le fichier `render.yaml` local est une documentation de référence ; **ne pas modifier le Blueprint `render.yaml` racine** utilisé par d'autres applications.
 
-## Publication
+## Limites
 
-Site statique autonome : héberger `index.html` (et éventuellement `README.md`) dans un dossier statique. Aucune commande de compilation requise. Si le jeu est conservé dans un mono-dépôt GitHub, il suffit d'utiliser un dossier racine propre au projet.
+Prototype d'ingénierie pédagogique à tester avec des enseignants. Les succès sont des **choix guidés dans deux activités** et non une preuve de maîtrise d'une compétence générale ; aucun niveau CECRL n'est certifié. Pas de reconnaissance vocale ni de diagnostic adaptatif validé ; pas de langues autres que FR/ES/EN. Aucun usage de données réelles d'enfants, aucun mécanisme de sauvegarde, et aucune mesure d'efficacité d'apprentissage réalisée à ce jour.
+
+© 2026 Junior BOOTO Waba.
