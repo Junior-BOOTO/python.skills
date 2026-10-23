@@ -4,6 +4,10 @@
 
 Projets regroupés par usage. Les résultats et limites ci-dessous reprennent la documentation publiée ; ils ne constituent pas une nouvelle exécution des tests.
 
+## Jeu 3D — BOOTO FLE MULTIVERSE
+
+[🎮 Jouer à Éco-Cité francophone 3D](https://booto-fle-multiverse-3d.onrender.com/) · [Source et dossier pédagogique](booto-fle-multiverse-3d/README.md). Render indique « Live » sur capture du 23 octobre 2026 ; le jeu et la navigation sont encore à tester sur l'URL publique.
+
 ## FLE et outils pédagogiques
 
 | Projet | Contenu | Limites |
