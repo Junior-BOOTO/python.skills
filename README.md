@@ -6,6 +6,12 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 [Profil et CV](https://github.com/Junior-BOOTO) · [Site professionnel](https://junior-booto-fle.juniorbooto.chatgpt.site) · [Portfolio FLE](https://github.com/Junior-BOOTO/portfolio-fle) · [Catalogue complet](CATALOGUE.md)
 
 
+## BOOTO WORLD LEARNING BRIDGE · Éducation mondiale multilingue
+
+**[Explorer la première démo interactive et son code](booto-world-learning-bridge/README.md)** · [HTML autonome](booto-world-learning-bridge/index.html) · [Protocole de recherche](booto-world-learning-bridge/RECHERCHE_ET_VALIDATION.md)
+
+Prototype de recherche sur les activités francophones accessibles dans **3 langues d'accompagnement (FR/ES/EN)**, avec mode visuel ou essentiel, deux décisions écologiques, indices contextualisés et **passeport JSON sans identité**. Fonctionne hors ligne sous forme d'HTML autonome. Une démonstration techniquement testée, **sans validation d'efficacité pédagogique ni revendication de système éducatif inédit**. Publication sur Render à réaliser.
+
 ## BOOTO FLE MULTIVERSE 3D · Mission Éco-Cité francophone
 
 **[🎮 Jouer à Éco-Cité 3D](https://booto-fle-multiverse-3d.onrender.com/)** · [Code WebGL et documentation](booto-fle-multiverse-3d/README.md) · [Démo autonome](booto-fle-multiverse-3d/DEMO_AUTONOME.html) · [Cahier des charges](booto-fle-multiverse-3d/docs/CAHIER_DES_CHARGES_V1.md)
