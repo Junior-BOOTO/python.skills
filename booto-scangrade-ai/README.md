@@ -4,6 +4,8 @@
 
 Prototype browser-first ciblant Lenovo Tab M11 (configurations 4 ou 8 Go), **numérisation uniquement**. Pas encore un correcteur ni un produit scolaire prêt à l'emploi.
 
+**[📷 Ouvrir la V0 sur Render](https://booto-scangrade-ai.onrender.com/)** — Premier déploiement confirmé « Deploy succeeded · Live » sur la capture Render du propriétaire le 23 octobre 2026. Le chargement externe et le comportement réel de la caméra sur Lenovo Tab M11 restent à vérifier. **Utiliser uniquement des documents fictifs ou entièrement anonymisés.**
+
 ## Fonctions effectivement codées
 
 - Caméra arrière via l'API navigateur `getUserMedia`, avec autorisation explicite.
