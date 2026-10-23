@@ -2,6 +2,8 @@
 
 **Auteur : Junior BOOTO Waba · BOOTO AI & DATA INNOVATION LAB · 23 octobre 2026**
 
+**[📱 Essayer BOOTO ScanGrade AI V2 en ligne](https://booto-scangrade-ai-v2.onrender.com/)** — Render a confirmé « Deploy succeeded · Live » le 23 octobre 2026 d'après la capture du propriétaire. Le fonctionnement complet sur la tablette Lenovo Tab M11 doit encore être testé. **Utiliser uniquement des documents fictifs/anonymisés, sans données d'élèves identifiables.**
+
 ## Ce que cette V2 réalise
 
 Une application statique unique, à destination d'une tablette Android Lenovo Tab M11 :
