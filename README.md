@@ -8,7 +8,7 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 ## BOOTO ScanGrade AI · Scanner de copies pour tablette — V0 expérimentale
 
-**[📷 Accéder au code, à la démo et au guide](https://github.com/Junior-BOOTO/python.skills/tree/main/booto-scangrade-ai)** · Conçu pour la **Lenovo Tab M11** : première photographie manuelle, détection expérimentale de nouvelles pages stabilisées, regroupement de copies anonymes recto/verso, export ZIP comprenant photos, inventaire CSV et manifeste JSON. **Pas encore de correction IA, de notes, de commentaires ni de synchronisation Excel ou Google Sheets.** Cinq tests automatisés validés localement ; capture réelle sur tablette et sécurité pour données scolaires à évaluer. **Ne pas utiliser de copies identifiables d'élèves dans cette V0.**
+**[📷 Essayer ScanGrade AI V0 sur Render](https://booto-scangrade-ai.onrender.com/)** · [Code et guide](https://github.com/Junior-BOOTO/python.skills/tree/main/booto-scangrade-ai) · Conçu pour la **Lenovo Tab M11** : première photographie manuelle, détection expérimentale de nouvelles pages stabilisées, regroupement de copies anonymes recto/verso, export ZIP comprenant photos, inventaire CSV et manifeste JSON. **Pas encore de correction IA, de notes, de commentaires ni de synchronisation Excel ou Google Sheets.** Cinq tests automatisés validés localement ; capture réelle sur tablette et sécurité pour données scolaires à évaluer. **Ne pas utiliser de copies identifiables d'élèves dans cette V0.**
 
 ## BOOTO WORLD LEARNING BRIDGE · Éducation mondiale multilingue
 
