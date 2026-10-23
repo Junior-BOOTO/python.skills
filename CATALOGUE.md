@@ -4,6 +4,10 @@
 
 Projets regroupés par usage. Les résultats et limites ci-dessous reprennent la documentation publiée ; ils ne constituent pas une nouvelle exécution des tests.
 
+## BOOTO ScanGrade AI — Prototype de numérisation sur tablette
+
+**[📷 Ouvrir la V0 sur Render](https://booto-scangrade-ai.onrender.com/)** · [Code et guide](https://github.com/Junior-BOOTO/python.skills/tree/main/booto-scangrade-ai). Première version pour Lenovo Tab M11 : numérisation expérimentale des nouvelles pages stabilisées, classement recto-verso et par trimestre, export ZIP/CSV de copies fictives. **Pas de correcteur IA ni de notes automatiques dans cette V0.** Déploiement Render « Live » confirmé par capture le 23 octobre 2026 ; caméra réelle non encore testée.
+
 ## BOOTO WORLD LEARNING BRIDGE V1 — Plateforme éducative multilingue
 
 **[🌍 Accéder à la démonstration publique sur Render](https://booto-world-learning-bridge.onrender.com/)** · [Code et documentation](https://github.com/Junior-BOOTO/python.skills/tree/main/booto-world-learning-bridge). Une mission FLE A1 avec accompagnement FR/EN/ES, jeu 3D intégré et passeport JSON anonyme partagé. Render a confirmé « Live » sur la capture du propriétaire le 23 octobre 2026 ; essais fonctionnels sur l'URL et validation pédagogique restent à effectuer.
