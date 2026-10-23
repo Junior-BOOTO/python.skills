@@ -1,0 +1,38 @@
+name: BOOTO FLE MULTIVERSE 3D — tests
+on:
+  push:
+    paths:
+      - 'booto-fle-multiverse-3d/**'
+      - '.github/workflows/booto-fle-multiverse-3d-tests.yml'
+  pull_request:
+    paths:
+      - 'booto-fle-multiverse-3d/**'
+      - '.github/workflows/booto-fle-multiverse-3d-tests.yml'
+  workflow_dispatch:
+jobs:
+  mission-and-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: booto-fle-multiverse-3d
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check JavaScript syntax
+        run: |
+          node --check src/mission.js
+          node --check src/world.js
+          node --check src/app.js
+      - name: Test story and decisions
+        run: npm test
+      - name: Build static site without dependencies
+        run: npm run build
+      - name: Verify distribution
+        run: |
+          test -f dist/index.html
+          test -f dist/DEMO_AUTONOME.html
+          test -f dist/src/world.js
+          test -f dist/src/app.js
+          test -f dist/src/mission.js
