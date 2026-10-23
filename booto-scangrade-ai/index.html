@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101d3c">
+  <meta name="description" content="BOOTO ScanGrade AI : prototype local de numérisation continue pour tablette et organisation des copies d'évaluation.">
+  <title>BOOTO ScanGrade AI · Scanner de copies V0</title>
+  <link rel="stylesheet" href="src/style.css">
+  <script src="src/scanner-core.js" defer></script>
+  <script src="src/zip.js" defer></script>
+  <script src="src/app.js" defer></script>
+</head>
+<body>
+<header class="topbar"><div class="wrap topinner"><div class="brand"><span class="brandicon" aria-hidden="true">▧</span> BOOTO <strong>ScanGrade AI</strong></div><span class="version">PROTOTYPE V0 · CAPTURE UNIQUEMENT</span></div></header>
+<main class="wrap">
+  <section class="intro"><p class="eyebrow">L'enseignant garde le contrôle</p><h1>Vos copies, numérisées en série.<br><span>Sans appuyer à chaque page.</span></h1>
+    <p>Conçu pour une tablette Android comme la Lenovo Tab M11 : prenez la première photo, tournez vos feuilles et laissez le mode automatique détecter une nouvelle page stabilisée. Vos copies restent dans ce navigateur tant que vous ne les exportez pas.</p>
+    <div class="flag">🔒 Essai avec <strong>copies fictives ou anonymisées uniquement</strong>. Aucune transmission serveur prévue par ce prototype. N'utilisez pas encore de documents réels d'élèves.</div>
+  </section>
+  <section class="workspace">
+    <div class="camera panel">
+      <div class="panelhead"><div><p class="eyebrow">01 · Scanner</p><h2>Caméra de la tablette</h2></div><span id="camBadge" class="status">Arrêtée</span></div>
+      <div class="frame" id="frame"><video id="camera" autoplay muted playsinline aria-label="Aperçu de la caméra"></video><div id="frameEmpty" class="frameEmpty"><span aria-hidden="true">◎</span><p>Activez la caméra arrière ou importez des photos.</p><small>Une connexion HTTPS est nécessaire sur tablette.</small></div><div class="guide" aria-hidden="true"></div><div id="freeze" class="freeze" hidden>📷 Image enregistrée</div></div>
+      <p id="cameraStatus" class="cameraStatus" role="status" aria-live="polite">Prête à démarrer. Installez la tablette sur un support fixe au-dessus des copies.</p>
+      <div class="buttons"><button id="cameraStart" class="primary">📷 Activer la caméra</button><button id="cameraStop" class="secondary" disabled>Arrêter</button><button id="snap" class="primary teal" disabled>Photographier la première page</button></div>
+      <div class="buttons small"><label class="upload" for="files">📁 Importer des photos JPEG / PNG<input id="files" type="file" accept="image/jpeg,image/png,image/webp" multiple></label></div>
+      <div class="options"><label class="switch"><input type="checkbox" id="auto" checked><span>Capturer automatiquement après chaque changement de page</span></label><label class="switch"><input type="checkbox" id="duplex"><span>Copies recto-verso (ordre recto → verso pour chaque feuille)</span></label></div>
+      <p class="hint">Le mode automatique est <strong>expérimental</strong> : il attend un mouvement suivi d'une image stable et différente. Des pages très semblables peuvent nécessiter le bouton manuel. La tablette ne tourne pas physiquement les feuilles.</p>
+    </div>
+    <div class="organize panel">
+      <div class="panelhead"><div><p class="eyebrow">02 · Organiser</p><h2>Lot de copies</h2></div><span id="pageBadge" class="counter">0 page</span></div>
+      <label for="trimestre">Trimestre</label><select id="trimestre"><option value="T1">1er trimestre</option><option value="T2">2e trimestre</option><option value="T3">3e trimestre</option></select>
+      <div class="copyId"><div><small>Copie actuelle (code anonyme)</small><strong id="currentCopy">C001</strong></div><button id="newCopy" class="secondary">+ Nouvelle copie</button></div>
+      <div class="metricrow"><div class="metric"><strong id="copiesCount">0</strong><span>copies</span></div><div class="metric"><strong id="pagesCount">0</strong><span>pages</span></div><div class="metric"><strong id="versosCount">0</strong><span>versos</span></div></div>
+      <p id="batchStatus" class="hint">Commencez par photographier une copie fictive, puis passez à la page suivante.</p>
+      <div id="scans" class="scans" aria-live="polite"><div class="emptyScans">Aucune page numérisée pour le moment.</div></div>
+      <div class="buttons"><button id="exportZip" class="primary" disabled>⬇ Exporter le lot ZIP</button><button id="clear" class="danger" disabled>Effacer le lot</button></div>
+      <p class="hint">L'archive ZIP contient les images et un inventaire CSV/JSON. Aucun score, note ou commentaire IA n'est encore calculé dans cette V0.</p>
+    </div>
+  </section>
+  <section class="next panel"><div><p class="eyebrow">03 · Prochaines étapes</p><h2>De la capture à la correction pédagogique</h2><p>À développer après les essais de la numérisation : reconnaissance des écritures, application du barème, contrôle enseignant, commentaires « forces / difficultés / recommandations », puis synchronisation sécurisée Excel / Google Sheets par trimestre.</p></div><div class="nexttag">Correction IA : non disponible en V0</div></section>
+  <section class="privacy"><h2>Important avant usage dans une école</h2><p>Ne photographiez pas de copies identifiables de mineurs dans cette démonstration. La gestion des autorisations, la sécurité du stockage, le contrôle des accès, le traitement des erreurs de reconnaissance et la validation des notes doivent être développés et évalués avant tout usage institutionnel. Les images ne sont conservées qu'en mémoire pendant la session ; elles seront perdues si vous fermez ou rechargez la page sans exporter.</p></section>
+</main>
+<footer>© 2026 BOOTO AI & DATA INNOVATION LAB · Prototype expérimental, sans diagnostic automatique.</footer>
+</body>
+</html>
