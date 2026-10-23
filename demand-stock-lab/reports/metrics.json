@@ -1,0 +1,35 @@
+[
+  {
+    "product": "A",
+    "selected": "ridge",
+    "validation_mae": {
+      "mean4": 4.75,
+      "ridge": 3.491382295355335
+    },
+    "test_mae_selected": 2.004253229128866,
+    "test_mae_baseline": 3.25,
+    "test_forecasts": 12
+  },
+  {
+    "product": "B",
+    "selected": "ridge",
+    "validation_mae": {
+      "mean4": 3.0,
+      "ridge": 1.8581773249442755
+    },
+    "test_mae_selected": 2.7730710355144677,
+    "test_mae_baseline": 4.458333333333333,
+    "test_forecasts": 12
+  },
+  {
+    "product": "C",
+    "selected": "ridge",
+    "validation_mae": {
+      "mean4": 3.125,
+      "ridge": 2.5288502933548593
+    },
+    "test_mae_selected": 2.8479796361722407,
+    "test_mae_baseline": 3.8333333333333335,
+    "test_forecasts": 12
+  }
+]
