@@ -16,6 +16,8 @@ def demo():
 
 def validate(df):
     df = df.copy()
+    if df.empty:
+        raise ValueError('Le fichier ne contient aucune vente.')
     if not {'date','product','sales'} <= set(df):
         raise ValueError('Colonnes requises : date, product, sales.')
     df['date'] = pd.to_datetime(df['date'], errors='raise')
