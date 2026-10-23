@@ -1,0 +1,7 @@
+# Configuration de référence locale. Le Blueprint racine du dépôt gère d'autres services.
+services:
+  - type: web
+    name: booto-fle-multiverse-3d
+    runtime: static
+    buildCommand: npm run build
+    staticPublishPath: dist

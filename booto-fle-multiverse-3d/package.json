@@ -1,0 +1,14 @@
+{
+  "name": "booto-fle-multiverse-3d",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Jeu sérieux francophone 3D WebGL — Éco-Cité, prototype V1",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "build": "node scripts/build.cjs",
+    "check": "npm test && npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
