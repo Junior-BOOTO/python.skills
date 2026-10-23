@@ -10,7 +10,7 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 **[Explorer la première démo interactive et son code](booto-world-learning-bridge/README.md)** · [HTML autonome](booto-world-learning-bridge/index.html) · [Protocole de recherche](booto-world-learning-bridge/RECHERCHE_ET_VALIDATION.md)
 
-Prototype de recherche sur les activités francophones accessibles dans **3 langues d'accompagnement (FR/ES/EN)**, avec mode visuel ou essentiel, deux décisions écologiques, indices contextualisés et **passeport JSON sans identité**. Fonctionne hors ligne sous forme d'HTML autonome. Une démonstration techniquement testée, **sans validation d'efficacité pédagogique ni revendication de système éducatif inédit**. Publication sur Render à réaliser.
+**V1 immersive publiée sur GitHub** : une mission d’accompagnement FR/ES/EN et le **jeu Éco-Cité 3D WebGL intégré à la même page**, avec un **passeport pédagogique partagé, exportable et importable en JSON sans identité**. Deux chemins écologiques, rétroactions explicables, pas de compte ni d’API. Tests JavaScript et construction statique disponibles ; **déploiement Render du Bridge V1 à effectuer**, sans modifier le site Multiverse existant. Ce prototype ne mesure pas une maîtrise CECRL et n'a pas été évalué en classe.
 
 ## BOOTO FLE MULTIVERSE 3D · Mission Éco-Cité francophone
 
