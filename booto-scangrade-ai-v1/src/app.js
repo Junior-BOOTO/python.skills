@@ -1,0 +1,50 @@
+/* BOOTO ScanGrade AI V1 — démo locale, données anonymes uniquement. */
+(()=>{'use strict';
+const $=id=>document.getElementById(id),Engine=window.BootoEval,Zip=window.ScanGradeZip,Scans=window.BootoScans,Excel=window.BootoExcel;
+const KEY='booto.scangrade.gradebook.v1.anonyme',correct='ABCDBCADABCD';
+let records=[],currentReview=null,scanPages=[],urls=[];
+const escNotice=(text,isError=false)=>{const el=$('notice');el.textContent=text;el.classList.toggle('error',isError);};
+function load(){try{const raw=localStorage.getItem(KEY);if(raw){records=Engine.importRegister(JSON.parse(raw));escNotice(`Registre local restauré : ${records.length} correction(s) validée(s).`);}}catch(e){records=[];escNotice(`Registre local inaccessible : ${e.message}`,true);}renderGradebook();}
+function store(){try{localStorage.setItem(KEY,JSON.stringify({schema:Engine.VERSION,records}));return true;}catch(e){escNotice('Mémoire locale insuffisante : exportez le registre JSON ou Excel.',true);return false;}}
+function dl(blob,name){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);}
+function answerString(){const vals=Engine.QUESTIONS.map(q=>$('answer-'+q.id).value);if(vals.some(v=>!v))throw Error('Choisissez une réponse A–D pour chacune des 12 questions.');return vals.join('');}
+function renderQuestions(){const grid=$('answerGrid'),ref=$('reference');for(const q of Engine.QUESTIONS){let box=document.createElement('div');box.className='answer';const label=document.createElement('label');label.htmlFor='answer-'+q.id;label.textContent='Q'+String(q.id).padStart(2,'0');let select=document.createElement('select');select.id='answer-'+q.id;for(const [value,text] of [['','—'],['A','A'],['B','B'],['C','C'],['D','D']]){const opt=document.createElement('option');opt.value=value;opt.textContent=text;select.append(opt);}select.addEventListener('change',invalidateReview);box.append(label,select);grid.append(box);
+ const d=document.createElement('div');d.className='refitem';const b=document.createElement('b');b.textContent=`Q${q.id}. ${q.q}`;const t=document.createElement('span');t.className='opt';t.textContent=q.options.map((x,i)=>`${'ABCD'[i]}. ${x}`).join(' · ');const ans=document.createElement('small');ans.textContent=`Réponse : ${q.correct} · ${q.group} · ${q.explain}`;d.append(b,t,ans);ref.append(d);}}
+function invalidateReview(){if(currentReview){currentReview=null;$('review').hidden=true;$('reviewEmpty').hidden=false;}}
+function prepare(){try{const id=Engine.safeId($('copyId').value),term=$('term').value,scale=+$('scale').value,answers=answerString();const result=Engine.compute(answers,scale);currentReview={id,term,scale,answers,result};$('reviewEmpty').hidden=true;$('review').hidden=false;$('suggestedScore').textContent=`${result.score} / ${result.scale}`;$('correctCount').textContent=`${result.correct} / ${result.total}`;$('groupCount').textContent=`${result.strengths.length} / ${Engine.GROUPS.length}`;$('finalScore').value=result.score;$('finalScore').max=result.scale;$('feedback').value=result.comment;$('override').value='';
+ const bars=$('groupBars');bars.replaceChildren();for(const name of Engine.GROUPS){const data=result.byGroup[name],fraction=data.correct/data.total;const div=document.createElement('div');div.className='grouprow';const desc=document.createElement('div');desc.textContent=`${name} : ${data.correct}/${data.total}`;const track=document.createElement('div');track.className='bartrack';const fill=document.createElement('div');fill.className='barfill';fill.style.width=`${fraction*100}%`;track.append(fill);div.append(desc,track);bars.append(div);}
+ const details=$('detailsView');details.replaceChildren();for(const x of result.details){const el=document.createElement('div');el.className='detailitem'+(x.ok?'':' bad');const title=document.createElement('b');title.textContent=`Q${x.n} · ${x.ok?'✓ Conforme':'À revoir'} · ${x.group}`;const text=document.createElement('small');text.textContent=`Réponse ${x.answer} · attendu ${x.expected}. ${x.explain}`;el.append(title,text);details.append(el);}
+ escNotice(`Proposition préparée pour ${id} (${term}) : ${result.score}/${result.scale}. Vérifiez et validez la note.`);$('validation').scrollIntoView({behavior:'smooth',block:'start'});
+}catch(e){escNotice(e.message,true);}}
+function approve(){try{if(!currentReview)throw Error('Calculez d’abord une proposition de correction.');let nowAnswers=answerString(),{id,term,scale,answers,result}=currentReview;if(id!==Engine.safeId($('copyId').value)||term!==$('term').value||scale!==+$('scale').value||nowAnswers!==answers)throw Error('Les réponses ou paramètres ont changé : recalculez la proposition.');
+ const record=Engine.createRecord({id,term,answers,scale,validatedScore:$('finalScore').value,comment:$('feedback').value,reason:$('override').value});
+ records=Engine.upsert(records,record);store();renderGradebook();escNotice(`✓ Correction ${id}/${term} validée. Note : ${record.score}/${record.scale}. Tableau trimestriel actualisé.`);invalidateReview();$('registre').scrollIntoView({behavior:'smooth',block:'start'});
+}catch(e){escNotice(e.message,true);}}
+function td(text){const e=document.createElement('td');e.textContent=text===null||text===undefined?'—':String(text);return e;}
+function renderGradebook(){const sum=Engine.summary(records),t=$('gradeRows');t.replaceChildren();if(!sum.length){const tr=document.createElement('tr'),d=td('Aucune correction validée');d.colSpan=5;tr.append(d);t.append(tr);}for(const row of sum){const tr=document.createElement('tr');for(const k of ['id','T1','T2','T3','average'])tr.append(td(row[k]));t.append(tr);}
+ $('nRecords').textContent=records.length;$('nLearners').textContent=sum.length;
+ for(const id of ['excel','csv','json','clearRegister'])$(id).disabled=!records.length;
+}
+function csvQuote(x){let v=String(x??'');if(/^[=+@\-\t\r]/.test(v))v="'"+v;return '"'+v.replace(/"/g,'""')+'"';}
+function getCsv(){const fields=['id','term','activity','score','scale','automaticScore','correct','total','comment','validatedAt','revision'];const rows=[fields.join(';'),...records.map(r=>fields.map(k=>csvQuote(r[k])).join(';'))];return '\ufeff'+rows.join('\r\n')+'\r\n';}
+function clearPages(){for(const u of urls)URL.revokeObjectURL(u);urls=[];scanPages=[];}
+async function importScans(file){if(!file)return;try{if(file.size>120*1024*1024)throw Error('Archive supérieure à 120 Mo.');const archive=Scans.parse(new Uint8Array(await file.arrayBuffer()),Zip);clearPages();scanPages=archive.pages;const view=$('scansView');view.replaceChildren();for(const page of scanPages){const u=URL.createObjectURL(new Blob([page.image],{type:'image/jpeg'}));urls.push(u);const card=document.createElement('div');card.className='thumb';const img=document.createElement('img');img.src=u;img.alt=`Copie ${page.id}, page ${page.page}, ${page.side}`;img.loading='lazy';const name=document.createElement('small');name.textContent=`${page.id} · page ${page.page} · ${page.side}`;card.append(img,name);view.append(card);}
+ $('scanPages').textContent=scanPages.length;$('scanCopies').textContent=archive.copies.length;
+ if(archive.copies.length){$('copyId').value=archive.copies[0];const pg=scanPages.find(p=>p.id===archive.copies[0]);if(['T1','T2','T3'].includes(pg.term))$('term').value=pg.term;invalidateReview();}
+ escNotice(`Archive locale chargée : ${scanPages.length} pages et ${archive.copies.length} copies anonymes. Lecture des réponses toujours manuelle.`);
+ }catch(e){escNotice('Import du ZIP impossible : '+e.message,true);}finally{$('scanArchive').value='';}}
+async function importRegister(file){if(!file)return;try{if(file.size>5*1024*1024)throw Error('Fichier trop volumineux.');const obj=JSON.parse(await file.text()),newRows=Engine.importRegister(obj);if(!confirm(`Importer ${newRows.length} correction(s) anonymes et remplacer le registre local ?`))return;records=newRows;store();renderGradebook();escNotice('Registre JSON restauré. Pensez à exporter une sauvegarde après modification.');}catch(e){escNotice('Import du registre impossible : '+e.message,true);}finally{$('importRegister').value='';}}
+function bind(){renderQuestions();load();
+ $('sample').addEventListener('click',()=>{const wrong='ABCDACADDBCD';for(let i=0;i<wrong.length;i++)$('answer-'+(i+1)).value=wrong[i];$('copyId').value='C001';$('term').value='T1';$('scale').value='20';invalidateReview();escNotice('Exemple fictif chargé : calculez la proposition de correction.');});
+ for(const id of ['copyId','term','scale'])$(id).addEventListener('change',invalidateReview);
+ $('prepare').addEventListener('click',prepare);$('approve').addEventListener('click',approve);
+ $('scanArchive').addEventListener('change',e=>importScans(e.target.files?.[0]));
+ $('excel').addEventListener('click',()=>{try{const blob=Excel.generate(records,Engine,Zip);dl(blob,'BOOTO_ScanGrade_notes_trimestres_anonymes.xlsx');escNotice('Fichier Excel exporté : onglets Evaluations et Synthese.');}catch(e){escNotice('Échec de l’export Excel : '+e.message,true);}});
+ $('csv').addEventListener('click',()=>dl(new Blob([getCsv()],{type:'text/csv;charset=utf-8'}),'BOOTO_ScanGrade_evaluations_anonymes.csv'));
+ $('json').addEventListener('click',()=>dl(new Blob([JSON.stringify({schema:Engine.VERSION,exportedAt:new Date().toISOString(),records},null,2)],{type:'application/json'}),'BOOTO_ScanGrade_sauvegarde_anonyme.json'));
+ $('importRegister').addEventListener('change',e=>importRegister(e.target.files?.[0]));
+ $('clearRegister').addEventListener('click',()=>{if(!confirm('Effacer définitivement les résultats anonymes de ce navigateur ? Exportez d’abord une sauvegarde.'))return;records=[];try{localStorage.removeItem(KEY);}catch(e){}renderGradebook();escNotice('Registre local vidé.');});
+ window.addEventListener('pagehide',clearPages);
+}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',bind);else bind();
+})();
