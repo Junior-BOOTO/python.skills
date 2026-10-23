@@ -6,7 +6,18 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 [Profil et CV](https://github.com/Junior-BOOTO) · [Site professionnel](https://junior-booto-fle.juniorbooto.chatgpt.site) · [Portfolio FLE](https://github.com/Junior-BOOTO/portfolio-fle) · [Catalogue complet](CATALOGUE.md)
 
 
-> [**Déployer BOOTO NLP LAB sur Render**](https://render.com/deploy?repo=https://github.com/Junior-BOOTO/python.skills) · Préconfiguration prête ; nécessite votre connexion et approbation sur Render. Ce lien **n'est pas une application déjà en ligne**.
+## Applications à essayer sur Render
+
+| Application | Fonction | Accès direct |
+| --- | --- | --- |
+| BOOTO NLP LAB | Analyse de documents et de textes multilingues. | [Ouvrir l’application](https://booto-nlp-lab-zuvr.onrender.com/) |
+| BOOTO Éval’FLE AI | Création d’évaluations pour l’enseignement du français. | [Ouvrir l’application](https://booto-eval-fle-ai.onrender.com/) |
+| BOOTO Correcteur FLE AI | Correction et rétroaction sur les productions écrites en FLE. | [Ouvrir l’application](https://booto-correcteur-fle-ai.onrender.com/) |
+| BOOTO LUDO AI | Création d’activités ludiques pour la classe de FLE. | [Ouvrir l’application](https://booto-ludo-ai.onrender.com/) |
+| Superstore Dashboard | Exploration des performances commerciales avec des filtres interactifs. | [Ouvrir le tableau de bord](https://booto-superstore-dashboard.onrender.com/) |
+| California Housing Lab | Simulation d’estimations immobilières par machine learning sur des données historiques. | [Ouvrir le laboratoire](https://booto-housing-lab.onrender.com/) |
+
+Le premier chargement peut prendre quelques instants. Ces liens renvoient aux services Render ; leur présence ne constitue pas une nouvelle validation fonctionnelle. Les ressources pédagogiques restent à relire par l’enseignant et les estimations immobilières sont des démonstrations sur données historiques.
 
 ## BOOTO Correcteur FLE AI V1 · Rétroaction pédagogique écrite A1
 
@@ -36,7 +47,7 @@ Le laboratoire valorise BOOTO NLP LAB, BOOTO FLE Adaptive AI et PhonoFLE AI dans
 
 ## Nouveau laboratoire NLP · Prototype multilingue
 
-**[BOOTO NLP LAB V1 — Multilingual Text Analyzer](booto-nlp-lab/README.md)** : import de CSV, détection des langues (français, anglais, espagnol), classification thématique, mots-clés TF-IDF, similarité de documents et export. Application Python et interface Streamlit, avec un corpus **entièrement synthétique** de 300 textes ; performances externes encore à valider. [Guide de déploiement](booto-nlp-lab/docs/DEPLOIEMENT_STREAMLIT.md). **Aucune démonstration publique Streamlit n'est encore confirmée.**
+**[BOOTO NLP LAB V1 — Multilingual Text Analyzer](booto-nlp-lab/README.md)** : import de CSV, détection des langues (français, anglais, espagnol), classification thématique, mots-clés TF-IDF, similarité de documents et export. Application Python et interface Streamlit, avec un corpus **entièrement synthétique** de 300 textes ; performances externes encore à valider. [Guide de déploiement](booto-nlp-lab/docs/DEPLOIEMENT_STREAMLIT.md). **[Ouvrir l’application déployée sur Render](https://booto-nlp-lab-zuvr.onrender.com/).**
 
 ## Trois projets phares · Démonstrations et preuves
 
