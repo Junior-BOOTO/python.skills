@@ -6,6 +6,13 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 [Profil et CV](https://github.com/Junior-BOOTO) · [Site professionnel](https://junior-booto-fle.juniorbooto.chatgpt.site) · [Portfolio FLE](https://github.com/Junior-BOOTO/portfolio-fle) · [Catalogue complet](CATALOGUE.md)
 
 
+## 🧭 BOOTO TalentScreen AI · Innovation RH responsable
+
+**[💼 Découvrir le prototype interactif et son code](booto-talentscreen-ai/README.md)** · **[Page de démonstration HTML](booto-talentscreen-ai/index.html)**
+
+Premier projet du laboratoire hors éducation : **Talent Intelligence Workspace**, une interface RH fictive avec fiche de poste configurable, dossiers anonymes, repérage d'**indices textuels littéraux**, questions d'entretien communes, suivi manuel des étapes et export Excel (3 feuilles), CSV, JSON. **Dix tests Node réussis localement**, classeur XLSX vérifié au niveau ZIP/XML. Ce prototype **n'emploie pas encore de modèle IA**, ne lit pas les PDF/DOCX, ne classe pas et ne rejette pas automatiquement des personnes. **Aucun CV réel ou donnée nominative dans la démo**. Déploiement Render à effectuer en nouveau Static Site.
+
+
 ## BOOTO ScanGrade AI V2 · Plateforme unifiée — pilote de sécurité
 
 **[📱 Essayer ScanGrade AI V2 sur Render](https://booto-scangrade-ai-v2.onrender.com/)** · [Guide et code V2](booto-scangrade-ai-v2/README.md) — une seule application statique destinée à la Lenovo Tab M11, conservant le scanner recto-verso et l'export ZIP, mais **transférant maintenant directement les copies photographiées à l'écran de correction**, sans import intermédiaire. Questions **QCM, vrai/faux, réponses courtes, questions ouvertes et images à identifier**, avec barème personnalisable, notes et commentaires soumis à **validation question par question par l'enseignant**. Registre T1/T2/T3, export XLSX/CSV/JSON. **Mécanismes protecteurs pour un pilote fictif :** anonymat par codes, mémoire volatile, blocage sans confirmation d'usage fictif, pas de connexion de données serveur. **Pas d'OCR manuscrit, pas d'IA générative ni de traitement sécurisé de véritables données de mineurs.** Huit tests automatisés réussis localement ; Render a confirmé le premier déploiement V2 « Live » par capture le 23 octobre 2026. Les essais réels sur la tablette Lenovo restent à réaliser ; V0 et V1 restent indépendantes.
