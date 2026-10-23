@@ -8,7 +8,9 @@
 
 Cette V1 relie une mission FLE A1 multilingue (FR/ES/EN) **et le véritable Éco-Cité 3D WebGL** dans une même page, avec un passeport d'observations exportable en JSON. Une version autonome du jeu 3D se trouve dans `game/DEMO_AUTONOME.html`. La V1 n'utilise pas d'API payante ni de données d'élèves.
 
-**[Page d'accueil / Démonstration](index.html)** · [Documentation scientifique](RECHERCHE_ET_VALIDATION.md)
+**[🌍 Accéder à BOOTO WORLD LEARNING BRIDGE V1 sur Render](https://booto-world-learning-bridge.onrender.com/)** · [Page HTML source](index.html) · [Documentation scientifique](RECHERCHE_ET_VALIDATION.md)
+
+**Mise en ligne :** le premier déploiement Render affichait « Deploy succeeded · Live » le 23 octobre 2026 à 11 h 11 (capture du propriétaire). La disponibilité indépendante depuis cette conversation n'a pas pu être testée ; les deux missions et le passeport doivent encore être vérifiés sur l'URL publique.
 
 1. Lancer `index.html` localement ; faire une mission en français avec une aide en FR, ES ou EN et, facultativement, exporter le passeport.
 2. Déplier **« Ouvrir le jeu 3D »** et terminer une mission : Amina → choix nettoyer/planter → Éric/Nadia → mairie.
