@@ -3,7 +3,13 @@
 **Le monde change quand tu parles.**  
 **Auteur : Junior BOOTO Waba · BOOTO AI & DATA INNOVATION LAB · 23 octobre 2026**
 
-> **Statut** : prototype jouable d'une mission. La progression narrative, les dialogues et les bilans ont été testés en navigateur (mode accessible) et avec des tests automatisés. **Le rendu WebGL n'a pas pu être visualisé dans le navigateur de test de ce laboratoire** ; toutefois, une capture du 23 octobre 2026 fournie par l'auteur confirme que la ville 3D s'affiche dans son navigateur. Les commandes et transformations 3D demandent encore une vérification complète sur cet appareil. Aucune application publique sur Render n'est encore confirmée.
+> **Statut** : prototype jouable d'une mission. La progression narrative, les dialogues et les bilans ont été testés en navigateur (mode accessible) et avec des tests automatisés. **Le rendu WebGL n'a pas pu être visualisé dans le navigateur de test de ce laboratoire** ; toutefois, une capture du 23 octobre 2026 fournie par l'auteur confirme que la ville 3D s'affiche dans son navigateur. Les commandes et transformations 3D demandent encore une vérification complète sur cet appareil. Le site statique Render a été déclaré « Deploy succeeded · Live » sur une capture du 23 octobre 2026. Le chargement via un client indépendant n'a pas encore pu être confirmé.
+
+## Jouer en ligne
+
+**[🎮 Jouer à BOOTO FLE MULTIVERSE 3D — Render](https://booto-fle-multiverse-3d.onrender.com/)**
+
+Site statique déployé sur Render le 23 octobre 2026 (statut « Live » vu sur capture du propriétaire). Les parcours et les transformations 3D restent à valider en ligne sur ordinateur ou mobile.
 
 ## Le principe
 
