@@ -1,0 +1,28 @@
+/* Génération XLSX 100 % dans le navigateur, sans appel réseau. */
+(function(root,factory){const m=factory();if(typeof module==='object'&&module.exports)module.exports=m;root.BootoExcel=m;})(typeof globalThis!=='undefined'?globalThis:this,function(){
+'use strict';
+function xml(v){return String(v??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&apos;').replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g,'');}
+function col(i){let s='';for(let n=i+1;n;n=Math.floor((n-1)/26))s=String.fromCharCode(65+(n-1)%26)+s;return s;}
+function sheetXml(rows,widths){const last=col(Math.max(0,(rows[0]||[]).length-1));
+const data=rows.map((r,idx)=>`<row r="${idx+1}">${r.map((v,i)=>{if(v===null||v===undefined||v==='')return '';
+  const address=`${col(i)}${idx+1}`,style=idx===0?' s="1"':'';
+  if(typeof v==='number'&&Number.isFinite(v))return `<c r="${address}"${style}><v>${v}</v></c>`;
+  // inlineStr rend les champs même commençant par = inoffensifs en tant que texte.
+  return `<c r="${address}" t="inlineStr"${style}><is><t xml:space="preserve">${xml(v)}</t></is></c>`;}).join('')}</row>`).join('');
+const cols=widths.map((w,i)=>`<col min="${i+1}" max="${i+1}" width="${Math.max(8,Math.min(58,w))}" customWidth="1"/>`).join('');
+return `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><sheetViews><sheetView workbookViewId="0"><pane ySplit="1" topLeftCell="A2" activePane="bottomLeft" state="frozen"/></sheetView></sheetViews><sheetFormatPr defaultRowHeight="18"/><cols>${cols}</cols><sheetData>${data}</sheetData><autoFilter ref="A1:${last}${Math.max(1,rows.length)}"/></worksheet>`;}
+function generate(records,engine,zipper){if(!Array.isArray(records)||records.length>4000)throw Error('Trop de corrections');
+const a=[['Copie anonyme','Trimestre','Activité','Note validée','Barème','Note automatique','Réponses','Réussites / questions','Commentaire pédagogique','Motif de modification','Validation (UTC)','Révision']];
+for(const r of records)a.push([r.id,r.term,r.activity,r.score,r.scale,r.automaticScore,r.answers,`${r.correct}/${r.total}`,r.comment,r.overrideReason,r.validatedAt,r.revision||1]);
+const b=[['Copie anonyme','T1 /20','T2 /20','T3 /20','Moyenne disponible /20']];for(const x of engine.summary(records))b.push([x.id,x.T1,x.T2,x.T3,x.average]);
+const files=[
+{name:'[Content_Types].xml',bytes:'<?xml version="1.0" encoding="UTF-8"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/><Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/><Override PartName="/xl/worksheets/sheet2.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/></Types>'},
+{name:'_rels/.rels',bytes:'<?xml version="1.0" encoding="UTF-8"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>'},
+{name:'xl/workbook.xml',bytes:'<?xml version="1.0" encoding="UTF-8"?><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets><sheet name="Evaluations" sheetId="1" r:id="rId1"/><sheet name="Synthese" sheetId="2" r:id="rId2"/></sheets></workbook>'},
+{name:'xl/_rels/workbook.xml.rels',bytes:'<?xml version="1.0" encoding="UTF-8"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet2.xml"/><Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>'},
+{name:'xl/styles.xml',bytes:'<?xml version="1.0" encoding="UTF-8"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><fonts count="2"><font><sz val="11"/><name val="Aptos"/></font><font><b/><color rgb="FFFFFFFF"/><sz val="11"/><name val="Aptos"/></font></fonts><fills count="3"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill><fill><patternFill patternType="solid"><fgColor rgb="FF0E567A"/><bgColor indexed="64"/></patternFill></fill></fills><borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs><cellXfs count="2"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/><xf numFmtId="0" fontId="1" fillId="2" borderId="0" xfId="0" applyFont="1" applyFill="1"/></cellXfs></styleSheet>'},
+{name:'xl/worksheets/sheet1.xml',bytes:sheetXml(a,[17,13,22,16,12,18,17,16,58,42,25,11])},
+{name:'xl/worksheets/sheet2.xml',bytes:sheetXml(b,[18,15,15,15,24])}
+];const z=zipper.zip(files);return new Blob([z],{type:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'});}
+return {xml,col,sheetXml,generate};
+});
