@@ -4,6 +4,10 @@
 
 Projets regroupés par usage. Les résultats et limites ci-dessous reprennent la documentation publiée ; ils ne constituent pas une nouvelle exécution des tests.
 
+## BOOTO ScanGrade AI V2 — plateforme unifiée et correction mixte
+
+**[🧩 Examiner la V2 unifiée, son code et les protections](https://github.com/Junior-BOOTO/python.skills/tree/main/booto-scangrade-ai-v2)** — Scanner tablette intégré, capture automatique expérimentale, recto-verso, consultation sans ZIP intermédiaire, cinq types de questions (dont image à identifier et réponse ouverte), notes et appréciations validées par l'enseignant, registre T1/T2/T3, export XLSX/CSV/JSON. Huit tests Node réussis et essai navigateur simulé réussi localement. **Sécurité de pilote fictif uniquement** : pas de données identifiables d'enfants, pas d'OCR manuscrit, pas d'IA générative, pas d'accès institutionnel ni de connexion Google Sheets. La V2 doit encore être déployée sur Render et testée sur la Lenovo Tab M11.
+
 ## BOOTO ScanGrade AI V1 — correction formative et registre trimestriel
 
 **[🧪 Ouvrir le pilote V1 sur Render](https://booto-scangrade-ai-v1.onrender.com/)** · [Code et guide](https://github.com/Junior-BOOTO/python.skills/tree/main/booto-scangrade-ai-v1). QCM fictif FLE A1 (12 questions), notes et commentaires fondés sur le corrigé, validation de l'enseignant, suivi T1/T2/T3 et export Excel/CSV. Peut consulter les photos ZIP du scanner V0. **Pas d'OCR manuscrit, pas d'IA générative ni de synchronisation directe Google Sheets.** Déploiement Render « Live » confirmé sur capture du 23 octobre 2026 ; essais sur la tablette encore à terminer.
