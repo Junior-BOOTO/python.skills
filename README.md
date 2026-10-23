@@ -8,9 +8,9 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 ## BOOTO FLE MULTIVERSE 3D · Mission Éco-Cité francophone
 
-**[Jeu 3D WebGL, code et documentation](booto-fle-multiverse-3d/README.md)** · [Démo autonome](booto-fle-multiverse-3d/DEMO_AUTONOME.html) · [Cahier des charges](booto-fle-multiverse-3d/docs/CAHIER_DES_CHARGES_V1.md)
+**[🎮 Jouer à Éco-Cité 3D](https://booto-fle-multiverse-3d.onrender.com/)** · [Code WebGL et documentation](booto-fle-multiverse-3d/README.md) · [Démo autonome](booto-fle-multiverse-3d/DEMO_AUTONOME.html) · [Cahier des charges](booto-fle-multiverse-3d/docs/CAHIER_DES_CHARGES_V1.md)
 
-Prototype sérieux Grade 5 / FLE A1 : quatre zones 3D, dialogues avec Amina, Éric et Nadia, deux parcours (rivière ou plantation), transformations visuelles et bilan « Je peux… ». **Rendu 3D observé sur capture utilisateur ; tests des interactions à finaliser sur son appareil.** Code publié sur GitHub, **pas encore hébergé comme site Render**.
+Prototype sérieux Grade 5 / FLE A1 : quatre zones 3D, dialogues avec Amina, Éric et Nadia, deux parcours (rivière ou plantation), transformations visuelles et bilan « Je peux… ». **Rendu 3D observé sur capture utilisateur ; tests des interactions à finaliser sur son appareil.** Code publié sur GitHub ; **[site statique Render mis en ligne](https://booto-fle-multiverse-3d.onrender.com/)** (déploiement « Live » selon capture ; vérifier les parcours en ligne).
 
 
 ## BOOTO Demand & Stock Lab · Prévisions et stocks
