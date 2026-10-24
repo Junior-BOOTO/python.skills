@@ -1,6 +1,15 @@
-# BOOTO TalentScreen AI V1 — Atelier RH documentaire responsable
+# BOOTO TalentScreen AI V1.1 — Revue RH structurée et responsable
 
 **BOOTO AI & DATA INNOVATION LAB · prototype fictif · octobre 2026**
+
+## Nouveautés V1.1 : contrôle humain par compétence et rapports
+
+- Vérification **manuelle et explicite** de chaque critère, avec cinq états sans score, affichée dans la fiche du dossier. Aucune déduction automatique de compétence.
+- **Rapport individuel imprimable** du dossier fictif, comprenant indices, états de contrôle et commentaires, sans classement.
+- **Journal local non certifié** (code, action, horodatage navigateur), conservé dans JSON et exporté dans Excel.
+- **Classeur Excel étendu à cinq feuilles**, dont « Contrôle humain » et « Journal local ».
+- **Compatibilité avec les anciennes sauvegardes JSON V0/V1** : les états de contrôle manquants deviennent « Non examiné ». Les données restent uniquement dans la mémoire de la page.
+- Contrôle supplémentaire de certains éléments personnels dans les notes saisies. Ce filtre heuristique reste insuffisant pour traiter de véritables CV.
 
 ## Nouveautés V1
 
@@ -12,9 +21,15 @@
 
 ## Essayer en ligne
 
-**[🌐 Ouvrir la V1 sur Render](https://booto-talentscreen-ai-v1.onrender.com/)** · [V0 sur Render](https://booto-talentscreen-ai.onrender.com/). Le premier déploiement V1 a été confirmé « Deploy succeeded · Live » sur une capture du 23 octobre 2026 à 19 h 11 (Bogotá). Le chargement de la page et ses fonctions restent à tester sur le navigateur de l'utilisateur. La V1 ne remplace pas la V0.
+La V1.1 améliore le même dossier GitHub `booto-talentscreen-ai-v1`, sans créer un troisième service Render. La V0 déployée reste [https://booto-talentscreen-ai.onrender.com/](https://booto-talentscreen-ai.onrender.com/). **La V1 est déjà hébergée sur Render** : https://booto-talentscreen-ai-v1.onrender.com/ ; elle ne remplace pas la V0. Les mises à jour de ce dossier GitHub peuvent déclencher un redéploiement automatique selon les paramètres Render.
 
 Réglages Render : dépôt `Junior-BOOTO/python.skills`, branch `main`, **Root Directory** `booto-talentscreen-ai-v1`, **Build Command** `echo ready`, **Publish Directory** `.`.
+
+## Accès et tests
+
+- Site V1 / aperçu V1.1 : https://booto-talentscreen-ai-v1.onrender.com/
+- Code : `Junior-BOOTO/python.skills/booto-talentscreen-ai-v1`.
+- Tests : `node --test tests/*.cjs`. Pour le pilote V1.1, 21 tests Node ont été exécutés localement et un scénario navigateur simulé avec DOCX fictif, revue manuelle, rapport imprimable, 5 feuilles XLSX et restauration JSON a réussi. Le comportement du déploiement public après mise à jour doit encore être vérifié.
 
 ## Architecture
 
@@ -31,3 +46,7 @@ Aucune décision d'embauche, rejet, présélection, probabilité de performance 
 ## Tests
 
 `node --test tests/*.test.cjs` — revue des invariants RH et contrôles de lecture documentaire. Tests navigateur sur dossier DOCX synthétique recommandés ; fonctionnement sur plusieurs navigateurs et PDF à tester manuellement.
+
+## Limites de l’aperçu PRO
+
+La mention PRO est une **orientation de développement** et non une certification de sécurité ou de performance RH. L’application n’a pas de serveur sécurisé, d’authentification, de droits d’accès, d’OCR ou d’extraction automatique des PDF, et ne doit recevoir **aucun CV réel, même pseudonymisé, sans audit et autorisations applicables**. Horodatage du journal local non opposable. Aucun choix d’embauche, rejet ni classement automatique.
