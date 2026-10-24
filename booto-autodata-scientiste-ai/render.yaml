@@ -1,0 +1,15 @@
+# Select this path as Blueprint file if supported, or deploy manually (see docs/DEPLOIEMENT_RENDER.md).
+services:
+  - type: web
+    name: booto-autodata-scientiste-ai
+    runtime: python
+    plan: free
+    region: ohio
+    rootDir: booto-autodata-scientiste-ai
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m streamlit run app/main.py --server.address 0.0.0.0 --server.port $PORT --server.headless true --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
+    autoDeploy: false
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.11
