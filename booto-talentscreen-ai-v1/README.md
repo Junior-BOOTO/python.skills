@@ -12,7 +12,7 @@
 
 ## Essayer en ligne
 
-La V0 déployée reste [https://booto-talentscreen-ai.onrender.com/](https://booto-talentscreen-ai.onrender.com/). **La V1 nécessite un nouveau Static Site sur Render** ; elle ne remplace pas la V0.
+**[🌐 Ouvrir la V1 sur Render](https://booto-talentscreen-ai-v1.onrender.com/)** · [V0 sur Render](https://booto-talentscreen-ai.onrender.com/). Le premier déploiement V1 a été confirmé « Deploy succeeded · Live » sur une capture du 23 octobre 2026 à 19 h 11 (Bogotá). Le chargement de la page et ses fonctions restent à tester sur le navigateur de l'utilisateur. La V1 ne remplace pas la V0.
 
 Réglages Render : dépôt `Junior-BOOTO/python.skills`, branch `main`, **Root Directory** `booto-talentscreen-ai-v1`, **Build Command** `echo ready`, **Publish Directory** `.`.
 
