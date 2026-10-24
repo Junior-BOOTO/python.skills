@@ -4,6 +4,11 @@
 
 Projets regroupés par usage. Les résultats et limites ci-dessous reprennent la documentation publiée ; ils ne constituent pas une nouvelle exécution des tests.
 
+## BOOTO AutoData Scientiste AI V1 — analyse de données supervisée
+
+**[Code et interface Streamlit](booto-autodata-scientiste-ai/README.md)** · [Guide Render](booto-autodata-scientiste-ai/docs/DEPLOIEMENT_RENDER.md) — import CSV/XLSX, profil de qualité, statistiques descriptives, validation humaine de la cible, classification/régression, pipelines scikit-learn, comparaison sur validation croisée train, test réservé et export rapport HTML + manifeste JSON. Démonstrations entièrement synthétiques et tests automatisés. **Code publié ; application Render à créer et vérifier dans le compte du propriétaire.**
+
+
 
 ## BOOTO TalentScreen AI V1.1 — Revue de dossiers et contrôle humain
 
