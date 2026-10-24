@@ -38,6 +38,13 @@ python -m pip install pytest
 python -m pytest -q
 ```
 
+## Rapports de démonstration réels sur données synthétiques
+
+- [Classification — rapport HTML](docs/demonstration_classification.html)
+- [Régression — rapport HTML](docs/demonstration_regression.html)
+
+Ces rapports sont produits par le moteur Python V1 sur **180 observations générées artificiellement**. Ils prouvent le déroulement des calculs sur ces jeux, **pas la fiabilité sur des données réelles**.
+
 ## Déploiement Render
 
 [Guide détaillé](docs/DEPLOIEMENT_RENDER.md). **Important :** le fichier Render du monorepo racine existe déjà pour BOOTO NLP LAB ; ne pas le remplacer. Créer un **nouveau Web Service** avec `Root Directory=booto-autodata-scientiste-ai`, build `pip install -r requirements.txt`, et démarrage Streamlit sur `$PORT`. Une action de confirmation dans votre compte Render reste nécessaire. Aucun lien Render effectif n'est présumé.
