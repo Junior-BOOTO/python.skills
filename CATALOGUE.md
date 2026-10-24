@@ -7,7 +7,7 @@ Projets regroupés par usage. Les résultats et limites ci-dessous reprennent la
 
 ## BOOTO TalentScreen AI V1 — Recherche et documents RH fictifs
 
-**[🗂️ Voir la V1 et ses limites](https://github.com/Junior-BOOTO/python.skills/tree/main/booto-talentscreen-ai-v1)** — extraction Word DOCX locale (texte non scanné), visualisation manuelle PDF sans OCR, recherche et filtre de dossiers par étape, fiches de poste, indices textuels non prédictifs, entretiens structurés et exports XLSX/CSV/JSON. **15 tests Node réussis, scénario navigateur avec DOCX fictif, blocage d'e-mail et Excel réussi.** V0 Render inchangée ; V1 GitHub non encore déployée. Essais fictifs seulement.
+**[🌐 Tester la V1 sur Render](https://booto-talentscreen-ai-v1.onrender.com/)** · [Code et limites V1](https://github.com/Junior-BOOTO/python.skills/tree/main/booto-talentscreen-ai-v1) — extraction Word DOCX locale (texte non scanné), visualisation manuelle PDF sans OCR, recherche et filtre de dossiers par étape, fiches de poste, indices textuels non prédictifs, entretiens structurés et exports XLSX/CSV/JSON. **15 tests Node réussis, scénario navigateur avec DOCX fictif, blocage d'e-mail et Excel réussi.** V0 Render inchangée ; V1 Render « Live » confirmé par capture le 23 octobre 2026, fonctionnalités à éprouver sur navigateur. Essais fictifs seulement.
 
 ## BOOTO TalentScreen AI — gestion RH responsable (prototype V0)
 
