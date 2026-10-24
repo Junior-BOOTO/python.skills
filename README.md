@@ -81,6 +81,10 @@ Nouveau prototype transparent de correction ciblée pour Grades 4 et 5 : **20 r�
 
 Nouveau prototype Python/Streamlit : **60 QCM originaux de démonstration** pour Grades 4–5, avec variantes reproductibles, corrigés, grilles de réponses et exports **Word + PDF**. **19 tests locaux réussis** lors de la publication. Les contenus doivent être alignés aux programmes avant une évaluation scolaire réelle ; aucune certification CECRL ni performance pédagogique n'est revendiquée. **[Application sur Render](https://booto-eval-fle-ai.onrender.com/)** ; version déployée et affichée, corrigés améliorés à recontrôler après actualisation.
 
+## BOOTO AutoData Scientiste AI · Machine Learning de bout en bout (V1)
+
+**[Ouvrir l'application Python et son dossier de déploiement](booto-autodata-scientiste-ai/README.md)** — prototype Streamlit orienté classification et régression : import CSV/Excel, contrôle qualité, analyse descriptive, préparation anti-fuite dans les pipelines scikit-learn, validation croisée, comparaison à une baseline et rapports HTML/JSON. Deux jeux de données entièrement synthétiques et tests automatisés. **Le code est publié ; la création du service Render doit être confirmée dans le compte d'hébergement.** [Guide Render](booto-autodata-scientiste-ai/docs/DEPLOIEMENT_RENDER.md).
+
 ## BOOTO AI & DATA INNOVATION LAB — Page d'accueil française
 
 **[Page d'accueil finale (HTML)](https://github.com/Junior-BOOTO/portfolio-fle/blob/main/projets/booto-ai-lab/index.html)** · [Démonstration BOOTO FLE Adaptive AI](https://github.com/Junior-BOOTO/portfolio-fle/blob/main/projets/booto-ai-lab/demos/adaptive.html) · [Démonstration PhonoFLE AI](https://github.com/Junior-BOOTO/portfolio-fle/blob/main/projets/booto-ai-lab/demos/phonofle.html).
