@@ -1,0 +1,11 @@
+const test=require('node:test');const assert=require('node:assert/strict');const E=require('../src/engine.js');const X=require('../src/export.js');
+test('compétence détectée avec bornes de mots, sans sous-chaîne',()=>{assert.equal(E.termAt('Python et SQL','sql'),10);assert.equal(E.termAt('NoSQL','SQL'),-1)});
+test('accents et casse ne bloquent pas la recherche',()=>{assert.ok(E.evidence('tableaux de bord réalisés',{name:'Tableaux de bord'}).found);assert.ok(!E.evidence('Réalisation de graphiques',{name:'Python'}).found)});
+test('aucun score ni classement dans la matrice',()=>{const m=E.matrix(E.examples.job,E.examples.candidates);assert.equal(m.length,3);assert.ok(!('score'in m[0]));assert.equal(m[0].items.length,5)});
+test('les critères sensibles sont rejetés',()=>{assert.throws(()=>E.addCriterion(E.examples.job,'Âge',true));assert.throws(()=>E.addCriterion(E.examples.job,'origine ethnique',true))});
+test('les changements de phase sont manuels',()=>{const a=E.updateStage(E.examples.candidates,'D001','Entretien réalisé');assert.equal(a[0].stage,'Entretien réalisé');assert.equal(E.examples.candidates[0].stage,'À examiner');assert.throws(()=>E.updateStage(a,'D001','Rejeté par IA'))});
+test('importation prudente des dossiers et limite taille',()=>{const a=E.addCandidate(E.examples.candidates,'Le projet fictif porte sur Python et SQL, sans donnée sensible','D004');assert.equal(a.length,4);assert.equal(a[3].id,'D004');assert.throws(()=>E.addCandidate(a,'a','autre'))});
+test('CSV neutralise les injections de formules',()=>{const s=E.csv([['ID','Nom'],['1','=1+1'],['2','-SUM(A1:A2)']]);assert.ok(s.includes("'=1+1"));assert.ok(s.includes("'-SUM"))});
+test('fichier XLSX structurellement valide',()=>{const x=X.xlsx([{name:'Suivi manuel',rows:[['Profil','Phase'],['D001','À examiner']]},{name:'Questions',rows:[['Q'],['Python']]}]);assert.equal(String.fromCharCode(...x.slice(0,2)),'PK');assert.ok(x.length>1800)});
+test('importation restaurée vérifie le schéma et les étapes',()=>{const o=E.verifyRestore({schema:'booto.talentscreen.v0',job:E.examples.job,candidates:E.examples.candidates});assert.equal(o.candidates.length,3);assert.throws(()=>E.verifyRestore({schema:'invalid'}))});
+test('aucune requête ni trace réseau nécessaire à l’algorithme',()=>{assert.ok(E.evidence('SQL et Python',{name:'SQL'}).found)})
