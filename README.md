@@ -9,9 +9,9 @@ Je développe mes compétences en Python à travers des projets qui répondent �
 
 ## 🚀 BOOTO TalentScreen AI V1 · Revue documentaire RH (pilote)
 
-**[🗂️ Nouvelle V1 sur GitHub](booto-talentscreen-ai-v1/README.md)** · **[V0 déployée sur Render](https://booto-talentscreen-ai.onrender.com/)**
+**[🌐 Ouvrir TalentScreen V1 sur Render](https://booto-talentscreen-ai-v1.onrender.com/)** · [Code et limites V1](booto-talentscreen-ai-v1/README.md) · [V0 sur Render](https://booto-talentscreen-ai.onrender.com/)
 
-La V1 conserve les dossiers fictifs, la matrice des indices, le pipeline manuel et les exports Excel/CSV/JSON de la V0. Nouveautés : **lecture de texte DOCX directement dans le navigateur** (hors scans), **ouverture visuelle de PDF** avec transcription manuelle, filtres de recherche / étape, contrôle heuristique de certains identifiants personnels. **Aucune extraction automatique du texte PDF, aucun OCR, aucun score, classement ou rejet de candidats.** Pilotage fictif uniquement. **15 tests Node et un essai fonctionnel navigateur local réussis** ; nouveau déploiement Render V1 distinct de V0 à effectuer.
+La V1 conserve les dossiers fictifs, la matrice des indices, le pipeline manuel et les exports Excel/CSV/JSON de la V0. Nouveautés : **lecture de texte DOCX directement dans le navigateur** (hors scans), **ouverture visuelle de PDF** avec transcription manuelle, filtres de recherche / étape, contrôle heuristique de certains identifiants personnels. **Aucune extraction automatique du texte PDF, aucun OCR, aucun score, classement ou rejet de candidats.** Pilotage fictif uniquement. **15 tests Node et un essai fonctionnel navigateur local réussis** ; premier déploiement Render V1 « Live » confirmé par capture le 23 octobre 2026 ; essais utilisateurs en navigateur à effectuer.
 
 ## 🧭 BOOTO TalentScreen AI · Innovation RH responsable
 
