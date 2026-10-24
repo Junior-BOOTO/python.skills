@@ -2,6 +2,12 @@
 (function(root,factory){const api=factory();if(typeof module==='object'&&module.exports)module.exports=api;root.TalentEngine=api;})(typeof globalThis!=='undefined'?globalThis:this,function(){
 'use strict';
 const STAGES=['À examiner','Entretien à préparer','Entretien réalisé','Suivi','Clôturé'];
+const CHECK_STATUSES=['Non examiné','À approfondir','Éléments présentés','Vérifié manuellement','Information absente'];
+const MAX_AUDIT=100;
+function cleanChecks(checks,job){const result={};for(const k of job.criteria){const v=checks&&Object.prototype.hasOwnProperty.call(checks,k.id)?checks[k.id]:'Non examiné';result[k.id]=CHECK_STATUSES.includes(v)?v:'Non examiné';}return result}
+function saveHumanReview(candidates,id,stage,notes,checks,job){if(!STAGES.includes(stage))throw Error('Étape inconnue');const text=strip(notes,1400);return candidates.map(c=>c.id===id?{...c,stage,reviewed:true,notes:text,checks:cleanChecks(checks,job)}:c)}
+function auditEvent(history,action,code,at){const a=strip(action,90),c=strip(code,45),date=at||new Date().toISOString();if(!a||!c)throw Error('Journal incomplet');return [...(Array.isArray(history)?history:[]),{at:date,action:a,code:c}].slice(-MAX_AUDIT)}
+
 const examples={
  job:{role:'Analyste de données · Junior',team:'Équipe Data & Operations',summary:'Analyser des indicateurs opérationnels et présenter des résultats compréhensibles aux équipes métier.',criteria:[{id:'R01',name:'Python',required:true},{id:'R02',name:'SQL',required:true},{id:'R03',name:'Tableaux de bord',required:true},{id:'R04',name:'Communication',required:false},{id:'R05',name:'Git',required:false}]},
  candidates:[
@@ -23,6 +29,8 @@ function interviewQuestions(job,code){return job.criteria.slice(0,12).map(c=>({c
 function safeCSV(v){let x=String(v??'').replace(/\r?\n/g,' ');if(/^[\s]*[=+@-]/.test(x))x="'"+x;return '"'+x.replaceAll('"','""')+'"'}
 function csv(rows){return '\ufeff'+rows.map(r=>r.map(safeCSV).join(',')).join('\r\n')+'\r\n'}
 function exportRows(job,candidates){const head=['Code anonyme','Étape manuelle','Revue humaine','Note du recruteur',...job.criteria.map(k=>'Indice textuel : '+k.name)];return [head,...candidates.map(c=>[c.code,c.stage,c.reviewed?'Oui':'Non',c.notes,...job.criteria.map(k=>evidence(c.text,k).found?'À vérifier':'Non repéré')])]}
-function verifyRestore(v){if(!v||v.schema!=='booto.talentscreen.v0'||!v.job||!Array.isArray(v.candidates)||v.candidates.length>30)throw Error('Sauvegarde incorrecte');if(!Array.isArray(v.job.criteria)||v.job.criteria.length>15)throw Error('Critères invalides');const job={role:strip(v.job.role,100),team:strip(v.job.team,100),summary:strip(v.job.summary,650),criteria:v.job.criteria.map((c,i)=>({id:'R'+(i+1),name:strip(c.name,65),required:!!c.required}))};const candidates=v.candidates.map((c,i)=>({id:'D'+String(i+1).padStart(3,'0'),code:strip(c.code,45),stage:STAGES.includes(c.stage)?c.stage:STAGES[0],notes:strip(c.notes,1400),reviewed:!!c.reviewed,text:strip(c.text,15000),source:'restauration'}));return {job,candidates};}
-return {STAGES,examples,strip,folded,termAt,evidence,matrix,addCriterion,addCandidate,updateStage,interviewQuestions,safeCSV,csv,exportRows,verifyRestore};
+function verifyRestore(v){if(!v||v.schema!=='booto.talentscreen.v0'||!v.job||!Array.isArray(v.candidates)||v.candidates.length>30)throw Error('Sauvegarde incorrecte');if(!Array.isArray(v.job.criteria)||v.job.criteria.length>15)throw Error('Critères invalides');const job={role:strip(v.job.role,100),team:strip(v.job.team,100),summary:strip(v.job.summary,650),criteria:v.job.criteria.map((c,i)=>({id:/^R[0-9]{1,10}$/.test(String(c.id||''))?String(c.id):'R'+String(i+1).padStart(2,'0'),name:strip(c.name,65),required:!!c.required}))};const candidates=v.candidates.map((c,i)=>({id:'D'+String(i+1).padStart(3,'0'),code:strip(c.code,45),stage:STAGES.includes(c.stage)?c.stage:STAGES[0],notes:strip(c.notes,1400),reviewed:!!c.reviewed,text:strip(c.text,15000),checks:cleanChecks(c.checks,job),source:'restauration'}));
+const auditTrail=Array.isArray(v.auditTrail)?v.auditTrail.slice(-MAX_AUDIT).map(x=>({at:strip(x.at,36),action:strip(x.action,90),code:strip(x.code,45)})).filter(x=>x.at&&x.action&&x.code):[];
+return {job,candidates,auditTrail};}
+return {STAGES,CHECK_STATUSES,examples,strip,folded,termAt,evidence,matrix,addCriterion,addCandidate,updateStage,saveHumanReview,cleanChecks,auditEvent,interviewQuestions,safeCSV,csv,exportRows,verifyRestore};
 });
