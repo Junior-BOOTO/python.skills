@@ -1,5 +1,8 @@
 """Local-only tabular import. Never calls remote endpoints."""
-from io import BytesIO
+from io import BytesIO, StringIO
+import csv
+from zipfile import ZipFile
+import numpy as np
 from pathlib import Path
 import pandas as pd
 
@@ -21,6 +24,9 @@ def validate_frame(frame: pd.DataFrame) -> pd.DataFrame:
     frame.columns = [str(c).strip() for c in frame.columns]
     if len(frame.columns) != len(set(frame.columns)):
         raise DataError('Des colonnes portent le même nom.')
+    numeric = frame.select_dtypes(include='number')
+    if np.isinf(numeric.to_numpy(dtype=float)).any():
+        raise DataError('Des valeurs numériques infinies sont présentes. Corrigez-les avant analyse.')
     return frame
 
 def read_upload(raw: bytes, filename: str) -> pd.DataFrame:
@@ -29,8 +35,21 @@ def read_upload(raw: bytes, filename: str) -> pd.DataFrame:
     ext = Path(filename).suffix.lower()
     try:
         if ext == '.csv':
-            data = pd.read_csv(BytesIO(raw), encoding='utf-8-sig', low_memory=False)
+            text = raw.decode('utf-8-sig')
+            try:
+                delimiter = csv.Sniffer().sniff(text[:8192], delimiters=',;\t|').delimiter
+            except csv.Error:
+                delimiter = ','
+            header = next(csv.reader(StringIO(text), delimiter=delimiter))
+            names = [name.strip() for name in header]
+            if not all(names) or len(names) != len(set(names)):
+                raise DataError('Les en-têtes CSV doivent être renseignés et uniques.')
+            data = pd.read_csv(StringIO(text), sep=delimiter, low_memory=False)
         elif ext == '.xlsx':
+            # XLSX is compressed: cap decompressed size before openpyxl allocates it.
+            with ZipFile(BytesIO(raw)) as archive:
+                if sum(item.file_size for item in archive.infolist()) > 40 * 1024 * 1024:
+                    raise DataError('Le classeur décompressé dépasse la limite de 40 Mo.')
             data = pd.read_excel(BytesIO(raw), engine='openpyxl')
         else:
             raise DataError('Formats acceptés : CSV UTF-8 et XLSX.')
