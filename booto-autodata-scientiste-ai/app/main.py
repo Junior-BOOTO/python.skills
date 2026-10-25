@@ -2,18 +2,20 @@
 from pathlib import Path
 import sys
 import logging
+import hashlib
+from time import perf_counter
+from uuid import uuid4
 import pandas as pd
 import streamlit as st
 BASE=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(BASE/'src'))
 from autodata.ingestion import read_upload,DataError
-from autodata.quality import profile
 from autodata.collection import collect
 from autodata.task_router import suggest_task, validate_task
 from autodata.training import run_experiment
 from autodata.demo import make_demo
 from autodata.reports import provenance, export_zip
-from autodata.notebooks import analysis_notebook, notebook_bytes, printable_notebook
+from autodata.efficiency import session_value, diagnostics, learning_exports, experiment_archive
 
 st.set_page_config(page_title='BOOTO AutoData Scientiste AI',page_icon='🧠',layout='wide')
 st.markdown("""<style>
@@ -42,6 +44,7 @@ try:
             submitted = st.form_submit_button('Collecter les données')
         if submitted:
             st.session_state.pop('exp_source_key', None)
+            st.session_state.pop('diagnostics_cache', None)
             st.session_state.pop('collected_data', None)
             if not permitted:
                 raise DataError('Confirmez les conditions de collecte avant de continuer.')
@@ -63,14 +66,18 @@ try:
         f=st.file_uploader('Choisissez un CSV UTF-8 (virgule, point-virgule, tabulation) ou XLSX (5 Mo maximum)',type=['csv','xlsx'])
         if f is None:
             st.stop()
-        raw=f.getvalue();label=f.name;df=read_upload(raw,label);is_demo=False
+        raw=f.getvalue();label=f.name
+        df=session_value(st.session_state, 'parsed_upload_cache', (label, hashlib.sha256(raw).hexdigest()), lambda: read_upload(raw,label));is_demo=False
     else:
         kind='classification' if 'classification' in choice else 'regression'
         df=make_demo(kind);raw=df.to_csv(index=False).encode('utf-8');label=f'demo_{kind}_synthetique.csv';is_demo=True
-    p=profile(df)
+    dataset_key=(label, hashlib.sha256(raw).hexdigest(), tuple(str(t) for t in df.dtypes))
+    diagnostic=session_value(st.session_state, 'diagnostics_cache', dataset_key, lambda: diagnostics(df))
+    p=diagnostic['quality']
     st.subheader('02 · Comprendre la qualité des données')
     cols=st.columns(4)
     for c,k,v in zip(cols,['Observations','Colonnes','Doublons','Cellules manquantes'],[p['rows'],p['columns'],p['duplicates'],p['missing_cells']]): c.metric(k,v)
+    st.caption(f"Fichier : {len(raw) / (1024 ** 2):.2f} Mo · Table en mémoire : {diagnostic['dataframe_bytes'] / (1024 ** 2):.2f} Mo (hors modèles et mémoire totale du serveur).")
     st.dataframe(df.head(20),hide_index=True,use_container_width=True)
     with st.expander('Voir le diagnostic détaillé',expanded=False):
         st.dataframe(pd.DataFrame(p['column_details']),hide_index=True,use_container_width=True)
@@ -78,7 +85,7 @@ try:
     st.subheader('03 · Exploration descriptive')
     nums=df.select_dtypes(include='number')
     if not nums.empty:
-        st.dataframe(nums.describe().round(2),use_container_width=True)
+        st.dataframe(diagnostic['describe'],use_container_width=True)
         selected_num=st.selectbox('Variable numérique à explorer',nums.columns.tolist())
         values = df[selected_num].dropna()
         distribution = values.value_counts(bins=12).sort_index() if not values.empty else pd.Series(dtype=int)
@@ -103,9 +110,13 @@ try:
         st.caption('Classification : prédire une catégorie. Régression : prédire un nombre. Pour changer de démonstration, utilisez la source des données en haut de page.')
     if st.button('▶ Analyser et entraîner',type='primary',disabled=not approved or not configuration_valid):
         with st.spinner('Calcul des modèles (validation croisée uniquement sur entraînement)…'):
+            started=perf_counter()
             result=run_experiment(df,target,task,exclusions,remove_duplicates=remove_dupes)
+            st.session_state['exp_duration_seconds']=perf_counter()-started
+            st.session_state['exp_run_id']=uuid4().hex
             st.session_state['exp_result']=result
             st.session_state['exp_prov']=provenance(raw,label)
+            st.session_state['exp_prov']['execution']={'run_id':st.session_state['exp_run_id'], 'training_evaluation_seconds':st.session_state['exp_duration_seconds'], 'dataframe_bytes':diagnostic['dataframe_bytes']}
             if collection_metadata is not None:
                 st.session_state['exp_prov']['collection'] = collection_metadata
             st.session_state['exp_quality']=p
@@ -116,6 +127,7 @@ try:
         st.subheader('05 · Résultats calculés et interprétation')
         st.success(f"Modèle retenu : {r['best_model']} — choisi sur validation croisée, sans consulter le test.")
         st.caption(r['method'])
+        st.caption(f"Durée de l’entraînement et de l’évaluation : {st.session_state['exp_duration_seconds']:.2f} s · Expérience : {st.session_state['exp_run_id']}")
         st.dataframe(pd.DataFrame(r['comparison_cv']).drop(columns=['score_validation_train']),use_container_width=True,hide_index=True)
         st.markdown('**Mesures sur le jeu de test réservé**')
         st.dataframe(pd.DataFrame(r['test_metrics']).T,use_container_width=True)
@@ -133,14 +145,18 @@ try:
         st.subheader('06 · Rapport exportable')
         include_source=st.checkbox('Inclure explicitement les données d’origine dans le ZIP (déconseillé pour données sensibles)',value=False)
         st.download_button('⬇ Télécharger rapport HTML + manifeste (ZIP)',
-            data=export_zip(r,p,st.session_state['exp_prov'],raw if include_source else None,label),
+            data=session_value(st.session_state, 'report_cache', (st.session_state['exp_run_id'], include_source), lambda: export_zip(r,p,st.session_state['exp_prov'],raw if include_source else None,label)),
             file_name='booto_autodata_rapport_v1.zip',mime='application/zip')
         st.subheader('07 · Code Python et notebook')
         st.caption('Le notebook contient le code du traitement et les paramètres de cette expérience. Pour le réexécuter, conservez le fichier source ; pour une collecte, téléchargez le CSV collecté. Les données d’origine ne sont pas intégrées au notebook.')
-        notebook = analysis_notebook(r, p, st.session_state['exp_prov'])
-        st.download_button('Télécharger le notebook Jupyter (.ipynb)', notebook_bytes(notebook), file_name='booto_autodata_analyse.ipynb', mime='application/x-ipynb+json')
-        st.download_button('Télécharger le code et les résultats imprimables (HTML)', printable_notebook(notebook), file_name='booto_autodata_code_imprimable.html', mime='text/html')
+        exports=session_value(st.session_state, 'learning_exports_cache', st.session_state['exp_run_id'], lambda: learning_exports(r,p,st.session_state['exp_prov']))
+        st.download_button('Télécharger le notebook Jupyter (.ipynb)', exports['notebook'], file_name='booto_autodata_analyse.ipynb', mime='application/x-ipynb+json')
+        st.download_button('Télécharger le code et les résultats imprimables (HTML)', exports['html'], file_name='booto_autodata_code_imprimable.html', mime='text/html')
         st.caption('Ouvrez le HTML dans un navigateur, puis Ctrl+P pour imprimer ou enregistrer en PDF. Les sorties incluses sont celles de l’expérience ; réexécuter le notebook les recalcule.')
+        st.subheader('08 · Conserver cette expérience')
+        st.caption('Dossier complet : rapport, paramètres, notebook et code imprimable. La source est ajoutée uniquement si la case d’inclusion ci-dessus est cochée. Cette archive sur votre ordinateur ne restaure pas une session dans le site.')
+        archive=session_value(st.session_state, 'experience_archive_cache', (st.session_state['exp_run_id'], include_source), lambda: experiment_archive(r,p,st.session_state['exp_prov'],exports,raw if include_source else None,label))
+        st.download_button('Télécharger le dossier complet de l’expérience (ZIP)', archive, file_name='booto_autodata_experience.zip', mime='application/zip')
         st.caption('Le code du projet est disponible sur GitHub. Aucune donnée n’est enregistrée dans une base par notre code. Un hébergeur tiers peut conserver ses propres journaux.')
 except DataError as exc:
     st.error(str(exc))
