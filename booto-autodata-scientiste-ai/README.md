@@ -79,3 +79,23 @@ le déploiement Render ni l'affichage sur téléphone.
 6. Étudier collecte API, historique persistant et suivi des modèles après validation des besoins d'hébergement.
 
 Ces étapes sont prévues ; elles ne sont pas encore implémentées.
+
+
+## Comparaison de modèles et validation renforcées
+
+Cinq candidats par tâche : référence, modèle linéaire, variante linéaire
+(régularisation Ridge plus forte ou logistique équilibrée), forêt aléatoire et
+Extra Trees. Les transformations sont apprises dans chaque pli de validation.
+Le choix utilise les scores non arrondis sur entraînement uniquement.
+La régression utilise cinq plis ; la classification adapte le nombre de plis
+(deux à cinq) aux effectifs d'entraînement. La taille du test est augmentée
+si nécessaire pour accueillir toutes les classes.
+
+La table affiche une MAE positive, à minimiser, ou un F1 macro, à maximiser.
+Les configurations incompatibles sont bloquées avant calcul avec une aide.
+Des doublons conservés déclenchent un avertissement : ils peuvent rendre les
+scores optimistes. Leur suppression reste une décision explicite.
+
+Un plus grand choix de modèles ne garantit pas un meilleur score sur de
+nouvelles données. La comparaison augmente le temps de calcul. Les cinq plis
+ne constituent pas une validation externe, temporelle ou par individu/groupe.

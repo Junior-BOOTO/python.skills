@@ -8,7 +8,7 @@ BASE=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(BASE/'src'))
 from autodata.ingestion import read_upload,DataError
 from autodata.quality import profile
-from autodata.task_router import suggest_task
+from autodata.task_router import suggest_task, validate_task
 from autodata.training import run_experiment
 from autodata.demo import make_demo
 from autodata.reports import provenance, export_zip
@@ -61,7 +61,14 @@ try:
     st.warning('Avant validation, vérifiez les identifiants, variables postérieures au résultat, dates/séries temporelles, consentement et autorisations.')
     remove_dupes=st.checkbox('Je demande explicitement de supprimer les lignes strictement identiques avant la séparation train/test.',value=False)
     approved=st.checkbox('Je confirme la cible, la tâche et les colonnes retenues ; mes données sont autorisées pour cette analyse.',value=False)
-    if st.button('▶ Analyser et entraîner',type='primary',disabled=not approved):
+    configuration_valid = True
+    try:
+        validate_task(df, target, task, exclusions)
+    except DataError as exc:
+        configuration_valid = False
+        st.warning(str(exc))
+        st.caption('Classification : prédire une catégorie. Régression : prédire un nombre. Pour changer de démonstration, utilisez la source des données en haut de page.')
+    if st.button('▶ Analyser et entraîner',type='primary',disabled=not approved or not configuration_valid):
         with st.spinner('Calcul des modèles (validation croisée uniquement sur entraînement)…'):
             result=run_experiment(df,target,task,exclusions,remove_duplicates=remove_dupes)
             st.session_state['exp_result']=result
@@ -74,7 +81,7 @@ try:
         st.subheader('05 · Résultats calculés et interprétation')
         st.success(f"Modèle retenu : {r['best_model']} — choisi sur validation croisée, sans consulter le test.")
         st.caption(r['method'])
-        st.dataframe(pd.DataFrame(r['comparison_cv']),use_container_width=True,hide_index=True)
+        st.dataframe(pd.DataFrame(r['comparison_cv']).drop(columns=['score_validation_train']),use_container_width=True,hide_index=True)
         st.markdown('**Mesures sur le jeu de test réservé**')
         st.dataframe(pd.DataFrame(r['test_metrics']).T,use_container_width=True)
         if r['confusion']:
