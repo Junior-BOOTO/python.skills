@@ -159,3 +159,24 @@ l'expérience, clairement signalés ; exécuter le notebook les recalcule.
 Le notebook s'ouvre dans Jupyter ou un environnement compatible. Les scripts de
 l'interface Streamlit et du générateur d'exports ne sont pas reproduits : le
 notebook présente le code du traitement de données, pas le code d'hébergement.
+
+
+## Optimisations compatibles avec le parcours V1
+
+- Lecture des fichiers importés, diagnostic et statistiques descriptives conservés
+  dans la session et recalculés lorsque la source change.
+- Exports notebook/HTML et archives réutilisés tant que l'expérience et les
+  options d'inclusion des données ne changent pas. Un nouveau clic d'entraînement
+  réalise toujours une nouvelle expérience.
+- Un seul résultat par emplacement de cache ; aucun cache global partagé entre
+  utilisateurs et aucune sérialisation de modèle.
+- Affichage du temps d'entraînement/évaluation et de la mémoire occupée par la
+  table (hors modèles, pics mémoire et consommation totale du serveur).
+- Dossier ZIP complet : rapport, manifeste, paramètres, notebook et code
+  imprimable ; source incluse uniquement sur demande explicite. Le manifeste
+  contient également les mesures d'exécution et un identifiant d'expérience.
+
+L'archive se conserve sur votre ordinateur ; elle ne restaure pas une session
+sur le site. Les limites de données et la sélection des modèles restent
+inchangées. Ces optimisations réduisent les recalculs dans la session et ne
+constituent pas une capacité de traitement de milliards de lignes.

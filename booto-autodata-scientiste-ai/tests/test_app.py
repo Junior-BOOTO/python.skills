@@ -56,3 +56,30 @@ def test_public_collection_to_training(monkeypatch):
     assert not app.exception and not app.error
     assert app.session_state['exp_prov']['collection']['pages_requested'] == 1
     assert app.session_state['exp_result']['task'] == 'regression'
+
+
+def test_rerun_reuses_diagnostics_exports_and_keeps_metrics(monkeypatch):
+    import autodata.efficiency as efficiency
+    counts = {'diagnostics': 0, 'exports': 0}
+    original_diagnostics, original_exports = efficiency.diagnostics, efficiency.learning_exports
+    def diagnostic(frame):
+        counts['diagnostics'] += 1
+        return original_diagnostics(frame)
+    def exports(*args):
+        counts['exports'] += 1
+        return original_exports(*args)
+    monkeypatch.setattr(efficiency, 'diagnostics', diagnostic)
+    monkeypatch.setattr(efficiency, 'learning_exports', exports)
+    app = AppTest.from_file(APP, default_timeout=60).run()
+    app.checkbox[1].check().run()
+    app.button[0].click().run()
+    metrics = app.session_state['exp_result']['test_metrics'].copy()
+    assert counts == {'diagnostics': 1, 'exports': 1}
+    app.run()
+    assert counts == {'diagnostics': 1, 'exports': 1}
+    assert metrics == app.session_state['exp_result']['test_metrics']
+    assert app.session_state['exp_duration_seconds'] >= 0
+    assert any('Conserver cette expérience' in item.value for item in app.subheader)
+    app.radio[0].set_value('Démonstration — régression').run()
+    assert counts['diagnostics'] == 2
+    assert not app.error and not app.exception
