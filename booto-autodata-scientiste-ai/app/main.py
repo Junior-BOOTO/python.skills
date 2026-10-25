@@ -1,7 +1,7 @@
 """BOOTO AutoData V1 Streamlit UI — batch local analysis only."""
 from pathlib import Path
 import sys
-import json
+import logging
 import pandas as pd
 import streamlit as st
 BASE=Path(__file__).resolve().parents[1]
@@ -27,7 +27,7 @@ st.info('Prototype technique : données fictives recommandées. Ne téléversez 
 choice=st.radio('01 · Source des données',['Démonstration — classification','Démonstration — régression','Importer CSV / XLSX'],horizontal=True)
 try:
     if choice=='Importer CSV / XLSX':
-        f=st.file_uploader('Choisissez un CSV UTF-8 ou XLSX (5 Mo maximum)',type=['csv','xlsx'])
+        f=st.file_uploader('Choisissez un CSV UTF-8 (virgule, point-virgule, tabulation) ou XLSX (5 Mo maximum)',type=['csv','xlsx'])
         if f is None:
             st.stop()
         raw=f.getvalue();label=f.name;df=read_upload(raw,label);is_demo=False
@@ -47,7 +47,8 @@ try:
     if not nums.empty:
         st.dataframe(nums.describe().round(2),use_container_width=True)
         selected_num=st.selectbox('Variable numérique à explorer',nums.columns.tolist())
-        distribution = df[selected_num].dropna().value_counts(bins=12).sort_index()
+        values = df[selected_num].dropna()
+        distribution = values.value_counts(bins=12).sort_index() if not values.empty else pd.Series(dtype=int)
         chart = pd.DataFrame({'intervalle': [str(k) for k in distribution.index], 'effectif': distribution.values})
         st.bar_chart(chart.set_index('intervalle'))
     st.subheader('04 · Décider avant de modéliser')
@@ -80,6 +81,13 @@ try:
             st.caption('Matrice de confusion du meilleur modèle')
             st.dataframe(pd.DataFrame(r['confusion']['matrix'],index=r['confusion']['labels'],columns=r['confusion']['labels']))
         for w in r['warnings']:st.caption('• '+w)
+        with st.expander('Examiner les prédictions du jeu de test'):
+            st.dataframe(r['predictions'], hide_index=True, use_container_width=True)
+            if r['task'] == 'regression':
+                st.scatter_chart(r['predictions'], x='valeur_reelle', y='prediction')
+                residuals = r['predictions'].assign(residu=lambda d: d['valeur_reelle'] - d['prediction'])
+                st.scatter_chart(residuals, x='prediction', y='residu')
+                st.caption('Résidu = valeur réelle − prédiction. Une structure visible peut révéler des erreurs systématiques.')
         st.subheader('06 · Rapport exportable')
         include_source=st.checkbox('Inclure explicitement les données d’origine dans le ZIP (déconseillé pour données sensibles)',value=False)
         st.download_button('⬇ Télécharger rapport HTML + manifeste (ZIP)',
@@ -88,7 +96,8 @@ try:
         st.caption('Le code du projet est disponible sur GitHub. Aucune donnée n’est enregistrée dans une base par notre code. Un hébergeur tiers peut conserver ses propres journaux.')
 except DataError as exc:
     st.error(str(exc))
-except Exception as exc:
+except Exception:
+    logging.getLogger(__name__).error('Échec du traitement AutoData ; détails masqués pour protéger les données.')
     st.error('Une erreur technique s’est produite. Consultez le journal technique local et vérifiez le schéma du fichier.')
     # Do not expose stack traces or raw sensitive values to a public user.
     st.stop()

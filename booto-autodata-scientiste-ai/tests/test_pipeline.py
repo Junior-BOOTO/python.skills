@@ -89,3 +89,29 @@ def test_export_privacy_and_provenance():
         assert not any('donnees/' in n for n in z.namelist())
         assert 'predictions' not in z.read('manifeste.json').decode()
         assert json.loads(z.read('manifeste.json'))['experiment']['seed']==42
+
+
+@pytest.mark.parametrize('delimiter', [',', ';', '\t', '|'])
+def test_csv_delimiters(delimiter):
+    df = make_demo('classification')
+    loaded = read_upload(df.to_csv(index=False, sep=delimiter).encode('utf-8-sig'), 'test.csv')
+    pd.testing.assert_frame_equal(loaded, df)
+
+@pytest.mark.parametrize('header', ['a,a', 'a, a', ',b'])
+def test_csv_bad_headers(header):
+    with pytest.raises(DataError, match='en-têtes'):
+        read_upload((header + '\n1,2\n3,4').encode(), 'test.csv')
+
+@pytest.mark.parametrize('value', [np.inf, -np.inf])
+def test_infinite_numeric_rejected(value):
+    with pytest.raises(DataError, match='infinies'):
+        validate_frame(pd.DataFrame({'x': [value]}))
+
+
+def test_xlsx_expansion_limit():
+    from zipfile import ZIP_DEFLATED
+    stream = BytesIO()
+    with ZipFile(stream, 'w', compression=ZIP_DEFLATED) as archive:
+        archive.writestr('large.xml', b'0' * (40 * 1024 * 1024 + 1))
+    with pytest.raises(DataError, match='décompressé'):
+        read_upload(stream.getvalue(), 'test.xlsx')

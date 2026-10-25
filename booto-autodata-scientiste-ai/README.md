@@ -54,3 +54,28 @@ Ces rapports sont produits par le moteur Python V1 sur **180 observations géné
 N'importer aucun dossier sensible (élèves, patients, finances privées) sur une démo hébergée publiquement. Vérifier toutes les autorisations. Le module est destiné à la **formation et à la démonstration** ; pas d'automatisation de décisions administratives ou financières réelles. Aucune prédiction individuelle n'est exportée par défaut. Les données ne doivent jamais être mises sur GitHub.
 
 [Références bibliographiques](docs/REFERENCES_ET_LIMITES.md) · [Déploiement Render](docs/DEPLOIEMENT_RENDER.md)
+
+
+## Améliorations du parcours après déploiement — 24 octobre 2026
+
+- CSV UTF-8 : détection des séparateurs virgule, point-virgule, tabulation et barre verticale ; rejet des en-têtes vides ou répétés.
+- Rejet des valeurs numériques infinies avec un message explicite.
+- Protection des imports XLSX : maximum 40 Mo de contenu décompressé avant lecture.
+- Exploration d'une variable numérique entièrement vide sans interrompre l'application.
+- Aperçu des prédictions du jeu de test ; graphiques réel/prédit et résidus pour la régression.
+- Tests Streamlit du parcours complet des deux démonstrations et du cas colonne vide.
+
+Validation locale : **29 tests réussis** avec Python 3.12, pandas 2.2.3,
+scikit-learn 1.8.0 et Streamlit 1.66.1. Cette validation ne confirme pas
+le déploiement Render ni l'affichage sur téléphone.
+
+### Prochaines étapes
+
+1. Vérifier l'URL réelle Render, la version déployée et les deux démonstrations en ligne.
+2. Vérifier le rendu mobile et tester des fichiers réels anonymisés.
+3. Ajouter la prédiction sur un nouveau fichier avec contrôle du schéma.
+4. Ajouter des explications de modèle calculées sur les données d'entraînement.
+5. Préparer clustering et validation temporelle comme parcours distincts.
+6. Étudier collecte API, historique persistant et suivi des modèles après validation des besoins d'hébergement.
+
+Ces étapes sont prévues ; elles ne sont pas encore implémentées.
