@@ -133,3 +133,29 @@ Les tests automatisés couvrent le réseau simulé, les formats, la pagination,
 les erreurs, les limites et le parcours collecte → entraînement. Un essai réseau
 réel dans cet environnement n'a pas abouti ; le connecteur doit être vérifié
 sur une source publique depuis Render après déploiement.
+
+
+## Notebook et code imprimable
+
+Après entraînement, la section « Code Python et notebook » propose deux exports :
+- `.ipynb` : code Python du traitement, explications en français, paramètres de
+  l'expérience, versions des dépendances et résultats enregistrés ;
+- `.html` : même code avec numéros de lignes et résultats, ouvrable hors ligne
+  dans un navigateur puis imprimable avec Ctrl+P ou enregistrable en PDF.
+
+Le notebook reprend les fonctions de lecture, contrôle, diagnostic, préparation,
+validation croisée, modèles et rapport. Les imports relatifs internes sont
+retirés pour une exécution séquentielle dans un seul notebook. Pour une source
+collectée, le code du connecteur est également visible ; aucun nouvel appel
+réseau n'est lancé automatiquement pendant la reproduction.
+
+Les données sources et les prédictions individuelles ne sont pas intégrées.
+Conservez la source (ou le CSV normalisé téléchargé pour une collecte), à côté
+du notebook ; l'empreinte SHA-256 est contrôlée avant analyse. Pour une démo,
+le ZIP de rapport avec inclusion explicite de la source permet de récupérer
+le CSV nécessaire. Les résultats déjà affichés sont des instantanés de
+l'expérience, clairement signalés ; exécuter le notebook les recalcule.
+
+Le notebook s'ouvre dans Jupyter ou un environnement compatible. Les scripts de
+l'interface Streamlit et du générateur d'exports ne sont pas reproduits : le
+notebook présente le code du traitement de données, pas le code d'hébergement.
