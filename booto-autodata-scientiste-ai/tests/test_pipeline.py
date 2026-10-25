@@ -45,7 +45,7 @@ def test_classification_and_regression_train():
     for task in ('classification','regression'):
         df=make_demo(task)
         result=run_experiment(df,df.columns[-1],task)
-        assert len(result['comparison_cv'])==3
+        assert len(result['comparison_cv'])==5
         assert result['train_rows']+result['test_rows']==180
         assert result['best_model'] in [d['modele'] for d in result['comparison_cv']]
         if task=='classification':
@@ -115,3 +115,21 @@ def test_xlsx_expansion_limit():
         archive.writestr('large.xml', b'0' * (40 * 1024 * 1024 + 1))
     with pytest.raises(DataError, match='décompressé'):
         read_upload(stream.getvalue(), 'test.xlsx')
+
+
+def test_many_small_classes_have_valid_split():
+    frame = pd.DataFrame({'x': range(40), 'target': [str(i) for i in range(10) for _ in range(4)]})
+    result = run_experiment(frame, 'target', 'classification')
+    assert result['cv_folds'] == 3
+    assert sum(map(sum, result['confusion']['matrix'])) == result['test_rows']
+
+
+def test_regression_validation_reports_positive_mae():
+    frame = make_demo('regression')
+    result = run_experiment(frame, frame.columns[-1], 'regression')
+    assert result['cv_folds'] == 5
+    for row in result['comparison_cv']:
+        assert row['valeur_validation'] >= 0
+        assert row['valeur_validation'] == -row['score_validation_train']
+    winner = min(result['comparison_cv'], key=lambda row: row['valeur_validation'])
+    assert result['best_model'] == winner['modele']

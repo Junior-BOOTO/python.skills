@@ -5,7 +5,7 @@ import pandas as pd
 import sklearn
 from sklearn.compose import ColumnTransformer
 from sklearn.dummy import DummyClassifier, DummyRegressor
-from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
+from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor, ExtraTreesClassifier, ExtraTreesRegressor
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LogisticRegression, Ridge
 from sklearn.metrics import accuracy_score, balanced_accuracy_score, f1_score, mean_absolute_error, mean_squared_error, r2_score, confusion_matrix
@@ -13,6 +13,7 @@ from sklearn.model_selection import StratifiedKFold, KFold, train_test_split, cr
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from .task_router import validate_task
+from .ingestion import DataError, validate_frame
 
 SEED = 42
 
@@ -34,7 +35,7 @@ def run_experiment(frame, target, task, exclusions=(), remove_duplicates=False):
 
     Exclusions and deletion of identical rows are explicitly user-authorized.
     """
-    frame = frame.copy()
+    frame = validate_frame(frame)
     cols = validate_task(frame,target,task,list(exclusions))
     if remove_duplicates:
         frame = frame.drop_duplicates().reset_index(drop=True)
@@ -48,32 +49,45 @@ def run_experiment(frame, target, task, exclusions=(), remove_duplicates=False):
     if categorical:
         transformers.append(('cat',Pipeline([('imputer',SimpleImputer(strategy='most_frequent')),('onehot',OneHotEncoder(handle_unknown='ignore'))]),categorical))
     preprocessor=ColumnTransformer(transformers)
+    test_size = max(0.25, frame[target].nunique() / len(frame)) if task == 'classification' else 0.25
     X_train,X_test,y_train,y_test=train_test_split(
-        X,y,test_size=0.25,random_state=SEED,stratify=y if task=='classification' else None)
+        X,y,test_size=test_size,random_state=SEED,stratify=y if task=='classification' else None)
     if task == 'classification':
-        cv=StratifiedKFold(n_splits=3,shuffle=True,random_state=SEED)
+        folds = min(5, int(y_train.value_counts().min()))
+        if folds < 2:
+            raise DataError('Trop peu de données par classe après séparation pour valider le modèle.')
+        cv=StratifiedKFold(n_splits=folds,shuffle=True,random_state=SEED)
         constructors={
           'Référence (majorité)':lambda:DummyClassifier(strategy='most_frequent'),
           'Régression logistique':lambda:LogisticRegression(max_iter=600,random_state=SEED),
+          'Logistique équilibrée':lambda:LogisticRegression(max_iter=1000,class_weight='balanced',random_state=SEED),
+          'Extra Trees':lambda:ExtraTreesClassifier(n_estimators=80,max_depth=12,min_samples_leaf=2,random_state=SEED,n_jobs=1),
           'Forêt aléatoire':lambda:RandomForestClassifier(n_estimators=60,max_depth=8,random_state=SEED,n_jobs=1),
         }
         scoring='f1_macro'
     else:
-        cv=KFold(n_splits=3,shuffle=True,random_state=SEED)
+        folds = 5
+        cv=KFold(n_splits=folds,shuffle=True,random_state=SEED)
         constructors={
           'Référence (médiane)':lambda:DummyRegressor(strategy='median'),
           'Ridge':lambda:Ridge(alpha=1.0),
+          'Ridge régularisée':lambda:Ridge(alpha=10.0),
+          'Extra Trees':lambda:ExtraTreesRegressor(n_estimators=80,max_depth=12,min_samples_leaf=2,random_state=SEED,n_jobs=1),
           'Forêt aléatoire':lambda:RandomForestRegressor(n_estimators=60,max_depth=8,random_state=SEED,n_jobs=1),
         }
         scoring='neg_mean_absolute_error'
     leaderboard=[]
+    selection_scores={}
     for name,create in constructors.items():
         pipe=Pipeline([('prepare',preprocessor),('model',create())])
         # The held-out test set is *not* used to select the winner.
         scores=cross_val_score(pipe,X_train,y_train,cv=cv,scoring=scoring,n_jobs=1,error_score='raise')
+        selection_scores[name] = float(scores.mean())
         leaderboard.append({'modele':name, 'score_validation_train':round(float(scores.mean()),4),
-                            'ecart_type_validation':round(float(scores.std()),4)})
-    best=max(leaderboard,key=lambda a:a['score_validation_train'])['modele']
+                            'ecart_type_validation':round(float(scores.std()),4),
+                            'mesure': 'F1 macro (plus élevé = meilleur)' if task == 'classification' else 'MAE (plus faible = meilleure)',
+                            'valeur_validation':round(float(scores.mean() if task == 'classification' else -scores.mean()),4)})
+    best=max(selection_scores, key=selection_scores.get)
     baseline=next(iter(constructors))
     evaluations={}
     prediction_frame=None
@@ -96,9 +110,12 @@ def run_experiment(frame, target, task, exclusions=(), remove_duplicates=False):
         'train_rows':len(X_train),'test_rows':len(X_test),
         'best_model':best,'comparison_cv':leaderboard,'test_metrics':evaluations,
         'predictions':prediction_frame,'confusion':confusion,
-        'method':'Sélection par validation croisée 3 plis sur le train ; test tenu à part (25 %).',
+        'cv_folds':folds,
+        'method':f'Sélection par validation croisée {folds} plis sur le train ; test tenu à part ({len(X_test)} lignes).',
         'seed':SEED,'versions':{'python':platform.python_version(), 'pandas':pd.__version__, 'sklearn':sklearn.__version__},
-        'warnings':[
+        'warnings':([
+            'Des doublons sont présents : ils peuvent gonfler les scores. Relancez avec suppression explicite des doublons.'
+        ] if frame.duplicated().any() else []) + [
             'Exploration / prototype : aucune preuve de performance sur des données externes.',
             'Éviter identifiants, variables postérieures à l’événement et données sensibles.',
             'Données temporelles, déséquilibres et petits échantillons exigent une stratégie spécialisée.',

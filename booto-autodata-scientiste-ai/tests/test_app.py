@@ -29,3 +29,12 @@ def test_all_missing_numeric_exploration_does_not_crash(monkeypatch):
     app.selectbox[0].set_value('vide').run()
     assert not app.exception
     assert not app.error
+
+
+
+def test_incompatible_task_blocks_training_before_calculation():
+    app = AppTest.from_file(APP, default_timeout=60).run()
+    app.radio[1].set_value('regression').run()
+    app.checkbox[1].check().run()
+    assert app.button[0].disabled
+    assert any('cible numérique' in item.value for item in app.warning)
