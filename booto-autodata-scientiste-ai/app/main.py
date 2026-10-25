@@ -13,6 +13,7 @@ from autodata.task_router import suggest_task, validate_task
 from autodata.training import run_experiment
 from autodata.demo import make_demo
 from autodata.reports import provenance, export_zip
+from autodata.notebooks import analysis_notebook, notebook_bytes, printable_notebook
 
 st.set_page_config(page_title='BOOTO AutoData Scientiste AI',page_icon='🧠',layout='wide')
 st.markdown("""<style>
@@ -134,6 +135,12 @@ try:
         st.download_button('⬇ Télécharger rapport HTML + manifeste (ZIP)',
             data=export_zip(r,p,st.session_state['exp_prov'],raw if include_source else None,label),
             file_name='booto_autodata_rapport_v1.zip',mime='application/zip')
+        st.subheader('07 · Code Python et notebook')
+        st.caption('Le notebook contient le code du traitement et les paramètres de cette expérience. Pour le réexécuter, conservez le fichier source ; pour une collecte, téléchargez le CSV collecté. Les données d’origine ne sont pas intégrées au notebook.')
+        notebook = analysis_notebook(r, p, st.session_state['exp_prov'])
+        st.download_button('Télécharger le notebook Jupyter (.ipynb)', notebook_bytes(notebook), file_name='booto_autodata_analyse.ipynb', mime='application/x-ipynb+json')
+        st.download_button('Télécharger le code et les résultats imprimables (HTML)', printable_notebook(notebook), file_name='booto_autodata_code_imprimable.html', mime='text/html')
+        st.caption('Ouvrez le HTML dans un navigateur, puis Ctrl+P pour imprimer ou enregistrer en PDF. Les sorties incluses sont celles de l’expérience ; réexécuter le notebook les recalcule.')
         st.caption('Le code du projet est disponible sur GitHub. Aucune donnée n’est enregistrée dans une base par notre code. Un hébergeur tiers peut conserver ses propres journaux.')
 except DataError as exc:
     st.error(str(exc))

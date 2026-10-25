@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: python -m pip install -r requirements.txt pytest
+        run: python -m pip install -r requirements.txt pytest ipython
       - name: Compile
         run: python -m compileall -q src app
       - name: Tests
