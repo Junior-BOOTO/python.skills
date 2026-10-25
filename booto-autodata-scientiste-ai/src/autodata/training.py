@@ -61,7 +61,7 @@ def run_experiment(frame, target, task, exclusions=(), remove_duplicates=False):
           'Référence (majorité)':lambda:DummyClassifier(strategy='most_frequent'),
           'Régression logistique':lambda:LogisticRegression(max_iter=600,random_state=SEED),
           'Logistique équilibrée':lambda:LogisticRegression(max_iter=1000,class_weight='balanced',random_state=SEED),
-          'Extra Trees':lambda:ExtraTreesClassifier(n_estimators=80,max_depth=12,min_samples_leaf=2,class_weight='balanced',random_state=SEED,n_jobs=1),
+          'Extra Trees':lambda:ExtraTreesClassifier(n_estimators=80,max_depth=12,min_samples_leaf=2,random_state=SEED,n_jobs=1),
           'Forêt aléatoire':lambda:RandomForestClassifier(n_estimators=60,max_depth=8,random_state=SEED,n_jobs=1),
         }
         scoring='f1_macro'
