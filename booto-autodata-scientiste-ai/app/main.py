@@ -8,6 +8,7 @@ BASE=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(BASE/'src'))
 from autodata.ingestion import read_upload,DataError
 from autodata.quality import profile
+from autodata.collection import collect
 from autodata.task_router import suggest_task, validate_task
 from autodata.training import run_experiment
 from autodata.demo import make_demo
@@ -24,9 +25,40 @@ h1,h2,h3{color:#124e84}.stButton button[kind="primary"]{background:linear-gradie
 st.markdown('<div class="hero"><h1>🧠 BOOTO AutoData Scientiste AI</h1><p><b>De la donnée au modèle — avec des choix compréhensibles et contrôlés.</b></p><span class="small">V1 expérimentale · CSV / Excel · Diagnostic · Analyse · Classification / Régression · Rapport · Python</span></div>',unsafe_allow_html=True)
 st.info('Prototype technique : données fictives recommandées. Ne téléversez pas de données personnelles, financières ou scolaires sensibles sur un hébergement public.')
 
-choice=st.radio('01 · Source des données',['Démonstration — classification','Démonstration — régression','Importer CSV / XLSX'],horizontal=True)
+choice=st.radio('01 · Source des données',['Démonstration — classification','Démonstration — régression','Importer CSV / XLSX','Collecter API / URL publique'],horizontal=True)
 try:
-    if choice=='Importer CSV / XLSX':
+    collection_metadata = None
+    if choice == 'Collecter API / URL publique':
+        st.caption('Collecte à la demande : API JSON ou CSV public direct, sans connexion. Les sites avec authentification et les pages HTML nécessitent un connecteur distinct.')
+        with st.form('public_collection'):
+            source_url = st.text_input('URL HTTPS publique', placeholder='https://exemple.org/api/donnees')
+            source_format = st.selectbox('Format de la source', ['json', 'csv'])
+            records_path = st.text_input('Chemin des observations JSON (facultatif)', help='Exemple : data.results. Laissez vide pour une liste d’objets à la racine.')
+            pages = st.number_input('Nombre de pages à collecter', min_value=1, max_value=5, value=1)
+            page_parameter = st.text_input('Paramètre de pagination (si plusieurs pages)', placeholder='page')
+            first_page = st.number_input('Première page', min_value=0, value=1)
+            permitted = st.checkbox('La source est publique et autorise cette collecte ; l’URL ne contient aucune donnée personnelle ni clé secrète.')
+            submitted = st.form_submit_button('Collecter les données')
+        if submitted:
+            st.session_state.pop('exp_source_key', None)
+            st.session_state.pop('collected_data', None)
+            if not permitted:
+                raise DataError('Confirmez les conditions de collecte avant de continuer.')
+            with st.spinner('Collecte et structuration des données…'):
+                collected, metadata = collect(source_url, source_format, records_path, int(pages), page_parameter, int(first_page))
+                st.session_state['collected_data'] = (collected, metadata)
+        if 'collected_data' not in st.session_state:
+            st.stop()
+        df, collection_metadata = st.session_state['collected_data']
+        raw = df.to_csv(index=False).encode('utf-8')
+        label = 'collecte_publique_normalisee.csv'
+        is_demo = False
+        st.success(f'Collecte terminée : {len(df)} observations, {len(df.columns)} colonnes.')
+        st.caption('Seules les pages demandées ont été collectées. Les données restent dans cette session ; aucune collecte récurrente n’est programmée.')
+        with st.expander('Traçabilité de la collecte'):
+            st.json(collection_metadata)
+        st.download_button('Télécharger les données collectées (CSV)', raw, file_name=label, mime='text/csv')
+    elif choice=='Importer CSV / XLSX':
         f=st.file_uploader('Choisissez un CSV UTF-8 (virgule, point-virgule, tabulation) ou XLSX (5 Mo maximum)',type=['csv','xlsx'])
         if f is None:
             st.stop()
@@ -73,6 +105,8 @@ try:
             result=run_experiment(df,target,task,exclusions,remove_duplicates=remove_dupes)
             st.session_state['exp_result']=result
             st.session_state['exp_prov']=provenance(raw,label)
+            if collection_metadata is not None:
+                st.session_state['exp_prov']['collection'] = collection_metadata
             st.session_state['exp_quality']=p
             st.session_state['exp_source_key']=(label,st.session_state['exp_prov']['sha256'],target,task,tuple(exclusions),remove_dupes)
     key=(label,provenance(raw,label)['sha256'],target,task,tuple(exclusions),remove_dupes)

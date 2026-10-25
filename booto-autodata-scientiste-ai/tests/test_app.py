@@ -38,3 +38,21 @@ def test_incompatible_task_blocks_training_before_calculation():
     app.checkbox[1].check().run()
     assert app.button[0].disabled
     assert any('cible numérique' in item.value for item in app.warning)
+
+
+
+def test_public_collection_to_training(monkeypatch):
+    import autodata.collection as collection
+    from autodata.demo import make_demo
+    monkeypatch.setattr(collection, 'collect', lambda *a: (make_demo('regression'), {'sources': [], 'pages_requested': 1}))
+    app = AppTest.from_file(APP, default_timeout=60).run()
+    app.radio[0].set_value('Collecter API / URL publique').run()
+    app.text_input[0].set_value('https://example.com/data')
+    app.checkbox[0].check()
+    app.button[0].click().run()
+    assert not app.exception and not app.error
+    app.checkbox[2].check().run()
+    app.button[1].click().run()
+    assert not app.exception and not app.error
+    assert app.session_state['exp_prov']['collection']['pages_requested'] == 1
+    assert app.session_state['exp_result']['task'] == 'regression'

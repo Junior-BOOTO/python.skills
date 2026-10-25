@@ -99,3 +99,37 @@ scores optimistes. Leur suppression reste une décision explicite.
 Un plus grand choix de modèles ne garantit pas un meilleur score sur de
 nouvelles données. La comparaison augmente le temps de calcul. Les cinq plis
 ne constituent pas une validation externe, temporelle ou par individu/groupe.
+
+
+## Collecte depuis une API ou URL publique
+
+Dans « Collecter API / URL publique », indiquez une URL HTTPS directe et son
+format JSON ou CSV. JSON accepte une liste d'objets ou un objet de colonnes
+contenant des listes de même longueur. Un chemin tel que `data.results`
+permet d'atteindre les observations ; les champs objets sont aplatis.
+Les listes dans les cellules sont refusées pour éviter une conversion ambiguë.
+
+Une pagination numérique explicite peut collecter de 1 à 5 pages (paramètre
+`page`, par exemple). La collecte n'est pas une recherche automatique sur le
+Web et ne garantit pas l'exhaustivité. Les paginations par curseur, liens
+`next`, formulaires, pages HTML et interfaces avec connexion ne sont pas
+prises en charge dans ce premier connecteur.
+
+Après collecte, diagnostic, analyse, entraînement et rapport utilisent la table
+normalisée. Le CSV est téléchargeable. Le manifeste du rapport inclut la date
+UTC, le nombre de pages et les empreintes des réponses. Les valeurs des
+paramètres d'URL sont masquées ; leur empreinte permet de vérifier une requête
+connue, sans stocker ses paramètres en clair.
+
+Limites : 5 Mo au total, 30 000 lignes, 80 colonnes ; temporisations réseau,
+lecture bornée et pagination limitée. HTTPS public sur port 443 uniquement,
+aucun identifiant ni clé secrète, aucune redirection ni réponse compressée.
+Les adresses DNS privées/réservées/multicast sont bloquées ; la connexion est
+épinglée à l'adresse validée avec vérification TLS du nom d'hôte.
+
+La collecte est déclenchée par l'utilisateur et conservée dans sa session,
+sans planification récurrente. Vérifiez le droit d'utiliser chaque source.
+Les tests automatisés couvrent le réseau simulé, les formats, la pagination,
+les erreurs, les limites et le parcours collecte → entraînement. Un essai réseau
+réel dans cet environnement n'a pas abouti ; le connecteur doit être vérifié
+sur une source publique depuis Render après déploiement.
