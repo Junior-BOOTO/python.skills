@@ -60,3 +60,10 @@ Data preprocessing et ChatGPT for coders sont deux formations distinctes.
 ## Google · Badges de formation
 
 [Consulter les 12 badges Google, leurs visuels et les liens officiels](certifications/google/README.md).
+
+
+## BrevetAI — niveau découverte · 30 octobre 2026
+
+**Université Paris-Saclay · Badge de réussite délivré par France Université Numérique.** Notions fondamentales : algorithme, modèle et apprentissage. Enjeux sociétaux, environnementaux, légaux, éthiques et scientifiques de l’intelligence artificielle.
+
+[Consulter le badge vérifiable](https://openbadgefactory.com/obv3/credentials/85afcd05082603afd13a151c43964d89e2f57052).
